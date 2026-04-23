@@ -129,6 +129,7 @@ urlpatterns = [
 ]
 
 urlpatterns += bustimes_views + disruptions_urls + vehicles_urls + vosa_urls
+urlpatterns += [path("tracker", views.tracker, name="tracker"), path("tracker/stop", views.tracker_stop, name="tracker_stop"), path("tracker-root", views.tracker_root, name="tracker_root")]
 
 
 if apps.is_installed("debug_toolbar"):

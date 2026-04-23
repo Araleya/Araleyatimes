@@ -80,7 +80,6 @@ class Command(BaseCommand):
 
     def download(self):
         url = "https://naptan.api.dft.gov.uk/v1/nptg"
-
         return requests.get(url, timeout=60, stream=True)
 
     @staticmethod
@@ -96,7 +95,6 @@ class Command(BaseCommand):
 
             path = settings.DATA_DIR / "nptg.xml"
 
-            # download new data if there is any
             response = self.download()
             if response:
                 with path.open("wb") as open_file:
@@ -115,13 +113,7 @@ class Command(BaseCommand):
                     == "{http://www.naptan.org.uk/}NationalPublicTransportGazetteer"
                 ):
                     modified_at = get_datetime(element.attrib["ModificationDateTime"])
-                    # if modified_at == source.datetime:
-                    #     return
-
-                    # print(modified_at, source.datetime)
-
                     source.datetime = modified_at
-
                 continue
 
             element.tag = element.tag.removeprefix("{http://www.naptan.org.uk/}")
@@ -131,20 +123,18 @@ class Command(BaseCommand):
                     if type(item) is Region:
                         if item.pk not in regions:
                             item.save()
-
                     elif type(item) is AdminArea:
                         if item.pk not in admin_areas:
                             item.save(force_insert=True)
                         elif admin_areas[item.pk].modified_at != item.modified_at:
                             item.save(force_update=True)
-
                     elif type(item) is District:
                         if item.pk not in districts:
                             item.save(force_insert=True)
                         elif districts[item.pk].modified_at != item.modified_at:
                             item.save(force_update=True)
 
-                element.clear()  # save memory
+                element.clear()
 
             elif element.tag == "NptgLocalities":
                 localities = Locality.objects.only("modified_at").in_bulk()
@@ -167,13 +157,21 @@ class Command(BaseCommand):
                             item.save(force_update=True)
                         localities[item.id] = item
 
-                element.clear()  # save memory
+                element.clear()
 
                 for locality in localities_with_parents:
                     if locality.parent_id in localities:
-                        locality.save()
+                        if locality.pk not in localities:
+                            locality.save(force_insert=True)
+                        elif localities[locality.pk].modified_at != locality.modified_at:
+                            locality.slug = localities[locality.pk].slug
+                            locality.save(force_update=True)
+                        localities[locality.id] = locality
+
                 for locality in localities_with_parents:
                     if locality.parent_id not in localities:
-                        locality.save()
+                        logger.warning(
+                            f"{locality} parent {locality.parent_id} does not exist, skipping"
+                        )
 
         source.save(update_fields=["datetime"])

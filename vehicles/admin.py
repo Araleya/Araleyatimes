@@ -404,6 +404,7 @@ class LiveryAdmin(SimpleHistoryAdmin):
         "text_colour",
         "white_text",
         "stroke_colour",
+        "image_url",
         "left_css",
         "right_css",
         "left",

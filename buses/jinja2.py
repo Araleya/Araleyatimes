@@ -2,6 +2,7 @@ from django.core.cache import cache
 from django.template.defaultfilters import linebreaks, linebreaksbr
 from django.templatetags.static import static
 from django.urls import reverse
+from django.middleware.csrf import get_token
 from django.utils.safestring import mark_safe
 from jinja2 import Environment, nodes
 from jinja2.ext import Extension
@@ -76,6 +77,7 @@ def environment(**options):
             "urlise": urlise,
             "linebreaksbr": mark_safe(linebreaksbr),
             "linebreaks": mark_safe(linebreaks),
+            "get_token": get_token,
         }
     )
     return env

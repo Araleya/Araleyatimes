@@ -141,7 +141,7 @@ class AffectedJourney(models.Model):
     situation = models.ForeignKey(Situation, models.CASCADE)
     trip = models.ForeignKey("bustimes.Trip", models.CASCADE)
     origin_departure_time = models.DateTimeField(null=True, blank=True)
-    condition = models.CharField()  # cancelled, altered, etc
+    condition = models.CharField(max_length=160, blank=True)  # cancelled, altered, etc
 
     def __str__(self):
         return f"{self.origin_departure_time} {self.condition}"
@@ -152,5 +152,5 @@ class Call(models.Model):
     stop_time = models.ForeignKey("bustimes.StopTime", models.CASCADE)
     arrival_time = models.DateTimeField(null=True, blank=True)
     departure_time = models.DateTimeField(null=True, blank=True)
-    condition = models.CharField()
+    condition = models.CharField(max_length=160, blank=True)
     order = models.PositiveSmallIntegerField()

@@ -16,7 +16,7 @@ class Photo(models.Model):
     caption = models.CharField(max_length=255, blank=True)
     url = models.URLField(blank=True, verbose_name="URL")
     created_at = models.DateTimeField(null=True, blank=True)
-    license = models.CharField(null=True, blank=True)
+    license = models.CharField(max_length=100, blank=True)
 
     user = models.ForeignKey(
         settings.AUTH_USER_MODEL, models.SET_NULL, null=True, blank=True

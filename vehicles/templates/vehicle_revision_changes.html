@@ -4,9 +4,9 @@
     {% if to %}to {{ to }}{% endif %}
     <br>
 {% endfor %}
-{% for feature in revision.vehiclerevisionfeature_set.all %}
-    {{ feature }}
-{% endfor %}
+{% if revision.vehiclerevisionfeature_set.all %}
+    <strong>features</strong> {% for feature in revision.vehiclerevisionfeature_set.all %}{{ feature }}{% if not forloop.last %}, {% endif %}{% endfor %}<br>
+{% endif %}
 {% if revision.message %}
     <p class="wrap">{{ revision.message|urlize|linebreaksbr }}
 {% endif %}

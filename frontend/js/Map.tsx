@@ -40,8 +40,8 @@ const imagesByName: { [imageName: string]: string } = {
 };
 
 const mapStyles: { [key: string]: string } = {
-  alidade_smooth: "Smooth",
-  alidade_smooth_dark: "Smooth dark",
+  positron: "Light",
+  dark: "Dark",
   // alidade_satellite: "Satellite",
   osm_bright: "Bright",
   // outdoors: "Outdoors",
@@ -160,12 +160,12 @@ export default function BusTimesMap(
       // ignore
     }
 
-    return darkModeQuery.matches ? "alidade_smooth_dark" : "alidade_smooth";
+    return darkModeQuery.matches ? "dark" : "positron";
   });
 
   useEffect(() => {
     const handleChange = (e: MediaQueryListEvent) => {
-      setMapStyle(e.matches ? "alidade_smooth_dark" : "alidade_smooth");
+      setMapStyle(e.matches ? "dark" : "positron");
     };
 
     if (darkModeQuery.addEventListener) {
@@ -180,9 +180,7 @@ export default function BusTimesMap(
   const handleMapStyleChange = React.useCallback(
     (e: React.ChangeEvent<HTMLInputElement>) => {
       const style = e.target.value;
-      const defaultStyle = darkModeQuery.matches
-        ? "alidade_smooth_dark"
-        : "alidade_smooth";
+      const defaultStyle = darkModeQuery.matches ? "dark" : "positron";
       setMapStyle(style);
       try {
         if (style === defaultStyle) {
@@ -210,12 +208,12 @@ export default function BusTimesMap(
   useEffect(() => {
     document.body.classList.toggle(
       "dark-mode",
-      mapStyle.endsWith("_dark") ||
+      mapStyle.endsWith("_dark") || mapStyle === "dark" ||
         (mapStyle.endsWith("_satellite") && darkModeQuery.matches),
     );
   }, [mapStyle, darkModeQuery.matches]);
 
-  let mapStyleURL = `https://tiles.stadiamaps.com/styles/${mapStyle}.json`;
+  let mapStyleURL = mapStyle === "dark" ? "/static/dark-matter-lighter.json" : `https://tiles.openfreemap.org/styles/${mapStyle}`;
   if (mapStyle === "os_light") {
     mapStyleURL = "https://tiles.bustimes.org.uk/styles/light/style.json";
   } else if (mapStyle === "os_dark") {

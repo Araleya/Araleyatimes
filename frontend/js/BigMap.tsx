@@ -427,9 +427,24 @@ function JourneySidebar(props: {
     className += " loading";
   }
 
+  const operator = journey.operator ? (
+    <li>
+      <a href={`/operators/${journey.operator.slug}`}>{journey.operator.name}</a>
+    </li>
+  ) : null;
+  const serviceLink = journey.service ? (
+    <li>
+      <a href={`/services/${journey.service.slug}`}>{journey.service.line_name}</a>
+    </li>
+  ) : null;
   return (
     <div className={className}>
-      <p>{service}</p>
+      {operator || serviceLink ? (
+        <ul className="breadcrumb">
+          {operator}
+          {serviceLink}
+        </ul>
+      ) : <p>{service}</p>}
       {/* {journey.vehicle ? (
         <p>
           <a

@@ -54,6 +54,104 @@
     </form>
 
     {{ form.media }}
+<style>
+#garage-dropdown {
+    position: absolute;
+    background: #1a1a2e;
+    border: 1px solid #444;
+    border-top: none;
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 1000;
+    width: 100%;
+    box-sizing: border-box;
+    display: none;
+}
+#garage-dropdown div {
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 14px;
+}
+#garage-dropdown div:hover {
+    background: #333;
+}
+.garage-wrap {
+    position: relative;
+}
+</style>
+<script>
+(function() {
+    var input = document.getElementById('id_garage');
+    if (!input) return;
+
+    // Wrap input in relative div
+    var wrap = document.createElement('div');
+    wrap.className = 'garage-wrap';
+    input.parentNode.insertBefore(wrap, input);
+    wrap.appendChild(input);
+
+    // Create dropdown
+    var dropdown = document.createElement('div');
+    dropdown.id = 'garage-dropdown';
+    wrap.appendChild(dropdown);
+
+    // Parse garages from data attribute
+    var raw = input.getAttribute('data-garages') || '';
+    var garages = raw ? raw.split(',').map(function(g) {
+        var idx = g.indexOf(':');
+        var rest = g.slice(idx + 1);
+        // real name is before ' (' or ' -'
+        var nameEnd = rest.search(/ \(| - /);
+        var realName = nameEnd !== -1 ? rest.slice(0, nameEnd) : rest;
+        return { id: g.slice(0, idx), name: rest, realName: realName };
+    }) : [];
+
+    // Remove datalist if present
+    input.removeAttribute('list');
+
+    function showDropdown(filter) {
+        var filtered = garages.filter(function(g) {
+            return g.name.toLowerCase().indexOf(filter.toLowerCase()) !== -1;
+        });
+        if (!filtered.length || !filter) { dropdown.style.display = 'none'; return; }
+        dropdown.innerHTML = '';
+        filtered.slice(0, 50).forEach(function(g) {
+            var div = document.createElement('div');
+            div.textContent = g.name;
+            div.addEventListener('mousedown', function(e) {
+                e.preventDefault();
+                input.value = g.realName;
+                dropdown.style.display = 'none';
+            });
+            dropdown.appendChild(div);
+        });
+        dropdown.style.display = 'block';
+    }
+
+    input.addEventListener('input', function() {
+        showDropdown(input.value);
+    });
+
+    input.addEventListener('focus', function() {
+        if (input.value) showDropdown(input.value);
+    });
+
+    var originalValue = input.value;
+    input.addEventListener('blur', function() {
+        setTimeout(function() {
+            dropdown.style.display = 'none';
+            // If nothing valid typed, revert to original
+            var match = garages.find(function(g) { return g.realName === input.value || g.name === input.value; });
+            if (!match && input.value !== '') {
+                input.value = originalValue;
+            } else if (match) {
+                originalValue = match.realName;
+                input.value = match.realName;
+            }
+        }, 150);
+    });
+})();
+</script>
 {% endif %}
 
 {% if previous %}

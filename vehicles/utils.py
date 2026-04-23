@@ -74,6 +74,18 @@ def get_revision(vehicle, data):
     if "operator" in data:
         revision.from_operator = revision.vehicle.operator
         revision.to_operator = data.pop("operator")
+    if "garage_locked" in data:
+        locked = data.pop("garage_locked")
+        if not revision.vehicle.data:
+            revision.vehicle.data = {}
+        revision.vehicle.data["garage_locked"] = locked
+        revision.vehicle.save(update_fields=["data"])
+    if "garage" in data:
+        from bustimes.models import Garage
+        to_name = data.pop("garage").strip()
+        from_name = revision.vehicle.garage.name if revision.vehicle.garage else ""
+        if to_name != from_name:
+            revision.changes["garage"] = f"-{from_name}\n+{to_name}"
 
     if "colours" in data:
         livery = data.pop("colours")
@@ -150,6 +162,12 @@ def apply_revision(revision, features=None):
             setattr(vehicle, field, to_value)
             changed_fields.append(field)
 
+        elif field == "garage":
+            from bustimes.models import Garage
+            to_name = to_value
+            garage = Garage.objects.filter(name=to_name).first() if to_name else None
+            vehicle.garage = garage
+            changed_fields.append("garage")
         elif field == "previous reg":
             if not vehicle.data:
                 vehicle.data = {}

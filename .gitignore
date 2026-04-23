@@ -18,3 +18,5 @@
 .env.sentry-build-plugin
 
 /.parcel-cache/
+*.zip
+db.sqlite3

@@ -14,3 +14,6 @@ def liveries_cache_update(sender, instance, **kwargs):
 def vehicle_cache_update(sender, instance, created, **kwargs):
     if not created and instance.latest_journey_id:
         cache.delete(f"journey{instance.latest_journey_id}")
+        from django.utils import timezone
+        today = timezone.localtime().date()
+        cache.delete(f"vehicle{instance.id}dates{today}")

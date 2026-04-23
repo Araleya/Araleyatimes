@@ -68,8 +68,11 @@
     </div>
     {% endif %}
 
-    {% if tracking %}
-        <p><a href="{{ tracking }}" class="button">Track this bus</a></p>
+    {% if tracking or vehicle.livery.name == "London Red" %}
+        <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-bottom:1em">
+        {% if tracking %}<a href="{{ tracking }}" class="button">Track this bus</a>{% endif %}
+        {% if vehicle.livery.name == "London Red" %}<form method="post" action="{% url 'vehicle_mark_done' vehicle.slug %}" style="margin:0">{% csrf_token %}<button type="submit" class="button">Mark as Done</button></form>{% endif %}
+        </div>
     {% endif %}
 {% else %}
     <h1>{{ object }}</h1>
@@ -171,7 +174,7 @@
 {% endif %}
 
 {% if garage %}
-    <p>{{ garage }}</p>
+    <p>{{ garage }}{% if garage_locked %} ★{% endif %}</p>
 {% endif %}
 
 </div>

@@ -8,7 +8,7 @@ from warnings import filterwarnings
 import dj_database_url
 
 BASE_DIR = Path(__file__).resolve().parent.parent
-SECRET_KEY = os.environ.get("SECRET_KEY", "")
+SECRET_KEY = os.environ.get("SECRET_KEY", "g-^@^-zxd%z^-i0qb^6xn@)nwh65mo^+cn9@tgsvcshdr-u84a")
 ALLOWED_HOSTS = os.environ.get("ALLOWED_HOSTS", "*").split()
 
 CSRF_TRUSTED_ORIGINS = os.environ.get(
@@ -113,20 +113,28 @@ ROOT_URLCONF = "buses.urls"
 ASGI_APPLICATION = "buses.asgi.application"
 
 
+# ────────────────────────────────────────────────
+# Fixed DATABASES configuration:
+#   - Uses SQLite by default for local development
+#   - Only uses dj_database_url when DATABASE_URL is explicitly set
+#   - Removed application_name and other Postgres-only options
+# ────────────────────────────────────────────────
+
 DATABASES = {
-    "default": dj_database_url.config(conn_max_age=None, conn_health_checks=True)
+    "default": {
+        "ENGINE": "django.db.backends.sqlite3",
+        "NAME": BASE_DIR / "db.sqlite3",
+        "OPTIONS": {},
+    }
 }
 
-DATABASES["default"]["OPTIONS"] = {
-    "application_name": os.environ.get("APPLICATION_NAME") or " ".join(sys.argv)[-63:],
-    "connect_timeout": 9,
-}
+# Allow override for production / Postgres if DATABASE_URL is set
+if os.environ.get("DATABASE_URL"):
+    DATABASES["default"] = dj_database_url.config(
+        conn_max_age=None,
+        conn_health_checks=True
+    )
 
-DATABASES["default"]["DISABLE_SERVER_SIDE_CURSORS"] = True
-DATABASES["default"]["TEST"] = {"SERIALIZE": False}
-if "runserver" in sys.argv:
-    # local development server - reset to the default (i.e. no persistent connections)
-    del DATABASES["default"]["CONN_MAX_AGE"]
 
 AUTH_USER_MODEL = "accounts.User"
 LOGIN_REDIRECT_URL = "/vehicles"
@@ -346,3 +354,10 @@ TURNSTILE_SITEKEY = os.environ.get("TURNSTILE_SITEKEY", "0x4AAAAAAAFWiyCqdh2c-5s
 TURNSTILE_SECRET = os.environ.get("TURNSTILE_SECRET")
 
 ABBREVIATE_HOURLY = False  # we override this in some tests, that's all
+
+
+
+# 30 day login sessions
+SESSION_COOKIE_AGE = 60 * 60 * 24 * 30  # 30 days
+SESSION_SAVE_EVERY_REQUEST = True
+SESSION_EXPIRE_AT_BROWSER_CLOSE = False

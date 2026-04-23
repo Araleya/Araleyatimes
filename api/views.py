@@ -107,7 +107,7 @@ class StopViewSet(viewsets.ReadOnlyModelViewSet):
 
 class TripViewSet(viewsets.ReadOnlyModelViewSet):
     queryset = (
-        Trip.objects.select_related("route__service", "operator")
+        Trip.objects.select_related("route__service", "operator").prefetch_related("route__service__operator")
         .prefetch_related("notes")
         .annotate(
             destination_name=Coalesce(

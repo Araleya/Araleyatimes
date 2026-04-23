@@ -48,6 +48,8 @@ class EditVehicleForm(forms.Form):
         "name",
         "previous_reg",
         "features",
+        "garage",
+        "garage_locked",
         "notes",
     ]
     spare_ticket_machine = forms.BooleanField(
@@ -114,6 +116,15 @@ class EditVehicleForm(forms.Form):
         widget=forms.CheckboxSelectMultiple,
         required=False,
     )
+    garage = forms.CharField(
+        required=False,
+        widget=forms.TextInput(attrs={"list": "garage-list", "autocomplete": "off", "placeholder": ""}),
+    )
+    garage_locked = forms.BooleanField(
+        required=False,
+        label="Lock garage",
+        help_text="Prevent automatic updates from overriding this garage",
+    )
     notes = forms.CharField(required=False, max_length=255)
     summary = SummaryField(
         max_length=255,
@@ -152,6 +163,14 @@ link to a picture to prove it. Be polite.""",
 
         self.fields["other_colour"].initial = vehicle.colours or ""
         self.fields["features"].initial = vehicle.features.all()
+        from bustimes.models import Garage
+        garage_qs = Garage.objects.filter(operator=vehicle.operator_id).exclude(name="").order_by("name")
+        if not garage_qs.exists():
+            garage_qs = Garage.objects.all().exclude(name="").order_by("name")
+        garage_qs = garage_qs.select_related("operator")
+        self.fields["garage"].widget.attrs["data-garages"] = ",".join(f"{g.id}:{g.name}{f' ({g.code})' if g.code else ''}{f' - {g.operator.name}' if g.operator else ''}" for g in garage_qs)
+        self.fields["garage"].initial = vehicle.garage.name if vehicle.garage else ""
+        self.fields["garage_locked"].initial = vehicle.data and vehicle.data.get("garage_locked", False)
         self.fields["branding"].initial = vehicle.branding
         self.fields["name"].initial = vehicle.name
         self.fields["previous_reg"].initial = (
@@ -169,9 +188,8 @@ link to a picture to prove it. Be polite.""",
         if vehicle.vehicle_type_id and not vehicle.is_spare_ticket_machine():
             del self.fields["spare_ticket_machine"]
 
-        if not (vehicle.livery_id and vehicle.vehicle_type_id and vehicle.reg):
-            self.fields["summary"].required = False
-            self.fields["summary"].label = "Summary (optional)"
+        self.fields["summary"].required = False
+        self.fields["summary"].label = "Summary (optional)"
 
         if not user.is_superuser:
             if not (
@@ -201,8 +219,6 @@ link to a picture to prove it. Be polite.""",
                 del self.fields["other_colour"]
             if not vehicle.branding:
                 del self.fields["branding"]
-            if not vehicle.features.all():
-                del self.fields["features"]
 
 
 class DebuggerForm(forms.Form):

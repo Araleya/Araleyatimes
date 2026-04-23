@@ -17,7 +17,7 @@ def cdn_cache_control(max_age):
         @wraps(view_func)
         def _cache_controlled(request, *args, **kw):
             # anonymise request
-            request.user = AnonymousUser
+            # request.user = AnonymousUser
 
             response = view_func(request, *args, **kw)
             response["CDN-Cache-Control"] = (

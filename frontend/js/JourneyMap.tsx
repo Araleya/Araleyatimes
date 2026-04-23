@@ -44,6 +44,8 @@ export type VehicleJourney = {
   id?: string;
   vehicle_id?: number;
   service_id?: number;
+  operator?: { name: string; slug: string };
+  service?: { line_name: string; slug: string };
   trip_id?: number;
   datetime: string;
   route_name?: string;
@@ -70,7 +72,7 @@ export const Locations = React.memo(function Locations({
   locations: VehicleJourneyLocation[];
 }) {
   const theme = React.useContext(ThemeContext);
-  const darkMode = theme.endsWith("_dark") || theme.endsWith("_satellite");
+  const darkMode = theme.endsWith("_dark") || theme === "dark" || theme.endsWith("_satellite");
 
   const routeStyle: LayerProps = {
     type: "line",
@@ -163,7 +165,7 @@ export const JourneyStops = React.memo(function Stops({
   setClickedStop: (s: string | undefined) => void;
 }) {
   const theme = React.useContext(ThemeContext);
-  const darkMode = theme.endsWith("_dark") || theme.endsWith("_satellite");
+  const darkMode = theme.endsWith("_dark") || theme === "dark" || theme.endsWith("_satellite");
 
   const features = React.useMemo(() => {
     return stops

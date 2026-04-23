@@ -2,7 +2,7 @@
 <html lang="en-GB">
 <head>
 <meta charset="utf-8">
-<title>{% block title %}{{ object }} – Bus Times{% endblock %}</title>
+<title>{% block title %}{{ object }} – Araleya Times{% endblock %}</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="theme-color" content="#ffff9e" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#222" media="(prefers-color-scheme: dark)">
@@ -10,10 +10,11 @@
     <link rel="canonical" href="https://bustimes.org{{ object.get_absolute_url() }}">
 {% endblock canonical %}
 <script type="application/ld+json">{"@context":"http://schema.org","@type":"WebSite","url":"https://bustimes.org","name":"bustimes.org","potentialAction":{"@type":"SearchAction","target":"https://bustimes.org/search?q={q}","query-input":"required name=q"}}</script>
-<link rel="icon" sizes="48x48" type="image/png" href="/favicon.ico">
-<link rel="icon" sizes="any" type="image/svg+xml" href="{{ static('svg/bimi.svg') }}">
+<link rel="icon" type="image/x-icon" href="https://araleya.cc/images/Favicon.ico">
 <link rel="manifest" href="{{ static('manifest.webmanifest') }}">
 <link rel="stylesheet" href="{{ static('dist/css/style.css') }}">
+<link rel="stylesheet" href="{{ static('css/custom.css') }}">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap">
 
 {% block head %}{% endblock %}
 
@@ -32,7 +33,7 @@
 (function () {
     var a = localStorage && localStorage["map-style"];
     var m = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
-    if ((!a || a === "alidade_satellite") && m || a && a.indexOf("_dark") !== -1) {
+    if ((!a || a === "alidade_satellite") && m || a && (a.indexOf("_dark") !== -1 || a === "dark")) {
         document.body.classList.add("dark-mode")
     }
 })();
@@ -41,7 +42,7 @@
 {% block header %}
 <header class="site-header">
     <div>
-        <a href="/" class="site-name">bustimes.org</a>
+        <a href="/" class="site-name">araleyatimes</a>
         <ul>
             <li><a href="/map">Map</a></li>
         </ul>
@@ -68,10 +69,17 @@
         <form action="{{ url('logout') }}" method="POST">
             <ul class="user">
                 <li><a href="{{ url('user_detail', args=[request.user.id]) }}">user {{ request.user.id }}</a></li>
+                <li><input type="hidden" name="csrfmiddlewaretoken" value="{{ get_token(request) }}"><button type="submit" style="background:none;border:none;padding:0;color:#f777cc;cursor:pointer;font-size:inherit;text-decoration:none;" onmouseover="this.style.textDecoration='underline';this.style.color='#ff30ba'" onmouseout="this.style.textDecoration='none';this.style.color='#f777cc'">Log out</button></li>
                 <li><a href="/rules">Rules & FAQ</a></li>
                 <li><a href="https://discord.com/invite/gY4PdDFau7">Discord</a></li>
             </ul>
         </form>
+    {% else %}
+        {% if request.path != "/accounts/login/" and request.path != "/accounts/logout/" %}
+        <ul class="user">
+            <li><a href="/accounts/login/?next={{ request.path }}">Log in</a></li>
+        </ul>
+        {% endif %}
     {% endif %}
     <ul>
         <li><a href="/contact">Contact</a></li>

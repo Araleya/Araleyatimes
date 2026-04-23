@@ -103,6 +103,8 @@ def flibco_affiliate_link(
 
 
 def index(request):
+    if request.get_host().startswith('tracker.'):
+        return render(request, 'tracker.html')
     def stats():
         return {
             "buses": redis_client and redis_client.zcard("vehicle_location_locations"),
@@ -1720,3 +1722,34 @@ def journey(request):
             "journeys": journeys,
         },
     )
+
+
+def tracker(request):
+    return render(request, 'tracker.html')
+
+def tracker_root(request):
+    """Serves tracker at root of tracker.araleyatimes.net"""
+    return render(request, 'tracker.html')
+
+import json as _json
+from django.http import JsonResponse
+from django.views.decorators.csrf import csrf_exempt
+from django.views.decorators.http import require_POST
+
+@csrf_exempt
+@require_POST
+def tracker_stop(request):
+    try:
+        from vehicles.utils import redis_client
+        from vehicles.models import Vehicle
+        data = _json.loads(request.body)
+        operator = data.get('operator')
+        fleet = data.get('fleet')
+        vehicle = Vehicle.objects.filter(operator_id=operator, fleet_code=fleet).first()
+        if vehicle and redis_client:
+            redis_client.zrem('vehicle_location_locations', vehicle.id)
+            redis_client.delete(f'vehicle{vehicle.id}')
+            return JsonResponse({'result': 'removed'})
+        return JsonResponse({'result': 'not found'})
+    except Exception as e:
+        return JsonResponse({'result': 'error', 'detail': str(e)})

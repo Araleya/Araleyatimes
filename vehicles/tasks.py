@@ -217,15 +217,34 @@ def log_vehicle_journey(service, data, time, destination, source_name, url, trip
         return
 
     if not vehicle.latest_journey or vehicle.latest_journey.datetime < journey.datetime:
+        update_garage = False
         if (
             journey.trip
             and journey.trip.garage_id
             and journey.trip.garage_id != vehicle.garage_id
         ):
-            vehicle.garage_id = journey.trip.garage_id
+            if vehicle.data and vehicle.data.get("garage_locked"):
+                print(f"TASKS LOCK PREVENTED: {vehicle.slug} trip={journey.trip.garage_id} vehicle={vehicle.garage_id}")
+            else:
+                print(f"TASKS GARAGE CHANGE: {vehicle.slug} trip={journey.trip.garage_id} vehicle={vehicle.garage_id}")
+                vehicle.garage_id = journey.trip.garage_id
+                update_garage = True
         vehicle.latest_journey = journey
         vehicle.latest_journey_data = data
-        vehicle.save(update_fields=["garage", "latest_journey", "latest_journey_data"])
+        fields = ["latest_journey", "latest_journey_data"]
+        if update_garage:
+            fields.append("garage")
+        vehicle.save(update_fields=fields)
+        # Invalidate dates cache — delete both today and yesterday keys to be safe
+        from django.core.cache import cache as _cache
+        from django.utils import timezone as _tz
+        from datetime import timedelta
+        _today = _tz.localtime().date()
+        _yesterday = _today - timedelta(days=1)
+        _cache.delete(f"vehicle{vehicle.id}dates{_today}")
+        _cache.delete(f"vehicle{vehicle.id}dates{_yesterday}")
+        if vehicle.latest_journey:
+            _cache.delete(f"vehicle{vehicle.id}dates{vehicle.latest_journey.date}")
 
 
 @db_periodic_task(crontab(minute="*/5"))

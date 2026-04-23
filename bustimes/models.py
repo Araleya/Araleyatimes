@@ -13,7 +13,7 @@ from .formatting import format_timedelta, time_datetime
 
 
 class TimetableDataSource(models.Model):
-    name = models.CharField(max_length=255)
+    name = models.CharField(max_length=255, blank=True)
     search = models.CharField(
         max_length=255,
         blank=True,
@@ -32,7 +32,7 @@ class TimetableDataSource(models.Model):
     region = models.ForeignKey(
         "busstops.Region", models.SET_NULL, null=True, blank=True
     )
-    notes = models.CharField(null=True, blank=True)
+    notes = models.CharField(max_length=255, blank=True)
 
     def __str__(self):
         return self.name
@@ -43,7 +43,7 @@ class Version(models.Model):
     start_date = models.DateField(null=True, blank=True)
     end_date = models.DateField(null=True, blank=True)
     datetime = models.DateTimeField(null=True, blank=True)
-    name = models.CharField(null=True, blank=True)
+    name = models.CharField(max_length=100, blank=True)
     url = models.URLField(null=True, blank=True)
     current = models.BooleanField(default=True)
 
@@ -359,7 +359,7 @@ class Trip(models.Model):
     destination = models.ForeignKey(
         "busstops.StopPoint", models.DO_NOTHING, null=True, blank=True
     )
-    headsign = models.CharField(null=True, blank=True)
+    headsign = models.CharField(max_length=255, blank=True)
     calendar = models.ForeignKey(Calendar, models.DO_NOTHING, null=True, blank=True)
     sequence = models.PositiveSmallIntegerField(null=True, blank=True)
     notes = models.ManyToManyField(Note, blank=True)

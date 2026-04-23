@@ -10,7 +10,7 @@
         {% if vehicle.livery and perms.vehicles.change_livery %}
             <a href="{% url 'admin:vehicles_livery_change' object.livery_id %}">
         {% endif %}
-        <div class="livery" style="background:{{ vehicle.get_livery }}"></div>
+        {% if vehicle.livery.image_url %}<img src="{{ vehicle.livery.image_url }}" class="livery" alt="{{ vehicle.livery.name }}">{% else %}<div class="livery" style="background:{{ vehicle.get_livery }}"></div>{% endif %}
         {% if vehicle.livery and perms.vehicles.change_livery %}</a>{% endif %}
         {% if vehicle.livery.show_name %}{{ vehicle.livery.name }}{% endif %}
             </dd>
@@ -52,6 +52,12 @@
         {% endif %}
     {% endfor %}
 
+    {% if vehicle.garage %}
+        <div>
+            <dt>Garage</dt>
+            <dd>{{ vehicle.garage.name }}</dd>
+        </div>
+    {% endif %}
     {% if vehicle.features.all %}
         <div>
             <dt>Features</dt>

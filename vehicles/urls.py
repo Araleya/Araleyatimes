@@ -36,6 +36,7 @@ urlpatterns = [
     ),
     path("vehicles/<int:id>/edit", views.edit_vehicle),
     path("vehicles/<slug>/edit", views.edit_vehicle, name="vehicle_edit"),
+    path("vehicles/<slug>/mark-done", views.mark_london_done, name="vehicle_mark_done"),
     path(
         "vehicles/<int:id>/debug",
         views.latest_journey_debug,

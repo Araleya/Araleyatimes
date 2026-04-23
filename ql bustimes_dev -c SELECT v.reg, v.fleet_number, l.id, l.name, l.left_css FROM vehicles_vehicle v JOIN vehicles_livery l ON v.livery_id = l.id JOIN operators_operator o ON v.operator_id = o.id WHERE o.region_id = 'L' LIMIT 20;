@@ -1,0 +1,44 @@
+  id  |            name            | colour |                                                                                                                        left_css                                                                                                                        
+------+----------------------------+--------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  262 | Transport for London       |        | linear-gradient(90deg,#e1251b 50%,#fff 50%)
+  411 | Go-Ahead London            |        | linear-gradient(#dc241f 80%,#ebb730 80% 85%,#4c4f53 85%)
+  521 | Go-Ahead London            |        | linear-gradient(#eeedde 37%,#7c52d2 37% 62%,#eeedde 62%)
+  552 | Metroline commercial       |        | linear-gradient(100deg,#4e80f5 34%,#fff 34% 67%,#f03e34 67%)
+  776 | AirportFlyer               |        | radial-gradient(140% 180% at -12% -20%,#0000 80%,#025 80%),linear-gradient(#bec4c4 20%,#18d 20% 30%,#0000 30%),radial-gradient(150% 210% at -20% -25%,#0000 75%,#18d 75%),#bec4c4
+  777 | London Country             |        | linear-gradient(#748625 42%,#ddd74e 42% 57%,#748625 57%)
+  955 | AirportFlyer               |        | radial-gradient(140% 180% at -12% -20%,#0000 80%,#025 80%),linear-gradient(#6e5 10%,#0000 10%),radial-gradient(150% 210% at -20% -25%,#0000 75%,#6e5 75%),#bec4c4
+  962 | AirportFlyer               |        | linear-gradient(#8c006a 50%,#ca0086 50%)
+ 1034 | London General             |        | linear-gradient(#fff 25%,#dc241f 25% 50%,#fff 50% 75%,#dc241f 75%)
+ 1035 | Go-Ahead London            |        | linear-gradient(#fffcd6 33%,#a11d1d 33% 66%,#fffcd6 66%)
+ 1148 | London Transport           |        | linear-gradient(#46c2a0 50%,#eef0e1 50% 62%,#46c2a0 62%)
+ 1333 | AirportFlyer               |        | linear-gradient(#08f 57%,#048 57%)
+ 1374 | Metrobus Classic (TfL)     |        | linear-gradient(red 48%,#0000 48% 58%,red 58%),radial-gradient(circle at 0 0,#fde800 50%,#104fce 50%)
+ 1503 | TfL Hydrogen               |        | linear-gradient(#dc241f 42%,#ef7c10 42% 57%,#dc241f 57%)
+ 1843 | Metroline (Blue Skirt)     |        | linear-gradient(#dc241f 69%,#fff 69% 76%,#00109c 76%)
+ 1845 | Arriva London              |        | linear-gradient(#0000 76%,#ffd800 76% 80%,#cb2d2c 80%),radial-gradient(circle at 0 0,#cb2d2c 25%,#0000 25%),radial-gradient(at 0 0,#f0f0c8 35%,#0000 35%),linear-gradient(#0000 100%,#ffd800 76% 80%),radial-gradient(circle at 0 20%,#cb2d2c 35% 40%)
+ 1847 | TfL Underground            |        | linear-gradient(270deg,#de2110 8%,#fff0 8% 92%,#de2110 92%),linear-gradient(#fff 90%,#0009ab 90%)
+ 1944 | London United              |        | linear-gradient(#ea3738 80%,#8a9096 80%)
+ 1966 | Clarkes of London          |        | #99c4bd
+ 2121 | East London Transit        |        | linear-gradient(#dc241f 25%,#0000 25% 75%,#dc241f 75%),linear-gradient(90deg,#f59e72 20%,#dc241f 20% 40%,#b04058 40% 60%,#eeb46c 60% 80%,#dc241f 80%)
+ 2139 | London Transport           |        | linear-gradient(#c33 38%,#eef0e1 38% 50%,#c33 50%)
+ 2146 | Go-Ahead London Commercial |        | linear-gradient(#652b3f 50%,#fff 50% 62%,#652b3f 62%)
+ 2212 | London General             |        | linear-gradient(#ababad 13%,#fee6aa 13% 40%,#000 40% 46%,#fee6aa 46% 73%,#dc241f 73%)
+ 2286 | TfL Underground Advert     |        | linear-gradient(270deg,#fff 10%,#0000 8% 90%,#fff 90%),linear-gradient(#0000 42%,#0019a8 42% 58%,#0000 58%),radial-gradient(circle,#fff0 34%,#da291c 33% 50%,#fff0 50%),#fff
+ 2414 | Connex London              |        | linear-gradient(#dc241f 80%,#fae209 80% 85%,#1c3474 85%)
+ 2451 | TFL DLR                    |        | linear-gradient(90deg,#0000 0% 10%,#8f8f8f 10% 30%,#0000 30% 70%,#8f8f8f 70% 90%,#0000 90%),linear-gradient(#f41414 20% 100%,#245ae4 20% 90%,#f41414 60% 60%)
+ 2623 | London Transport green     |        | linear-gradient(#fff 38%,#fd2d3a 38% 50%,#1b7b2f 50%)
+ 2657 | Arriva London Cowhorn      |        | linear-gradient(#0000 80%,#cb2d2c 80%),radial-gradient(circle at 0 0,#cb2d2c 25%,#0000 25%),radial-gradient(at 0 0,#f0f0c8 35%,#0000 35%),radial-gradient(circle at 0 20%,#cb2d2c 35% 40%)
+ 2719 | London Transport           |        | linear-gradient(#c33 10%,#fff 10% 35%,#c33 35% 85%,#000 85%)
+ 2775 | Cleaner Air For London     |        | linear-gradient(90deg,#dc241f 10%,#0000 10%),linear-gradient(#97cfec 50%,#a5c94e 50% 62%,#ced35e 62% 75%,#70b84b 75%)
+ 3124 | Stagecoach London          |        | linear-gradient(#0000 80%,#182755 80%),radial-gradient(circle at 0 0,#dc241f 60%,#f79f48 60% 70%,#0f6db4 70%)
+ 3275 | East London Ambassador     |        | linear-gradient(silver 10%,#fff 10% 30%,#dc241f 30% 50%,#fff 50% 70%,#dc241f 70% 90%,#000 90%)
+ 3285 | London Country             |        | linear-gradient(#307838 33%,#feed30 33% 66%,#307838 66%)
+ 3378 | Metroline Join üs          |        | #af8ac5
+ 3417 | London Transport           |        | linear-gradient(#a3a9a9 10%,#fff 10% 30%,#e21520 30% 50%,#000 50% 55%,#fff 55% 70%,#e21520 70%)
+ 3611 | London Country             |        | linear-gradient(#0d5316 38%,#feeab8 38% 50%,#0d5316 50%)
+ 3612 | London Transport           |        | linear-gradient(#a3a9a9 8%,#fff 8% 24%,#e21520 24% 44%,#a3a9a9 44% 48%,#e21520 48% 56%,#a3a9a9 56% 60%,#e21520 60% 76%,#a3a9a9 76% 80%,#e21520 80%)
+ 3716 | Go-Ahead London            |        | linear-gradient(#dc241f 37.5%,#fff 37.5% 42.5%,#dc241f 42.5% 80%,#ebb730 80% 85%,#4c4f53 85%)
+ 3826 | Go Ahead - Ride Electric   |        | #0f1f55
+ 3992 | London Bus Company         |        | linear-gradient(#f1dfa8 25%,#dc241f 25% 48%,#f1dfa8 48% 72%,#dc241f 72%)
+(40 rows)
+

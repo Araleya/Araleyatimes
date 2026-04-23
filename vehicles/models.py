@@ -146,6 +146,11 @@ class Livery(models.Model):
     stroke_colour = ColourField(
         max_length=7, blank=True, help_text="Use sparingly, often looks shit"
     )
+    image_url = models.URLField(blank=True, verbose_name="Image URL", help_text="Optional image URL to use as the livery icon")
+    horizontal = models.BooleanField(
+        default=False, help_text="Equivalent to setting the angle to 90"
+    )
+    
     horizontal = models.BooleanField(
         default=False, help_text="Equivalent to setting the angle to 90"
     )
@@ -246,6 +251,17 @@ def vehicle_slug(vehicle):
 
 
 class Vehicle(models.Model):
+    def save(self, *args, **kwargs):
+        if self.pk:
+            try:
+                old = Vehicle.objects.get(pk=self.pk)
+                if old.garage_id != self.garage_id:
+                    import traceback
+                    print(f"GARAGE CHANGE DETECTED: {self.slug} {old.garage_id} -> {self.garage_id}")
+                    traceback.print_stack(limit=8)
+            except Vehicle.DoesNotExist:
+                pass
+        super().save(*args, **kwargs)
     slug = AutoSlugField(populate_from=vehicle_slug, editable=True, unique=True)
     code = models.CharField(max_length=255)
     fleet_number = models.PositiveIntegerField(null=True, blank=True)
@@ -372,7 +388,7 @@ class Vehicle(models.Model):
     def data_get(self, key=None):
         if not key:
             if self.data:
-                return [(key, self.data_get(key)) for key in self.data]
+                return [(key, self.data_get(key)) for key in self.data if key != "garage_locked"]
             return ()
         if self.data:
             value = self.data.get(key)

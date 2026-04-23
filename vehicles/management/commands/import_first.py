@@ -100,6 +100,7 @@ class Command(ImportLiveVehiclesCommand):
                 journey.trip
                 and journey.trip.garage_id
                 and journey.trip.garage_id != vehicle.garage_id
+                and not (vehicle.data and vehicle.data.get("garage_locked"))
             ):
                 vehicle.garage_id = journey.trip.garage_id
                 vehicle.save(update_fields=["garage"])

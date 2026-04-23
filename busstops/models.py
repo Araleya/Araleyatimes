@@ -197,7 +197,7 @@ class StopArea(models.Model):
 
 class DataSource(models.Model):
     name = models.CharField(max_length=255, db_index=True)
-    description = models.CharField(blank=True)
+    description = models.CharField(max_length=255, blank=True)
     url = models.URLField(blank=True, db_index=True)
     datetime = models.DateTimeField(null=True, blank=True)
     sha1 = models.CharField(max_length=40, null=True, blank=True, db_index=True)
@@ -369,8 +369,8 @@ class StopPoint(models.Model):
 
     timezone = TimeZoneField(null=True, blank=True)
 
-    description = models.CharField(null=True, blank=True)
-    notes = models.CharField(null=True, blank=True)
+    description = models.CharField(max_length=255, null=True, blank=True)
+    notes = models.CharField(max_length=255, null=True, blank=True)
 
     BEARING_CHOICES = (
         ("N", "north \u2191"),
@@ -677,7 +677,7 @@ class StopUsage(models.Model):
     order = models.PositiveSmallIntegerField()
     timing_point = models.BooleanField(default=True)
     inbound = models.BooleanField(default=False)
-    line_name = models.CharField()
+    line_name = models.CharField(max_length=255, blank=True)
 
     class Meta:
         ordering = ("inbound", "order")

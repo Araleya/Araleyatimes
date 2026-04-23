@@ -192,12 +192,17 @@ class TripSerializer(serializers.ModelSerializer):
 
     @staticmethod
     def get_operator(obj):
-        if obj.operator:
+        # Always prefer service operator as it matches where timetable is assigned
+        if obj.route and obj.route.service:
+            operator = obj.route.service.operator.first()
+        else:
+            operator = obj.operator
+        if operator:
             return {
-                "noc": obj.operator_id,
-                "name": obj.operator.name,
-                "vehicle_mode": obj.operator.vehicle_mode,
-                "slug": obj.operator.slug,
+                "noc": operator.noc,
+                "name": operator.name,
+                "vehicle_mode": operator.vehicle_mode,
+                "slug": operator.slug,
             }
 
     @staticmethod

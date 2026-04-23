@@ -188,6 +188,7 @@ class ImportLiveVehiclesCommand(BaseCommand):
                 and journey.trip
                 and journey.trip.garage_id
                 and journey.trip.garage_id != vehicle.garage_id
+                and not (vehicle.data and vehicle.data.get("garage_locked"))
             ):
                 vehicle.garage_id = journey.trip.garage_id
                 vehicle.save(update_fields=["garage"])
@@ -374,7 +375,9 @@ class ImportLiveVehiclesCommand(BaseCommand):
 
             for location, vehicle in self.to_save:
                 if location.latlong:
-                    pipeline.rpush(*location.get_appendage())
+                    key, value = location.get_appendage()
+                    pipeline.rpush(key, value)
+                    pipeline.expire(key, 1209600)  # 14-day TTL
 
         try:
             pipeline.execute()

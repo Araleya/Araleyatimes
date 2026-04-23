@@ -30,6 +30,19 @@ if (process.env.NODE_ENV === "production") {
   });
 }
 
+// Apply dark mode site-wide based on saved map style preference
+try {
+  const savedStyle = localStorage.getItem("map-style");
+  const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+  const defaultStyle = prefersDark ? "dark" : "positron";
+  const activeStyle = savedStyle || defaultStyle;
+  if (activeStyle === "dark" || activeStyle.endsWith("_dark")) {
+    document.body.classList.add("dark-mode");
+  }
+} catch {
+  // ignore
+}
+
 declare global {
   interface Window {
     SERVICE_ID?: number;

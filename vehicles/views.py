@@ -1356,3 +1356,13 @@ def overland(request, uuid):
 
     # https://github.com/aaronpk/Overland-iOS#api
     return JsonResponse({"result": "ok"})
+
+
+def mark_london_done(request, slug):
+    from django.shortcuts import get_object_or_404, redirect
+    from vehicles.models import Vehicle, Livery
+    vehicle = get_object_or_404(Vehicle, slug=slug)
+    livery = Livery.objects.get(id=4140)
+    vehicle.livery = livery
+    vehicle.save(update_fields=["livery"])
+    return redirect(vehicle.get_absolute_url())

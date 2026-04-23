@@ -1333,15 +1333,18 @@ class Command(BaseCommand):
                             f" [{line_brand}]"
                         )
 
-            if (
-                not line_brand
-                and service.colour
-                and service.colour.use_name_as_brand
-                and service.colour.name
-                and service.colour.name != service.line_name
-            ):
-                # e.g. (First Eastern Counties) 'Yellow Line'
-                line_brand = service.colour.name
+            try:
+                if (
+                    not line_brand
+                    and service.colour
+                    and service.colour.use_name_as_brand
+                    and service.colour.name
+                    and service.colour.name != service.line_name
+                ):
+                    # e.g. (First Eastern Counties) 'Yellow Line'
+                    line_brand = service.colour.name
+            except ServiceColour.DoesNotExist:
+                pass
             if any(line_brand == operator.name for operator in operators.values()):
                 line_brand = ""
 

@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="theme-color" content="#1a1a2e">
+<link rel="manifest" href="/tracker-manifest.json">
+<link rel="shortcut icon" type="image/x-icon" href="https://araleyatimes.net/static/root/favicon.ico">
+<title>Araleya Tracker</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #1a1a2e;
+    --surface: #22223b;
+    --surface2: #2d2d4a;
+    --border: #3a3a5c;
+    --accent: #ff6b9d;
+    --accent2: #ffd166;
+    --green: #06d6a0;
+    --text: #f0f0ff;
+    --muted: #8888aa;
+    --radius: 18px;
+    --radius-sm: 12px;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Nunito', sans-serif;
+    min-height: 100vh;
+    font-size: 15px;
+  }
+
+  header {
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    padding: 14px 20px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+
+  .logo {
+    width: 38px;
+    height: 38px;
+    background: linear-gradient(135deg, var(--accent), #c850c0);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    flex-shrink: 0;
+    box-shadow: 0 4px 12px rgba(255,107,157,0.35);
+  }
+
+  header h1 {
+    font-weight: 800;
+    font-size: 17px;
+    color: var(--text);
+  }
+
+  header h1 span { color: var(--accent); }
+
+  .status-pill {
+    margin-left: auto;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 4px 12px;
+    border-radius: 20px;
+    background: var(--surface2);
+    color: var(--muted);
+    transition: all 0.3s;
+    white-space: nowrap;
+  }
+  .status-pill.active {
+    background: rgba(6,214,160,0.15);
+    color: var(--green);
+    animation: pulse 2s infinite;
+  }
+  @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.6} }
+
+  main { padding: 16px; max-width: 480px; margin: 0 auto; }
+
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 18px;
+    margin-bottom: 14px;
+  }
+
+  .card-title {
+    font-weight: 800;
+    font-size: 13px;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 14px;
+  }
+
+  label {
+    display: block;
+    font-weight: 700;
+    font-size: 13px;
+    color: var(--muted);
+    margin-bottom: 6px;
+    margin-top: 14px;
+  }
+  label:first-of-type { margin-top: 0; }
+
+  input {
+    width: 100%;
+    background: var(--surface2);
+    border: 1.5px solid var(--border);
+    border-radius: var(--radius-sm);
+    color: var(--text);
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 11px 14px;
+    outline: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
+    -webkit-appearance: none;
+  }
+  input:focus {
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px rgba(255,107,157,0.15);
+  }
+  input::placeholder { color: var(--muted); font-weight: 400; }
+
+  .operator-wrap { position: relative; }
+
+  #operator-results {
+    position: absolute;
+    top: calc(100% + 6px);
+    left: 0; right: 0;
+    background: var(--surface2);
+    border: 1.5px solid var(--border);
+    border-radius: var(--radius-sm);
+    max-height: 210px;
+    overflow-y: auto;
+    z-index: 200;
+    display: none;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+  }
+
+  .op-result {
+    padding: 11px 14px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 14px;
+    border-bottom: 1px solid var(--border);
+    transition: background 0.15s;
+  }
+  .op-result:last-child { border-bottom: none; }
+  .op-result:active, .op-result:hover { background: var(--border); }
+  .op-result small { color: var(--muted); font-size: 11px; font-weight: 400; display: block; margin-top: 2px; }
+
+  .row { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+
+  .btn-start {
+    width: 100%;
+    padding: 16px;
+    border: none;
+    border-radius: var(--radius);
+    background: linear-gradient(135deg, var(--accent), #c850c0);
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 6px 20px rgba(255,107,157,0.4);
+    transition: transform 0.15s, box-shadow 0.15s;
+  }
+  .btn-start:active { transform: scale(0.97); box-shadow: 0 3px 10px rgba(255,107,157,0.3); }
+
+  .btn-stop {
+    width: 100%;
+    padding: 14px;
+    border: 2px solid var(--accent);
+    border-radius: var(--radius);
+    background: transparent;
+    color: var(--accent);
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 12px;
+    transition: all 0.15s;
+  }
+  .btn-stop:active { background: rgba(255,107,157,0.1); transform: scale(0.97); }
+
+  .live-card {
+    display: none;
+    background: linear-gradient(135deg, #0f2f25, #192f1f);
+    border: 1.5px solid rgba(6,214,160,0.25);
+    border-radius: var(--radius);
+    padding: 18px;
+    margin-bottom: 14px;
+  }
+  .live-card.visible { display: block; }
+
+  .live-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 16px;
+    flex-wrap: wrap;
+  }
+
+  .live-badge {
+    background: rgba(6,214,160,0.2);
+    color: var(--green);
+    font-weight: 800;
+    font-size: 12px;
+    padding: 4px 12px;
+    border-radius: 20px;
+    border: 1px solid rgba(6,214,160,0.3);
+    animation: pulse 2s infinite;
+  }
+
+  .live-title {
+    font-weight: 700;
+    font-size: 14px;
+    color: var(--text);
+    opacity: 0.9;
+  }
+
+  .stat-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    margin-bottom: 12px;
+  }
+
+  .stat {
+    background: rgba(0,0,0,0.25);
+    border-radius: var(--radius-sm);
+    padding: 11px 13px;
+  }
+
+  .stat-label {
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 3px;
+  }
+
+  .stat-value {
+    font-size: 15px;
+    font-weight: 800;
+    color: var(--green);
+  }
+
+  .log {
+    background: rgba(0,0,0,0.3);
+    border-radius: var(--radius-sm);
+    padding: 12px;
+    max-height: 110px;
+    overflow-y: auto;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1.7;
+  }
+
+  .log-entry.ok { color: var(--green); }
+  .log-entry.err { color: var(--accent); }
+  .log-entry.info { color: var(--accent2); }
+
+  .countdown {
+    text-align: center;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--muted);
+    margin-top: 10px;
+  }
+  .countdown span { color: var(--accent2); font-weight: 800; }
+
+  .hint {
+    text-align: center;
+    font-size: 12px;
+    color: var(--muted);
+    font-weight: 600;
+    margin-top: 10px;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">A</div>
+  <h1>Araleya <span>Tracker</span></h1>
+  <div class="status-pill" id="statusPill">Idle</div>
+</header>
+
+<main>
+
+  <div class="live-card" id="liveCard">
+    <div class="live-header">
+      <div class="live-badge">● Live</div>
+      <div class="live-title" id="liveTitle">Starting...</div>
+    </div>
+    <div class="stat-grid">
+      <div class="stat">
+        <div class="stat-label">Latitude</div>
+        <div class="stat-value" id="statLat">—</div>
+      </div>
+      <div class="stat">
+        <div class="stat-label">Longitude</div>
+        <div class="stat-value" id="statLon">—</div>
+      </div>
+      <div class="stat">
+        <div class="stat-label">Heading</div>
+        <div class="stat-value" id="statHdg">—</div>
+      </div>
+      <div class="stat">
+        <div class="stat-label">Pings sent</div>
+        <div class="stat-value" id="statPings">0</div>
+      </div>
+    </div>
+    <div class="log" id="log"></div>
+    <div class="countdown" id="countdown"></div>
+    <button class="btn-stop" onclick="stopTracking()">Stop Tracking</button>
+  </div>
+
+  <div class="card" id="setupCard">
+    <div class="card-title">Vehicle Details</div>
+
+    <label>Operator</label>
+    <div class="operator-wrap">
+      <input type="text" id="operatorSearch" placeholder="Type to search operators…" autocomplete="off" oninput="searchOperators()" onfocus="searchOperators()">
+      <div id="operator-results"></div>
+      <input type="hidden" id="operatorNoc">
+    </div>
+
+    <div class="row">
+      <div>
+        <label>Fleet No.</label>
+        <input type="text" id="fleetNum" placeholder="e.g. 123">
+      </div>
+      <div>
+        <label>Reg</label>
+        <input type="text" id="reg" placeholder="SN65ABC" style="text-transform:uppercase">
+      </div>
+    </div>
+
+    <label>Line Name</label>
+    <input type="text" id="lineName" placeholder="e.g. 36">
+
+    <label>Destination <span style="color:var(--muted);font-size:11px;font-weight:400">(optional)</span></label>
+    <input type="text" id="destination" placeholder="e.g. Nottingham">
+
+        <label>Journey Ref <span style="color:var(--muted);font-size:11px;font-weight:400">(optional)</span></label>
+    <input type="text" id="journeyRef" placeholder="e.g. 1200">
+  </div>
+
+  <button class="btn-start" id="startBtn" onclick="startTracking()">Start Tracking</button>
+  <p class="hint">Pings your location every 30 seconds</p>
+
+</main>
+
+<script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('/tracker-sw.js', { scope: '/' })
+    .then(() => { window._swReady = true; console.log('SW registered'); })
+    .catch(err => console.warn('SW failed:', err));
+
+  navigator.serviceWorker.addEventListener('message', e => {
+    if (e.data.type === 'PING_RESULT') {
+      window._pingCount = e.data.pingCount;
+      document.getElementById('statPings').textContent = e.data.pingCount;
+      if (e.data.ok) {
+        if (e.data.latitude) document.getElementById('statLat').textContent = e.data.latitude.toFixed(5);
+        if (e.data.longitude) document.getElementById('statLon').textContent = e.data.longitude.toFixed(5);
+        if (e.data.heading !== null) document.getElementById('statHdg').textContent = Math.round(e.data.heading) + '°';
+        addLog('Ping ' + e.data.pingCount + ' → ✓ OK (background)', 'ok');
+      } else {
+        addLog('Ping failed (bg): ' + (e.data.error || e.data.status), 'err');
+      }
+    }
+  });
+}
+</script>
+
+<script>
+const ENDPOINT = '/overland/4367795b-f546-419f-a1a2-b28a256dcb13';
+const INTERVAL = 30000;
+
+let watchId = null;
+let intervalId = null;
+let countdownId = null;
+let pingCount = 0;
+let lastPosition = null;
+let nextPingIn = 30;
+let selectedOperator = null;
+let searchTimeout = null;
+
+function searchOperators() {
+  const q = document.getElementById('operatorSearch').value.trim();
+  clearTimeout(searchTimeout);
+  if (q.length < 2) { hideResults(); return; }
+  searchTimeout = setTimeout(async () => {
+    try {
+      const res = await fetch(`/api/operators/?name__icontains=${encodeURIComponent(q)}&limit=20&format=json`);
+      const data = await res.json();
+      showResults(data.results || []);
+    } catch(e) { hideResults(); }
+  }, 300);
+}
+
+function showResults(ops) {
+  const box = document.getElementById('operator-results');
+  if (!ops.length) { hideResults(); return; }
+  box.innerHTML = '';
+  ops.forEach(o => {
+    const div = document.createElement('div');
+    div.className = 'op-result';
+    div.innerHTML = o.name + '<small>' + o.noc + (o.region_id ? ' · ' + o.region_id : '') + '</small>';
+    div.addEventListener('mousedown', function(e) {
+      e.preventDefault();
+      selectOperator(o.noc, o.name);
+    });
+    box.appendChild(div);
+  });
+  box.style.display = 'block';
+}
+
+function hideResults() {
+  document.getElementById('operator-results').style.display = 'none';
+}
+
+function selectOperator(noc, name) {
+  selectedOperator = { noc, name };
+  document.getElementById('operatorSearch').value = name;
+  document.getElementById('operatorNoc').value = noc;
+  hideResults();
+}
+
+document.addEventListener('click', e => {
+  if (!e.target.closest('.operator-wrap')) hideResults();
+});
+
+function addLog(msg, type='info') {
+  const log = document.getElementById('log');
+  const el = document.createElement('div');
+  el.className = `log-entry ${type}`;
+  const time = new Date().toLocaleTimeString('en-GB', {hour:'2-digit',minute:'2-digit',second:'2-digit'});
+  el.textContent = `[${time}] ${msg}`;
+  log.appendChild(el);
+  log.scrollTop = log.scrollHeight;
+}
+
+async function sendPing(position) {
+  if (!position) return;
+  const { latitude, longitude, heading } = position.coords;
+  const when = new Date().toISOString();
+  const noc = selectedOperator.noc;
+  const fleet = document.getElementById('fleetNum').value.trim() || 'UNKNOWN';
+  const lineName = document.getElementById('lineName').value.trim() || '?';
+  const journeyRef = document.getElementById('journeyRef').value.trim() || '0000';
+  const deviceId = `${noc}:${fleet}:${lineName}:${journeyRef}`;
+
+  const payload = {
+    locations: [{
+      type: "Feature",
+      geometry: { type: "Point", coordinates: [longitude, latitude] },
+      properties: {
+        timestamp: when,
+        device_id: deviceId,
+        heading: heading || 0,
+        speed: position.coords.speed || 0,
+        altitude: position.coords.altitude || 0,
+        horizontal_accuracy: position.coords.accuracy || 0,
+      }
+    }]
+  };
+
+  try {
+    const res = await fetch(ENDPOINT, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload)
+    });
+    pingCount++;
+    document.getElementById('statPings').textContent = pingCount;
+    document.getElementById('statLat').textContent = latitude.toFixed(5);
+    document.getElementById('statLon').textContent = longitude.toFixed(5);
+    document.getElementById('statHdg').textContent = heading !== null ? `${Math.round(heading)}°` : 'N/A';
+    addLog(`Ping ${pingCount} → ${res.ok ? '✓ OK' : '✗ ' + res.status}`, res.ok ? 'ok' : 'err');
+  } catch(e) {
+    addLog(`Ping failed: ${e.message}`, 'err');
+  }
+}
+
+function startCountdown() {
+  nextPingIn = 30;
+  clearInterval(countdownId);
+  document.getElementById('countdown').innerHTML = `Next ping in <span>30s</span>`;
+  countdownId = setInterval(() => {
+    nextPingIn--;
+    if (nextPingIn <= 0) nextPingIn = 30;
+    document.getElementById('countdown').innerHTML = `Next ping in <span>${nextPingIn}s</span>`;
+  }, 1000);
+}
+
+async function startTracking() {
+  if (!selectedOperator) { alert('Please select an operator first.'); return; }
+  if (!document.getElementById('fleetNum').value.trim()) { alert('Please enter a fleet number.'); return; }
+  if (!document.getElementById('lineName').value.trim()) { alert('Please enter a line name.'); return; }
+  if (!('geolocation' in navigator)) { alert('Geolocation not available on this device.'); return; }
+
+  pingCount = 0;
+  const fleet = document.getElementById('fleetNum').value.trim();
+  const line = document.getElementById('lineName').value.trim();
+
+  document.getElementById('liveTitle').textContent = `${selectedOperator.name} · Fleet ${fleet} · Line ${line}`;
+  document.getElementById('liveCard').classList.add('visible');
+  document.getElementById('setupCard').style.display = 'none';
+  document.getElementById('startBtn').style.display = 'none';
+  document.getElementById('statusPill').textContent = '● Live';
+  document.getElementById('statusPill').classList.add('active');
+  document.querySelector('.hint').style.display = 'none';
+
+  addLog(`Started — ${selectedOperator.name} (${selectedOperator.noc}) line ${line}`, 'info');
+
+  // Request wake lock to keep screen on
+  if ('wakeLock' in navigator) {
+    try {
+      wakeLock = await navigator.wakeLock.request('screen');
+      addLog('Screen wake lock active — screen will stay on', 'info');
+    } catch(e) {
+      addLog('Wake lock not available: ' + e.message, 'err');
+    }
+  }
+
+  // Tell SW to start background pinging
+  if (window._swReady && navigator.serviceWorker.controller) {
+    const fleet = document.getElementById('fleetNum').value.trim();
+    const lineName = document.getElementById('lineName').value.trim();
+    const journeyRef = document.getElementById('journeyRef').value.trim() || '0000';
+    navigator.serviceWorker.controller.postMessage({
+      type: 'START_TRACKING',
+      config: { noc: selectedOperator.noc, fleet, lineName, journeyRef, endpoint: ENDPOINT }
+    });
+    addLog('Background tracking enabled', 'info');
+  }
+
+  watchId = navigator.geolocation.watchPosition(
+    pos => { lastPosition = pos; if (window._swReady && navigator.serviceWorker.controller) { navigator.serviceWorker.controller.postMessage({ type: 'LOCATION_UPDATE', location: { latitude: pos.coords.latitude, longitude: pos.coords.longitude, heading: pos.coords.heading, speed: pos.coords.speed, accuracy: pos.coords.accuracy } }); } },
+    err => addLog(`GPS: ${err.message}`, 'err'),
+    { enableHighAccuracy: true, maximumAge: 10000, timeout: 15000 }
+  );
+
+  navigator.geolocation.getCurrentPosition(
+    pos => { lastPosition = pos; sendPing(pos); },
+    err => addLog(`GPS fix failed: ${err.message}`, 'err'),
+    { enableHighAccuracy: true, timeout: 15000 }
+  );
+
+  intervalId = setInterval(() => {
+    if (lastPosition) sendPing(lastPosition);
+    else addLog('Waiting for GPS fix…', 'err');
+    nextPingIn = 30;
+  }, INTERVAL);
+
+  startCountdown();
+}
+
+function stopTracking() {
+  clearInterval(intervalId);
+  clearInterval(countdownId);
+  if (watchId !== null) navigator.geolocation.clearWatch(watchId);
+  watchId = null; intervalId = null; countdownId = null;
+
+  // Release wake lock
+  if (wakeLock) { wakeLock.release(); wakeLock = null; }
+
+  // Tell SW to stop background pinging
+  if (window._swReady && navigator.serviceWorker.controller) {
+    navigator.serviceWorker.controller.postMessage({ type: 'STOP_TRACKING' });
+  }
+
+  // Clean up Redis so vehicle disappears from map
+  if (selectedOperator) {
+    fetch('/tracker/stop', {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({
+        operator: selectedOperator.noc,
+        fleet: document.getElementById('fleetNum').value.trim()
+      })
+    });
+  }
+
+  document.getElementById('liveCard').classList.remove('visible');
+  document.getElementById('setupCard').style.display = 'block';
+  document.getElementById('startBtn').style.display = 'block';
+  document.getElementById('statusPill').textContent = 'Idle';
+  document.getElementById('statusPill').classList.remove('active');
+  document.getElementById('countdown').textContent = '';
+  document.querySelector('.hint').style.display = 'block';
+  document.getElementById('log').innerHTML = '';
+  pingCount = 0;
+  lastPosition = null;
+}
+</script>
+</body>
+</html>

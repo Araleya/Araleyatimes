@@ -1,0 +1,122 @@
+/* Font */
+body {
+    font-family: 'Rubik', Arial, sans-serif;
+}
+/* Header */
+header, header nav {
+    background-color: #ff66b3 !important;
+}
+/* Site name */
+.site-name {
+    background-color: #ff66b3 !important;
+    color: white !important;
+}
+.site-name:hover {
+    background-color: #cc3d87 !important;
+    color: white !important;
+}
+/* Links */
+a {
+    color: #f777cc;
+}
+a:hover {
+    color: #ff30ba;
+}
+/* Header links stay white */
+header a, header nav a {
+    color: white !important;
+}
+/* ALL submit buttons - pink */
+input[type="submit"] {
+    background-color: #cc3d87 !important;
+    border-color: #cc3d87 !important;
+    color: white !important;
+}
+input[type="submit"]:hover {
+    background-color: #99205e !important;
+    border-color: #99205e !important;
+    color: white !important;
+}
+/* Main search box border - pink */
+#q {
+    border: 2px solid #cc3d87 !important;
+    outline-color: #cc3d87 !important;
+}
+/* Track buses button */
+a.button, button.button {
+    background-color: #cc3d87 !important;
+    border-color: #cc3d87 !important;
+    color: white !important;
+}
+a.button:hover, button.button:hover {
+    background-color: #99205e !important;
+    color: white !important;
+}
+/* Only style the top-level page header */
+section header {
+    background-color: transparent !important;
+}
+/* Fix pagination bar background */
+nav.pagination, .pagination {
+    background-color: transparent !important;
+}
+/* Fix search box border on all pages */
+input[type="search"], input[type="text"] {
+    border: 2px solid #cc3d87 !important;
+    outline-color: #cc3d87 !important;
+}
+/* Fix nav pagination background */
+nav:has(ul.horizontal) {
+    background-color: transparent !important;
+}
+/* Fix vehicle prev/next nav background */
+div#content > nav {
+    background-color: transparent !important;
+}
+/* Vehicle prev/next nav links - pink */
+div#content > nav a {
+    color: #f777cc !important;
+}
+/* Map link - match header pink */
+#hugemap .map-link {
+    background: #ff66b3 !important;
+    color: white !important;
+    font-weight: 400 !important;
+}
+#hugemap .map-link:hover {
+    background-color: #cc3d87 !important;
+}
+
+/* Map link hover - darker pink to match site name hover */
+#hugemap .map-link:hover {
+    background: #cc3d87 !important;
+}
+
+/* Site header Map link hover - darker pink */
+.site-header ul a:hover {
+    background-color: #cc3d87 !important;
+}
+
+/* Hide Flickr photo URL input form but keep links */
+form:has(input[name="url"]) {
+    display: none !important;
+}
+
+/* Make all form inputs pink border */
+input[type="url"],
+input[type="number"],
+input[type="email"],
+input[type="password"],
+textarea,
+select {
+    border: 2px solid #cc3d87 !important;
+    outline-color: #cc3d87 !important;
+}
+
+/* Pink border for Select2 dropdowns */
+.select2-selection {
+    border: 2px solid #cc3d87 !important;
+}
+.select2-container--default .select2-selection--single {
+    border: 2px solid #cc3d87 !important;
+}
