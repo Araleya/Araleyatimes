@@ -1753,3 +1753,29 @@ def tracker_stop(request):
         return JsonResponse({'result': 'not found'})
     except Exception as e:
         return JsonResponse({'result': 'error', 'detail': str(e)})
+
+from django.http import JsonResponse
+
+
+def london_route_checker(request):
+    from django.http import JsonResponse
+    line_name = request.GET.get('route', '').strip().upper()
+    if not line_name:
+        return JsonResponse({'error': 'No route provided'}, status=400)
+    services = Service.objects.filter(
+        region_id='L',
+        line_name__iexact=line_name,
+        current=True
+    ).prefetch_related('operator')
+    if not services.exists():
+        return JsonResponse({'error': f'Route {line_name} not found in London'}, status=404)
+    results = []
+    for s in services:
+        for op in s.operator.all():
+            results.append({
+                'route': s.line_name,
+                'description': s.description,
+                'operator': op.name,
+                'operator_id': op.pk,
+            })
+    return JsonResponse({'results': results})

@@ -80,10 +80,16 @@ class ServiceFilter(FilterSet):
 
 
 class OperatorFilter(FilterSet):
+    name__icontains = CharFilter(method="filter_name_or_noc")
+
+    def filter_name_or_noc(self, queryset, name, value):
+        from django.db.models import Q
+        return queryset.filter(Q(name__icontains=value) | Q(noc__icontains=value))
+
     class Meta:
         model = Operator
         fields = {
-            "name": ["icontains", "exact"],
+            "name": ["exact"],
             "slug": ["exact"],
             "vehicle_mode": ["exact"],
             "region": ["exact"],

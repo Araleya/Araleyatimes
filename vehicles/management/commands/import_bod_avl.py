@@ -567,41 +567,56 @@ class Command(ImportLiveVehiclesCommand):
                 location.wheelchair_capacity = int(extensions["WheelchairCapacity"])
         return location
 
-    def get_items(self):
-        response = self.session.get(self.source.url, timeout=61)
+    BULK_URL = "https://data.bus-data.dft.gov.uk/avl/download/bulk_archive"
 
+    def _fetch_and_parse(self, url):
+        response = self.session.get(url, timeout=61)
         if not response.ok:
-            print(response.headers, response.content, response)
-            return []
-
-        if response.headers["content-type"] == "application/zip":
-            with (
-                sentry_sdk.start_span(name="unzip"),
-                zipfile.ZipFile(io.BytesIO(response.content)) as archive,
-            ):
+            return None
+        ct = response.headers.get("content-type", "")
+        if ct == "application/zip":
+            with sentry_sdk.start_span(name="unzip"):
+                archive = zipfile.ZipFile(io.BytesIO(response.content))
                 namelist = archive.namelist()
                 assert len(namelist) == 1
-                with archive.open(namelist[0]) as open_file:
-                    data = open_file.read()
+                f = archive.open(namelist[0])
+                data = f.read()
+                f.close()
+                archive.close()
         else:
             data = response.content
-
+        if b"<html" in data[:200]:
+            return None
         with sentry_sdk.start_span(name="parse XML"):
             data = xmltodict.parse(data, force_list=["VehicleActivity"])
+        if "Siri" not in data:
+            return None
+        return data
 
+    def get_items(self):
+        data = self._fetch_and_parse(self.source.url)
+        if data is None:
+            if not getattr(self, "_using_bulk", False):
+                print("BOD primary feed failed, switching to bulk archive")
+                self._using_bulk = True
+            data = self._fetch_and_parse(self.BULK_URL)
+            if data is None:
+                print("BOD bulk archive also failed")
+                return []
+        else:
+            if getattr(self, "_using_bulk", False):
+                print("BOD primary feed recovered, switching back")
+                self._using_bulk = False
         previous_time = self.source.datetime
-
         self.source.datetime = parse_datetime(
             data["Siri"]["ServiceDelivery"]["ResponseTimestamp"]
         )
-
         if (
             self.source.datetime
             and previous_time
             and self.source.datetime < previous_time
         ):
             return  # don't return old data
-
         return data["Siri"]["ServiceDelivery"]["VehicleMonitoringDelivery"].get(
             "VehicleActivity"
         )
@@ -655,6 +670,8 @@ class Command(ImportLiveVehiclesCommand):
                     total_items,
                 ) = self.get_changed_items()
 
+            if not self.source.datetime:
+                return 60
             age = int((now - self.source.datetime).total_seconds())
             if age > 0:
                 self.hist[now.second % 10] = age
