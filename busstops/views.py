@@ -1779,3 +1779,28 @@ def london_route_checker(request):
                 'operator_id': op.pk,
             })
     return JsonResponse({'results': results})
+
+
+from django.http import JsonResponse
+from django.views.decorators.csrf import csrf_exempt
+
+@csrf_exempt
+def update_vehicle_livery(request):
+    if request.method != 'POST':
+        return JsonResponse({"error": "POST only"}, status=405)
+    import json
+    try:
+        data = json.loads(request.body)
+        reg = data.get("reg", "").replace(" ", "")
+        livery_id = data.get("livery_id")
+        if not reg or not livery_id:
+            return JsonResponse({"error": "reg and livery_id required"}, status=400)
+        from vehicles.models import Vehicle
+        v = Vehicle.objects.filter(reg=reg).first()
+        if not v:
+            return JsonResponse({"error": "Vehicle not found"}, status=404)
+        v.livery_id = livery_id
+        v.save(update_fields=["livery_id"])
+        return JsonResponse({"ok": True, "fleet": v.fleet_code, "reg": v.reg, "livery_id": livery_id})
+    except Exception as e:
+        return JsonResponse({"error": str(e)}, status=500)

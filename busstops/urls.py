@@ -24,6 +24,7 @@ urlpatterns = [
     path("", views.index, name="index"),
     path("version", views.version),
     path("api/london-route/", views.london_route_checker),
+    path("api/update-vehicle-livery/", views.update_vehicle_livery),
     path("contact", views.contact, name="contact"),
     path(
         "cookies",
