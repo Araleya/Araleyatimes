@@ -1360,10 +1360,7 @@ def overland(request, uuid):
 
 def mark_london_done(request, slug):
     from django.shortcuts import get_object_or_404, redirect
-    from django.http import HttpResponseForbidden
     from vehicles.models import Vehicle, Livery
-    if not request.user.is_authenticated:
-        return HttpResponseForbidden('Login required')
     vehicle = get_object_or_404(Vehicle, slug=slug)
     livery = Livery.objects.get(id=4140)
     vehicle.livery = livery

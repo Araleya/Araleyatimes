@@ -20,7 +20,6 @@
 
 {% block fuse %}
 {% if ad %}
-<script src="{{ static('consent.js') }}"></script>
 <script>if(window.top===window.self&&window.location.host==="bustimes.org"&&typeof Array.prototype.includes!=="undefined"){s=document.getElementsByTagName('script')[0];var sc=document.createElement('script');sc.async=true;sc.src='https://cdn.adfirst.media/hb/bustimes.js?v'+Math.floor(new Date().getTime()/600000);s.parentNode.insertBefore(sc,s);}</script>
 {% endif %}
 {% endblock fuse %}
@@ -86,7 +85,6 @@
         <li><a href="/data">Data sources</a></li>
         <li><a href="https://status.bustimes.org">Status</a></li>
         <li><a href="/privacy">Privacy policy</a></li>
-        {% if ad %}<li><a href="javascript:window.__tcfapi('displayConsentUi',2,function(){})">Privacy settings</a></li>{% endif %}
     </ul>
 </footer>
 {% endblock footer %}

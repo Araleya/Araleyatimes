@@ -68,10 +68,10 @@
     </div>
     {% endif %}
 
-    {% if tracking or vehicle.livery.name == "London Red" %}
+    {% if tracking or "London Red" in vehicle.livery.name %}
         <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-bottom:1em">
         {% if tracking %}<a href="{{ tracking }}" class="button">Track this bus</a>{% endif %}
-        {% if vehicle.livery.name == "London Red" %}<form method="post" action="{% url 'vehicle_mark_done' vehicle.slug %}" style="margin:0">{% csrf_token %}<button type="submit" class="button">Mark as Done</button></form>{% endif %}
+        {% if request.user.is_authenticated and "London Red" in vehicle.livery.name %}<form method="post" action="{% url 'vehicle_mark_done' vehicle.slug %}" style="margin:0">{% csrf_token %}<button type="submit" class="button">Mark as Done</button></form>{% endif %}
         </div>
     {% endif %}
 {% else %}

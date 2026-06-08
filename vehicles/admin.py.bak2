@@ -180,53 +180,46 @@ class VehicleAdmin(admin.ModelAdmin):
             self.message_user(request, "Select a vehicle with colours and branding.")
 
     def merge_all_selected(self, request, vehicles):
-        # Keep the oldest vehicle (lowest ID) as the survivor
-        ordered = sorted(vehicles, key=lambda v: v.id)
-        survivor = ordered[0]
-        duplicates = ordered[1:]
+        vehicle = vehicles[0]
 
-        # Find which vehicle has the newest tracking data
-        newest_journey = survivor
-        for dup in duplicates:
-            if dup.latest_journey_id and (
-                not newest_journey.latest_journey_id
-                or dup.latest_journey_id > newest_journey.latest_journey_id
+        for duplicate in vehicles[1:]:
+            vehicle.vehiclejourney_set.update(vehicle=duplicate)
+            vehicle.vehiclecode_set.update(vehicle=duplicate)
+            vehicle.vehiclerevision_set.update(vehicle=duplicate)
+
+            if (
+                not duplicate.latest_journey_id
+                or vehicle.latest_journey_id
+                and vehicle.latest_journey_id > duplicate.latest_journey_id
             ):
-                newest_journey = dup
-
-        # Take the tracking code and latest journey from the newest
-        if newest_journey != survivor:
-            survivor.code = newest_journey.code
-            survivor.latest_journey = newest_journey.latest_journey
-
-        deleted_names = []
-        for dup in duplicates:
-            # Move all related data to the survivor
-            dup.vehiclejourney_set.update(vehicle=survivor)
-            dup.vehiclecode_set.update(vehicle=survivor)
-            dup.vehiclerevision_set.update(vehicle=survivor)
-
-            # Keep slug as a vehicle code for redirects
+                duplicate.code = vehicle.code
+                duplicate.latest_journey = vehicle.latest_journey
+            vehicle.latest_journey = None
+            vehicle.save(update_fields=["latest_journey"])
+            duplicate.save(update_fields=["latest_journey"])
+            duplicate.fleet_code = vehicle.fleet_code
+            duplicate.fleet_number = vehicle.fleet_number
+            if duplicate.withdrawn and not vehicle.withdrawn:
+                duplicate.withdrawn = False
             try:
                 models.VehicleCode.objects.create(
-                    vehicle=survivor, scheme="slug", code=dup.slug
+                    vehicle=duplicate, scheme="slug", code=vehicle.slug
                 )
             except IntegrityError:
                 pass
-
-            deleted_names.append(str(dup))
-            dup.delete()
-
-        survivor.save(update_fields=["code", "latest_journey"])
-        self.message_user(
-            request,
-            format_html(
-                "{} deleted, merged into <a href='{}'>{}</a>",
-                ", ".join(deleted_names),
-                survivor.get_absolute_url(),
-                survivor,
-            ),
-        )
+            vehicle.delete()
+            duplicate.save(
+                update_fields=["code", "fleet_code", "fleet_number", "reg", "withdrawn"]
+            )
+            self.message_user(
+                request,
+                format_html(
+                    "{} deleted, merged with <a href='{}'>{}</a>",
+                    vehicle,
+                    duplicate.get_absolute_url(),
+                    duplicate,
+                ),
+            )
 
     def deduplicate(self, request, queryset):
         for vehicle in queryset.order_by("id"):

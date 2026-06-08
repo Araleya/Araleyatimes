@@ -1,59 +1,11 @@
 {% extends 'page.html' %}
-
-{% block title %}Contact bustimes.org{% endblock %}
-
+{% block title %}Contact – araleyatimes.net{% endblock %}
 {% block canonical %}
-    <link rel="canonical" href="https://bustimes.org/contact">
+    <link rel="canonical" href="https://araleyatimes.net/contact">
 {% endblock canonical %}
-
 {% block bodyclass %}narrow{% endblock %}
-
 {% block content %}
-
-{% if submitted %}
-
-    <h1>Thank you</h1>
-
-    <p>Your message has been sent.</p>
-
-{% else %}
-
-    <h1>Contact bustimes.org</h1>
-
-    <p>Here you can contact <strong>bustimes.org</strong>, which is <strong>just a website</strong> and not an operator of bus services.</p>
-
-    <p>What would you like to contact me about?</p>
-
-    <details>
-        <summary>Lost property 👜 🧸</summary>
-
-        <p>I’m sorry I can’t help you find items you’ve left on a bus.
-        Contact the company that operates your bus – they should be able to help.</p>
-    </details>
-
-    <details>
-        <summary>Enquiry or complaint about a bus service</summary>
-
-        <p>I’m sorry I can’t help you with these.
-        Please contact the company that operates the bus service.</p>
-    </details>
-
-    <details{% if form.is_bound or form.initial.message %} open{% endif %}>
-        <summary>This website, bustimes.org</summary>
-
-        {% load email_obfuscator %}
-
-        <p>For matters pertaining to <strong>this website</strong>,
-        you can email {{ 'contact@bustimes.org'|obfuscate_mailto }}
-        or use this form:</p>
-
-        <form action="/contact" method="post">
-            {{ form.as_p }}
-            {% csrf_token %}
-            <input type="submit" value="Send message">
-        </form>
-    </details>
-
-{% endif %}
-
+<h1>Contact</h1>
+<p>If you wish to contact me, message me on Discord — my username is <strong>araleya</strong>.</p>
+<p>If you wish to contact the owner of the original site (<a href="https://bustimes.org">bustimes.org</a>), you can do so through their <a href="https://discord.com/invite/gY4PdDFau7">Discord server</a>.</p>
 {% endblock content %}
