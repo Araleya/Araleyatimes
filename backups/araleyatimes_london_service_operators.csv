@@ -1,0 +1,745 @@
+service_id,operator_id,operator_name,line_name,description
+14677,AVLO,Arriva London,102,Edmonton Green -  East Finchley - Muswell Hill - Golders Green - Brent Cross
+14678,AVLO,Arriva London,103,Chase Cross - North Street - Romford Market and Station - Becontree Heath - Dagenham East - South Hornchurch - Rainham Interchange
+14679,AVLO,Arriva London,121,Enfield Island Village - Southbury - Enfield - Palmers Green - Turnpike Lane Station
+14681,AVLO,Arriva London,137,"Streatham Hill, Telford Avenue - Clapham Common - Chelsea Bridge - Knightsbridge - Marble Arch"
+14682,AVLO,Arriva London,141,Palmers Green - Wood Green - Manor House - Newington Green - London Bridge
+14683,AVLO,Arriva London,149,Edmonton Green - Tottenham - Stoke Newington - Liverpool Street - London Bridge
+14684,AVLO,Arriva London,150,Becontree Heath - Ilford - Gants Hill - Barkingside - Chigwell Row
+14685,AVLO,Arriva London,158,Chingford Mount - Blackhorse Road - Lea Bridge Road - Leyton - Stratford
+14686,AVLO,Arriva London,166,Epsom Hospital  - Banstead - Coulsdon - Purley - West Croydon
+14687,AVLO,Arriva London,175,"Hillrise Estate - Collier Row - Romford - Becontree Heath - Dagenham, New Road"
+14688,AVLO,Arriva London,19,"Finsbury Park Station - Highbury & Islington - Piccadilly Circus - Sloane Square - Battersea Bridge, South Side"
+14689,AVLO,Arriva London,191,Edmonton Green - Ponders End Station - Enfield - Forty Hill - Brimsdown
+14690,AVLO,Arriva London,192,Enfield - Bush Hill Park - Edmonton Green - Montagu Road - Meridian Water - Watermead Way - Tottenham Hale
+14691,AVLO,Arriva London,194,Lower Sydenham - Clock House - Beckenham - West Wickham - West Croydon
+14692,AVLO,Arriva London,196,Elephant & Castle - Vauxhall - Brixton - Herne Hill - Norwood Junction
+14693,AVLO,Arriva London,198,"Shrublands - Shirley - Croydon - Croydon University Hospital - Thornton Heath, High Street"
+14694,AVLO,Arriva London,2,Marylebone - Marble Arch - Hyde Park Corner - Victoria - Brixton - West Norwood
+14695,AVLO,Arriva London,202,"Crystal Palace - Sydenham - Catford - Lee Green - Blackheath, Royal Standard"
+14696,AVLO,Arriva London,217,Waltham Cross - Freezywater - Bullsmoor Lane - Great Cambridge Road - Enfield Retail Park - Edmonton Cambridge - Westbury Avenue - Turnpike Lane Station
+14697,AVLO,Arriva London,221,Edgware Station - Turnpike Lane Station
+14698,AVLO,Arriva London,229,Thamesmead - Belvedere - Barnehurst - Bexleyheath - Queen Mary's Hospital
+14699,AVLO,Arriva London,243,Wood Green - Tottenham - Stamford Hill - Stoke Newington - Dalston - Shoreditch - St Lukes - Clerkenwell - Holborn - Waterloo
+14700,AVLO,Arriva London,248,Romford Market & Station - Roneo Corner - Hornchurch - Upminster Bridge - Upminster Station - Upminster Park Estate - Cranham
+14701,AVLO,Arriva London,249,Clapham Common - Streatham - Upper Norwood - Crystal Palace - Anerley Station
+14703,AVLO,Arriva London,250,Brixton - Streatham - Streatham Common - Thornton Heath - West Croydon
+14705,AVLO,Arriva London,253,Hackney Central - Stamford Hill - Finsbury Park - Camden Town - Euston
+14706,AVLO,Arriva London,254,"Aldgate - Hackney Central - Stamford Hill - Finsbury Park - Holloway, Nags Head"
+14707,AVLO,Arriva London,255,Pollards Hill - Norbury - Streatham Common -  Radbourne Road - Balham
+14708,AVLO,Arriva London,259,Edmonton Green - Upper Edmonton - Tottenham High Road - Seven Sisters - Manor House - Finsbury Park - Holloway - Caledonian Road - King's Cross
+14710,AVLO,Arriva London,279,Waltham Cross - Enfield Highway - Ponders End - Edmonton - Manor House
+14711,AVLO,Arriva London,289,Elmers End - West Croydon - Croydon University Hospital - Thornton Heath Pond - Purley
+14712,AVLO,Arriva London,29,Wood Green Station - Manor House - Finsbury Park - Camden Town - Trafalgar Square
+14713,AVLO,Arriva London,301,"Market Place, Bexleyheath  - Woodland Way, Thamesmead - Abbey Wood Station -  Hawksmoor School - Woolwich Market"
+14714,AVLO,Arriva London,307,Brimsdown - Southbury - Enfield Town - New Barnet - Barnet Hospital
+14715,AVLO,Arriva London,312,"Purley, Old Lodge Lane - Reedham Station - Croydon Town Centre - East Croydon Station - Norwood Junction"
+14716,AVLO,Arriva London,313,Chingford Station - Ponders End -  Enfield - Botany Bay - Potters Bar
+14717,AVLO,Arriva London,319,Streatham Hill - Wandsworth Common - Clapham Junction - Battersea - Sloane Square
+14718,AVLO,Arriva London,329,Enfield - Winchmore Hill - Palmers Green - Wood Green - Turnpike Lane Station
+14719,AVLO,Arriva London,335,Kidbrooke - Blackheath Royal Standard - Westcombe Hill - Westcombe Park Station - Millennium Leisure Park - North Greenwich
+14720,AVLO,Arriva London,34,Barnet - Whetstone - Arnos Grove - Upper Edmonton - Walthamstow Central
+14721,AVLO,Arriva London,341,"Meridian Water, Glover Drive Superstores - Tottenham - Islington - Aldwych - Waterloo"
+14722,AVLO,Arriva London,349,"Ponders End, Bus Garage - Edmonton Green - Upper Edmonton - Tottenham - Stamford Hill"
+14723,AVLO,Arriva London,370,Romford Market and Station - Gidea Park - Hornchurch - Upminster - North and South Ockendon - Lakeside
+14724,AVLO,Arriva London,375,Romford Station - Collier Row - Chase Cross - Havering-atte-Bower - Passingford Bridge
+14725,AVLO,Arriva London,377,Ponders End. Bus Garage - Bush Hill Park - Enfield Town - Enfield Chase - Oakwood
+14726,AVLO,Arriva London,38,Clapton Pond - Hackney Central - Essex Road - Holborn - Victoria
+14727,AVLO,Arriva London,405,"Redhill - Merstham - Coulsdon - South Croydon - Croydon, Town Centre"
+14728,AVLO,Arriva London,41,Archway - Crouch End - Turnpike Lane - Seven Sisters - Tottenham Hale
+14729,AVLO,Arriva London,410,Crystal Palace - Norwood Junction - Croydon - Waddon - Wallington
+14730,AVLO,Arriva London,412,Purley - Sanderstead - Selsdon - South Croydon - Croydon Town Centre
+14731,AVLO,Arriva London,417,Crystal Palace - Leigham Court Road - Streatham Hill Station - Clapham Park - Clapham Common
+14732,AVLO,Arriva London,428,Erith - Crayford - Dartford - Darent Valley Hospital - Bluewater
+14733,AVLO,Arriva London,432,Brixton - Tulse Hill - West Norwood - Crystal Palace - Anerley Station
+14734,AVLO,Arriva London,466,Addington Interchange - Upper Shirley - South Croydon - Purley - Caterham-on-the-Hill
+14735,AVLO,Arriva London,468,"South Croydon, South End - Norwood - Herne Hill - Denmark Hill - Elephant & Castle"
+14736,AVLO,Arriva London,492,Sidcup Station - Bexleyheath Town Centre - Crayford - Dartford - Bluewater
+14737,AVLO,Arriva London,50,Croydon Town Centre - Thornton Heath - Norbury - Streatham Hill - Stockwell
+14738,AVLO,Arriva London,59,Clapham Park - Brixton Hill - Brixton - Kennington Park - Lambeth North - Waterloo - Aldwych - Holborn - Bart's Hospital
+14739,AVLO,Arriva London,60,Old Coulsdon - Croydon Town Centre - Thornton Heath Pond - Streatham Vale - Streatham Station
+14740,AVLO,Arriva London,612,"Selsdon - Riddlesdown - Purley - Woodcote Green - Wallington, County Grammar School"
+14741,AVLO,Arriva London,616,Winchmore Hill - Southgate - Palmers Green - Edmonton (Cambridge) - Great Cambridge Road - Edmonton Green
+14742,AVLO,Arriva London,627,Worcester Park - North Cheam - Cheam - Sutton - Carshalton - Wallington - Wallington High School
+14743,AVLO,Arriva London,64,Thornton Heath Pond - West and East Croydon - Selsdon - Addington Village - New Addington
+14744,AVLO,Arriva London,645,Purley - South Croydon - Croydon Town Centre - West Croydon - Waddon Post Office
+14745,AVLO,Arriva London,66,Romford Station - Romford Market - North Street - Eastern Avenue - Newbury Park - Gants Hill - Redbridge - Wanstead - Leytonstone
+14746,AVLO,Arriva London,663,"Thornton Heath Station - Thornton Road - Waddon -  Newman Road - Purley, Harris Academy"
+14747,AVLO,Arriva London,67,Wood Green Station - West Green - Stoke Newington - Dalston Junction
+14748,AVLO,Arriva London,675,St James Street Station or Selborne Walk / Vernon Road - Broadmead Road (IG8)
+14749,AVLO,Arriva London,685,Warlingham School - Sanderstead - Cranleigh - Ferns - Selsdon
+14750,AVLO,Arriva London,689,West Croydon - Addiscombe - Shirley - Peregrine Gardens - Monks Orchard
+14751,AVLO,Arriva London,73,Oxford Circus - Tottenham Court Road - King's Cross - Islington - Stoke Newington
+14752,AVLO,Arriva London,76,Tottenham Hale - Stoke Newington - Dalston - St Paul's - Waterloo
+14753,AVLO,Arriva London,96,Bluewater - Darent Valley Hospital - Dartford - Crayford - Bexleyheath - Welling - Plumstead - Woolwich
+14680,AVLO,Arriva London,N137,Crystal Palace - Streatham Hill - Clapham Common - Marble Arch - Oxford Circus
+14754,AVLO,Arriva London,N19,Finsbury Park Station - Holborn - Piccadilly Circus - Sloane Square - Clapham Junction
+14755,AVLO,Arriva London,N2,Crystal Palace - West Norwood - Brixton - Victoria - Marylebone
+14702,AVLO,Arriva London,N250,Brixton - Streatham -  Thornton Heath - Norbury -  Croydon Town Centre
+14704,AVLO,Arriva London,N253,Aldgate - Whitechapel - Bethnal Green - Hackney Central - Stamford Hill - Finsbury Park - Holloway - Camden Town - Euston -  - Tottenham Court Road Station
+14709,AVLO,Arriva London,N279,Waltham Cross - Edmonton - Tottenham - Camden - Trafalgar Square
+14756,AVLO,Arriva London,N29,Enfield - Wood Green - Finsbury Park - Camden Town - Trafalgar Square
+14757,AVLO,Arriva London,N38,Walthamstow Central - Hackney - Islington - Holborn - Victoria
+14758,AVLO,Arriva London,N41,Trafalgar Square - Holborn - Islington - Archway - Tottenham Hale
+14759,AVLO,Arriva London,N73,Oxford Circus - Kings Cross - Stoke Newington - Tottenham - Walthamstow Central
+14760,AVLO,Arriva London,SL1,North Finchley - New Southgate - Arnos Grove - Edmonton Angel Corner - Walthamstow Central
+14761,AVLO,Arriva London,SL2,Walthamstow Central - South Woodford - Ilford - Gallions Reach - North Woolwich
+14762,AVLO,Arriva London,SL5,Bromley North - Park Langley - Bethlem Royal Hospital - Shirley - Croydon Town Centre
+14763,AVLO,Arriva London,SL6,West Croydon - Crown Point - West Norwood - express to Waterloo - Russell Square
+14764,AVLO,Arriva London,W3,Northumberland Park - Wood Green - Alexandra Palace & Park - Hornsey - Finsbury Park Station
+14765,AVLO,Arriva London,W4,"Oakthorpe Park - Wood Green -  Downhills Park - Bruce Grove - Tottenham Hale, Ferry Lane"
+14766,AVLO,Arriva London,W6,Southgate - Palmers Green - Edmonton (Cambridge) - Haselbury Road - Edmonton Green
+14108,BTRI,Blue Triangle (Go Ahead),101,Wanstead - Manor Park - East Ham - Beckton Station
+14109,BTRI,Blue Triangle (Go Ahead),104,Stratford - Plashet - Upton Park - Lonsdale Avenue - East Ham - Beckton
+14110,BTRI,Blue Triangle (Go Ahead),115,"East Ham, Central Park - Greengate - Canning Town - Limehouse - Aldgate"
+14111,BTRI,Blue Triangle (Go Ahead),129,"Gallions Reach, Great Eastern Quay - Beckton - West Beckton - London City Airport - West Silvertown - North Greenwich - Greenwich - Lewisham, Shopping Centre"
+14112,BTRI,Blue Triangle (Go Ahead),147,Ilford - East Ham - Custom House - Keir Hardie Estate - Canning Town Station
+14113,BTRI,Blue Triangle (Go Ahead),15,Blackwall - Limehouse - Aldgate - Tower Hill - St Paul's Cathedral - Trafalgar Square
+14114,BTRI,Blue Triangle (Go Ahead),262,"Gallions Reach, Shopping Park - Beckton - Plaistow - West Ham - Stratford"
+14115,BTRI,Blue Triangle (Go Ahead),304,Custom House Station - Newham University Hospital - Lonsdale Avenue - East Ham - Manor Park
+14116,BTRI,Blue Triangle (Go Ahead),325,Beckton Sainsbury's - East Ham - Forest Gate - Balaam Street - Prince Regent Station
+14117,BTRI,Blue Triangle (Go Ahead),330,Wanstead Park - Upton Park - Plaistow - Canning Town - Pontoon Dock
+14118,BTRI,Blue Triangle (Go Ahead),364,Ilford - Seven Kings - Becontree (Martin's Corner) - Dagenham Heathway - Dagenham East
+14119,BTRI,Blue Triangle (Go Ahead),366,"Redbridge, Falmouth Gardens - Ilford - Barking - Gallions Reach - Beckton Station"
+14120,BTRI,Blue Triangle (Go Ahead),368,Chadwell Heath - Mayesbrook Park - Lodge Avenue - Ripple Road - Barking Station and Harts Lane
+14676,BTRI,Blue Triangle (Go Ahead),376,"Beckton Station - Cyprus - Newham University Hospital - Upton Park - East Ham, Newham Town Hall"
+14121,BTRI,Blue Triangle (Go Ahead),396,King George Hospital - Newbury Park - Gants Hill - Cranbrook Road - Ilford
+14122,BTRI,Blue Triangle (Go Ahead),473,North Woolwich - London City Airport - Prince Regent - Plaistow - Stratford
+14123,BTRI,Blue Triangle (Go Ahead),474,"Canning Town, Barking Road - Canning Town Station - London City Airport - East Ham - Manor Park"
+14124,BTRI,Blue Triangle (Go Ahead),5,Romford Market & Station - Becontree Heath - Barking - East Ham -  Canning Town
+4190,BTRI,Blue Triangle (Go Ahead),608,Gallows Corner - Shenfield High School
+14125,BTRI,Blue Triangle (Go Ahead),646,Noak Hill - Harold Wood - Hornchurch - Upminster - Cranham
+14126,BTRI,Blue Triangle (Go Ahead),652,"Rainham, Abbey Wood Lane - Upminster Station"
+14127,BTRI,Blue Triangle (Go Ahead),656,"Emerson Park School - Parkstone Avenue - Ardleigh Green -  Harold Wood - Gallows Corner, Tesco"
+14128,BTRI,Blue Triangle (Go Ahead),679,"Bancroft's School - Woodford Green - Charlie Brown's Roundabout - Ilford - Goodmayes, Goodmayes Lane"
+14129,BTRI,Blue Triangle (Go Ahead),686,"St Edward's School - Romford Market - Gallows Corner - Brookside School -  Harold Hill, Dagnam Park Square"
+14130,BTRI,Blue Triangle (Go Ahead),687,Dagenham Park Church of England School - Barking Station
+14131,BTRI,Blue Triangle (Go Ahead),69,Walthamstow - Leyton - Stratford - West Ham - Canning Town
+14132,BTRI,Blue Triangle (Go Ahead),D3,Bethnal Green - Shadwell - Limehouse - Canary Wharf - Leamouth
+14133,BTRI,Blue Triangle (Go Ahead),EL1,Ilford Station - Barking - Movers Lane - Thames View Estate - Barking Riverside
+14134,BTRI,Blue Triangle (Go Ahead),EL2,Becontree Heath - Barking Station and Town Centre - Movers Lane - Thames View Estate - Dagenham Dock
+14135,BTRI,Blue Triangle (Go Ahead),EL3,Little Heath - Goodmayes - Barking - Rippleside - Barking Riverside
+14136,BTRI,Blue Triangle (Go Ahead),N15,Romford Market - Rush Green - Becontree Heath - Barking - East Ham - Canning Town - Limehouse - Stepney - Aldgate - St Paul's Cathedral - Oxford Circus
+14137,BTRI,Blue Triangle (Go Ahead),SL4,North Greenwich / Canary Wharf (Silvertown Tunnel special) - Grove Park
+14560,BMCS,BM Coaches,H30,Heathrow Terminal 4 - Cargo Centre -  Heathrow Terminal 5
+6390,WNGS,Diamond Bus South East,H21,Heathrow Terminal 4 - Heathrow Terminal 4 - Feltham
+6397,WNGS,Diamond Bus South East,N30,Acton - South Ealing - Osterley - Hatton Cross - Heathrow Terminal 4 - Cargo Centre - Heathrow Terminal 5 - Heathrow Central
+14675,DLBU,Docklands Buses (Go Ahead),300,Wordsworth Health Centre - Canning Town or Rokeby School
+14332,FLON,First Bus London,105,Greenford Station and Broadway - Dormers Wells - Southall - Heston - Cranford - Harlington Corner - Heathrow Central
+14333,FLON,First Bus London,110,"Hounslow, Bus Station - Whitton - Richmond - Chiswick High Road - Hammersmith"
+8322,FLON,First Bus London,116,Ashford Hospital - Hounslow Bus Station
+8323,FLON,First Bus London,117,West London MHT or West Middlesex Hospital - Staines Bus Station
+14634,FLON,First Bus London,125,Winchmore Hill - Whetstone - North Finchley - Finchley Central - Colindale Station
+14370,FLON,First Bus London,13,North Finchley  - Golders Green  - Baker Street - Marble Arch - Victoria
+14334,FLON,First Bus London,148,Camberwell Green - Elephant & Castle - Victoria - Notting Hill Gate - White City
+14371,FLON,First Bus London,18,Sudbury - Wembley Central - Stonebridge - Harlesden - Kensal Green - Harrow Road - Paddington Green - Baker Street Station - Euston
+14635,FLON,First Bus London,183,Golders Green - Woodstock - Hendon - West Hendon - Kingsbury - Kenton - Harrow - North Harrow - Pinner
+8325,FLON,First Bus London,203,Hounslow - Hatton Cross - Bedfont - Stanwell - Staines
+8326,FLON,First Bus London,216,Staines Bus Station - Kingston / Wood Street or Cromwell Road Bus Station
+14372,FLON,First Bus London,218,Hammersmith - Starch Green - Acton Vale - Acton - North Acton
+14335,FLON,First Bus London,220,Willesden Junction - White City - Shepherds Bush - Hammersmith - Wandsworth
+14636,FLON,First Bus London,226,Ealing Broadway - Hanger Lane Station - Park Royal - Dollis Hill  - Golders Green
+14373,FLON,First Bus London,23,Westbourne Park - Ladbroke Grove - Paddington - Marble Arch - Green Park - Piccadilly Circus - Aldwych
+8337,FLON,First Bus London,235,Three Fishes - Great West Quarter
+14336,FLON,First Bus London,272,"Chiswick, Grove Park - Turnham Green - Acton Vale - East Acton - Shepherds Bush"
+14337,FLON,First Bus London,281,"Hounslow, Bus Station - Twickenham - Teddington - Kingston - Tolworth"
+14637,FLON,First Bus London,288,"Queensbury, Morrisons - Merlin Crescent - Edgware - Wolmer Close - Broadfields Estate"
+8321,FLON,First Bus London,290,Staines Bus Station - Arragon Road (TW1)
+8328,FLON,First Bus London,293,London Road / Morden Station - Epsom Hospital
+14374,FLON,First Bus London,295,"Ladbroke Grove, Sainsburys - Latimer Road Station - Shepherd's Bush Green - Hammersmith - Charing Cross Hospital - Fulham Broadway - Wandsworth Bridge - Clapham Junction"
+14638,FLON,First Bus London,303,Edgware Station - Deans Lane - Hale Lane - Mill Hill Broadway - Royal Air Force Museum - Grahame Park (Quakers Course) - Colindale Station and Superstores - Princes Avenue - Kingsbury Circle
+14375,FLON,First Bus London,31,Camden Town - Swiss Cottage - Notting Hill Gate - Holland Park - White City
+14639,FLON,First Bus London,326,Barnet - East Barnet - Whetstone - Finchley - Brent Cross
+14338,FLON,First Bus London,33,"Fulwell - Teddington - Twickenham - Richmond - Barnes Station and Red Lion - Castelnau, Lonsdale Road"
+14640,FLON,First Bus London,340,Edgware - Canons Park - Marsh Lane - Stanmore - Harrow Weald - Wealdstone - Harrow
+14339,FLON,First Bus London,371,"Richmond, Manor Circus - Richmond Town Centre and Station - Richmond Hill - Norbiton - Kingston"
+14641,FLON,First Bus London,395,"Harrow - South Harrow - Racecourse Estate - Oldfields Circus - Greenford, Westway Cross"
+14642,FLON,First Bus London,398,"Ruislip - Southbourne Gardens - Alexandra Avenue - South Harrow - Wood End, Lilian Board Way"
+8329,FLON,First Bus London,406,Cromwell Road Bus Station - Epsom Hospital or Epsom High Street
+8330,FLON,First Bus London,411,Cromwell Road Bus Station or Kingston Station - Central Square / West Molesey
+8331,FLON,First Bus London,418,Cromwell Road Bus Station - Epsom Library
+14340,FLON,First Bus London,419,"Richmond - Mortlake - Barnes Bridge - Lonsdale Road - Castelnau - Barnes Station - Roehampton, Bessborough Road"
+14341,FLON,First Bus London,423,"Hounslow, Bus Station - Hatton Cross - Harlington Corner - Bath Road - Heathrow Terminal 5"
+14342,FLON,First Bus London,440,"Turnham Green, Church - South, Central and North Acton - Park Royal & Central Middlesex Hospital - Stonebridge Park - Wembley, First Way"
+14376,FLON,First Bus London,452,Notting Hill Gate - Knightsbridge - Battersea Park - Wandsworth Road - Vauxhall
+8333,FLON,First Bus London,467,Hinchley Wood School - Epsom Hospital
+14343,FLON,First Bus London,49,Clapham Junction - Chelsea - South Kensington - Shepherd's Bush - White City
+14344,FLON,First Bus London,613,Tolworth - Worcester Park - Collingwood Road - Sutton Common - Glenthorne High School
+14345,FLON,First Bus London,65,Kingston - Ham - Petersham - Richmond - Kew - Brentford - South Ealing - Ealing Broadway
+14346,FLON,First Bus London,662,Surbiton Station - Broomfield Road - Tolworth - New Malden - Holy Cross School
+14347,FLON,First Bus London,665,Surbiton - Pine Gardens - Tolworth - New Malden - Holy Cross School
+14348,FLON,First Bus London,681,Hounslow - Whitton - Twickenham - Fulwell - Teddington School
+14349,FLON,First Bus London,695,Cherry Lane School - West Drayton Station - Hillingdon - Douay Martyrs School
+14350,FLON,First Bus London,696,"Hayes, Bourne Avenue - Hayes - Yeading - Ruislip Manor - Bishop Ramsey School"
+14351,FLON,First Bus London,698,"Hayes, Bourne Avenue - Hayes & Harlington Station - Church Road - Hayes End - Hillingdon Station - Long Lane - Ickenham"
+14352,FLON,First Bus London,70,"Chiswick, Business Park - Acton Town - East Acton - St Quintin Park - Ladbroke Grove - Bayswater - Queensway - Notting Hill Gate - South Kensington"
+14353,FLON,First Bus London,71,Chessington - Copt Gilders - Hook - Surbiton - Kingston
+14354,FLON,First Bus London,72,"East Acton - Du Cane Road - Hammersmith Hospital - White CIty Estate - Shepherds Bush - Hammersmith - Hammersmith Bridge, North Side"
+14643,FLON,First Bus London,79,Stonebridge Park Station - Wembley Central - Preston Road - Queensbury  - Edgware Station
+14355,FLON,First Bus London,85,Putney - Putney Heath - Roehampton - Roehampton Vale - Kingston
+14356,FLON,First Bus London,94,Acton Green - Shepherd's Bush - Notting Hill Gate - Oxford Circus - Piccadilly Circus
+14357,FLON,First Bus London,C1,Victoria - Knightsbridge - South Kensington - Holland Road - White City
+14358,FLON,First Bus London,E3,"Greenford Broadway - West Ealing - Northfields - Turnham Green - Chiswick, Edensor Road"
+14644,FLON,First Bus London,H10,Northwick Park Hospital - Harrow - Rayners Lane - Wealdstone - Northwick Park Hospital
+14645,FLON,First Bus London,H11,Harrow - West Harrow - Pinner - Northwood Hills - Northwood - Mount Vernon Hospital
+14646,FLON,First Bus London,H12,Stanmore Station - Harrow Weald - Hatch End - Pinner - Rayners Lane - South Harrow
+14647,FLON,First Bus London,H14,Hatch End Town Centre and Station - Courtenay Avenue - Harrow View - Harrow Bus Station - Northwick Park Hospital
+14648,FLON,First Bus London,H18,Harrow - Headstone Lane - Harrow Weald - Northwick Park Station - Harrow
+14649,FLON,First Bus London,H19,Harrow - Northwick Park - Kenton - Belmont Circle - Harrow Weald - Headstone Lane - North Harrow - Harrow
+14359,FLON,First Bus London,H22,"Hounslow, Bell Corner - Hounslow Town Centre - Twickenham - Isleworth War Memorial - Isleworth, West Middlesex Hospital"
+14360,FLON,First Bus London,H37,"Hounslow, Blenheim Centre - Isleworth - St Margarets - Richmond - Richmond, Manor Circus"
+14650,FLON,First Bus London,H9,Northwick Park Hospital - Wealdstone - Rayners Lane - Harrow - Northwick Park Hospital
+14361,FLON,First Bus London,H98,"Hounslow, Bus Station - Cranford - Harlington - Hayes & Harlington Station - Hayes End"
+14362,FLON,First Bus London,K1,New Malden Station - Malden Manor Station - Tolworth - Surbiton - Kingston
+14363,FLON,First Bus London,K2,Kingston Hospital - Kingston - Surbiton - Tolworth - Hook
+8336,FLON,First Bus London,K3,Roehampton Vale Asda - Esher High Street
+14364,FLON,First Bus London,K4,Kingston Hospital - Norbiton - Kingston -  Surbiton - Mansfield Park
+14365,FLON,First Bus London,K5,Ham - Kingston - New Malden - Wimbledon Chase - Morden
+8318,FLON,First Bus London,KU1,Seething Wells Halls of Residence - Roehampton Vale Campus
+8319,FLON,First Bus London,KU2,Clayhill Halls of Residence - Circular
+8317,FLON,First Bus London,KU3,Seething Wells Halls of Residence - Roehampton Vale Campus
+14369,FLON,First Bus London,N118,Ruislip - South Ruislip - Northolt Park - Sudbury - Wembley - Harlesden - Westbourne Park - Baker Street Station - Trafalgar Square
+14377,FLON,First Bus London,N18,"Harrow Weald, Bus Garage - Wealdstone - Wembley - Baker Street Station - Trafalgar Square"
+14378,FLON,First Bus London,N31,Camden Town - Kilburn Park - Notting Hill Gate - Chelsea - Clapham Junction
+14366,FLON,First Bus London,N33,"Fulwell - Twickenham - Richmond - Putney Common, Pier and Bridge - Hammersmith"
+14651,FLON,First Bus London,N5,Edgware - Hendon Central - Camden Town - Euston - Trafalgar Square
+14367,FLON,First Bus London,N65,Chessington World Of Adventures - Surbiton Station - Richmond Station - Ealing Broadway
+14368,FLON,First Bus London,N72,"East Acton - Hammersmith Hospital - White City Estate - Shepherds Bush - Hammersmith =- Putney Bridge - Putney Common - Barnes Station and Common - Roehampton, Bessborough Road"
+14652,FLON,First Bus London,SL10,North Finchley - Hendon Central - West Hendon - Kingsbury - Harrow Bus Station
+14653,FLON,First Bus London,SL9,Heathrow Central - Harlington - Hayes - Northolt - Harrow Bus Station
+14655,NXHH,Hotel Hoppa,H2B,Heathrow Terminal 2 - Heathrow Terminal 3 - Green Motion / U-Save - Sheraton - Hyatt Place - Holiday Inn Staybridge - Leonardo - Radisson Red - Heathrow Terminal 3 - Heathrow Terminal 2
+14656,NXHH,Hotel Hoppa,H2C,Heathrow Terminal 2 - Heathrow Terminal 3 - Radisson Red - Ibis Styles - Courtyard Marriott - Ibis Bath Road - Premier Inn T2 & T3 - Heathrow Terminal 3 - Heathrow Terminal 2
+14657,NXHH,Hotel Hoppa,H2D,Heathrow Terminal 2 - Heathrow Terminal 3 - Radisson BLU - Ibis Budget Central - Drivalia / Moxy - Premier Inn T2 & T3  - Heathrow Terminal 3 - Heathrow Terminal 2
+14658,NXHH,Hotel Hoppa,H2H,Holiday Inn / Staybridge Suites - Leonardo - Heathrow Terminal 3 - Heathrow Terminal 2 - Holiday Inn / Staybridge Suites
+14659,NXHH,Hotel Hoppa,H2P,Premier Inn T2 & T3 - Heathrow Terminal 3 - Heathrow Terminal 2 - Premier Inn T2 & T3
+14660,NXHH,Hotel Hoppa,H2R,Radisson BLU - Ibis Bath Road - Heathrow Terminal 3 - Heathrow Terminal 2 - Radisson BLU
+14661,NXHH,Hotel Hoppa,H2X,Heathrow Terminal 2 - Heathrow Terminal 3 - Renaissance - Heathrow Terminal 3 - Heathrow Terminal 2
+14662,NXHH,Hotel Hoppa,H5B,Heathrow Terminal 5 - Premier Inn T5 - Sheraton Heathrow - Hyatt Place - Holiday Inn / Staybridge - Leonardo - Radisson Red - Green Motion - Premier Inn T5 - Sheraton - Heathrow Terminal 5
+14663,NXHH,Hotel Hoppa,H5C,Heathrow Terminal 5 - Ibis Styles - Courtyard Marriott - Ibis Bath Road - Premier Inn T2 & T3 - Heathrow Terminal 5
+14664,NXHH,Hotel Hoppa,H5D,Heathrow Terminal 5 - Radisson BLU - Ibis Budget Central - Drivalia / Moxy - Premier Inn T2 & T3  - Heathrow Terminal 5
+14665,NXHH,Hotel Hoppa,H5H,Heathrow Terminal 5 - Hilton T5 - B&B Hotel London Heathrow - Heathrow Terminal 5
+14666,NXHH,Hotel Hoppa,H5X,Heathrow Terminal 5 - Renaissance - Heathrow Terminal 5
+14667,NXHH,Hotel Hoppa,HHL,Heathrow Terminal 2 - Heathrow Terminal 3 - Hilton Garden Inn - Crowne Plaza / Holiday Inn Express T4 - Hilton T4 - Premier Inn T4 - Heathrow Terminal 5
+14668,IFSC,IFS Cloud Cable Car,London Cable Car,Greenwich Peninsular - Royal Docks
+14213,LONC,London Central (Go Ahead),1,Hampstead Heath - Belsize Park - Chalk Farm - Camden Town - Euston - Holborn - Waterloo - Elephant & Castle - Bermondsey - Surrey Quays - Canada Water
+14214,LONC,London Central (Go Ahead),100,St Paul's Station - London Wall - Tower Gateway - Wapping - Shadwell
+14215,LONC,London Central (Go Ahead),108,"Stratford International - Bow Church - North Greenwich - Blackheath - Lewisham, Shopping Centre"
+14216,LONC,London Central (Go Ahead),12,Oxford Circus - Westminster - Elephant & Castle - Peckham - Dulwich Library
+14380,LONC,London Central (Go Ahead),126,Bromley - Grove Park - Dunkery Road - Mottingham - Eltham
+14217,LONC,London Central (Go Ahead),132,"North Greenwich - Blackheath, Sun in the Sands - Kidbrooke - Eltham - Bexleyheath"
+14382,LONC,London Central (Go Ahead),162,Beckenham Junction - Park Langley - Bromley - Chislehurst - Eltham Station
+14220,LONC,London Central (Go Ahead),171,"Bellingham, Catford Bus Garage - Brockley - New Cross - Peckham - Elephant & Castle"
+14221,LONC,London Central (Go Ahead),172,Brockley Rise - New Cross - Elephant & Castle - Waterloo - Aldwych
+14222,LONC,London Central (Go Ahead),176,Penge - Dulwich - Elephant & Castle - Waterloo - Tottenham Court Road
+14223,LONC,London Central (Go Ahead),178,Woolwich - Queen Elizabeth Hospital - Shooters Hill Road - Kidbrooke  - Lewisham Station
+14224,LONC,London Central (Go Ahead),185,Lewisham Station - Catford - Forest Hill - East Dulwich - Camberwell - Oval - Vauxhall - Victoria
+14225,LONC,London Central (Go Ahead),188,North Greenwich - Surrey Quays - Canada Water - Elephant & Castle - Tottenham Court Road Station
+14226,LONC,London Central (Go Ahead),197,Peckham - Dulwich  - Sydenham  - Norwood Junction - Croydon Town Centre
+14227,LONC,London Central (Go Ahead),21,"Lewisham, Shopping Centre - Old Kent Road - London Bridge - Bank - Holloway, Nags Head"
+14384,LONC,London Central (Go Ahead),227,Bromley North - Shortlands - Beckenham - Penge - Crystal Palace
+14228,LONC,London Central (Go Ahead),244,Queen Elizabeth Hospital - Plumstead Common Road - Woolwich - Broadwaters - Abbey Wood
+14229,LONC,London Central (Go Ahead),269,"Bexleyheath, Town Centre - Sidcup - Queen Marys Hospital - Chislehurst Common and Station - Bromley North"
+14230,LONC,London Central (Go Ahead),286,"Queen Mary's Hospital - Eltham - Blackheath (Royal Standard) - Westcombe Park - Greenwich, Cutty Sark"
+14231,LONC,London Central (Go Ahead),291,Queen Elizabeth Hospital - Woolwich Arsenal - Raglan Road - Plumstead Common - Woodlands Estate
+14232,LONC,London Central (Go Ahead),321,"Foots Cray, Tesco - Sidcup - Eltham - Lewisham - New Cross Gate"
+14234,LONC,London Central (Go Ahead),343,Tower Gateway - Tower Bridge - London Bridge Station - Elephant & Castle - Aylesbury Estate - Southampton Way Estate - Peckham Rye - Nunhead - New Cross Gate
+14235,LONC,London Central (Go Ahead),35,Clapham Junction - Brixton - Elephant & Castle - London Bridge - Shoreditch
+14388,LONC,London Central (Go Ahead),352,Bromley North - Hayesford Park - Park Langley - Beckenham - Lower Sydenham
+14390,LONC,London Central (Go Ahead),354,Penge - Anerley - Beckenham - Ravensbourne - Bromley North
+14236,LONC,London Central (Go Ahead),355,Mitcham - Tooting - Balham - King's Avenue - Brixton
+14237,LONC,London Central (Go Ahead),36,Queen's Park - Paddington - Victoria - Peckham - New Cross Gate
+14238,LONC,London Central (Go Ahead),360,Elephant & Castle - Vauxhall - Pimlico - Sloane Square - Royal Albert Hall
+14239,LONC,London Central (Go Ahead),37,Putney Heath - Wandsworth - Clapham Junction - Brixton - Peckham
+14240,LONC,London Central (Go Ahead),386,Woolwich - Plumstead Common Road - Queen Elizabeth Hospital - Blackheath (Royal Standard) - Blackheath Village
+14241,LONC,London Central (Go Ahead),40,Dulwich Library - Denmark Hill - Elephant & Castle - Southwark Station  - Clerkenwell Green
+14242,LONC,London Central (Go Ahead),401,"Thamesmead, Town Centre - Crossway - Upper Belvedere -  Woolwich Road - Bexleyheath"
+14243,LONC,London Central (Go Ahead),42,"East Dulwich, Sainsbury's - Denmark Hill - Camberwell Green - Tower Bridge - Liverpool Street"
+14244,LONC,London Central (Go Ahead),436,"Lewisham, Shopping Centre - New Cross Gate - Peckham - Camberwell - Oval - Vauxhall - Battersea Power Station - Battersea Park Station"
+14245,LONC,London Central (Go Ahead),453,Deptford Bridge - New Cross - Old Kent Road - Elephant & Castle - Trafalgar Square - Oxford Circus - Marylebone
+14246,LONC,London Central (Go Ahead),469,"Woolwich Common, Queen Elizabeth Hospital - Plumstead - Abbey Wood - Woolwich Road - Belvedere Station - Erith"
+14248,LONC,London Central (Go Ahead),484,Lewisham Station - Brockley - Peckham Rye Common - East Dulwich - Camberwell Green
+14249,LONC,London Central (Go Ahead),486,North Greenwich - Charlton Village - Queen Elizabeth Hospital - Shooters Hill - Bexleyheath
+14250,LONC,London Central (Go Ahead),51,Woolwich - Plumstead Common - Welling - Sidcup - St Mary Cray - Orpington Town Centre and Station
+4189,LONC,London Central (Go Ahead),601,Thamesmead - Thamesmead East - Belvedere - Bexleyheath - Wilmington Schools
+14251,LONC,London Central (Go Ahead),624,Grove Park - Eltham - Stationers' Crown Woods Academy - Welling Corner
+14252,LONC,London Central (Go Ahead),625,"Plumstead Common - Westwood Lane - Sidcup - Queen Mary's Hospital - Chislehurst, War Memorial"
+14253,LONC,London Central (Go Ahead),658,Stationers' Crown Woods Academy - Falconwood - Welling - Plumstead Common - Woolwich
+14254,LONC,London Central (Go Ahead),78,Shoreditch - Liverpool Street - Tower Bridge - Peckham - Nunhead
+14255,LONC,London Central (Go Ahead),89,Lewisham Station - Blackheath - Shooters Hill - Bexleyheath - Slade Green
+14256,LONC,London Central (Go Ahead),99,"Woolwich - Plumstead - Bostall Hill - Upper Belvedere - Erith - Slade Green - Barnehurst - Bexleyheath, Town Centre"
+14257,LONC,London Central (Go Ahead),B11,"Bexleyheath, Bus Garage - Bexleyheath Station - New Road - Abbey Wood - South Thamesmead, Yarnton Way"
+4176,LONC,London Central (Go Ahead),B12,Erith - Bedonwell Road - Pickford Lane -  Bexleyheath - Joydens Wood
+14258,LONC,London Central (Go Ahead),B13,Bexleyheath - Upton - Blendon - Days Lane - New Eltham
+14259,LONC,London Central (Go Ahead),B15,"Bexleyheath, Shopping Centre and Station - Welling - Falconwood - Eltham Town Centre and Green - Horn Park"
+14260,LONC,London Central (Go Ahead),B16,"Bexleyheath, Bus Garage - Welling - Falconwood - Eltham - Kidbrooke"
+14261,LONC,London Central (Go Ahead),N1,Tottenham Court Road - Waterloo - Greenwich - Woolwich - Thamesmead
+14218,LONC,London Central (Go Ahead),N136,"Oxford Circus - Westminster - Peckham - Catford - Chislehurst, War Memorial"
+14219,LONC,London Central (Go Ahead),N171,Hither Green Station - New Cross Gate - Peckham - Elephant & Castle - Tottenham Court Road
+14262,LONC,London Central (Go Ahead),N21,Bexleyheath Town Centre - Eltham - Lewisham - New Cross - London Bridge - Trafalgar Square
+14233,LONC,London Central (Go Ahead),N343,Trafalgar Square - London Bridge - Elephant & Castle - Peckham - New Cross Gate
+14247,LONC,London Central (Go Ahead),N472,North Greenwich - Bugsby Way - Charlton - Woolwich - Plumstead Station - Thamesmead - Abbey Wood
+14263,LONC,London Central (Go Ahead),N89,Trafalgar Square - Elephant & Castle - Lewisham - Bexleyheath - Erith
+14264,LONC,London Central (Go Ahead),P12,Surrey Quays - Canada Water - Southwark Park - Peckham - Honor Oak Park
+14265,LONC,London Central (Go Ahead),P4,Lewisham Station - Brockley Rise - Dulwich - Loughborough Junction - Brixton
+14266,LONC,London Central (Go Ahead),SL11,North Greenwich - Bugsby Way - Charlton - Woolwich - Plumstead Station - Thamesmead - Abbey Wood
+14207,LDLR,London Docklands Light Railway - TfL,DLR,Stratford International - Woolwich Arsenal // Canning Town - Beckton
+14267,LGEN,London General (Go Ahead),106,Finsbury Park - Stoke Newington - Hackney - Bethnal Green - Whitechapel
+14268,LGEN,London General (Go Ahead),11,Fulham Broadway - Kings Road - Sloane Square - Victoria - Westminster - Waterloo
+14269,LGEN,London General (Go Ahead),123,Wood Green - Turnpike Lane Station - Tottenham Hale - Blackhorse Road Station - Ilford
+14270,LGEN,London General (Go Ahead),131,Kingston - Norbiton - New Malden - Shannon Corner - Raynes Park - Wimbledon - South Wimbledon - Colliers Wood  - Tooting Broadway
+14271,LGEN,London General (Go Ahead),14,Putney Heath - Fulham Broadway - South Kensington - Piccadilly Circus - Russell Square
+14272,LGEN,London General (Go Ahead),144,Muswell Hill - Alexandra Park - Wood Green - Silver Street - Edmonton Green
+14273,LGEN,London General (Go Ahead),151,Wallington - Wrythe Green - Sutton - Cheam - Worcester Park
+14274,LGEN,London General (Go Ahead),152,Pollards Hill - Mitcham - Colliers Wood - Raynes Park - New Malden
+14275,LGEN,London General (Go Ahead),154,West Croydon - Roundshaw - Wallington - Sutton - Morden
+14277,LGEN,London General (Go Ahead),155,"Tooting, St George's Hospital - Balham - Clapham South, Common and North - Stockwell - Elephant & Castle"
+14278,LGEN,London General (Go Ahead),157,Crystal Palace - Selhurst - Croydon - Carshalton - Morden
+14279,LGEN,London General (Go Ahead),163,Morden - Lower Morden - Grand Drive - Raynes Park  - Wimbledon
+14280,LGEN,London General (Go Ahead),164,Sutton Station - St Helier - Morden  - Martin Way - Wimbledon
+14281,LGEN,London General (Go Ahead),170,"Roehampton, Danebury Avenue - Putney Heath - Wandsworth - Clapham Junction - Victoria"
+14282,LGEN,London General (Go Ahead),184,"Turnpike Lane Station - Wood Green - Alexandra Palace Station - Alexandra Park - Bounds Green - Arnos Grove - Osidge - East Barnet - New Barnet - Barnet Church - Barnet, Chesterfield Road"
+14283,LGEN,London General (Go Ahead),200,Raynes Park - Copse Hill - Wimbledon - Haydons Road - Mitcham
+14284,LGEN,London General (Go Ahead),209,"Mortlake - Barnes Bridge Station - Barnes Pond - Barnes, Red Lion - Castelnau, Lonsdale Road"
+14285,LGEN,London General (Go Ahead),212,Chingford Station - St James Street Station or Selborne Walk
+14286,LGEN,London General (Go Ahead),213,"Kingston - Worcester Park - Cheam Village - Sutton Town Centre - Sutton, Bushey Road"
+14287,LGEN,London General (Go Ahead),214,Highgate - Parliament Hill - Camden Town - King's Cross - Moorgate
+14288,LGEN,London General (Go Ahead),219,Wimbledon - Colliers Wood - Tooting Broadway  - Wandsworth Common - Clapham Junction
+14289,LGEN,London General (Go Ahead),22,Putney Common - Putney Bridge - Parsons Green - Chelsea Worlds End - Kings Road - Sloane Square - Hyde Park Corner - Green Park  - Oxford Circus
+14290,LGEN,London General (Go Ahead),230,Upper Walthamstow - Bakers Arms - Walthamstow Central- Tottenham Hale - Seven Sisters - Wood Green
+14291,LGEN,London General (Go Ahead),232,St Raphael's - Brent Cross - New Southgate - Palmers Green - Turnpike Lane Station
+14292,LGEN,London General (Go Ahead),265,Putney Bridge - Putney Common - Roehampton Alton Estate - Kingston Vale - Tolworth
+14293,LGEN,London General (Go Ahead),280,"Tooting, St George's Hospital - Tooting - Mitcham - Sutton - Belmont"
+14294,LGEN,London General (Go Ahead),299,Muswell Hill - Bounds Green - Southgate Green - Reservoir Road - Cockfosters
+14295,LGEN,London General (Go Ahead),318,North Middlesex Hospital - The Roundway - Dowsett Road - Tottenham - Stamford Hill
+14296,LGEN,London General (Go Ahead),333,Tooting Broadway - Amen Corner - Streatham - Brixton - Elephant & Castle
+14297,LGEN,London General (Go Ahead),357,Chingford Hatch - Chingford Mount - Walthamstow - Bakers Arms - Whipps Cross
+14298,LGEN,London General (Go Ahead),378,Mortlake - Barnes Bridge Station - Barnes Pond and Red Lion - Putney Common - Putney Bridge
+14299,LGEN,London General (Go Ahead),389,"Barnet, The Spires - Fairfield Way - Grasvenor Avenue - Barnet, Western Way"
+14300,LGEN,London General (Go Ahead),39,Putney Bridge - Putney Heath - Southfields Station - Wandsworth - Clapham Junction
+14301,LGEN,London General (Go Ahead),399,"Barnet, the Spires - Camlet Way - Beech Hill - Lancaster Avenue - Hadley Wood Station"
+14302,LGEN,London General (Go Ahead),413,Sutton - Gander Green Lane - Lower Morden - Cannon Hill Lane - Morden
+14303,LGEN,London General (Go Ahead),424,"Putney Heath - Hurlingham - Sands End - Fulham Broadway - Fulham, Craven Cottage"
+14304,LGEN,London General (Go Ahead),430,"Roehampton, Danebury Avenue - Putney Station and High Street - Putney Bridge - Fulham Cross - South Kensington"
+14305,LGEN,London General (Go Ahead),44,Victoria - Battersea - Wandsworth - Earlsfield - Tooting Station
+14306,LGEN,London General (Go Ahead),444,Turnpike Lane Station - Wilbury Way - Angel Corner - Upper Edmonton - Chingford Station
+14307,LGEN,London General (Go Ahead),456,Crews Hill - Enfield - Highlands Village - Edmonton (Cambridge) - North Middlesex Hospital
+14308,LGEN,London General (Go Ahead),470,Colliers Wood - Morden - St Helier - Sutton Common - Sutton Station
+14309,LGEN,London General (Go Ahead),476,Northumberland Park - Tottenham - Stoke Newington - Angel - King's Cross
+14310,LGEN,London General (Go Ahead),493,"Tooting, St George's Hospital - Wimbledon - Southfields - Roehampton - Richmond"
+14311,LGEN,London General (Go Ahead),533,"Hammersmith - Mortlake - Sheen - Barnes Bridge Station - Castelnau, Lonsdale Road"
+14312,LGEN,London General (Go Ahead),57,Kingston - Norbiton - Coombe Lane - Raynes Park - Wimbledon - Colliers Wood - Tooting Broadway - Streatham - Clapham Park
+14313,LGEN,London General (Go Ahead),677,Ilford - Barkingside - Chigwell - Buckhurst Hill - Debden
+14314,LGEN,London General (Go Ahead),690,West Norwood - Herne Hill - Brixton - Clapham Common - Burntwood School
+14315,LGEN,London General (Go Ahead),74,Putney - Earl's Court - South Kensington - Marble Arch - Baker Street Station
+14316,LGEN,London General (Go Ahead),77,Waterloo - Vauxhall - Clapham Junction - Earlsfield - Tooting Station
+14317,LGEN,London General (Go Ahead),80,"Belmont, Highdown and Downview - Sutton - Collingwood Road - Sutton Common Road - Morden South Station - Morden - Middleton Circle - Hackbridge, Reynolds Close"
+14318,LGEN,London General (Go Ahead),87,Wandsworth - Clapham Junction - Vauxhall - Trafalgar Square - Aldwych
+14319,LGEN,London General (Go Ahead),88,Parliament Hill Fields - Camden Town - Oxford Circus - Westminster - Clapham Common
+14320,LGEN,London General (Go Ahead),91,Crouch End - Nags Head - King's Cross - Russell Square  - Trafalgar Square
+14321,LGEN,London General (Go Ahead),93,North Cheam - Morden - Wimbledon - Putney Heath - Putney Bridge
+14322,LGEN,London General (Go Ahead),BL1,"Lewisham, Shopping Centre - New Cross Gate - Old Kent Road - Elephant & Castle - Waterlioo"
+14323,LGEN,London General (Go Ahead),N11,"Ealing Broadway - Acton - Hammersmith - Victoria - Whitehall, Horse Guards"
+14276,LGEN,London General (Go Ahead),N155,Morden - Balham - Elephant & Castle - Westminster - Aldwych
+14324,LGEN,London General (Go Ahead),N22,Fulwell - Richmond - Putney Bridge - Chelsea - Green Park - Oxford Circus
+14325,LGEN,London General (Go Ahead),N44,Aldwych - Victoria - Tooting Broadway - Mitcham - Sutton Station
+14326,LGEN,London General (Go Ahead),N74,"Roehampton, Danebury Avenue - Putney - Earls Court - Marble Arch - Baker Street Station"
+14327,LGEN,London General (Go Ahead),N87,Kingston - Wimbledon - Clapham Junction - Westminster - Aldwych
+14328,LGEN,London General (Go Ahead),N91,Cockfosters  - Southgate - Crouch End - King's Cross - Trafalgar Square
+14329,LGEN,London General (Go Ahead),N97,Hammersmith - Fulham Cross - Earls Court - Green Park - Trafalgar Square
+14330,LGEN,London General (Go Ahead),S2,Epsom - Ewell Village and East Station - Cheam Broadway and Station - York Road - Sutton Station and Town Centre - Oakhill Road - Edinburgh Road - St Helier Hospital - Rose Hill - St Helier Station
+14331,LGEN,London General (Go Ahead),W15,"Higham Hill, Cogan Avenue - Walthamstow - Whipps Cross Hospital - Leytonstone - Hackney, Town Hall"
+14654,TRAM,London Tramlink,Tram,New Addington / Elmers End / Beckenham Junction - Croydon - Wimbledon
+14095,LULD,London Underground (TfL),Bakerloo,Elephant & Castle - Queen's Park - Harrow & Wealdstone
+14096,LULD,London Underground (TfL),Central,Ealing Broadway/West Ruislip - Liverpool Street - Epping/Hainault/Woodford
+14097,LULD,London Underground (TfL),Circle,Hammersmith - King's Cross St. Pancras - Victoria - Edgware Road
+14098,LULD,London Underground (TfL),District,Ealing Broadway/Richmond/Wimbledon - Earl's Court - Upminster/Edgware Road
+14099,LULD,London Underground (TfL),Hammersmith & City,Hammersmith - King's Cross St. Pancras - Barking
+14100,LULD,London Underground (TfL),Jubilee,Stanmore - Waterloo - Stratford
+14101,LULD,London Underground (TfL),Metropolitan,Amersham/Chesham/Uxbridge/Watford - Baker Street - Aldgate
+14102,LULD,London Underground (TfL),Northern,Morden/Battersea Power Station - Bank(not after 2200 Mon-Thu)/Charing Cross - Camden Town - Edgware/High Barnet/Mill Hill East
+14103,LULD,London Underground (TfL),Piccadilly,Heathrow Airport/Uxbridge - Hammersmith - Cockfosters
+14104,LULD,London Underground (TfL),Victoria,Brixton - Victoria - Walthamstow Central
+14105,LULD,London Underground (TfL),Waterloo & City,Waterloo - Bank
+14379,MBGA,Metrobus (Go Ahead),119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+14381,MBGA,Metrobus (Go Ahead),127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+14383,MBGA,Metrobus (Go Ahead),208,"Lewisham Station - Bellingham - Bromley - Southborough - Orpington, Perry Hall Road"
+14385,MBGA,Metrobus (Go Ahead),233,Eltham - Longlands Road - Sidcup - Foots Cray -Swanley
+14386,MBGA,Metrobus (Go Ahead),264,West Croydon - Mitcham Common - Mitcham - Tooting - St George's Hospital
+14387,MBGA,Metrobus (Go Ahead),320,Biggin Hill Valley - Keston Mark - Bromley - Downham - Catford
+14389,MBGA,Metrobus (Go Ahead),353,Ramsden Estate - Orpington Town Centre & Station - Locksbottom - Hayes - Addington Village - Forestdale
+14391,MBGA,Metrobus (Go Ahead),358,Orpington - Bromley - Beckenham - Penge - Crystal Palace
+14392,MBGA,Metrobus (Go Ahead),359,Purley - Monks Hill - Sanderstead - Purley Downs Road - Addington Interchange
+14393,MBGA,Metrobus (Go Ahead),403,Warlingham - Sanderstead - South Croydon - West Croydon
+14394,MBGA,Metrobus (Go Ahead),434,"Coulsdon, Ridgemount Avenue - Coulsdon - Purley - Whyteleafe - Caterham"
+14395,MBGA,Metrobus (Go Ahead),439,Waddon Marsh - Waddon - Purley Way - Purley Station - Northwood Avenue - Kenley Station - Whyteleafe and Upper Warlingham Stations - Whyteleafe South
+14396,MBGA,Metrobus (Go Ahead),450,West Croydon - Upper Norwood - Crystal Palace - Sydenham - Lower Sydenham
+14397,MBGA,Metrobus (Go Ahead),463,Coulsdon South - The Mount - Wallington - Beddington - Mitcham Eastfields - Pollards Hill
+14398,MBGA,Metrobus (Go Ahead),633,Coulsdon South - Clock House Estate - Woodcote - Beddington - Pollards Hill
+14399,MBGA,Metrobus (Go Ahead),664,"Charles Darwin School - Biggin Hill - Coney Hall - Addington Village - New Addington, Homestead Way"
+14400,MBGA,Metrobus (Go Ahead),R1,St Paul's Cray - St Mary Cray - Orpington - Chelsfield - Green Street Green
+14401,MBGA,Metrobus (Go Ahead),R10,Orpington Station - Green Street Green (continues to Knockholt)
+14402,MBGA,Metrobus (Go Ahead),R11,Queen Mary's Hospital - Sidcup - St Mary Cray - Orpington - Green Street Green
+14403,MBGA,Metrobus (Go Ahead),R2,"Orpington, Walnuts Centre - Locksbottom - Keston - Biggin Hill - Biggin Hill Valley"
+14404,MBGA,Metrobus (Go Ahead),R3,Locksbottom - Shepperton Road - Coppice Estate - Pett's Wood - Poverest - Orpington
+14405,MBGA,Metrobus (Go Ahead),R4,St Paul's Cray - St Mary Cray - Derry Downs - Orpington Town Centre and Station - Princess Royal University Hospital
+14406,MBGA,Metrobus (Go Ahead),R5,Orpington - Green Street Green (continues to Knockholt)
+14407,MBGA,Metrobus (Go Ahead),R7,Chelsfield Village - Orpington Town Centre & Station - Crofton - Bickley - Chislehurst
+14408,MBGA,Metrobus (Go Ahead),R8,Orpington Station and Town Centre - Farnborough Hill - Single Street - Biggin Hill - Aperfield
+14409,MBGA,Metrobus (Go Ahead),R9,Orpington Station - Orpington Town Centre - Spur Road - Ramsden Estate
+14410,MBGA,Metrobus (Go Ahead),S4,Waddon Marsh - Beddington - Roundshaw - Wallington - Stanley Park - Royal Marsden Hospital - Belmont - Sutton Station and Town Centre
+14411,MBGA,Metrobus (Go Ahead),SL7,West Croydon - Carshalton - Worcester Park - Teddington - Heathrow Central
+14412,MTLN,Metroline Travel,107,Edgware - Elstree -  Borehamwood - Arkley - Barnet - New Barnet Station
+14413,MTLN,Metroline Travel,112,"Ealing Broadway - Hanger Lane - Stonebridge Park - Brent Cross - North Finchley, Tally Ho!"
+14415,MTLN,Metroline Travel,113,Edgware - Hendon Central - Finchley Road - St John's Wood - Marble Arch
+14416,MTLN,Metroline Travel,114,Mill Hill Broadway - Burnt Oak - Queensbury - Kenton - Harrow - South Harrow - South Ruislip - Ruislip
+14417,MTLN,Metroline Travel,120,"Hounslow, Bus Station - Southall - Lady Margaret Road - Yeading White Hart - Northolt Station"
+14418,MTLN,Metroline Travel,134,North Finchley - Muswell Hill - Archway - Camden Town - Warren Street
+14419,MTLN,Metroline Travel,139,Golders Green - West Hampstead - Oxford Circus - Waterloo
+14421,MTLN,Metroline Travel,140,"Hayes & Harlington Station - Northolt - South Harrow - Harrow - Harrow Weald, Bus Garage"
+8324,MTLN,Metroline Travel,142,Watford Junction Railway Station or Watford Junction Station - Brent Cross Shopping Centre
+14422,MTLN,Metroline Travel,143,Brent Cross - Hendon Central - Finchley Central - Highgate - Archway
+14423,MTLN,Metroline Travel,153,Finsbury Park Station - Nags Head - Islington Angel - Barbican - Liverpool Street
+14424,MTLN,Metroline Travel,16,"Brent Park, Superstores - Cricklewood -  Kilburn - Maida Vale - Paddington"
+14425,MTLN,Metroline Travel,17,Archway - Holloway Nags Head - Caledonian Road - King's Cross - Holborn Circus - St Paul's Cathedral - Cannon Street - London Bridge
+14426,MTLN,Metroline Travel,182,Harrow Weald - Harrow - Wembley - Neasden - Brent Cross
+14427,MTLN,Metroline Travel,186,Northwick Park Hospital - Harrow - Edgware - Hendon Central - Brent Cross
+14428,MTLN,Metroline Travel,187,"Central Middlesex Hospital - Harlesden - Kensal Rise - Swiss Cottage - Finchley Road, 02 Centre"
+14429,MTLN,Metroline Travel,189,"Brent Cross, Shopping Centre  - Cricklewood - Kilburn - Baker Street - Marble Arch"
+14430,MTLN,Metroline Travel,190,Richmond - Chiswick - Stamford Brook - Hammersmith - West Brompton
+14431,MTLN,Metroline Travel,204,Sudbury Town - Wembley - Kingsbury - Colindale - Edgware
+14432,MTLN,Metroline Travel,206,Wembley Park - Brent Park - Brentfield Road - Harlesden - Kilburn Park
+14433,MTLN,Metroline Travel,210,"Finsbury Park - Stroud Green - Hornsey Rise - Archway - Highgate Village - Hampstead Heath - Golders Green - Woodstock - Brent Cross, Shopping Centre"
+14434,MTLN,Metroline Travel,222,Uxbridge - Cowley - West Drayton - Cranford - Hounslow
+14435,MTLN,Metroline Travel,223,"Harrow View, Eastman Village - Harrow - Northwick Park Hospital - Kenton - South Kenton - Preston Road - The Avenue - Wembley Park - Wembley Central"
+14436,MTLN,Metroline Travel,224,"Alperton, Sainsbury's - Beresford Avenue - Park Royal - Central Middlesex Hospital - Harlesden Station - Swaminarayan Temple - Brent Park Superstores - St Raphael's"
+14437,MTLN,Metroline Travel,228,"Central Middlesex Hospital - Willesden Junction - White City - Shepherds Bush - Maida Hill, The Chippenham"
+14438,MTLN,Metroline Travel,231,Enfield Chase - Enfield Town - Great Cambridge Road - Westbury Avenue - Turnpike Lane Station
+14439,MTLN,Metroline Travel,234,Barnet - Friern Barnet -  Muswell Hill - Highgate Wood - Archway
+14440,MTLN,Metroline Travel,237,Hounslow Heath - Brentford - Chiswick High Road - Stamford Brook - White City
+14441,MTLN,Metroline Travel,240,Golders Green - Hendon - Holders Hill - Mill Hill - Edgware
+14442,MTLN,Metroline Travel,245,"Alperton, Sainsburys - Sudbury - North Wembley - Blackbird Cross - Neasden - Cricklewood - Childs Hill - Golders Green"
+14443,MTLN,Metroline Travel,251,Arnos Grove - Oakleigh Road South and North - Highwood Hill - Mill Hill Broadway - Edgware Station
+8327,MTLN,Metroline Travel,258,Watford Junction Railway Station or Watford Junction Station - South Harrow Bus Station
+14444,MTLN,Metroline Travel,260,White City - East Acton - Park Royal - Harlesden - Golders Green
+14446,MTLN,Metroline Travel,263,Highbury Barn - Highbury & Islington Station - Holloway Road - Archway - Highgate Village - East Finchley - North Finchley - Whetstone - High Barnet - Barnet Hospital
+14448,MTLN,Metroline Travel,266,"Acton, High Street - Horn Lane - North Acton - Harlesden - Church End - Willesden - Cricklewood - Brent Cross, Shopping Centre"
+14449,MTLN,Metroline Travel,268,Golders Green - Hampstead - Hampstead Station - Belsize - Finchley Road
+14450,MTLN,Metroline Travel,274,"Islington, Angel - Caledonian Park - Camden Town - Baker Street -Lancaster Gate"
+14451,MTLN,Metroline Travel,28,Kensal Rise - Notting Hill Gate - Kensington - Fulham - Wandsworth
+14452,MTLN,Metroline Travel,282,Ealing Hospital - Greenford -  Northolt - Northwood Hills - Mount Vernon Hospital
+14453,MTLN,Metroline Travel,297,"Willesden, Bus Garage - Wembley - Alperton - Perivale - Ealing Broadway"
+14454,MTLN,Metroline Travel,30,Euston - Highbury - Hackney - Hackney Wick
+14455,MTLN,Metroline Travel,302,Mill Hill Broadway - Burnt Oak - Neasden - Willesden - Kensal Rise
+14456,MTLN,Metroline Travel,316,Brent Cross West Station - Cricklewood - Kilburn - Kilburn Park - Queens Park - Ladbroke Grove Sainsburys - Latimer Road Station - Shepherds Bush - White City
+14457,MTLN,Metroline Travel,317,Waltham Cross - Turkey Street Station - Enfield Retail Park - Great Cambridge Road - Enfield
+14458,MTLN,Metroline Travel,32,Edgware - Burnt Oak - Colindale - Cricklewood - Kilburn Park
+14459,MTLN,Metroline Travel,324,"Elstree, Centennial Park - Stanmore - Queensbury - Hendon Central - Brent Cross, Tesco"
+8353,MTLN,Metroline Travel,327,Waltham Cross - Freezywater - Bullsmoor Lane - Elsinge Estate
+14460,MTLN,Metroline Travel,328,Golders Green - West Hampstead - Kilburn - Westbourne Park - Chelsea
+14461,MTLN,Metroline Travel,331,Ruislip - Ruislip Common - Northwood - Harefield - Uxbridge
+14462,MTLN,Metroline Travel,382,"Southgate Station - Arnos Grove - New Southgate - Finchley Central - Mill Hill East, Station and Millbrook Park"
+14463,MTLN,Metroline Travel,384,Edgware Station - Apex Corner - Barnet Hospital - Barnet - Cockfosters Station
+14464,MTLN,Metroline Travel,390,Archway - Tufnell Park - King's Cross - Oxford Circus - Victoria
+14465,MTLN,Metroline Travel,393,Clapton Pond - Stoke Newington - Highbury - Kentish Town - Chalk Farm
+14466,MTLN,Metroline Travel,4,Archway - Tufnell Park - Finsbury Park - St Pauls - Blackfriars Station
+14467,MTLN,Metroline Travel,43,Friern Barnet - Highgate - Holloway Road - Moorgate - London Bridge
+14468,MTLN,Metroline Travel,46,Paddington - Warwick Avenue - Hampstead - King's Cross - Bart's Hospital
+14469,MTLN,Metroline Travel,460,"Willesden, Bus Garage - Cricklewood - Golders Green - Temple Fortune - North Finchley"
+14470,MTLN,Metroline Travel,481,"Kingston - Bushy Park - Teddington - Fulwell - Whitton - Twickenham Stadium - Mogden Lane - Isleworth, West Middlesex Hospital"
+14471,MTLN,Metroline Travel,483,"Windmill Park, Three Bridges - Ealing Hospital - Hanwell - West Ealing - Ealing - Hanger Lane - Alperton - Wembley - North Wembley - Harrow Bus Station"
+14472,MTLN,Metroline Travel,487,South Harrow - Sudbury Town - Hanger Lane -  Central Middlesex Hospital - Willesden Junction
+14473,MTLN,Metroline Travel,491,Waltham Cross - Enfield Island Village - Brimsdown - Edmonton Green - North Middlesex Hospital
+14474,MTLN,Metroline Travel,52,"Victoria  - Royal Albert Hall - Notting Hill Gate - Ladbroke Grove - Willesden, Bus Garage"
+14475,MTLN,Metroline Travel,6,"Willesden, Bus Garage - Queens Park - Maida Hill - Marble Arch - Victoria"
+14476,MTLN,Metroline Travel,603,Muswell Hill - Highgate - Whitestone Pond - Hampstead Station - Swiss Cottage
+14477,MTLN,Metroline Travel,606,"Queensbury Station - Barnet, Totteridge Academy"
+14478,MTLN,Metroline Travel,617,Turnpike Lane - White Hart Lane - Edmonton (Cambridge) - Bush Hill Station - St Ignatius College
+8354,MTLN,Metroline Travel,626,Finchley Central - North Finchley - Whetstone - New Barnet - Dame Alice Owen's School
+14479,MTLN,Metroline Travel,629,Wood Green Station - Palmers Green - Enfield - Great Cambridge Road - St Ignatius College
+14480,MTLN,Metroline Travel,631,Golders Green - Hoop Lane - Meadway - Southway - Henrietta Barnett School
+14481,MTLN,Metroline Travel,632,"Grahame Park, Corner Mead - Colindale - West Hendon - Staples Corner - Cricklewood Broadway - Brondesbury - Kilburn - Kilburn Park"
+14482,MTLN,Metroline Travel,634,"Muswell Hill Broadway - Friern Barnet - Whetstone - High Barnet - Barnet, Arkley Hotel"
+8335,MTLN,Metroline Travel,635,"Sunbury, St Paul's School - Lower Feltham - Feltham - Hounslow Heath - Hounslow, Bus Station"
+14483,MTLN,Metroline Travel,640,South Harrow Station - Harrow - Wealdstone - Harrow Weald - Bentley Wood School
+14484,MTLN,Metroline Travel,642,"West Hendon Broadway - Colindale - Grahame Park - Deansbrook Road - Edgware - Stanmore, London Academy"
+14485,MTLN,Metroline Travel,697,"Hayes End, Lansbury Drive - Kingshill Avenue - Yeading - Hayes (Grapes) - Hayes End - Hillingdon Station - Long Lane - Ickenham"
+14486,MTLN,Metroline Travel,7,East Acton - North Kensington - Paddington - Marble Arch - Oxford Circus
+14487,MTLN,Metroline Travel,81,"Slough - Langley - Colnbrook - Longford - Heathrow North - Bath Road - Cranford - Hounslow West - Hounslow, Bus Station"
+14488,MTLN,Metroline Travel,83,"Golders Green - Woodstock - Hendon Central - Wembley Park, Stadium and Central - Alperton Station and Sainsburys"
+14489,MTLN,Metroline Travel,9,Aldwych - Piccadilly Circus - Hyde Park Corner - Kensington - Hammersmith
+14490,MTLN,Metroline Travel,90,"Northolt Station - Yeadng - Hayes North - Hayes & Harlington Station - Harlington - Harlngton Corner - Hatton Cross - Feltham, Leisure West"
+14491,MTLN,Metroline Travel,92,"Ealing Hospital - Greenford Town Centre, Station and Quay - Sudbury - Wembley Central and Stadium - Brent Park Superstores - St Raphael's North"
+14492,MTLN,Metroline Travel,95,"Southall, Town Hall - South Greenford - Hanger Lane - Park Royal - White City - Shepherds Bush Green"
+14493,MTLN,Metroline Travel,98,"Willesden, Bus Garage - Kilburn - Edgware Road - Oxford Circus - Holborn"
+14494,MTLN,Metroline Travel,A10,Uxbridge - Hillingdon Hill - Harlington Road - Stockley Park - Heathrow Central
+14495,MTLN,Metroline Travel,C11,Archway - Hampstead Heath - Swiss Cottage - West Hampstead - Brent Cross
+14774,MTLN,Metroline Travel,DL-3,Richmond Station - Willesden Junction Station
+14496,MTLN,Metroline Travel,E1,Greenford Broadway - Drayton Bridge Road - Drayton Green Station - Gordon Road - Ealing Broadway
+14497,MTLN,Metroline Travel,E2,"Brentford, Commerce Road - Northfields Station - Ealing Broadway - Scotch Common - Greenford Broadway"
+14498,MTLN,Metroline Travel,E8,Hounslow - Brentford - Boston Manor - Hanwell - Ealing Broadway
+14499,MTLN,Metroline Travel,E9,"Yeading, Barnhill Estate - Yeading White Hart Roundabout - Ruislip Road - Greenford Broadway - Scotch Common - Pitshanger - Ealing Broadway"
+14500,MTLN,Metroline Travel,H13,"Northwood Hills, St Vincent's - Pinner Green - Pinner - Eastcote - Ruislip Lido"
+14501,MTLN,Metroline Travel,H17,Harrow - Sudbury Hill - Sudbury Town - Chaplin Road - Wembley Central
+14502,MTLN,Metroline Travel,H2,Hampstead Garden Suburb and Golders Green circular
+14503,MTLN,Metroline Travel,H3,"Golders Green - Hampstead Heath Extension - The Bishops Avenue - East Finchley Station - East Finchley, Hill Top"
+14504,MTLN,Metroline Travel,H32,"Hounslow Bus Station - Hounslow West - Heston - Convent Way Estate - Southall Station - Southall, Town Hall"
+14505,MTLN,Metroline Travel,H91,"Hounslow West Station - Osterley Station - Gillette Corner - Great West Road - Chiswick Roundabout - Gunnersbury - Turnham Green - Stamford Brook - Ravenscourt Park - Hammersmith, Bus Station"
+14414,MTLN,Metroline Travel,N113,Edgware Station - Hendon Central - Finchley Road - Baker Street - Trafalgar Square
+14420,MTLN,Metroline Travel,N140,"Heathrow Central - Hayes - Harrow - Wealdstone - Harrow Weald, Bus Garage"
+14506,MTLN,Metroline Travel,N20,Barnet Hospital - Whestone - Archway -  Camden Town - Trafalgar Square
+14445,MTLN,Metroline Travel,N263,"North Finchley Bus Station - East Finchley Station - Archway Station - Highbury & Islington Station - Moorgate, Finsbury Square"
+14447,MTLN,Metroline Travel,N266,"Hammersmith - Starch Green - Acton - Acton Man Line Station - North Acton - Harlesden - Willesden Green - Cricklewood - Brent Cross, Shopping Centre"
+14507,MTLN,Metroline Travel,N28,Camden Town - Kilburn - Westbourne Park - Notting Hill Gate - West Kensington - Fulham Broadway - Wandsworth
+14508,MTLN,Metroline Travel,N32,Edgware - Burnt Oak - Colindale - West Hendon - Cricklewood - Kilburn - Edgware Road - Marble Arch - Hyde Park Corner - Victoria
+14509,MTLN,Metroline Travel,N7,Northolt Station - Ealing Broadway - Acton - Ladbroke Grove - Oxford Circus
+14510,MTLN,Metroline Travel,N83,"Golders Green - Hendon, Central and West - Wembley Central - Ealing Broadway - Ealing Hospital"
+14511,MTLN,Metroline Travel,N9,Aldwych - Piccadilly Circus - Kensington - Hammersmith - Chiswick High Road - Brentford - Hounslow - Heathrow Central and Terminal 5
+14512,MTLN,Metroline Travel,N98,Stanmore Station - Kingsbury - Willesden - Edgware Road - Holborn
+14513,MTLN,Metroline Travel,SL8,Uxbridge - Hayes End - Ealing - Acton - White City
+14514,MTLN,Metroline Travel,U1,Ruislip Station - West Ruislip - Ickenham - Swakeleys Road - Uxbridge - Hillingdon Hospital - West Drayton Station
+14515,MTLN,Metroline Travel,U10,"Uxbridge - Harefield Road - Ickenham Station - West Ruislip - Ruislip - Ruislip, Heathfield Rise"
+14516,MTLN,Metroline Travel,U2,Brunel University - Hillingdon Hospital - Lees Road - Long Lane - Oak Farm - Hillingdon Station - Honeycroft Hill - Uxbridge
+14517,MTLN,Metroline Travel,U3,Uxbridge - Brunel University - Hillingdon Hospital - Yiewsley - West Drayton - Wise Lane Estate - Harmondsworth - Heathrow Central
+14518,MTLN,Metroline Travel,U4,"Hayes, Prologis Park - Pinkwell - Hayes & Harlington Station - Barra Hall Circus - Hillingdon Hospital - Kingston Lane - Uxbridge"
+14519,MTLN,Metroline Travel,W7,Muswell Hill - Crouch End - Finsbury Park
+14520,MTLN,Metroline Travel,W8,"Chase Farm Hospital - Enfield - Church Street - Edmonton Green - Picketts Lock, Lee Valley Leisure Complex"
+14521,MTLN,Metroline Travel,W9,Chase Farm Hospital - Holtwhites Hill - Enfield Town - Grange Park - Highlands Village - Winchmore Hill Green - Southgate Station
+14767,REPS,Replacement Service,718,Harrow & Wealdstone Station - Queen's Park Station (London)
+14768,REPS,Replacement Service,720,Watford Junction - Harrow-on-the-Hill
+14796,REPS,Replacement Service,D,Newbury Park - Shenfield
+14769,REPS,Replacement Service,DL-1,Hammersmith - Acton Town
+14776,REPS,Replacement Service,DL11,Earl's Court Station - Kensington (Olympia) Station
+14770,REPS,Replacement Service,DL-4,Wimbledon - Hammersmith
+14771,REPS,Replacement Service,DL-5,Earl's Court - Putney Bridge - Wimbledon
+14772,REPS,Replacement Service,DL-6,Barking - Whitechapel
+14773,REPS,Replacement Service,DL-7,Stratford - Barking - Dagenham East
+14775,REPS,Replacement Service,DL-8,Upminster - Barking
+14777,REPS,Replacement Service,DLR-1,Westferry - Canary Wharf - Canning Town
+14778,REPS,Replacement Service,DLR-3,Westferry - Canary Wharf - Heron Quays - South Quay - Crossharbour - Mudchute - Island Gardens
+14779,REPS,Replacement Service,DLR-4,Canada Water - Greenwich - Lewisham
+14780,REPS,Replacement Service,L1,Enfield Town - Seven Sisters - Liverpool Street (after 22:45)
+14781,REPS,Replacement Service,L2,Cheshunt - Seven Sisters - Liverpool Street (after 22:45)
+14782,REPS,Replacement Service,L3,Hackney Downs - Chingford (all day)
+14783,REPS,Replacement Service,M,Canada Water - Clapham Junction (after 19:15)
+14787,REPS,Replacement Service,ML-2,Watford - Harrow-on-the-Hill
+14788,REPS,Replacement Service,ML-5,Moor Park - Northwood
+14786,REPS,Replacement Service,ML-6,Rickmansworth - Amersham - Chesham
+14789,REPS,Replacement Service,ML-7,Baker Street - Wembley Park
+14792,REPS,Replacement Service,PL-1,Green Park - Hammersmith - Acton Town Night Tube only
+14793,REPS,Replacement Service,PL-2,Earl's Court - Acton Town
+14794,REPS,Replacement Service,PL-4,Acton Town - Alperton - Rayners Lane (all day)
+14790,REPS,Replacement Service,PL-5,Cockfosters - Arnos Grove - Wood Green
+14791,REPS,Replacement Service,PL-6,Finsbury Park - Wood Green - Arnos Grove (Night Journeys to Cockfosters) - New Southgate open
+14784,REPS,Replacement Service,R,Willesden Junction - Gunnersbury
+14785,REPS,Replacement Service,X,Dalston Kingsland - Whitechapel - New Cross Gate
+14522,ELBG,Stagecoach London,122,Plumstead - Lewisham - Forest Hill - Sydenham - Crystal Palace
+14523,ELBG,Stagecoach London,124,Catford - Middle Park - Dunkery Road - Grove Park - Eltham
+14561,ELBG,Stagecoach London,128,"Claybury Broadway - Barkingside - Ilford - Becontree Heath - Romford, Queens Hospital, Market and Station"
+14562,ELBG,Stagecoach London,135,Crossharbour - Canary Wharf - Limehouse - Aldgate - Old Street
+14524,ELBG,Stagecoach London,136,Grove Park - Lewisham - New Cross - Peckham - Elephant & Castle
+14525,ELBG,Stagecoach London,138,Bromley North - Bromley South - Pickhurst Lane - Hayes Station - Coney Hall
+14563,ELBG,Stagecoach London,145,"Dagenham, Asda - Becontree  - Ilford - Wanstead - Leytonstone"
+14526,ELBG,Stagecoach London,146,Bromley North - Bromley South - Hayes - Keston - Downe
+14527,ELBG,Stagecoach London,160,Catford Bridge - Westhorne Avenue - Eltham - Chislehurst - Sidcup Station
+14528,ELBG,Stagecoach London,161,Chislehurst - Eltham - Queen Elizabeth Hospital - Woolwich - North Greenwich
+14564,ELBG,Stagecoach London,165,"Romford, The Brewery, Market and Station - Gidea Park - Hornchurch - Elm Park - Rainham, Tesco and Abbey Wood Lane"
+153,ELBG,Stagecoach London,167,Ilford - Gants Hill - Chigwell - Buckhurst Hill - Loughton
+14565,ELBG,Stagecoach London,169,"Clayhall, The Glade - Barkingside - Newbury Park - Ilford - Barking"
+14566,ELBG,Stagecoach London,173,"Beckton, Asda - Dagenham - Becontree Heath - Chadwell Heath - King George Hospital"
+14567,ELBG,Stagecoach London,174,"Harold Hill, Dagnam Park Square - Gallows Corner - Romford - Dagenham Heathway - Beam Park, Marsh Way Industrial Area"
+14529,ELBG,Stagecoach London,177,Thamesmead - Woolwich - Greenwich - Deptford Bridge - Peckham
+14568,ELBG,Stagecoach London,179,Chingford Station - Woodford Wells - Woodford Green - South Woodford - Gants Hill - Ilford
+14530,ELBG,Stagecoach London,180,"Erith, Fraser Road - Belvedere - Thamesmead East - Abbey Wood - Plumstead - Woolwich - New Charlton - Bugsby Way - North Greenwich"
+14531,ELBG,Stagecoach London,181,Lewisham Station - Catford - Bell Green - Lower Sydenham - Grove Park
+14569,ELBG,Stagecoach London,193,Queen's Hospital - Romford - Hornchurch - Upminster Bridge - County Park Estate
+14533,ELBG,Stagecoach London,199,"Canada Water - Deptford - Greenwich - Lewisham - Bellingham, Catford Bus Garage"
+151,ELBG,Stagecoach London,20,Walthamstow Central - Bakers Arms - Whipps Cross - Waterworks Corner - Woodford Green - Woodford Wells - Loughton - Debden
+14571,ELBG,Stagecoach London,205,Marble Arch - Baker Street -  King's Cross - Liverpool Street - Aldgate - Bow Church
+158,ELBG,Stagecoach London,215,Lee Valley Campsite - Yardley Lane Estate - Sewardstone Road - Chingford Mount - Walthamstow Central
+14534,ELBG,Stagecoach London,225,Hither Green - Brookmill Road - Lewisham - New Cross - Surrey Quays - Canada Water
+14572,ELBG,Stagecoach London,236,Finsbury Park Station - Canonbury - Dalston - Hackney - Hackney Wick
+14573,ELBG,Stagecoach London,238,Stratford - Plashet Road - Upton Park  - East Ham - Barking
+14574,ELBG,Stagecoach London,241,"Here East - Stratford City - Stratford - Plaistow - Custom House - Prince Regent - Pontoon Dock - Silvertown, Royal Wharf"
+14576,ELBG,Stagecoach London,242,Homerton Hospital - Hackney Central - Dalston Junction - Shoreditch - Aldgate
+14535,ELBG,Stagecoach London,246,"Bromley North, Town Centre and South - Barnhill Avenue - Hayes - Keston - Biggin Hill - Westerham Hill - Westerham"
+14577,ELBG,Stagecoach London,247,Romford Station - Collier Row - Marks Gate - Hainault - Fullwell Cross - Barkingside
+14578,ELBG,Stagecoach London,25,Ilford - Manor Park - Forest Gate - Stratford - Bow - Mile End - Whitechapel - Aldgate - Bank - City Thameslink
+14579,ELBG,Stagecoach London,252,Collier Row - Romford Market - Romford Station - Roneo Corner - Elm Park - Airfield Way - Hornchurch Town Centre
+14580,ELBG,Stagecoach London,256,"Hornchurch, St George's Park, Station and Town Centre - Emerson Park Station - Ardleigh Green - Harold Wood Station - Harold Hill - Noak Hill"
+14581,ELBG,Stagecoach London,257,"Stratford - Leytonstone - Whipps Cross - Leyton, Bakers Arms - Walthamstow Central"
+14582,ELBG,Stagecoach London,26,Hackney Wick - Shoreditch - St Paul's - Westminster - Victoria
+14536,ELBG,Stagecoach London,261,Lewisham Station - Grove Park - Plaistow Green - Bromley Town Centre and South Station - Princess Royal Hospital
+14537,ELBG,Stagecoach London,273,"Lewisham, Tesco, Station and Town Centre - Manor Park - Hither Green Station - Lee - Groce Park - Chislehurst - St Mary Cray - Petts Wood"
+150,ELBG,Stagecoach London,275,"Walthamstow, St James Street -  Highams Park - Woodford Station - Tomswood Hill - Barkingside"
+14583,ELBG,Stagecoach London,276,Newham Hospital - Canning Town - Stratford - Hackney Central - Stoke Newington
+14585,ELBG,Stagecoach London,277,Dalston Junction - Hackney Central - Mile End - Canary Wharf - Crossharbour
+14538,ELBG,Stagecoach London,284,Lewisham Station - Ladywell - Catford - Hither Green - Grove Park - Grove Park Cemetery
+14586,ELBG,Stagecoach London,287,"Barking - Ripple Road - Dagenham (Chequers Corner) - Upminster Road South and North - Rainham, Abbey Wood Lane"
+14587,ELBG,Stagecoach London,294,Havering Park - Romford - Gidea Park - Harold Hill - Noak Hill
+14588,ELBG,Stagecoach London,296,Romford - Marks Gate - Newbury Park - Gants Hill - Ilford
+14589,ELBG,Stagecoach London,308,Wanstead - Maryland - Stratford - Homerton - Clapton Pond
+14590,ELBG,Stagecoach London,309,"Canning Town - Aberfeldy Estate - Bow Common Lane - Stepney Green - Bethnal Green, Bonner Road"
+14591,ELBG,Stagecoach London,310,Stamford Hill - Finsbury Park - Archway - Highgate Village - Golders Green
+14539,ELBG,Stagecoach London,314,Eltham - Elmstead Woods - Bromley - Hayes - New Addington
+14592,ELBG,Stagecoach London,323,Canning Town Station - Twelvetrees Crescent - Bromley-by-Bow - Bow Common Lane - Mile End
+14540,ELBG,Stagecoach London,336,Catford Bridge - Bellingham - Downham - Bromley - Bickley - Southborough - Bromley Common - Locksbottom
+14593,ELBG,Stagecoach London,339,"Leytonstone - Stratford City, International and Olympic Park - Fish Island - Old Ford - Shadwell"
+14594,ELBG,Stagecoach London,346,"Harold Hill, Dagnam Park Square - Gallows Corner Tesco - Kings Park - Harold Wood Station - Upminster Station - St Mary's Lane -  Upminster Park Estate"
+14541,ELBG,Stagecoach London,356,"Upper Sydenham - Lower Sydenham, Sainsbury's - Penge - Elmers End - Shirley"
+14595,ELBG,Stagecoach London,362,Grange Hill Station - Brocket Way (Western Arm) - Hainault - Chadwell Heath -  King George Hospital
+14596,ELBG,Stagecoach London,365,"Beam Park, New Road - Elm Park - Abbs Cross Lane - Roneo Corner - Queens Hospital - Romford Station, Market and North Street - Collier Row - Havering Park"
+152,ELBG,Stagecoach London,372,Hornchurch Town Centre - Elm Park Station - Rainham - Aveley - Lakeside
+14597,ELBG,Stagecoach London,379,Chingford - Chingford Police Station - Hawkwood Crescent - Mark Avenue - Yardley Lane Estate
+14542,ELBG,Stagecoach London,380,"Belmarsh - Woolwich - Charlton Village - Blackheath - Lewisham, Shopping Centre"
+14598,ELBG,Stagecoach London,385,"Chingford Station - Valley Side - Waltham Way - Chingford Mount - Crooked Billet, Sainsbury's"
+14599,ELBG,Stagecoach London,388,Stratford City - Hackney Wick - Bethnal Green - Shoreditch - London Bridge
+14600,ELBG,Stagecoach London,394,"Homerton Hospital - Hackney - Trelawney Estate - Broadway Market - Hoxton - Islington, Angel"
+154,ELBG,Stagecoach London,397,"Crooked Billet, Sainsbury's - Endlebury Road- Chingford - Woodford Wells - Debden"
+14543,ELBG,Stagecoach London,422,North Greenwich - Blackheath (Royal Standard) - Woolwich - Plumstead - Bexleyheath Station and Town Centre
+14601,ELBG,Stagecoach London,425,"Ilford - Stratford - Mile End - Homerton Hospital - Clapton, Nightingale Road"
+155,ELBG,Stagecoach London,462,"Limes Farm - Hainault, The Lowe - Fairlop - Barkingside - Gants Hill - Ilford"
+14544,ELBG,Stagecoach London,47,"Bellingham, Catford Bus Garage - Lewisham - Deptford - Canada Water - Bermondsey - London Bridge - Liverpool Street - Shoreditch"
+14602,ELBG,Stagecoach London,488,Bromley-by-Bow - Hackney Wick - Homerton - Clapton - Dalston Junction
+14603,ELBG,Stagecoach London,496,"Harold Wood Station - Harold Hill - Gidea Park - Romford Station - Romford, Queens Hospital"
+156,ELBG,Stagecoach London,498,"Romford, Queen's Hospital -  Romford Station - Gallows Corner - South Weald - Brentwood"
+14604,ELBG,Stagecoach London,499,"Gallows Corner, Tesco - Harold Hill - Romford Station - Becontree Heath - Heath Park Estate"
+14545,ELBG,Stagecoach London,53,"Plumstead Station - Woolwich - New Cross - Elephant & Castle - Lambeth North, Lower Marsh"
+14546,ELBG,Stagecoach London,54,Elmers End - Beckenham - Woolwich
+14605,ELBG,Stagecoach London,55,Walthamstow Central - Bakers Arms - Lea Bridge Road - Clapton - Hackney Central - Cambridge Heath - Shoreditch - Old Street - Clerkenwell - Bloomsbury - Oxford Circus
+14608,ELBG,Stagecoach London,56,Whipps Cross - Bakers Arms - Lea Bridge Road - Clapton - Dalston - Essex Road - Angel - Barbican - Bart's Hospital
+14609,ELBG,Stagecoach London,58,"East Ham, Central Park - Upton Park - Forest Gate - Leyton - Walthamstow Central"
+14547,ELBG,Stagecoach London,602,Thamesmead - Abbey Wood - Belvedere - Erith - Townley Grammar School
+14548,ELBG,Stagecoach London,61,Chislehurst - Orpington - Locksbottom - Bromley Common - Bromley North
+14610,ELBG,Stagecoach London,62,"Marks Gate - Chadwell Heath - Becontree - Upney - Barking, Gascoigne Road"
+14549,ELBG,Stagecoach London,621,Lewisham - Lee Green - Eltham Green - Eltham - Crown Woods School
+14550,ELBG,Stagecoach London,638,Coney Hall - Bromley Town Centre - Grove Park - Chislehurst - Kemnal Technology College/ Beaverwood School
+14611,ELBG,Stagecoach London,649,"Romford,  North Street Bus Garage - Heath Park Road - Gidea Park - Emerson Park - County Park, Campion School"
+14612,ELBG,Stagecoach London,650,"Romford, North Street Bus Garage - Heath Park Road - Gidea Park - Parkstone Avenue - Emerson Park School"
+14613,ELBG,Stagecoach London,651,Romford Station - Romford Market - Mawney Road - Collier Row - Bower Park School
+14614,ELBG,Stagecoach London,657,"Crooked Billet, Sainsbury's - Chingford Mount - Chingford Hatch - Woodford Green - Woodford Wells, Bancroft's School"
+14551,ELBG,Stagecoach London,660,"Bellingham, Catford Bus Garage - Catford - Hither Green - Eltham Green - Middle Park - Eltham - Avery Hill, Crown Woods School"
+14552,ELBG,Stagecoach London,661,"Petts Wood - St Mary Cray - Chislehurst, War Memorial"
+159,ELBG,Stagecoach London,667,"Ilford High Road, Hainault Street - Gants Hill - Barkingside - Chigwell - West Hatch School"
+14553,ELBG,Stagecoach London,669,Thamesmead - Abbey Wood - Belvedere - Erith - Northumberland Heath - Barnehurst - Bexley - Cleeve Park School
+14554,ELBG,Stagecoach London,672,Hawksmoor School - Plumstead - Woolwich Arsenal
+14615,ELBG,Stagecoach London,674,Dagnam Park Drive - Harold Hill - Gallows Corner - Gidea Park - Romford
+14616,ELBG,Stagecoach London,678,"Stratford - Upton Lane - Plaistow - Prince Regent  - Beckton, Bus Station"
+14555,ELBG,Stagecoach London,684,Orpington - Locksbottom - Keston Mark - Leaves Green - Charles Darwin School
+14556,ELBG,Stagecoach London,75,"Lewisham Station - Catford - Sydenham - Norwood Junction - Croydon, Town Centre"
+14617,ELBG,Stagecoach London,8,Bow Church - Old Ford - Bethnal Green - Liverpool Street - Bank - Tottenham Court Road
+14618,ELBG,Stagecoach London,86,Stratford - Forest Gate - Ilford - Chadwell Heath - Romford
+14619,ELBG,Stagecoach London,97,Chingford Station - Chingford Mount - Walthamstow - Leyton - Stratford City Bus Station
+14557,ELBG,Stagecoach London,B14,Bexleyheath Library - Danson Road - Blendon - Albany Park - Sidcup - Queen Marys Hospital - St Mary Cray High Street - Orpington Station
+14620,ELBG,Stagecoach London,D6,Ash Grove - Cambridge Heath - Bethnal Green - Mile End - Poplar - Crossharbour
+14621,ELBG,Stagecoach London,D7,"Poplar, All Saints - Island Gardens - Westferry Road - Canary Wharf - Mile End"
+14622,ELBG,Stagecoach London,D8,Stratford - Bromley-By-Bow - Poplar - Canary Wharf - Crossharbour
+14532,ELBG,Stagecoach London,N199,Trafalgar Square - London Bridge - Canada Water - Greenwich - Lewisham - Catford - Bromley - Orpington - St Mary Cray Station
+14570,ELBG,Stagecoach London,N205,"Paddington - Baker Street - Euston - Kings Cross - Angel - Liverpool Street - Whitechapel - Mile End - Bow - Olympic Park  - Leyton, Downsell Road"
+14575,ELBG,Stagecoach London,N242,Homerton Hospital - Hackney Central - Shoreditch - Liverpool Street - Tottenham Court Road
+14623,ELBG,Stagecoach London,N25,Ilford - Stratford - Mile End - Bank - Oxford Circus
+14624,ELBG,Stagecoach London,N26,Victoria - Bank - Liverpool Street - Hackney Wick - Leyton - Chingford Station
+14584,ELBG,Stagecoach London,N277,"Islington, Angel - Hackney Central - Mile End - Canary Wharf - Crossharbour"
+14558,ELBG,Stagecoach London,N53,"Plumstead Station - Woolwich - Blackheath Royal Standard - Elephant & Castle - Whitehall, Horse Guards"
+14625,ELBG,Stagecoach London,N55,Woodford Wells - Wanstead - Whipps Cross - Hackney Central - Oxford Circus
+14606,ELBG,Stagecoach London,N550,Trafalgar Square - Aldgate - Canary Wharf - Leamouth - Canning Town
+14607,ELBG,Stagecoach London,N551,"Trafalgar Square - Aldgate - Canning Town - Custom House - Gallions Reach, Shopping Park"
+14626,ELBG,Stagecoach London,N8,"Hainault, The Lowe - Wanstead - Stratford - Liverpool Street - Oxford Circus"
+14627,ELBG,Stagecoach London,N86,"Stratford - Manor Park - Chadwell Heath - Romford - Harold Hill, Dagnam Park Square"
+14559,ELBG,Stagecoach London,SL3,Thamesmead - Abbey Wood - Bexleyheath Station and Town Centre - Sidcup - Queen Mary's Hospital - Chislehurst Station - Bromley North
+14628,ELBG,Stagecoach London,W11,Chingford Hall Estate - Crooked Billet Sainsburys - Priory Court Estate - Blackhorse Road Station - Walthamstow Central
+14629,ELBG,Stagecoach London,W12,"Walthamstow, Coppermill Lane - Whipps Cross Hospital - Leytonstone - Snaresbrook - Woodford Bridge"
+14630,ELBG,Stagecoach London,W13,"Leyton, Superstores - Wanstead - South Woodford - Woodford Green - Woodford Wells"
+14631,ELBG,Stagecoach London,W16,Chingford Mount - Highams Park - Bakers Arms - Leyton - Leytonstone
+14632,ELBG,Stagecoach London,W19,"Walthamstow, Argall Avenue - Walthamstow Central - Whipps Cross Hospital - Manor Park - Ilford High Road, Hainault Street"
+14633,ELBG,Stagecoach London,W5,"Archway - Hornsey Lane - Crouch End - Harringay Station - Harringay, Superstores"
+14209,NTHC,Thames Clippers,RB1,Battersea Power Station - Westminster - Canary Wharf - Greenwich - Woolwich Arsenal - Barking Riverside
+14210,NTHC,Thames Clippers,RB2,Battersea Power Station - Westminster - Canary Wharf - Greenwich - North Greenwich
+14211,NTHC,Thames Clippers,RB4,Rotherhithe Pier - Canary Wharf
+14208,NTHC,Thames Clippers,RB6,Putney - Battersea Power Station - Embankment - London Bridge - Canary Wharf - Greenwich - North Greenwich
+14107,TFLO,Transport for London,N40,Ealing Broadway - West Ealing - Hanwell - Southall - Hayes - Heathrow Central - Terminal 5 - Cargo Centre - Terminal 4 - Hatton Cross - Hayes - Southall - Hanwell - West Ealing - Ealing Broadway
+14139,ABLO,Transport UK,109,"Croydon, Town Centre - Broad Green - Thornton Heath Pond - Streatham - Brixton"
+14140,ABLO,Transport UK,111,Heathrow Central - Cranford - Heston - Hounslow - Kingston
+14141,ABLO,Transport UK,130,"New Addington - Fieldway - Addington Village - Gravel Hill - Shirley Hills - Woodside - Norwood Junction - Selhurst Park Stadum - Thornton Heath, Parchmore Road"
+14143,ABLO,Transport UK,133,Streatham Station - Brixton - Elephant & Castle - London Bridge - Holborn
+14144,ABLO,Transport UK,156,Wimbledon - Wimbledon Park - Southfields - Wandsworth - Clapham Junction - Queenstown Road - Battersea Park - Battersea Power Station - Vauxhall
+14145,ABLO,Transport UK,159,Streatham Station - Brixton - Westminster - Trafalgar Square - Oxford Circus
+14146,ABLO,Transport UK,195,"Charville Lane Estate - Hayes - Ealing Hospital - Hanwell - Brentford, County Court"
+14147,ABLO,Transport UK,201,Morden - Mitcham - Streatham - Tulse Hill - Herne Hill
+14149,ABLO,Transport UK,207,Hayes By-Pass - Hanwell - Ealing Broadway - Acton Town Centre - White City
+14150,ABLO,Transport UK,211,"Hammersmith, Bus Station - Charing Cross Hospital - Dawes Road - Fulham Broadway - Chelsea & Westminster Hospital - Sloane Square - Battersea Power Station"
+14151,ABLO,Transport UK,24,Pimlico - Victoria - Westminster - Trafalgar Square - Warren Street - Camden Town - Malden Road - Hampstead Heath
+14152,ABLO,Transport UK,267,Hammersmith - Brentford - Isleworth - Twickenham - Fulwell
+14153,ABLO,Transport UK,27,Hammersmith - Kensington - Paddington - Camden Town - Chalk Farm
+14154,ABLO,Transport UK,270,Putney Bridge - Wandsworth - Earlsfield - Tooting Broadway - Mitcham
+14155,ABLO,Transport UK,278,Heathrow Central - Harlington - Hayes - Church Road - Hayes End - Long Lane - Hillingdon Station - Ickenham - West Ruislip - Ruislip
+14156,ABLO,Transport UK,285,Heathrow Central - Feltham - Hanworth - Hampton Hill - Kingston
+14157,ABLO,Transport UK,3,Victoria Bus Station - Westminster - Kennington Park - Brixton - Crystal Palace
+14158,ABLO,Transport UK,306,"Acton Vale - Ravenscourt Park -  Hammersmith - West Kensington - Fulham, Sands End"
+14159,ABLO,Transport UK,315,"West Norwood - Royal Circus - Valley Road - Streaham, St Leonard's Church - Bedford Hill - Balham - Tooting Bec - Springfield Hospital"
+14160,ABLO,Transport UK,322,Crystal Palace - Brixton - Clapham Common
+14161,ABLO,Transport UK,337,Clapham Junction - Wandsworth - Putney  - Barnes Common - Richmond
+14162,ABLO,Transport UK,344,Clapham Junction - Battersea - Vauxhall - Elephant & Castle - Southwark Bridge Road - Liverpool Street Station
+14163,ABLO,Transport UK,345,"Peckham - Camberwell - Brixton - Clapham North, Common & Junction - South Kensington"
+14164,ABLO,Transport UK,350,"Hayes, Asda - Stockley Park - West Drayton - Harmondsworth - Heathrow Terminal 5"
+14165,ABLO,Transport UK,363,Crystal Palace - Honor Oak - Peckham - Old Kent Road - Elephant & Castle
+14166,ABLO,Transport UK,367,West Croydon - Shirley - Elmers End - Beckenham - Bromley North
+14168,ABLO,Transport UK,381,Peckham - Surrey Quays - Canada Water - Bermondsey - Waterloo
+8320,ABLO,Transport UK,404,Crawford Crescent - Westway_ Caterham or Westway Caterham
+8772,ABLO,Transport UK,407,Sutton - Wallington Green - Croydon - Purley - Caterham
+14169,ABLO,Transport UK,415,"Tulse Hill - Brixton - Kennington - Elephant & Castle - Old Kent Road, Tesco"
+14170,ABLO,Transport UK,427,"Uxbridge - Hayes End - Hayes (Grapes) - Southall Broadway - Southall, Merrick Road"
+14171,ABLO,Transport UK,433,Addington Village - Selsdon - South Croydon - East Croydon -  Croydon Town Centre
+14172,ABLO,Transport UK,45,Camberwell Green - Loughborough Junction - Brixton - Streatham - Streatham Common Station - Mitcham - Morden Station
+8774,ABLO,Transport UK,464,Tatsfield - Sunningvale Avenue - Biggin Hill - Saltbox Hill - New Addington
+8332,ABLO,Transport UK,465,Cromwell Road Bus Station - South Street/ Rose Hill
+14173,ABLO,Transport UK,482,"Southall, Town Hall - Convent Way Estate - Heston - Hounslow West - Hatton Cross - Heathrow Terminal 4 - Cargo Centre - Heathrow Terminal 5"
+14174,ABLO,Transport UK,485,"Castelnau, Lonsdale Road - Wetlands Centre (selected journeys only) - Putney Common - Wandsworth Riverside Quarter - Wandsworth"
+14175,ABLO,Transport UK,490,"Richmond, Pools on the Park and Station - Twickenham - Feltham - Hatton Cross - Heathrow Terminals 4 & 5"
+14176,ABLO,Transport UK,618,Ivybridge Estate - Isleworth - Busch Corner - Gillette Corner - Bolder Academy
+14177,ABLO,Transport UK,63,Honor Oak - Peckham Rye - Peckham - Burgess Park - Old Kent Road - Elephant & Castle - Southwark - Blackfriars - Farringdon - Kings Cross
+14178,ABLO,Transport UK,639,"Roehampton, Danebury Avenue - Putney Heath - Southfields - Wandsworth - Clapham Junction - Battersea - Battersea, St John Bosco College"
+14179,ABLO,Transport UK,655,Mitcham - Colliers Wood - Wimbledon Chase - South Wimbledon Station - Raynes Park High School
+14180,ABLO,Transport UK,670,"Roehampton, Danebury Avenue - Putney Heath - West Hill - Wandsworth - Clapham Junction - Battersea - Battersea, St John Bosco College"
+14181,ABLO,Transport UK,671,"North Kingston, Tiffin Girls' School - Kingston - Surbiton - Hook - Chessington North - Copt Gilders - Chessington South"
+14182,ABLO,Transport UK,68,West Norwood - Camberwell - Elephant & Castle - Waterloo - Euston
+14183,ABLO,Transport UK,969,Whitton - Barnes - Roehampton Vale
+14795,ABLO,Transport UK,C,Stratford City - Forest Gate - Manor Park - Ilford - Seven Kings - Goodmayes - Chadwell Heath - Romford
+14184,ABLO,Transport UK,C10,Canada Water - Rotherhithe - Bermondsey - Elephant & Castle - Waterloo - Pimlico - Victoria
+14185,ABLO,Transport UK,C3,"Clapham Junction - Wandsworth Bridge - Sands End - Imperial Wharf - Chelsea Harbour - Earls Court - Earls Court, Tesco"
+14186,ABLO,Transport UK,E10,"Northolt, Islip Manor - Ferrymead Gardens - Greenford Broadway - Argyle Road - Ealing Broadway"
+14187,ABLO,Transport UK,E11,"Greenford Broadway - Elthorne Heights - Castle Bar Park Station - West Ealing - Ealing, Warwick Dene"
+14188,ABLO,Transport UK,E5,"Southall, Toplocks Estate - Southall - Dormers Wells - Greenford - Medway Estate - Perivale, Tesco"
+14189,ABLO,Transport UK,E6,Greenford Station - Greenford Broadway - Yeading Tesco - Hayes (Grapes) - Hayes & Harlington Station - Bulls Bridge
+14190,ABLO,Transport UK,E7,Ruislip Station - Ruislip Gardens - Yeading White Hart - Greenford - Scotch Common - West Ealing - Ealing Broadway
+14191,ABLO,Transport UK,G1,"Streatham, Green Lane - Tooting - Wandsworth Common - Clapham Junction - Battersea, Shaftesbury Estate"
+14192,ABLO,Transport UK,H20,"Hounslow Central, Lampton Park - Central Avenue - Isleworth Library - Ivybridge - Twickenham, Tesco"
+14193,ABLO,Transport UK,H25,Butts Farm - Hanworth - Feltham - Bedfont Green - Hatton Cross
+14194,ABLO,Transport UK,H26,"Feltham, Sparrow Farm - Guildford Avenue - Bedfont Lakes - Bedfont Green - Hatton Cross Station"
+14195,ABLO,Transport UK,H28,"Bulls Bridge - Hounslow - Spring Grove - West Middlesex Hospital - Osterley, Tesco"
+14138,ABLO,Transport UK,N109,Croydon Town Centre - Norbury - Streatham - Brixton - Oxford Circus
+14142,ABLO,Transport UK,N133,Morden - Streatham - Brixton - Elephant & Castle - Liverpool Street
+14148,ABLO,Transport UK,N207,Uxbridge - Hayes By-Pass - Hanwell - Ealing Broadway - Acton Town Centre - Shepherds Bush - Oxford Circus - Holborn
+14196,ABLO,Transport UK,N27,Hammersmith - Kensington - Paddington - Camden Town - Chalk Farm
+14197,ABLO,Transport UK,N3,Oxford Circus - Westminster - Brixton - Crystal Palace - Bromley South & North
+14167,ABLO,Transport UK,N381,"Peckham - Canada Water - Bermondsey - London Bridge - Whitehall, Horse Guards"
+14198,ABLO,Transport UK,N63,Crystal Palace - Peckham - Elephant & Castle - Blackfriars - Kings Cross
+14199,ABLO,Transport UK,N68,Old Coulsdon - Croydon - Elephant & Castle - Waterloo - Tottenham Court Road
+14200,ABLO,Transport UK,P13,Streatham Station - Streatham Hill - Tulse Hill - West Dulwich Station - East Dulwich - Peckham Rye - New Cross Gate
+14201,ABLO,Transport UK,P5,"Elephant & Castle - Loughborough Park - Brixton -  Clapham North - Nine Elms, Patmore Estate"
+8775,ABLO,Transport UK,R68,Kew Retail Park -  Richmond - Twickenham - Teddington - Hampton Court
+14202,ABLO,Transport UK,R70,"Hampton, The Avenue - Hampton Wick - Fulwell - Twickenham - Richmond, Manor Circus"
+8773,ABLO,Transport UK,S1,"Banstead - Downs Road - Sutton Station and Town Centre - St Helier Hospital - Rose Hill - Mitcham Junction - Mitcham, Lavender Fields"
+14203,ABLO,Transport UK,S3,Belmont - Royal Marsden Hospital - Carshalton - Sutton - Sutton Common Station - North Cheam Sainsbury's - Worcester Park - Malden Manor Station
+14204,ABLO,Transport UK,U5,Uxbridge - Cowley - West Drayton - Stockley Park - Hayes & Harlington Station
+14205,ABLO,Transport UK,U7,"Uxbridge - Hillingdon Hospital - Charville Lane & Academy - Lansbury Drive - Hayes, Sainsbury's"
+14206,ABLO,Transport UK,U9,Uxbridge - Harefield Road - Harvil Road - Harefield Green - Harefield Hospital
+8664,UNOL,Uno,292,"Borehamwood, Rossington Avenue - Ripon Park - Stirling & Apex Corners - Edgware - Colindale, Superstores"
+8352,UNOL,Uno,298,Arnos Grove or Arnos Grove Station - Potters Bar Station
+14669,UNOL,Uno,383,"Barnet, The Spires - New Barnet - Oakleigh Park - Woodside Park - Finchley Memorial Hospital"
+14670,UNOL,Uno,628,"Kingsbury, The Mall - Mill Hill Broadway - Whetstone - Osidge - Southgate"
+14671,UNOL,Uno,643,"Brent Cross, Shopping Centre - Hendon Central - Finchley Lane - Hendon Lane - East Finchley Schools"
+14672,UNOL,Uno,653,Muswell Hill - Finchley Central - Hendon - West Hendon - Kingsbury
+14673,UNOL,Uno,683,"Friern Barnet - North Finchley - Finchley Central - West Hendon - Kingsbury, The Mall"
+14674,UNOL,Uno,688,"Southgate - Whetstone - Edgware - Queensbury - Kingsbury, The Mall"
+8641,UNOL,Uno,699,Winchmore Hill - Southgate - Cockfosters - Potters Bar - Dame Alice Owen's School
+14212,NWFF,Woolwich Free Ferry,Woolwich Ferry,Woolwich Ferry South Pier - Woolwich Ferry North Pier
