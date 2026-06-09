@@ -1,0 +1,1211 @@
+id,datetime,route_name,direction,destination,line_name,description
+187311,2026-03-28 16:38:00+01,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+193173,2026-03-28 17:11:00+01,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+197753,2026-03-28 17:24:00+01,403,"",Warlingham / Sainsbury's,403,Warlingham - Sanderstead - South Croydon - West Croydon
+211817,2026-03-28 18:15:00+01,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+230882,2026-03-28 18:47:00+01,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+236097,2026-03-28 19:01:00+01,403,"",Warlingham / Sainsbury's,403,Warlingham - Sanderstead - South Croydon - West Croydon
+247625,2026-03-28 19:51:00+01,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+260793,2026-03-28 20:22:00+01,403,"",Croydon (metrobus),403,Warlingham - Sanderstead - South Croydon - West Croydon
+289685,2026-03-28 22:36:00+01,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+303018,2026-03-28 23:26:00+01,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+305291,2026-03-28 23:42:00+01,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+313594,2026-03-29 00:26:00+01,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+313780,2026-03-29 00:39:00+01,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+321688,2026-03-29 01:24:00+01,119,"",Metrobus Orpington Bus Garage,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+325395,2026-03-29 03:55:00+02,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+324280,2026-03-29 03:59:45+02,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+326581,2026-03-29 04:33:00+02,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+326614,2026-03-29 04:40:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+405253,2026-03-29 13:54:00+02,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+408314,2026-03-29 14:09:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+426742,2026-03-29 15:19:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+430056,2026-03-29 15:32:00+02,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+444501,2026-03-29 16:34:00+02,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+448550,2026-03-29 16:48:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+464833,2026-03-29 17:53:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+469603,2026-03-29 18:12:00+02,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+483790,2026-03-29 19:09:00+02,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+489475,2026-03-29 19:28:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+502858,2026-03-29 20:27:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+504019,2026-03-29 20:36:00+02,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+513836,2026-03-29 21:26:00+02,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+515378,2026-03-29 21:34:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+526272,2026-03-29 22:25:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+528022,2026-03-29 22:40:00+02,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+535887,2026-03-29 23:24:00+02,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+538220,2026-03-29 23:38:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+546068,2026-03-30 00:24:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+548944,2026-03-30 00:42:00+02,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+581658,2026-03-30 06:05:00+02,403,"",Warlingham / Sainsbury's,403,Warlingham - Sanderstead - South Croydon - West Croydon
+580777,2026-03-30 06:27:19+02,403,"",Warlingham / Sainsbury's,403,Warlingham - Sanderstead - South Croydon - West Croydon
+580803,2026-03-30 06:35:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+588381,2026-03-30 07:02:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+590986,2026-03-30 07:10:00+02,403,"",Warlingham / Sainsbury's,403,Warlingham - Sanderstead - South Croydon - West Croydon
+599331,2026-03-30 07:47:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+617068,2026-03-30 08:18:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+624099,2026-03-30 08:34:00+02,403,"",Warlingham / Sainsbury's,403,Warlingham - Sanderstead - South Croydon - West Croydon
+643389,2026-03-30 09:18:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+657387,2026-03-30 09:58:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+667891,2026-03-30 10:11:00+02,403,"",Warlingham / Sainsbury's,403,Warlingham - Sanderstead - South Croydon - West Croydon
+681891,2026-03-30 10:53:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+699154,2026-03-30 11:25:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+704976,2026-03-30 11:35:00+02,403,"",Warlingham / Sainsbury's,403,Warlingham - Sanderstead - South Croydon - West Croydon
+719846,2026-03-30 12:17:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+738262,2026-03-30 12:49:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+741892,2026-03-30 12:59:00+02,403,"",Warlingham / Sainsbury's,403,Warlingham - Sanderstead - South Croydon - West Croydon
+756438,2026-03-30 13:41:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+773858,2026-03-30 14:13:00+02,403,"",Warlingham / Sainsbury's,403,Warlingham - Sanderstead - South Croydon - West Croydon
+778789,2026-03-30 14:23:00+02,403,"",Warlingham / Sainsbury's,403,Warlingham - Sanderstead - South Croydon - West Croydon
+792555,2026-03-30 15:05:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+812481,2026-03-30 15:37:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+817467,2026-03-30 15:47:00+02,403,"",Warlingham / Sainsbury's,403,Warlingham - Sanderstead - South Croydon - West Croydon
+833073,2026-03-30 16:36:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+850367,2026-03-30 17:12:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+856009,2026-03-30 17:22:00+02,403,"",Warlingham / Sainsbury's,403,Warlingham - Sanderstead - South Croydon - West Croydon
+873824,2026-03-30 18:12:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+893017,2026-03-30 18:46:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+898492,2026-03-30 18:58:00+02,403,"",Warlingham / Sainsbury's,403,Warlingham - Sanderstead - South Croydon - West Croydon
+911251,2026-03-30 19:48:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+923973,2026-03-30 20:19:00+02,403,"",Croydon (metrobus),403,Warlingham - Sanderstead - South Croydon - West Croydon
+937801,2026-03-30 20:58:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+937754,2026-03-30 20:59:58+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+950229,2026-03-30 21:54:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+954496,2026-03-30 22:11:00+02,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+966196,2026-03-30 22:55:00+02,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+966229,2026-03-30 23:03:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+974181,2026-03-30 23:50:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+976874,2026-03-31 00:00:00+02,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+983495,2026-03-31 00:42:00+02,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+983598,2026-03-31 00:53:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+1004987,2026-03-31 06:35:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+1013861,2026-03-31 07:02:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+1015780,2026-03-31 07:10:00+02,403,"",Warlingham / Sainsbury's,403,Warlingham - Sanderstead - South Croydon - West Croydon
+1022634,2026-03-31 07:47:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+1045361,2026-03-31 08:18:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+1051379,2026-03-31 08:34:00+02,403,"",Warlingham / Sainsbury's,403,Warlingham - Sanderstead - South Croydon - West Croydon
+1065081,2026-03-31 09:18:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+1083058,2026-03-31 09:58:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+1092990,2026-03-31 10:11:00+02,403,"",Warlingham / Sainsbury's,403,Warlingham - Sanderstead - South Croydon - West Croydon
+1106316,2026-03-31 10:53:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+1125822,2026-03-31 11:25:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+1130658,2026-03-31 11:35:00+02,403,"",Warlingham / Sainsbury's,403,Warlingham - Sanderstead - South Croydon - West Croydon
+1144440,2026-03-31 12:17:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+1162652,2026-03-31 12:49:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+1167239,2026-03-31 12:59:00+02,403,"",Warlingham / Sainsbury's,403,Warlingham - Sanderstead - South Croydon - West Croydon
+1183410,2026-03-31 13:41:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+1200532,2026-03-31 14:13:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+1204717,2026-03-31 14:23:00+02,403,"",Warlingham / Sainsbury's,403,Warlingham - Sanderstead - South Croydon - West Croydon
+1220942,2026-03-31 15:05:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+1237393,2026-03-31 15:37:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+1242860,2026-03-31 15:47:00+02,403,"",Warlingham / Sainsbury's,403,Warlingham - Sanderstead - South Croydon - West Croydon
+1259007,2026-03-31 16:36:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+1277825,2026-03-31 17:12:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+1283478,2026-03-31 17:22:00+02,403,"",Warlingham / Sainsbury's,403,Warlingham - Sanderstead - South Croydon - West Croydon
+1299994,2026-03-31 18:12:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+1319356,2026-03-31 18:46:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+1325164,2026-03-31 18:58:00+02,403,"",Warlingham / Sainsbury's,403,Warlingham - Sanderstead - South Croydon - West Croydon
+1362333,2026-03-31 20:58:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+1376860,2026-03-31 21:54:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+1380063,2026-03-31 22:11:00+02,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+1390234,2026-03-31 22:55:00+02,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+1391779,2026-03-31 23:03:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+1401208,2026-03-31 23:50:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+1402567,2026-04-01 00:00:00+02,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+1409911,2026-04-01 00:42:00+02,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+1409992,2026-04-01 00:53:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+1469828,2026-04-01 08:23:00+02,403,"",Warlingham / Sainsbury's,403,Warlingham - Sanderstead - South Croydon - West Croydon
+1487389,2026-04-01 09:06:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+1506335,2026-04-01 09:47:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+1514675,2026-04-01 09:59:00+02,403,"",Warlingham / Sainsbury's,403,Warlingham - Sanderstead - South Croydon - West Croydon
+1530282,2026-04-01 10:41:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+1547073,2026-04-01 11:13:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+1551574,2026-04-01 11:23:00+02,403,"",Warlingham / Sainsbury's,403,Warlingham - Sanderstead - South Croydon - West Croydon
+1566040,2026-04-01 12:05:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+1583618,2026-04-01 12:37:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+1584269,2026-04-01 12:47:00+02,403,"",Warlingham / Sainsbury's,403,Warlingham - Sanderstead - South Croydon - West Croydon
+1602839,2026-04-01 13:29:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+1622487,2026-04-01 14:01:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+1626377,2026-04-01 14:11:00+02,403,"",Warlingham / Sainsbury's,403,Warlingham - Sanderstead - South Croydon - West Croydon
+1642253,2026-04-01 14:53:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+1659672,2026-04-01 15:25:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+1664162,2026-04-01 15:35:00+02,403,"",Warlingham / Sainsbury's,403,Warlingham - Sanderstead - South Croydon - West Croydon
+1680636,2026-04-01 16:24:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+1700417,2026-04-01 17:01:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+1705869,2026-04-01 17:10:00+02,403,"",Warlingham / Sainsbury's,403,Warlingham - Sanderstead - South Croydon - West Croydon
+1722865,2026-04-01 18:00:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+1742730,2026-04-01 18:34:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+1746127,2026-04-01 18:46:00+02,403,"",Warlingham / Sainsbury's,403,Warlingham - Sanderstead - South Croydon - West Croydon
+1760129,2026-04-01 19:36:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+1774053,2026-04-01 20:07:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+1780369,2026-04-01 20:25:00+02,403,"",Warlingham / Sainsbury's,403,Warlingham - Sanderstead - South Croydon - West Croydon
+1790262,2026-04-01 21:04:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+1798863,2026-04-01 21:31:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+1800079,2026-04-01 21:40:00+02,403,"",Warlingham / Sainsbury's,403,Warlingham - Sanderstead - South Croydon - West Croydon
+1807387,2026-04-01 22:20:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+1814325,2026-04-01 22:45:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+1818756,2026-04-01 23:05:00+02,403,"",Warlingham / Sainsbury's,403,Warlingham - Sanderstead - South Croydon - West Croydon
+1824471,2026-04-01 23:55:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+1833315,2026-04-02 00:18:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+1834400,2026-04-02 00:25:00+02,403,"",Warlingham / Sainsbury's,403,Warlingham - Sanderstead - South Croydon - West Croydon
+1838366,2026-04-02 00:53:00+02,403,"",Croydon (metrobus),403,Warlingham - Sanderstead - South Croydon - West Croydon
+1859705,2026-04-02 06:35:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+1867066,2026-04-02 07:02:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+1869432,2026-04-02 07:10:00+02,403,"",Warlingham / Sainsbury's,403,Warlingham - Sanderstead - South Croydon - West Croydon
+1878096,2026-04-02 07:47:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+1896086,2026-04-02 08:18:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+1906070,2026-04-02 08:34:00+02,403,"",Warlingham / Sainsbury's,403,Warlingham - Sanderstead - South Croydon - West Croydon
+1925015,2026-04-02 09:18:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+1939202,2026-04-02 09:58:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+1947571,2026-04-02 10:11:00+02,403,"",Warlingham / Sainsbury's,403,Warlingham - Sanderstead - South Croydon - West Croydon
+1962830,2026-04-02 10:53:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+1980556,2026-04-02 11:25:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+1985999,2026-04-02 11:35:00+02,403,"",Warlingham / Sainsbury's,403,Warlingham - Sanderstead - South Croydon - West Croydon
+2002703,2026-04-02 12:17:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+2019192,2026-04-02 12:49:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+2021745,2026-04-02 12:59:00+02,403,"",Warlingham / Sainsbury's,403,Warlingham - Sanderstead - South Croydon - West Croydon
+2034841,2026-04-02 13:41:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+2053997,2026-04-02 14:13:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+2059891,2026-04-02 14:23:00+02,403,"",Warlingham / Sainsbury's,403,Warlingham - Sanderstead - South Croydon - West Croydon
+2072097,2026-04-02 15:05:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+2092912,2026-04-02 15:37:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+2097245,2026-04-02 15:47:00+02,403,"",Warlingham / Sainsbury's,403,Warlingham - Sanderstead - South Croydon - West Croydon
+2112199,2026-04-02 16:36:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+2132977,2026-04-02 17:12:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+2137507,2026-04-02 17:22:00+02,403,"",Warlingham / Sainsbury's,403,Warlingham - Sanderstead - South Croydon - West Croydon
+2154079,2026-04-02 18:12:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+2173535,2026-04-02 18:46:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+2178711,2026-04-02 18:58:00+02,403,"",Warlingham / Sainsbury's,403,Warlingham - Sanderstead - South Croydon - West Croydon
+2190369,2026-04-02 19:48:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+2205323,2026-04-02 20:19:00+02,403,"",Croydon (metrobus),403,Warlingham - Sanderstead - South Croydon - West Croydon
+2568746,2026-04-03 22:51:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+2580528,2026-04-03 23:40:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+2583217,2026-04-03 23:57:00+02,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+2590934,2026-04-04 00:40:00+02,119,"",Croydon (metrobus),119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+2597570,2026-04-04 02:10:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+2601200,2026-04-04 02:55:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+2601946,2026-04-04 03:25:00+02,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+2603057,2026-04-04 04:02:00+02,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+2603148,2026-04-04 04:10:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+2604257,2026-04-04 04:50:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+2605395,2026-04-04 05:25:00+02,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+2607995,2026-04-04 06:00:00+02,119,"",Bromley,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+2960573,2026-04-04 21:28:00+02,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+2960439,2026-04-04 23:06:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+2970585,2026-04-04 23:54:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+2972854,2026-04-05 00:13:00+02,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+2979976,2026-04-05 00:56:00+02,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+2981961,2026-04-05 01:10:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+2986607,2026-04-05 01:55:00+02,119,"",Croydon (metrobus),119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+3135359,2026-04-05 12:58:00+02,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+3132074,2026-04-05 17:08:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+3149858,2026-04-05 18:09:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+3157527,2026-04-05 18:31:00+02,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+3170441,2026-04-05 19:26:00+02,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+3174422,2026-04-05 19:48:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+3186309,2026-04-05 20:44:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+3187271,2026-04-05 20:54:00+02,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+3197514,2026-04-05 21:41:00+02,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+3197919,2026-04-05 21:51:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+3207682,2026-04-05 22:38:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+3209598,2026-04-05 22:56:00+02,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+3217628,2026-04-05 23:38:00+02,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+3219388,2026-04-05 23:55:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+3225988,2026-04-06 00:37:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+3226868,2026-04-06 00:44:00+02,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+3231533,2026-04-06 01:40:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+3235786,2026-04-06 02:18:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+3236078,2026-04-06 02:25:00+02,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+3237184,2026-04-06 03:01:00+02,119,"",Croydon (metrobus),119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+3463488,2026-04-06 21:28:00+02,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+3463211,2026-04-06 23:09:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+3471923,2026-04-06 23:52:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+3473603,2026-04-07 00:13:00+02,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+3479374,2026-04-07 00:51:00+02,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+3481607,2026-04-07 01:10:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+3485551,2026-04-07 01:50:00+02,119,"",Croydon (metrobus),119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+3789571,2026-04-07 18:06:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+3790784,2026-04-07 18:15:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+3921964,2026-04-08 06:25:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+3925093,2026-04-08 06:45:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+3939062,2026-04-08 07:31:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+3942078,2026-04-08 07:46:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+3974896,2026-04-08 08:51:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+3979880,2026-04-08 09:08:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+4010377,2026-04-08 10:33:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+4023252,2026-04-08 10:45:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+4053138,2026-04-08 11:46:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+4053797,2026-04-08 11:55:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+4086801,2026-04-08 12:58:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+4088069,2026-04-08 13:09:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+4120437,2026-04-08 14:10:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+4124373,2026-04-08 14:18:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+4154848,2026-04-08 15:32:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+4178420,2026-04-08 16:51:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+4184917,2026-04-08 16:58:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+4213121,2026-04-08 18:13:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+4220997,2026-04-08 18:25:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+4253816,2026-04-08 19:45:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+4253957,2026-04-08 19:54:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+4270062,2026-04-08 20:49:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+4273485,2026-04-08 21:03:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+4286779,2026-04-08 21:51:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+4287346,2026-04-08 22:00:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+4297677,2026-04-08 22:43:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+4299184,2026-04-08 23:00:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+4311366,2026-04-08 23:44:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+4311437,2026-04-09 00:00:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+4317953,2026-04-09 00:38:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+4318186,2026-04-09 00:45:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+4324325,2026-04-09 01:24:00+02,127,"",Croydon (metrobus),127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+4342116,2026-04-09 06:52:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+4350414,2026-04-09 07:12:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+4370851,2026-04-09 08:04:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+4375644,2026-04-09 08:13:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+4408868,2026-04-09 09:31:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+4413697,2026-04-09 09:41:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+4443102,2026-04-09 10:58:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+4452054,2026-04-09 11:07:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+4480141,2026-04-09 12:08:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+4483927,2026-04-09 12:17:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+4516636,2026-04-09 13:20:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+4520813,2026-04-09 13:30:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+4555506,2026-04-09 14:32:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+4557289,2026-04-09 14:40:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+4586260,2026-04-09 15:44:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+4588718,2026-04-09 15:51:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+4612732,2026-04-09 17:20:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+4645614,2026-04-09 18:35:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+4651139,2026-04-09 18:47:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+4678761,2026-04-09 20:03:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+4679240,2026-04-09 20:14:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+4698442,2026-04-09 21:05:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+4699699,2026-04-09 21:15:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+4712281,2026-04-09 22:03:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+4713123,2026-04-09 22:15:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+4722672,2026-04-09 22:58:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+4725669,2026-04-09 23:15:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+4736038,2026-04-09 23:59:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+4737363,2026-04-10 00:15:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+4744451,2026-04-10 00:53:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+4744668,2026-04-10 01:00:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+4748891,2026-04-10 01:39:00+02,127,"",Croydon (metrobus),127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+4795228,2026-04-10 07:37:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+4794749,2026-04-10 08:02:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+4826493,2026-04-10 09:16:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+4832850,2026-04-10 09:28:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+4862345,2026-04-10 10:41:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+4868282,2026-04-10 10:49:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+4897887,2026-04-10 11:53:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+4901938,2026-04-10 12:03:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+4931093,2026-04-10 13:04:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+4932922,2026-04-10 13:12:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+5007372,2026-04-10 15:38:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+5007291,2026-04-10 16:07:58+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+5030370,2026-04-10 16:53:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+5034115,2026-04-10 17:08:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+5071713,2026-04-10 18:29:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+5076253,2026-04-10 18:37:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+5097512,2026-04-10 19:49:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+5103340,2026-04-10 20:04:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+5121115,2026-04-10 21:00:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+5121197,2026-04-10 21:15:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+5134697,2026-04-10 22:00:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+5136815,2026-04-10 22:15:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+5147381,2026-04-10 22:59:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+5148757,2026-04-10 23:15:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+5156649,2026-04-10 23:53:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+5157704,2026-04-11 00:00:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+5165186,2026-04-11 00:40:00+02,127,"",Croydon (metrobus),127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+5228516,2026-04-11 08:54:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+5228654,2026-04-11 09:19:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+5251184,2026-04-11 10:04:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+5253153,2026-04-11 10:16:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+5282037,2026-04-11 11:08:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+5286342,2026-04-11 11:19:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+5313655,2026-04-11 12:21:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+5317093,2026-04-11 12:28:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+5339078,2026-04-11 13:51:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+5367689,2026-04-11 14:59:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+5372509,2026-04-11 15:14:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+5402058,2026-04-11 16:20:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+5413400,2026-04-11 16:36:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+5440774,2026-04-11 17:41:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+5443224,2026-04-11 17:49:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+5468133,2026-04-11 18:54:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+5472314,2026-04-11 19:10:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+5493425,2026-04-11 20:10:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+5494485,2026-04-11 20:18:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+5507601,2026-04-11 21:07:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+5508770,2026-04-11 21:15:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+5519502,2026-04-11 21:59:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+5522320,2026-04-11 22:15:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+5531386,2026-04-11 22:58:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+5533953,2026-04-11 23:15:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+5542904,2026-04-11 23:59:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+5544971,2026-04-12 00:15:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+5551145,2026-04-12 00:58:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+5554054,2026-04-12 01:15:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+5557868,2026-04-12 01:55:00+02,127,"",Croydon (metrobus),127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+5855255,2026-04-13 07:53:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+5855353,2026-04-13 08:18:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+5891255,2026-04-13 09:38:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+5896515,2026-04-13 09:50:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+5930543,2026-04-13 11:00:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+5930740,2026-04-13 11:11:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+5962395,2026-04-13 12:14:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+5964608,2026-04-13 12:25:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+5996792,2026-04-13 13:26:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+5997050,2026-04-13 13:34:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+6028059,2026-04-13 14:37:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+6030669,2026-04-13 14:45:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+6064679,2026-04-13 15:53:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+6064921,2026-04-13 16:03:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+6099635,2026-04-13 17:41:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+6156168,2026-04-13 18:57:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+6115004,2026-04-13 19:04:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+6153722,2026-04-13 19:09:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+6116244,2026-04-13 19:10:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+6148139,2026-04-13 20:17:00+02,127,"",Croydon (metrobus),127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+6288369,2026-04-14 07:53:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+6288257,2026-04-14 08:23:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+6326053,2026-04-14 09:42:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+6326502,2026-04-14 09:53:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+6360020,2026-04-14 11:05:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+6365857,2026-04-14 11:18:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+6396782,2026-04-14 12:19:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+6397323,2026-04-14 12:28:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+6433064,2026-04-14 13:31:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+6433872,2026-04-14 13:41:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+6467241,2026-04-14 14:43:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+6470389,2026-04-14 14:51:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+6503272,2026-04-14 15:56:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+6508285,2026-04-14 16:13:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+6551387,2026-04-14 17:31:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+6543399,2026-04-14 17:33:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+6575726,2026-04-14 18:58:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+6598248,2026-04-14 20:14:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+6598296,2026-04-14 20:24:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+6613036,2026-04-14 21:13:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+6615554,2026-04-14 21:30:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+6626948,2026-04-14 22:16:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+6629208,2026-04-14 22:30:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+6639176,2026-04-14 23:13:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+6641472,2026-04-14 23:30:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+6650077,2026-04-15 00:14:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+6652913,2026-04-15 00:30:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+6658289,2026-04-15 01:08:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+6658946,2026-04-15 01:15:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+6662545,2026-04-15 01:54:00+02,127,"",Croydon (metrobus),127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+6682303,2026-04-15 07:00:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+6702024,2026-04-15 07:49:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+6709311,2026-04-15 08:03:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+6742674,2026-04-15 09:18:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+6746289,2026-04-15 09:30:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+6781051,2026-04-15 10:51:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+6907067,2026-04-15 15:22:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+6937599,2026-04-15 16:31:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+6943879,2026-04-15 16:46:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+6976439,2026-04-15 18:06:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+6983842,2026-04-15 18:15:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+7010999,2026-04-15 19:29:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+7016284,2026-04-15 19:42:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+7034956,2026-04-15 20:45:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+7040329,2026-04-15 21:00:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+7051687,2026-04-15 21:45:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+7054530,2026-04-15 22:00:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+7064726,2026-04-15 22:44:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+7067616,2026-04-15 23:00:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+7075863,2026-04-15 23:40:00+02,127,"",Croydon (metrobus),127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+7161343,2026-04-16 08:09:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+7161443,2026-04-16 08:44:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+7192542,2026-04-16 10:04:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+7200662,2026-04-16 10:15:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+7231057,2026-04-16 11:21:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+7233751,2026-04-16 11:29:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+7262288,2026-04-16 12:30:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+7264968,2026-04-16 12:39:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+7346692,2026-04-16 16:24:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+7371120,2026-04-16 17:44:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+7373572,2026-04-16 17:53:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+7410457,2026-04-16 19:08:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+7415029,2026-04-16 19:20:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+7433217,2026-04-16 20:30:00+02,127,"",Tooting Broadway,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+7570007,2026-04-17 08:23:00+02,403,"",Warlingham / Sainsbury's,403,Warlingham - Sanderstead - South Croydon - West Croydon
+7570596,2026-04-17 09:06:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+7586176,2026-04-17 09:47:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+7592831,2026-04-17 09:59:00+02,403,"",Warlingham / Sainsbury's,403,Warlingham - Sanderstead - South Croydon - West Croydon
+7608887,2026-04-17 10:41:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+7627929,2026-04-17 11:13:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+7630416,2026-04-17 11:23:00+02,403,"",Warlingham / Sainsbury's,403,Warlingham - Sanderstead - South Croydon - West Croydon
+7645435,2026-04-17 12:05:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+7663727,2026-04-17 12:37:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+7669760,2026-04-17 12:47:00+02,403,"",Warlingham / Sainsbury's,403,Warlingham - Sanderstead - South Croydon - West Croydon
+7689479,2026-04-17 13:29:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+7703558,2026-04-17 14:01:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+7706029,2026-04-17 14:11:00+02,403,"",Warlingham / Sainsbury's,403,Warlingham - Sanderstead - South Croydon - West Croydon
+7721510,2026-04-17 14:53:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+7739515,2026-04-17 15:25:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+7743237,2026-04-17 15:35:00+02,403,"",Warlingham / Sainsbury's,403,Warlingham - Sanderstead - South Croydon - West Croydon
+7762030,2026-04-17 16:24:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+7781617,2026-04-17 17:01:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+7784212,2026-04-17 17:10:00+02,403,"",Warlingham / Sainsbury's,403,Warlingham - Sanderstead - South Croydon - West Croydon
+7801810,2026-04-17 18:00:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+7821745,2026-04-17 18:34:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+7825801,2026-04-17 18:46:00+02,403,"",Warlingham / Sainsbury's,403,Warlingham - Sanderstead - South Croydon - West Croydon
+7839728,2026-04-17 19:36:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+7854753,2026-04-17 20:07:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+7859381,2026-04-17 20:25:00+02,403,"",Warlingham / Sainsbury's,403,Warlingham - Sanderstead - South Croydon - West Croydon
+7868625,2026-04-17 21:04:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+8073094,2026-04-18 12:09:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+8067670,2026-04-18 12:34:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+8103761,2026-04-18 13:43:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+8107178,2026-04-18 13:56:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+8132577,2026-04-18 15:19:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+8163638,2026-04-18 16:25:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+8163805,2026-04-18 16:32:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+8193396,2026-04-18 17:37:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+8197148,2026-04-18 17:53:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+8223529,2026-04-18 18:58:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+8224374,2026-04-18 19:06:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+8242031,2026-04-18 20:04:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+8244291,2026-04-18 20:14:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+8257567,2026-04-18 21:05:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+8259015,2026-04-18 21:15:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+8270844,2026-04-18 21:59:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+8272207,2026-04-18 22:15:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+8282628,2026-04-18 22:59:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+8284790,2026-04-18 23:15:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+8292394,2026-04-18 23:58:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+8296452,2026-04-19 00:15:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+8303070,2026-04-19 00:55:00+02,127,"",Croydon (metrobus),127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+8517121,2026-04-19 18:55:00+02,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+8514372,2026-04-19 21:36:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+8526997,2026-04-19 22:24:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+8528914,2026-04-19 22:41:00+02,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+8536099,2026-04-19 23:24:00+02,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+8537967,2026-04-19 23:40:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+8546415,2026-04-20 00:22:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+8546922,2026-04-20 00:29:00+02,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+8553200,2026-04-20 01:06:00+02,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+8553223,2026-04-20 01:25:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+8556700,2026-04-20 02:05:00+02,119,"",Croydon (metrobus),119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+8608187,2026-04-20 07:53:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+8608280,2026-04-20 08:23:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+8643984,2026-04-20 09:42:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+8646556,2026-04-20 09:53:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+8676320,2026-04-20 11:05:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+8689036,2026-04-20 11:18:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+8716640,2026-04-20 12:19:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+8721005,2026-04-20 12:28:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+8751340,2026-04-20 13:31:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+8754904,2026-04-20 13:41:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+8783406,2026-04-20 14:43:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+8785162,2026-04-20 14:51:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+8811123,2026-04-20 15:56:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+8822814,2026-04-20 16:13:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+8854958,2026-04-20 17:33:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+8859975,2026-04-20 17:42:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+8889284,2026-04-20 18:57:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+8893160,2026-04-20 19:09:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+8920608,2026-04-20 20:22:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+8925637,2026-04-20 20:36:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+8937863,2026-04-20 21:24:00+02,127,"",Croydon (metrobus),127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+8950733,2026-04-20 22:32:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+8963358,2026-04-20 23:20:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+8964956,2026-04-20 23:28:00+02,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+8973831,2026-04-21 00:11:00+02,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+8974960,2026-04-21 00:22:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+8983778,2026-04-21 01:24:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+8983936,2026-04-21 01:25:00+02,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+8986882,2026-04-21 02:01:00+02,119,"",Croydon (metrobus),119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+9020335,2026-04-21 07:11:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+9018869,2026-04-21 07:36:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+9044931,2026-04-21 08:35:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+9055410,2026-04-21 08:47:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+9097980,2026-04-21 10:11:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+9103227,2026-04-21 10:23:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+9133407,2026-04-21 11:25:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+9137852,2026-04-21 11:33:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+9162192,2026-04-21 12:47:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+9186231,2026-04-21 13:48:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+9192331,2026-04-21 13:56:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+9221321,2026-04-21 14:59:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+9230350,2026-04-21 15:06:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+9258839,2026-04-21 16:25:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+9288633,2026-04-21 17:44:00+02,127,"",Croydon (metrobus),127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+9358544,2026-04-21 18:42:00+02,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+9355448,2026-04-21 21:00:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+9373469,2026-04-21 21:56:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+9376991,2026-04-21 22:11:00+02,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+9386987,2026-04-21 22:55:00+02,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+9388348,2026-04-21 23:03:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+9396896,2026-04-21 23:50:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+9399079,2026-04-22 00:00:00+02,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+9407934,2026-04-22 00:42:00+02,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+9407968,2026-04-22 00:53:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+9413010,2026-04-22 01:33:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+9470366,2026-04-22 07:53:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+9470475,2026-04-22 08:23:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+9501473,2026-04-22 09:42:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+9508948,2026-04-22 09:53:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+9539232,2026-04-22 11:05:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+9546955,2026-04-22 11:18:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+9572467,2026-04-22 12:19:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+9578512,2026-04-22 12:28:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+9607069,2026-04-22 13:31:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+9610544,2026-04-22 13:41:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+9637532,2026-04-22 14:43:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+9642104,2026-04-22 14:51:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+9668189,2026-04-22 15:56:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+9680185,2026-04-22 16:13:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+9714282,2026-04-22 17:33:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+9719048,2026-04-22 17:42:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+9749488,2026-04-22 18:57:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+9756636,2026-04-22 19:09:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+9781510,2026-04-22 20:22:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+9783512,2026-04-22 20:36:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+9795115,2026-04-22 21:24:00+02,127,"",Croydon (metrobus),127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+9909727,2026-04-23 08:09:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+9905759,2026-04-23 08:44:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+9940505,2026-04-23 10:04:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+9948463,2026-04-23 10:15:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+9974305,2026-04-23 11:21:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+9982933,2026-04-23 11:29:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+10011515,2026-04-23 12:30:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+10014273,2026-04-23 12:39:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+10040738,2026-04-23 13:42:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+10047221,2026-04-23 13:52:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+10073960,2026-04-23 14:54:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+10078201,2026-04-23 15:02:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+10111399,2026-04-23 16:09:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+10115065,2026-04-23 16:24:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+10151392,2026-04-23 17:44:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+10155814,2026-04-23 17:53:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+10189762,2026-04-23 19:08:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+10192364,2026-04-23 19:20:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+10213859,2026-04-23 20:30:00+02,127,"",Croydon (metrobus),127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+10300901,2026-04-24 07:23:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+10327842,2026-04-24 08:20:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+10331557,2026-04-24 08:34:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+10370722,2026-04-24 09:53:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+10370830,2026-04-24 10:04:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+10401251,2026-04-24 11:12:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+10524350,2026-04-24 15:45:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+10552941,2026-04-24 17:19:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+10580111,2026-04-24 17:53:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+10604374,2026-04-24 18:41:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+10599738,2026-04-24 18:48:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+10628508,2026-04-24 20:00:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+10629422,2026-04-24 20:15:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+10688081,2026-04-25 00:41:00+02,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+10687711,2026-04-25 00:53:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+10694939,2026-04-25 01:54:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+10694977,2026-04-25 01:55:00+02,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+10697260,2026-04-25 02:34:00+02,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+10697323,2026-04-25 02:40:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+10698734,2026-04-25 03:21:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+10699694,2026-04-25 03:55:00+02,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+10700587,2026-04-25 04:32:00+02,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+10700682,2026-04-25 04:40:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+10702002,2026-04-25 05:20:00+02,119,"",Croydon (metrobus),119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+11023457,2026-04-25 21:18:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+11037543,2026-04-25 22:13:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+11040719,2026-04-25 22:24:00+02,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+11050409,2026-04-25 23:11:00+02,119,"",Croydon (metrobus),119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+11351149,2026-04-27 07:34:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+11380194,2026-04-27 08:37:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+11386816,2026-04-27 08:55:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+11423570,2026-04-27 10:14:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+11426535,2026-04-27 10:27:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+11454522,2026-04-27 11:31:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+11459009,2026-04-27 11:40:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+11484386,2026-04-27 12:41:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+11490877,2026-04-27 12:50:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+11526855,2026-04-27 14:03:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+11543096,2026-04-27 15:05:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+11543205,2026-04-27 15:13:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+11572022,2026-04-27 16:20:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+11582560,2026-04-27 16:35:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+11617138,2026-04-27 17:55:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+11620842,2026-04-27 18:04:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+11648804,2026-04-27 19:19:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+11655545,2026-04-27 19:31:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+11675416,2026-04-27 20:38:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+11680286,2026-04-27 20:48:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+11691845,2026-04-27 21:35:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+11694602,2026-04-27 21:45:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+11705585,2026-04-27 22:31:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+11707689,2026-04-27 22:45:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+11717474,2026-04-27 23:28:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+11720378,2026-04-27 23:45:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+11787390,2026-04-28 08:02:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+11820056,2026-04-28 09:16:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+11824349,2026-04-28 09:28:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+11856208,2026-04-28 10:41:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+11859347,2026-04-28 10:49:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+11886144,2026-04-28 11:53:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+11893660,2026-04-28 12:03:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+12190174,2026-04-29 07:25:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+12189583,2026-04-29 07:55:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+12221797,2026-04-29 09:05:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+12227428,2026-04-29 09:19:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+12265933,2026-04-29 10:44:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+12268978,2026-04-29 10:56:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+12297503,2026-04-29 11:57:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+12305607,2026-04-29 12:06:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+12337031,2026-04-29 13:09:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+12339742,2026-04-29 13:19:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+12368727,2026-04-29 14:21:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+12375403,2026-04-29 14:29:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+12401617,2026-04-29 15:33:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+12414716,2026-04-29 15:41:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+12434798,2026-04-29 17:02:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+12442550,2026-04-29 17:09:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+12477715,2026-04-29 18:24:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+12482126,2026-04-29 18:36:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+12510053,2026-04-29 19:54:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+12510954,2026-04-29 20:04:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+12526379,2026-04-29 20:57:00+02,127,"",Croydon (metrobus),127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+12644346,2026-04-30 08:09:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+12644542,2026-04-30 08:44:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+12675468,2026-04-30 10:04:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+12682479,2026-04-30 10:15:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+12716659,2026-04-30 11:21:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+12730839,2026-04-30 11:29:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+12759294,2026-04-30 12:30:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+12758575,2026-04-30 12:39:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+12784123,2026-04-30 13:52:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+12804535,2026-04-30 14:54:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+12813601,2026-04-30 15:02:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+12843586,2026-04-30 16:09:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+12850832,2026-04-30 16:24:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+12888751,2026-04-30 17:44:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+12891493,2026-04-30 17:53:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+12921324,2026-04-30 19:08:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+12925662,2026-04-30 19:20:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+12947639,2026-04-30 20:30:00+02,127,"",Croydon (metrobus),127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+13067683,2026-05-01 07:53:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+13067905,2026-05-01 08:18:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+13104539,2026-05-01 09:38:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+13108182,2026-05-01 09:50:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+13136146,2026-05-01 11:00:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+13142215,2026-05-01 11:11:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+13172301,2026-05-01 12:14:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+13177088,2026-05-01 12:25:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+13210971,2026-05-01 13:26:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+13212891,2026-05-01 13:34:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+13249479,2026-05-01 14:37:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+13256088,2026-05-01 14:45:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+13281379,2026-05-01 16:03:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+13305385,2026-05-01 17:26:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+13305477,2026-05-01 17:41:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+13305574,2026-05-01 19:04:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+13305750,2026-05-01 19:10:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+13371385,2026-05-01 20:17:00+02,127,"",Croydon (metrobus),127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+13519213,2026-05-02 10:23:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+13530741,2026-05-02 10:43:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+13556948,2026-05-02 11:40:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+13561823,2026-05-02 11:51:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+13590944,2026-05-02 12:57:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+13594761,2026-05-02 13:12:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+13623392,2026-05-02 14:22:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+13630629,2026-05-02 14:35:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+13655818,2026-05-02 15:42:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+13663054,2026-05-02 15:59:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+13688889,2026-05-02 17:04:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+13696988,2026-05-02 17:20:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+13724957,2026-05-02 18:25:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+13726244,2026-05-02 18:33:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+13750710,2026-05-02 19:34:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+13752969,2026-05-02 19:43:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+13768087,2026-05-02 20:37:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+13768823,2026-05-02 20:45:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+13780053,2026-05-02 21:30:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+13782376,2026-05-02 21:45:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+13792979,2026-05-02 22:29:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+13795205,2026-05-02 22:45:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+13802619,2026-05-02 23:28:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+13807185,2026-05-02 23:45:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+13814904,2026-05-03 00:26:00+02,127,"",Croydon (metrobus),127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+14360438,2026-05-05 07:18:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+14360514,2026-05-05 07:43:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+14394982,2026-05-05 08:52:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+14400918,2026-05-05 09:06:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+14433955,2026-05-05 10:24:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+14438747,2026-05-05 10:38:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+14470897,2026-05-05 11:42:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+14476893,2026-05-05 11:52:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+14508874,2026-05-05 12:53:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+14513821,2026-05-05 13:01:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+14536551,2026-05-05 14:14:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+14563183,2026-05-05 15:17:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+14568816,2026-05-05 15:30:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+14599551,2026-05-05 16:42:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+14609820,2026-05-05 16:57:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+14644413,2026-05-05 18:17:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+14649345,2026-05-05 18:26:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+14676719,2026-05-05 19:39:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+14681287,2026-05-05 19:53:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+14699101,2026-05-05 20:52:00+02,127,"",Croydon (metrobus),127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+14777869,2026-05-06 07:09:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+14789452,2026-05-06 07:34:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+14822291,2026-05-06 08:37:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+14827212,2026-05-06 08:55:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+14865245,2026-05-06 10:14:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+14867324,2026-05-06 10:27:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+14895554,2026-05-06 11:31:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+14900997,2026-05-06 11:40:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+14927558,2026-05-06 12:41:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+14935516,2026-05-06 12:50:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+14961857,2026-05-06 13:53:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+14967961,2026-05-06 14:03:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+15000147,2026-05-06 15:05:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+15005648,2026-05-06 15:13:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+15037510,2026-05-06 16:20:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+15039943,2026-05-06 16:35:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+15072225,2026-05-06 18:04:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+15095646,2026-05-06 19:19:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+15100537,2026-05-06 19:31:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+15124729,2026-05-06 20:38:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+15127669,2026-05-06 20:48:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+15142671,2026-05-06 21:35:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+15145407,2026-05-06 21:45:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+15156495,2026-05-06 22:31:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+15158597,2026-05-06 22:45:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+15167559,2026-05-06 23:28:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+15170666,2026-05-06 23:45:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+15202565,2026-05-07 06:23:00+02,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+15204783,2026-05-07 06:35:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+15219602,2026-05-07 07:26:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+15226035,2026-05-07 07:43:00+02,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+15252202,2026-05-07 08:43:00+02,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+15260817,2026-05-07 08:57:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+15296793,2026-05-07 10:17:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+15300740,2026-05-07 10:28:00+02,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+15327560,2026-05-07 11:31:00+02,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+15336378,2026-05-07 11:43:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+15367927,2026-05-07 12:51:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+15374170,2026-05-07 13:08:00+02,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+15402416,2026-05-07 14:09:00+02,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+15404665,2026-05-07 14:27:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+15437220,2026-05-07 15:35:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+15446647,2026-05-07 15:50:00+02,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+15479297,2026-05-07 17:00:00+02,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+15486430,2026-05-07 17:20:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+15521795,2026-05-07 18:37:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+15524113,2026-05-07 18:49:00+02,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+15549011,2026-05-07 19:53:00+02,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+15553666,2026-05-07 20:09:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+15570919,2026-05-07 21:09:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+15574259,2026-05-07 21:25:00+02,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+15589794,2026-05-07 22:15:00+02,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+15589925,2026-05-07 22:32:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+15601065,2026-05-07 23:20:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+15601257,2026-05-07 23:28:00+02,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+15610191,2026-05-08 00:11:00+02,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+15611983,2026-05-08 00:22:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+15618020,2026-05-08 01:24:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+15620340,2026-05-08 01:25:00+02,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+15623219,2026-05-08 02:01:00+02,119,"",Croydon (metrobus),119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+15648441,2026-05-08 07:12:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+15667117,2026-05-08 08:04:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+15674707,2026-05-08 08:13:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+15709648,2026-05-08 09:31:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+15715794,2026-05-08 09:41:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+15746708,2026-05-08 10:58:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+15753820,2026-05-08 11:07:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+15782852,2026-05-08 12:08:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+15788515,2026-05-08 12:17:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+15817435,2026-05-08 13:20:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+15821001,2026-05-08 13:30:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+15848483,2026-05-08 14:40:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+15875343,2026-05-08 15:44:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+15882719,2026-05-08 15:51:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+15912801,2026-05-08 17:20:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+15983468,2026-05-08 18:14:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+15936530,2026-05-08 18:35:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+15940739,2026-05-08 18:47:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+15986694,2026-05-08 19:37:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+15981290,2026-05-08 19:43:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+15970149,2026-05-08 20:03:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+15970488,2026-05-08 20:14:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+16005835,2026-05-08 21:05:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+16007183,2026-05-08 21:15:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+16019797,2026-05-08 22:03:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+16020430,2026-05-08 22:15:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+16419335,2026-05-09 23:22:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+16428374,2026-05-10 00:09:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+16430805,2026-05-10 00:28:00+02,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+16438716,2026-05-10 01:11:00+02,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+16438758,2026-05-10 01:25:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+16442621,2026-05-10 02:24:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+16443532,2026-05-10 02:25:00+02,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+16741161,2026-05-11 07:53:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+16741373,2026-05-11 08:18:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+16778110,2026-05-11 09:38:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+16791337,2026-05-11 09:50:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+16818299,2026-05-11 11:11:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+16847831,2026-05-11 12:14:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+16852365,2026-05-11 12:25:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+16882982,2026-05-11 13:26:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+16883060,2026-05-11 13:34:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+16912648,2026-05-11 14:37:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+16931256,2026-05-11 14:45:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+16967607,2026-05-11 16:03:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+16999739,2026-05-11 17:26:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+17006030,2026-05-11 17:41:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+17036696,2026-05-11 19:04:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+17044640,2026-05-11 19:10:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+17143738,2026-05-12 06:40:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+17143909,2026-05-12 07:00:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+17162919,2026-05-12 07:49:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+17168021,2026-05-12 08:03:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+17206233,2026-05-12 09:18:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+17207152,2026-05-12 09:30:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+17243062,2026-05-12 10:51:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+17501919,2026-05-12 21:29:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+17522816,2026-05-12 22:22:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+17525165,2026-05-12 22:42:00+02,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+17534832,2026-05-12 23:26:00+02,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+17536351,2026-05-12 23:35:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+17545650,2026-05-13 00:21:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+17546473,2026-05-13 00:30:00+02,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+17553688,2026-05-13 01:08:00+02,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+17553712,2026-05-13 01:25:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+17556942,2026-05-13 02:04:00+02,119,"",Croydon (metrobus),119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+17573674,2026-05-13 06:25:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+17572385,2026-05-13 06:45:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+17588897,2026-05-13 07:31:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+17594392,2026-05-13 07:46:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+17622016,2026-05-13 08:51:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+17632449,2026-05-13 09:08:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+17671296,2026-05-13 10:33:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+17675117,2026-05-13 10:45:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+17706538,2026-05-13 11:46:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+17706671,2026-05-13 11:55:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+17736739,2026-05-13 12:58:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+17740430,2026-05-13 13:09:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+17769487,2026-05-13 14:10:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+17771514,2026-05-13 14:18:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+17800333,2026-05-13 15:22:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+17805128,2026-05-13 15:32:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+17838972,2026-05-13 16:51:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+17843087,2026-05-13 16:58:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+17873887,2026-05-13 18:13:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+17881791,2026-05-13 18:25:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+17910405,2026-05-13 19:45:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+17918921,2026-05-13 19:54:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+17935305,2026-05-13 20:49:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+17937393,2026-05-13 21:03:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+17949148,2026-05-13 21:51:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+17951085,2026-05-13 22:00:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+17962643,2026-05-13 22:43:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+17963031,2026-05-13 23:00:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+17975173,2026-05-13 23:44:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+17975826,2026-05-14 00:00:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+17982312,2026-05-14 00:38:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+17983320,2026-05-14 00:45:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+17987679,2026-05-14 01:24:00+02,127,"",Croydon (metrobus),127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+18019490,2026-05-14 07:03:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+18018670,2026-05-14 07:23:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+18047070,2026-05-14 08:20:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+18051108,2026-05-14 08:34:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+18082088,2026-05-14 09:53:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+18090930,2026-05-14 10:04:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+18125060,2026-05-14 11:12:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+18245919,2026-05-14 15:45:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+18282716,2026-05-14 17:04:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+18287833,2026-05-14 17:19:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+18323290,2026-05-14 18:41:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+18329124,2026-05-14 18:48:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+18354258,2026-05-14 20:00:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+18359040,2026-05-14 20:15:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+18459865,2026-05-15 07:09:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+18459781,2026-05-15 07:34:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+18486991,2026-05-15 08:37:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+18497665,2026-05-15 08:55:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+18524821,2026-05-15 10:14:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+18538513,2026-05-15 10:27:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+18566224,2026-05-15 11:31:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+18572363,2026-05-15 11:40:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+18598506,2026-05-15 12:41:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+18602406,2026-05-15 12:50:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+18633026,2026-05-15 13:53:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+18635839,2026-05-15 14:03:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+18667436,2026-05-15 15:05:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+18671190,2026-05-15 15:13:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+18706619,2026-05-15 16:20:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+18709803,2026-05-15 16:35:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+18748495,2026-05-15 17:55:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+18750499,2026-05-15 18:04:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+18783434,2026-05-15 19:19:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+18792610,2026-05-15 19:31:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+18800793,2026-05-15 20:48:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+18814392,2026-05-15 21:35:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+18814780,2026-05-15 21:45:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+18825227,2026-05-15 22:31:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+18828981,2026-05-15 22:45:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+18838279,2026-05-15 23:28:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+18840304,2026-05-15 23:45:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+18849533,2026-05-16 00:25:00+02,127,"",Croydon (metrobus),127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+18871942,2026-05-16 06:10:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+18871725,2026-05-16 06:30:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+18879719,2026-05-16 07:10:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+18880400,2026-05-16 07:17:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+18889962,2026-05-16 07:57:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+18894100,2026-05-16 08:15:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+18909970,2026-05-16 08:58:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+18910954,2026-05-16 09:07:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+18929813,2026-05-16 09:52:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+18934419,2026-05-16 10:06:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+18956013,2026-05-16 10:58:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+18962504,2026-05-16 11:08:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+18995082,2026-05-16 12:10:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+18999380,2026-05-16 12:17:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+19020078,2026-05-16 13:27:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+19018958,2026-05-16 13:40:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+19040007,2026-05-16 14:48:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+19055496,2026-05-16 15:03:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+19085586,2026-05-16 16:10:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+19133927,2026-05-16 17:38:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+19150943,2026-05-16 18:43:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+19152318,2026-05-16 18:59:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+19176419,2026-05-16 19:31:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+19176046,2026-05-16 19:41:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+19170997,2026-05-16 20:00:00+02,127,"",Croydon (metrobus),127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+19188863,2026-05-16 20:34:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+19197150,2026-05-16 20:48:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+19209949,2026-05-16 21:36:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+19276362,2026-05-17 09:29:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+19278429,2026-05-17 09:45:00+02,403,"",Warlingham / Sainsbury's,403,Warlingham - Sanderstead - South Croydon - West Croydon
+19286608,2026-05-17 10:35:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+19297655,2026-05-17 11:01:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+19303953,2026-05-17 11:25:00+02,403,"",Warlingham / Sainsbury's,403,Warlingham - Sanderstead - South Croydon - West Croydon
+19312599,2026-05-17 12:14:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+19325498,2026-05-17 12:45:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+19325626,2026-05-17 13:04:00+02,403,"",Warlingham / Sainsbury's,403,Warlingham - Sanderstead - South Croydon - West Croydon
+19338607,2026-05-17 13:54:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+19348435,2026-05-17 14:26:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+19350507,2026-05-17 14:44:00+02,403,"",Warlingham / Sainsbury's,403,Warlingham - Sanderstead - South Croydon - West Croydon
+19361360,2026-05-17 15:34:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+19373907,2026-05-17 16:06:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+19378347,2026-05-17 16:24:00+02,403,"",Warlingham / Sainsbury's,403,Warlingham - Sanderstead - South Croydon - West Croydon
+19387329,2026-05-17 17:14:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+19398788,2026-05-17 17:45:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+19403858,2026-05-17 18:04:00+02,403,"",Warlingham / Sainsbury's,403,Warlingham - Sanderstead - South Croydon - West Croydon
+19411072,2026-05-17 18:54:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+19458097,2026-05-17 19:12:00+02,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+19422214,2026-05-17 19:22:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+19423389,2026-05-17 19:45:00+02,403,"",Warlingham / Sainsbury's,403,Warlingham - Sanderstead - South Croydon - West Croydon
+19433914,2026-05-17 20:34:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+19442146,2026-05-17 21:00:00+02,403,"",Croydon (metrobus),403,Warlingham - Sanderstead - South Croydon - West Croydon
+19458436,2026-05-17 22:22:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+19469567,2026-05-17 23:09:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+19470589,2026-05-17 23:27:00+02,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+19478712,2026-05-18 00:08:00+02,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+19478936,2026-05-18 00:25:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+19485924,2026-05-18 01:24:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+19486263,2026-05-18 01:25:00+02,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+19489284,2026-05-18 02:01:00+02,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+19489350,2026-05-18 02:10:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+19490920,2026-05-18 02:48:00+02,119,"",Croydon (metrobus),119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+19545967,2026-05-18 08:23:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+19580115,2026-05-18 09:42:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+19585706,2026-05-18 09:53:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+19613849,2026-05-18 11:05:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+19622951,2026-05-18 11:18:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+19648940,2026-05-18 12:19:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+19653959,2026-05-18 12:28:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+19681866,2026-05-18 13:31:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+19686235,2026-05-18 13:41:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+19717783,2026-05-18 14:43:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+19719702,2026-05-18 14:51:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+19748240,2026-05-18 15:56:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+19756707,2026-05-18 16:13:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+19789527,2026-05-18 17:33:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+19796689,2026-05-18 17:42:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+19826349,2026-05-18 18:57:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+19831376,2026-05-18 19:09:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+19852808,2026-05-18 20:22:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+19860584,2026-05-18 20:36:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+19871816,2026-05-18 21:24:00+02,127,"",Croydon (metrobus),127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+19967512,2026-05-19 07:37:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+19967615,2026-05-19 08:02:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+20002378,2026-05-19 09:16:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+20006721,2026-05-19 09:28:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+20041629,2026-05-19 10:41:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+20041753,2026-05-19 10:49:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+20071054,2026-05-19 11:53:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+20076162,2026-05-19 12:03:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+20105714,2026-05-19 13:01:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+20105147,2026-05-19 13:04:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+20134316,2026-05-19 14:04:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+20141597,2026-05-19 14:14:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+20169128,2026-05-19 15:17:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+20154515,2026-05-19 15:30:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+20210882,2026-05-19 16:57:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+20241897,2026-05-19 18:17:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+20248592,2026-05-19 18:26:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+20273457,2026-05-19 19:39:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+20279588,2026-05-19 19:53:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+20298378,2026-05-19 20:52:00+02,127,"",Croydon (metrobus),127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+20410657,2026-05-20 07:53:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+20410774,2026-05-20 08:23:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+20450070,2026-05-20 09:42:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+20450276,2026-05-20 09:53:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+20479720,2026-05-20 11:05:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+20489526,2026-05-20 11:18:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+20519375,2026-05-20 12:19:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+20520967,2026-05-20 12:28:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+20548979,2026-05-20 13:31:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+20553436,2026-05-20 13:41:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+20585049,2026-05-20 14:43:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+20587314,2026-05-20 14:51:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+20622842,2026-05-20 15:56:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+20626305,2026-05-20 16:13:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+20658043,2026-05-20 17:33:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+20664650,2026-05-20 17:42:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+20692884,2026-05-20 18:57:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+20697885,2026-05-20 19:09:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+20720757,2026-05-20 20:22:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+20727312,2026-05-20 20:36:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+20740174,2026-05-20 21:24:00+02,127,"",Croydon (metrobus),127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+20856276,2026-05-21 08:09:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+20855616,2026-05-21 08:44:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+20887678,2026-05-21 10:04:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+20894857,2026-05-21 10:15:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+20926367,2026-05-21 11:21:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+20931350,2026-05-21 11:29:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+20959284,2026-05-21 12:30:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+20961791,2026-05-21 12:39:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+20989544,2026-05-21 13:42:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+20998959,2026-05-21 13:52:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+21030589,2026-05-21 14:54:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+21031619,2026-05-21 15:02:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+21062540,2026-05-21 16:09:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+21065219,2026-05-21 16:24:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+21092270,2026-05-21 17:53:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+21123005,2026-05-21 19:08:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+21130813,2026-05-21 19:20:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+21152859,2026-05-21 20:30:00+02,127,"",Croydon (metrobus),127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+21184575,2026-05-21 22:14:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+21181232,2026-05-21 22:30:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+21194458,2026-05-21 23:14:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+21196370,2026-05-21 23:30:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+21203420,2026-05-22 00:08:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+21205670,2026-05-22 00:15:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+21212412,2026-05-22 00:55:00+02,127,"",Croydon (metrobus),127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+21262165,2026-05-22 08:02:55+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+21374775,2026-05-22 09:09:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+21386375,2026-05-22 09:27:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+21417937,2026-05-22 10:05:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+21421322,2026-05-22 10:32:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+21451822,2026-05-22 10:47:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+21477059,2026-05-22 11:25:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+21476367,2026-05-22 11:56:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+21520592,2026-05-22 17:08:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+21262270,2026-05-22 18:27:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+21545168,2026-05-22 18:29:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+21546506,2026-05-22 18:37:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+21298662,2026-05-22 19:05:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+21310667,2026-05-22 19:27:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+21340934,2026-05-22 19:40:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+21571291,2026-05-22 19:49:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+21344399,2026-05-22 20:03:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+21577804,2026-05-22 20:04:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+21592519,2026-05-22 21:00:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+21596183,2026-05-22 21:15:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+21607611,2026-05-22 22:00:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+21610076,2026-05-22 22:15:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+21620972,2026-05-22 22:59:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+21622337,2026-05-22 23:15:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+21631051,2026-05-22 23:53:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+21632273,2026-05-23 00:00:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+22579375,2026-05-26 08:20:45+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+22579463,2026-05-26 08:23:00+02,403,"",Warlingham / Sainsbury's,403,Warlingham - Sanderstead - South Croydon - West Croydon
+22594858,2026-05-26 09:06:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+22611752,2026-05-26 09:47:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+22621052,2026-05-26 09:59:00+02,403,"",Warlingham / Sainsbury's,403,Warlingham - Sanderstead - South Croydon - West Croydon
+22635245,2026-05-26 10:41:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+22654754,2026-05-26 11:13:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+22657362,2026-05-26 11:23:00+02,403,"",Warlingham / Sainsbury's,403,Warlingham - Sanderstead - South Croydon - West Croydon
+22673189,2026-05-26 12:05:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+22698717,2026-05-26 12:37:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+22697941,2026-05-26 12:47:00+02,403,"",Warlingham / Sainsbury's,403,Warlingham - Sanderstead - South Croydon - West Croydon
+22713906,2026-05-26 13:29:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+22727599,2026-05-26 14:01:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+22891755,2026-05-26 21:03:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+22904036,2026-05-26 21:51:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+22905029,2026-05-26 22:00:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+22913483,2026-05-26 22:43:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+22917558,2026-05-26 23:00:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+22925407,2026-05-26 23:44:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+22930038,2026-05-27 00:00:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+22935925,2026-05-27 00:38:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+22936797,2026-05-27 00:45:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+22941201,2026-05-27 01:24:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+22943812,2026-05-27 01:45:36+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+22989146,2026-05-27 07:37:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+22989245,2026-05-27 08:02:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+23015694,2026-05-27 09:16:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+23025785,2026-05-27 09:28:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+23052303,2026-05-27 10:41:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+23060818,2026-05-27 10:49:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+23087983,2026-05-27 11:53:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+23092800,2026-05-27 12:03:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+23121761,2026-05-27 13:04:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+23124195,2026-05-27 13:12:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+23156062,2026-05-27 14:15:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+23165259,2026-05-27 14:24:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+23188215,2026-05-27 15:29:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+23193130,2026-05-27 15:38:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+23222762,2026-05-27 16:53:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+23225800,2026-05-27 17:08:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+23255266,2026-05-27 18:29:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+23262236,2026-05-27 18:37:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+23286765,2026-05-27 19:49:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+23293172,2026-05-27 20:04:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+23309009,2026-05-27 21:00:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+23313082,2026-05-27 21:15:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+23324537,2026-05-27 22:00:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+23326638,2026-05-27 22:15:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+23337058,2026-05-27 22:59:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+23339114,2026-05-27 23:15:00+02,127,"",Tooting Broadway Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+23346647,2026-05-27 23:53:00+02,127,"",Mitcham Road / Tooting Broadway Stn,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+23348062,2026-05-28 00:00:00+02,127,"",Purley Station,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+23355137,2026-05-28 00:40:00+02,127,"",Croydon (metrobus),127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway
+23665931,2026-05-28 17:57:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+23695466,2026-05-28 19:11:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+23701277,2026-05-28 19:27:00+02,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+23721518,2026-05-28 20:27:00+02,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+23725087,2026-05-28 20:46:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+23739950,2026-05-28 21:42:00+02,119,"",Bromley North Station,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+23742038,2026-05-28 21:55:00+02,119,"",The Colonnades / Croydon Airport,119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+23754048,2026-05-28 22:42:00+02,119,"",Croydon (metrobus),119,"Bromley North & South - Hayes - Shirley - East, Central and South Croydon - Purley Way, Colonnades"
+23798563,2026-05-29 06:25:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+23798524,2026-05-29 06:40:00+02,403,"",Warlingham / Sainsbury's,403,Warlingham - Sanderstead - South Croydon - West Croydon
+23809713,2026-05-29 07:20:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+23819416,2026-05-29 07:48:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+23826187,2026-05-29 08:01:00+02,403,"",Warlingham / Sainsbury's,403,Warlingham - Sanderstead - South Croydon - West Croydon
+23841071,2026-05-29 08:42:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+23858580,2026-05-29 09:23:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+23866664,2026-05-29 09:33:00+02,403,"",Warlingham / Sainsbury's,403,Warlingham - Sanderstead - South Croydon - West Croydon
+23881148,2026-05-29 10:18:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+23903112,2026-05-29 10:52:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+23909870,2026-05-29 11:11:00+02,403,"",Warlingham / Sainsbury's,403,Warlingham - Sanderstead - South Croydon - West Croydon
+23923015,2026-05-29 11:53:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+23942404,2026-05-29 12:25:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+23946006,2026-05-29 12:35:00+02,403,"",Warlingham / Sainsbury's,403,Warlingham - Sanderstead - South Croydon - West Croydon
+23961983,2026-05-29 13:17:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+23977226,2026-05-29 13:49:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+23982442,2026-05-29 13:59:00+02,403,"",Warlingham / Sainsbury's,403,Warlingham - Sanderstead - South Croydon - West Croydon
+23999163,2026-05-29 14:41:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+24013623,2026-05-29 15:13:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+24018649,2026-05-29 15:23:00+02,403,"",Warlingham / Sainsbury's,403,Warlingham - Sanderstead - South Croydon - West Croydon
+24031931,2026-05-29 16:01:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+24049365,2026-05-29 16:37:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+24050353,2026-05-29 16:46:00+02,403,"",Warlingham / Sainsbury's,403,Warlingham - Sanderstead - South Croydon - West Croydon
+24070766,2026-05-29 17:36:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+24089561,2026-05-29 18:10:00+02,403,"",West Croydon Bus Station,403,Warlingham - Sanderstead - South Croydon - West Croydon
+24090126,2026-05-29 18:22:00+02,403,"",Warlingham / Sainsbury's,403,Warlingham - Sanderstead - South Croydon - West Croydon
