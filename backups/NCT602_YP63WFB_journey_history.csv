@@ -1,0 +1,1736 @@
+id,datetime,route_name,direction,destination,line_name,description
+2550,2026-03-27 15:40:00+01,26,"",Nottingham,26,Nottingham - Southwell
+639554,2026-03-30 09:14:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+657256,2026-03-30 09:52:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+670375,2026-03-30 10:27:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+688447,2026-03-30 11:02:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+702461,2026-03-30 11:37:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+719574,2026-03-30 12:12:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+732716,2026-03-30 12:47:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+750646,2026-03-30 13:22:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+764382,2026-03-30 13:57:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+781261,2026-03-30 14:32:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+795482,2026-03-30 15:07:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+812063,2026-03-30 15:42:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+827867,2026-03-30 16:17:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+842491,2026-03-30 16:52:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+859333,2026-03-30 17:27:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+873252,2026-03-30 18:02:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+887640,2026-03-30 18:37:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+900755,2026-03-30 19:15:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+915588,2026-03-30 19:59:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+928857,2026-03-30 20:30:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+936405,2026-03-30 20:59:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+943755,2026-03-30 21:30:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+951242,2026-03-30 21:59:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+957503,2026-03-30 22:30:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+964963,2026-03-30 22:59:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+971102,2026-03-30 23:30:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+976518,2026-03-30 23:59:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+981320,2026-03-31 00:30:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+1130060,2026-03-31 11:40:00+02,77,"",Nottingham,77,Nottingham - Strelley
+1145260,2026-03-31 12:07:00+02,77,"",Strelley,77,Nottingham - Strelley
+1161861,2026-03-31 12:50:00+02,77,"",Nottingham,77,Nottingham - Strelley
+1176582,2026-03-31 13:17:00+02,77,"",Strelley,77,Nottingham - Strelley
+1190981,2026-03-31 14:00:00+02,77,"",Nottingham,77,Nottingham - Strelley
+1206841,2026-03-31 14:27:00+02,77,"",Strelley,77,Nottingham - Strelley
+1222112,2026-03-31 15:10:00+02,77,"",Nottingham,77,Nottingham - Strelley
+1237864,2026-03-31 15:37:00+02,77,"",Strelley,77,Nottingham - Strelley
+1255314,2026-03-31 16:18:00+02,77,"",Nottingham,77,Nottingham - Strelley
+1267329,2026-03-31 16:47:00+02,77,"",Strelley,77,Nottingham - Strelley
+1285473,2026-03-31 17:30:00+02,77,"",Nottingham,77,Nottingham - Strelley
+1297413,2026-03-31 17:57:00+02,77,"",Strelley,77,Nottingham - Strelley
+1319476,2026-03-31 18:47:00+02,77,"",Nottingham,77,Nottingham - Strelley
+1330398,2026-03-31 19:14:00+02,77,"",Strelley,77,Nottingham - Strelley
+1343985,2026-03-31 19:54:00+02,77,"",Nottingham,77,Nottingham - Strelley
+1352815,2026-03-31 20:16:00+02,77,"",Strelley,77,Nottingham - Strelley
+1493597,2026-04-01 09:14:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+1507419,2026-04-01 09:52:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+1523380,2026-04-01 10:27:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+1540696,2026-04-01 11:02:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+1553699,2026-04-01 11:37:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+1571415,2026-04-01 12:12:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+1585912,2026-04-01 12:47:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+1603158,2026-04-01 13:22:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+1616277,2026-04-01 13:57:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+1634046,2026-04-01 14:32:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+1650186,2026-04-01 15:07:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+1667391,2026-04-01 15:42:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+1681346,2026-04-01 16:17:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+1694116,2026-04-01 16:52:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+1712353,2026-04-01 17:27:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+1724871,2026-04-01 18:02:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+1742339,2026-04-01 18:37:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+1755023,2026-04-01 19:15:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+1769028,2026-04-01 19:59:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+1781268,2026-04-01 20:30:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+1791151,2026-04-01 20:59:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+1797372,2026-04-01 21:30:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+1804246,2026-04-01 21:59:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+1810961,2026-04-01 22:30:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+1818114,2026-04-01 22:59:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+1823391,2026-04-01 23:30:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+1828917,2026-04-01 23:59:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+1834716,2026-04-02 00:30:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+1895228,2026-04-02 08:13:00+02,43,"",Nottingham,43,Nottingham - Bakersfield
+1906023,2026-04-02 08:40:00+02,43,"",Bakersfield,43,Nottingham - Bakersfield
+1914722,2026-04-02 09:00:00+02,43,"",Nottingham,43,Nottingham - Bakersfield
+1927505,2026-04-02 09:30:00+02,43,"",Bakersfield,43,Nottingham - Bakersfield
+1937358,2026-04-02 09:48:00+02,43,"",Nottingham,43,Nottingham - Bakersfield
+1950149,2026-04-02 10:20:00+02,43,"",Bakersfield,43,Nottingham - Bakersfield
+1959586,2026-04-02 10:37:00+02,43,"",Nottingham,43,Nottingham - Bakersfield
+1972266,2026-04-02 11:10:00+02,43,"",Bakersfield,43,Nottingham - Bakersfield
+1982079,2026-04-02 11:27:00+02,43,"",Nottingham,43,Nottingham - Bakersfield
+1995354,2026-04-02 12:00:00+02,43,"",Bakersfield,43,Nottingham - Bakersfield
+2004212,2026-04-02 12:17:00+02,43,"",Nottingham,43,Nottingham - Bakersfield
+2015942,2026-04-02 12:50:00+02,43,"",Bakersfield,43,Nottingham - Bakersfield
+2157176,2026-04-02 18:26:00+02,25,"",Nottingham,25,Nottingham - Mapperley - Arnold
+2187927,2026-04-02 19:20:00+02,25,"",Arnold,25,Nottingham - Mapperley - Arnold
+2299345,2026-04-03 08:05:00+02,88,"",Nottingham,88,Nottingham - City Hospital - Arnold
+2306197,2026-04-03 08:40:00+02,88,"",Top Valley,88,Nottingham - City Hospital - Arnold
+2312420,2026-04-03 09:10:00+02,88,"",Nottingham,88,Nottingham - City Hospital - Arnold
+2325202,2026-04-03 09:50:00+02,88,"",Top Valley,88,Nottingham - City Hospital - Arnold
+2335496,2026-04-03 10:10:00+02,88,"",Nottingham,88,Nottingham - City Hospital - Arnold
+2352929,2026-04-03 11:07:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+2365330,2026-04-03 11:42:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+2376254,2026-04-03 12:17:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+2390722,2026-04-03 12:52:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+2400252,2026-04-03 13:27:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+2414605,2026-04-03 14:02:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+2425454,2026-04-03 14:37:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+2438511,2026-04-03 15:12:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+2449923,2026-04-03 15:47:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+2462541,2026-04-03 16:22:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+2474131,2026-04-03 16:57:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+2487177,2026-04-03 17:32:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+2499453,2026-04-03 18:07:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+2510558,2026-04-03 18:42:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+2522675,2026-04-03 19:29:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+2534761,2026-04-03 20:00:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+2542413,2026-04-03 20:29:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+2548976,2026-04-03 21:00:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+2555030,2026-04-03 21:29:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+2561287,2026-04-03 22:00:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+2566135,2026-04-03 22:29:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+2571905,2026-04-03 23:00:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+2577072,2026-04-03 23:29:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+2583069,2026-04-04 00:00:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+2587482,2026-04-04 00:29:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+2592119,2026-04-04 01:02:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+3246034,2026-04-06 06:59:00+02,44,"",Nottingham,44,Nottingham - Gedling
+3249364,2026-04-06 07:32:00+02,44,"",Gedling,44,Nottingham - Gedling
+3253327,2026-04-06 07:59:00+02,44,"",Nottingham,44,Nottingham - Gedling
+3257546,2026-04-06 08:32:00+02,44,"",Gedling,44,Nottingham - Gedling
+3262770,2026-04-06 08:59:00+02,44,"",Nottingham,44,Nottingham - Gedling
+3268777,2026-04-06 09:30:00+02,44,"",Gedling,44,Nottingham - Gedling
+3274114,2026-04-06 09:57:00+02,44,"",Nottingham,44,Nottingham - Gedling
+3282481,2026-04-06 10:30:00+02,44,"",Gedling,44,Nottingham - Gedling
+3289306,2026-04-06 11:19:00+02,44,"",Nottingham,44,Nottingham - Gedling
+3303296,2026-04-06 12:00:00+02,43,"",Bakersfield,43,Nottingham - Bakersfield
+3310133,2026-04-06 12:15:00+02,43,"",Nottingham,43,Nottingham - Bakersfield
+3316076,2026-04-06 12:45:00+02,44,"",Gedling,44,Nottingham - Gedling
+3325847,2026-04-06 13:19:00+02,44,"",Nottingham,44,Nottingham - Gedling
+3335404,2026-04-06 14:00:00+02,43,"",Bakersfield,43,Nottingham - Bakersfield
+3341182,2026-04-06 14:15:00+02,43,"",Nottingham,43,Nottingham - Bakersfield
+3347699,2026-04-06 14:45:00+02,44,"",Gedling,44,Nottingham - Gedling
+3357403,2026-04-06 15:19:00+02,44,"",Nottingham,44,Nottingham - Gedling
+3366857,2026-04-06 16:00:00+02,43,"",Bakersfield,43,Nottingham - Bakersfield
+3373141,2026-04-06 16:15:00+02,43,"",Nottingham,43,Nottingham - Bakersfield
+3378144,2026-04-06 16:45:00+02,44,"",Gedling,44,Nottingham - Gedling
+3388289,2026-04-06 17:19:00+02,44,"",Nottingham,44,Nottingham - Gedling
+3396662,2026-04-06 18:00:00+02,43,"",Bakersfield,43,Nottingham - Bakersfield
+3404173,2026-04-06 18:15:00+02,43,"",Nottingham,43,Nottingham - Bakersfield
+3409553,2026-04-06 18:45:00+02,43,"",Bakersfield,43,Nottingham - Bakersfield
+3414875,2026-04-06 19:00:00+02,43,"",Nottingham,43,Nottingham - Bakersfield
+3419680,2026-04-06 19:25:00+02,43,"",Bakersfield,43,Nottingham - Bakersfield
+3424050,2026-04-06 19:40:00+02,43,"",Nottingham,43,Nottingham - Bakersfield
+3428156,2026-04-06 20:05:00+02,43,"",Bakersfield,43,Nottingham - Bakersfield
+3431963,2026-04-06 20:20:00+02,43,"",Nottingham,43,Nottingham - Bakersfield
+3436029,2026-04-06 20:45:00+02,43,"",Bakersfield,43,Nottingham - Bakersfield
+3439824,2026-04-06 21:00:00+02,43,"",Nottingham,43,Nottingham - Bakersfield
+3443812,2026-04-06 21:25:00+02,43,"",Bakersfield,43,Nottingham - Bakersfield
+3447443,2026-04-06 21:40:00+02,43,"",Nottingham,43,Nottingham - Bakersfield
+3450753,2026-04-06 22:05:00+02,43,"",Bakersfield,43,Nottingham - Bakersfield
+3454459,2026-04-06 22:20:00+02,43,"",Nottingham,43,Nottingham - Bakersfield
+3457866,2026-04-06 22:45:00+02,43,"",Bakersfield,43,Nottingham - Bakersfield
+3461393,2026-04-06 23:00:00+02,43,"",Nottingham,43,Nottingham - Bakersfield
+3464454,2026-04-06 23:25:00+02,43,"",Bakersfield,43,Nottingham - Bakersfield
+3468602,2026-04-06 23:40:00+02,43,"",Nottingham,43,Nottingham - Bakersfield
+3472097,2026-04-07 00:05:00+02,43,"",Bakersfield,43,Nottingham - Bakersfield
+3521262,2026-04-07 07:41:00+02,79,"",Nottingham,79,Nottingham - Rise Park - Arnold
+3537625,2026-04-07 08:19:00+02,79A,"",Arnold,79A,Nottingham - Rise Park - Arnold
+3571250,2026-04-07 09:48:00+02,79,"",Nottingham,79,Nottingham - Rise Park - Arnold
+3606825,2026-04-07 11:02:00+02,79,"",Arnold,79,Nottingham - Rise Park - Arnold
+3644878,2026-04-07 12:33:00+02,79A,"",Nottingham,79A,Nottingham - Rise Park - Arnold
+3680492,2026-04-07 13:42:00+02,79,"",Arnold,79,Nottingham - Rise Park - Arnold
+3717346,2026-04-07 15:13:00+02,79,"",Nottingham,79,Nottingham - Rise Park - Arnold
+3748772,2026-04-07 16:22:00+02,79A,"",Arnold,79A,Nottingham - Rise Park - Arnold
+3781831,2026-04-07 17:45:00+02,79A,"",Nottingham,79A,Nottingham - Rise Park - Arnold
+3815543,2026-04-07 19:07:00+02,79B,"",Rise Park,79B,Nottingham - Rise Park - Arnold
+3955957,2026-04-08 08:16:00+02,27,"",Nottingham,27,Nottingham - Mapperley - Arnold
+3968714,2026-04-08 08:45:00+02,27,"",Carlton,27,Nottingham - Mapperley - Arnold
+3979847,2026-04-08 09:13:00+02,27,"",Nottingham,27,Nottingham - Mapperley - Arnold
+3994956,2026-04-08 09:45:00+02,27,"",Carlton,27,Nottingham - Mapperley - Arnold
+4007892,2026-04-08 10:13:00+02,27,"",Nottingham,27,Nottingham - Mapperley - Arnold
+4019285,2026-04-08 10:45:00+02,27,"",Carlton,27,Nottingham - Mapperley - Arnold
+4034998,2026-04-08 11:13:00+02,27,"",Nottingham,27,Nottingham - Mapperley - Arnold
+4049029,2026-04-08 11:45:00+02,27,"",Carlton,27,Nottingham - Mapperley - Arnold
+4061048,2026-04-08 12:13:00+02,27,"",Nottingham,27,Nottingham - Mapperley - Arnold
+4075144,2026-04-08 12:45:00+02,27,"",Carlton,27,Nottingham - Mapperley - Arnold
+4088974,2026-04-08 13:13:00+02,27,"",Nottingham,27,Nottingham - Mapperley - Arnold
+4101562,2026-04-08 13:45:00+02,27,"",Carlton,27,Nottingham - Mapperley - Arnold
+4115362,2026-04-08 14:13:00+02,27,"",Nottingham,27,Nottingham - Mapperley - Arnold
+4128047,2026-04-08 14:45:00+02,27,"",Carlton,27,Nottingham - Mapperley - Arnold
+4139557,2026-04-08 15:13:00+02,27,"",Nottingham,27,Nottingham - Mapperley - Arnold
+4153299,2026-04-08 15:45:00+02,27,"",Carlton,27,Nottingham - Mapperley - Arnold
+4165607,2026-04-08 16:13:00+02,27,"",Nottingham,27,Nottingham - Mapperley - Arnold
+4177382,2026-04-08 16:45:00+02,27,"",Carlton,27,Nottingham - Mapperley - Arnold
+4190079,2026-04-08 17:13:00+02,27,"",Nottingham,27,Nottingham - Mapperley - Arnold
+4203028,2026-04-08 17:45:00+02,27,"",Carlton,27,Nottingham - Mapperley - Arnold
+4215652,2026-04-08 18:14:00+02,27,"",Nottingham,27,Nottingham - Mapperley - Arnold
+4226681,2026-04-08 18:45:00+02,27,"",Carlton,27,Nottingham - Mapperley - Arnold
+4239167,2026-04-08 19:33:00+02,27,"",Nottingham,27,Nottingham - Mapperley - Arnold
+4255779,2026-04-08 20:02:00+02,27,"",Carlton,27,Nottingham - Mapperley - Arnold
+4264359,2026-04-08 20:33:00+02,27,"",Nottingham,27,Nottingham - Mapperley - Arnold
+4271749,2026-04-08 21:02:00+02,27,"",Carlton,27,Nottingham - Mapperley - Arnold
+4279092,2026-04-08 21:35:00+02,27,"",Nottingham,27,Nottingham - Mapperley - Arnold
+4285698,2026-04-08 22:02:00+02,27,"",Carlton,27,Nottingham - Mapperley - Arnold
+4291864,2026-04-08 22:35:00+02,27,"",Nottingham,27,Nottingham - Mapperley - Arnold
+4298639,2026-04-08 23:02:00+02,27,"",Carlton,27,Nottingham - Mapperley - Arnold
+4304196,2026-04-08 23:35:00+02,27,"",Nottingham,27,Nottingham - Mapperley - Arnold
+4310251,2026-04-09 00:02:00+02,27,"",Carlton,27,Nottingham - Mapperley - Arnold
+4314859,2026-04-09 00:35:00+02,27,"",Nottingham,27,Nottingham - Mapperley - Arnold
+4319666,2026-04-09 01:02:00+02,27,"",Carlton,27,Nottingham - Mapperley - Arnold
+4367866,2026-04-09 08:02:00+02,44A,"",Gedling,44A,Nottingham - Gedling
+4384497,2026-04-09 08:37:00+02,44,"",Nottingham,44,Nottingham - Gedling
+4400630,2026-04-09 09:17:00+02,44,"",Gedling,44,Nottingham - Gedling
+4417075,2026-04-09 09:55:00+02,44,"",Nottingham,44,Nottingham - Gedling
+4435304,2026-04-09 10:35:00+02,44,"",Gedling,44,Nottingham - Gedling
+4449833,2026-04-09 11:16:00+02,44,"",Nottingham,44,Nottingham - Gedling
+4469794,2026-04-09 11:55:00+02,44,"",Gedling,44,Nottingham - Gedling
+4487367,2026-04-09 11:56:00+02,44,"",Nottingham,44,Nottingham - Gedling
+4486446,2026-04-09 12:16:00+02,44,"",Nottingham,44,Nottingham - Gedling
+4485949,2026-04-09 12:36:00+02,44,"",Nottingham,44,Nottingham - Gedling
+4505703,2026-04-09 13:15:00+02,44,"",Gedling,44,Nottingham - Gedling
+4523637,2026-04-09 13:56:00+02,44,"",Nottingham,44,Nottingham - Gedling
+4541811,2026-04-09 14:35:00+02,44,"",Gedling,44,Nottingham - Gedling
+4561356,2026-04-09 15:16:00+02,44,"",Nottingham,44,Nottingham - Gedling
+4576697,2026-04-09 15:55:00+02,44,"",Gedling,44,Nottingham - Gedling
+4594936,2026-04-09 16:34:00+02,44,"",Nottingham,44,Nottingham - Gedling
+4611357,2026-04-09 17:15:00+02,44,"",Gedling,44,Nottingham - Gedling
+4635883,2026-04-09 18:07:00+02,44A,"",Nottingham,44A,Nottingham - Gedling
+4647372,2026-04-09 18:35:00+02,44,"",Gedling,44,Nottingham - Gedling
+4662538,2026-04-09 19:19:00+02,44,"",Nottingham,44,Nottingham - Gedling
+4674116,2026-04-09 19:55:00+02,44,"",Gedling,44,Nottingham - Gedling
+4685748,2026-04-09 20:30:00+02,44,"",Nottingham,44,Nottingham - Gedling
+4694291,2026-04-09 21:00:00+02,44,"",Gedling,44,Nottingham - Gedling
+4702652,2026-04-09 21:30:00+02,44,"",Nottingham,44,Nottingham - Gedling
+4708704,2026-04-09 22:00:00+02,44,"",Gedling,44,Nottingham - Gedling
+4716229,2026-04-09 22:30:00+02,44,"",Nottingham,44,Nottingham - Gedling
+4721900,2026-04-09 23:00:00+02,44,"",Gedling,44,Nottingham - Gedling
+4728343,2026-04-09 23:30:00+02,44,"",Nottingham,44,Nottingham - Gedling
+4733610,2026-04-10 00:00:00+02,44,"",Gedling,44,Nottingham - Gedling
+4739179,2026-04-10 00:30:00+02,44,"",Nottingham,44,Nottingham - Gedling
+4743424,2026-04-10 01:02:00+02,44,"",Gedling,44,Nottingham - Gedling
+4792909,2026-04-10 08:03:00+02,26,"",Nottingham,26,Nottingham - Southwell
+4827215,2026-04-10 09:25:00+02,26,"",Southwell,26,Nottingham - Southwell
+4851138,2026-04-10 10:12:00+02,26,"",Nottingham,26,Nottingham - Southwell
+4889087,2026-04-10 11:40:00+02,26,"",Southwell,26,Nottingham - Southwell
+4913730,2026-04-10 12:27:00+02,26,"",Nottingham,26,Nottingham - Southwell
+4947176,2026-04-10 13:40:00+02,26,"",Southwell,26,Nottingham - Southwell
+4971226,2026-04-10 14:27:00+02,26,"",Nottingham,26,Nottingham - Southwell
+4996890,2026-04-10 15:40:00+02,26,"",Southwell,26,Nottingham - Southwell
+5021298,2026-04-10 16:30:00+02,26,"",Nottingham,26,Nottingham - Southwell
+5052963,2026-04-10 17:55:00+02,24,"",Netherfield,24,Nottingham - Mapperley - Arnold
+5070195,2026-04-10 18:58:00+02,24,"",Nottingham,24,Nottingham - Mapperley - Arnold
+5091597,2026-04-10 19:40:00+02,26,"",Southwell,26,Nottingham - Southwell
+5108719,2026-04-10 20:24:00+02,26,"",Nottingham,26,Nottingham - Southwell
+5146885,2026-04-10 23:10:00+02,26,"",Southwell,26,Nottingham - Southwell
+5156526,2026-04-10 23:54:00+02,26,"",Nottingham,26,Nottingham - Southwell
+5172037,2026-04-11 01:40:00+02,N34,"",Beeston,N34,Nottingham - Beeston
+5174042,2026-04-11 02:15:00+02,N34,"",Nottingham,N34,Nottingham - Beeston
+5175719,2026-04-11 02:40:00+02,N34,"",Beeston,N34,Nottingham - Beeston
+5176491,2026-04-11 03:15:00+02,N34,"",Nottingham,N34,Nottingham - Beeston
+5177717,2026-04-11 03:40:00+02,N34,"",Beeston,N34,Nottingham - Beeston
+5178350,2026-04-11 04:15:00+02,N34,"",Nottingham,N34,Nottingham - Beeston
+5179204,2026-04-11 04:40:00+02,N34,"",Beeston,N34,Nottingham - Beeston
+5179905,2026-04-11 05:15:00+02,N34,"",Nottingham,N34,Nottingham - Beeston
+5404553,2026-04-11 16:20:00+02,25,"",Arnold,25,Nottingham - Mapperley - Arnold
+5421461,2026-04-11 17:15:00+02,25,"",Nottingham,25,Nottingham - Mapperley - Arnold
+5445377,2026-04-11 18:05:00+02,25,"",Arnold,25,Nottingham - Mapperley - Arnold
+5465005,2026-04-11 18:57:00+02,25,"",Nottingham,25,Nottingham - Mapperley - Arnold
+5483171,2026-04-11 19:47:00+02,25,"",Arnold,25,Nottingham - Mapperley - Arnold
+5495609,2026-04-11 20:32:00+02,25,"",Nottingham,25,Nottingham - Mapperley - Arnold
+5507122,2026-04-11 21:17:00+02,25,"",Arnold,25,Nottingham - Mapperley - Arnold
+5516287,2026-04-11 22:06:00+02,25,"",Nottingham,25,Nottingham - Mapperley - Arnold
+5526340,2026-04-11 22:47:00+02,25,"",Arnold,25,Nottingham - Mapperley - Arnold
+5535048,2026-04-11 23:36:00+02,25,"",Nottingham,25,Nottingham - Mapperley - Arnold
+5544450,2026-04-12 00:17:00+02,25B,"",Mapperley,25B,Nottingham - Mapperley - Arnold
+5569768,2026-04-12 06:47:00+02,36,"",Nottingham,36,Nottingham - Chilwell (Inham Nook)
+5573113,2026-04-12 07:30:00+02,36,"",Chilwell,36,Nottingham - Chilwell (Inham Nook)
+5577455,2026-04-12 08:17:00+02,36,"",Nottingham,36,Nottingham - Chilwell (Inham Nook)
+5585188,2026-04-12 09:00:00+02,36,"",Chilwell,36,Nottingham - Chilwell (Inham Nook)
+5591177,2026-04-12 09:42:00+02,36,"",Nottingham,36,Nottingham - Chilwell (Inham Nook)
+5603521,2026-04-12 10:30:00+02,36,"",Chilwell,36,Nottingham - Chilwell (Inham Nook)
+5613468,2026-04-12 11:05:00+02,36,"",Nottingham,36,Nottingham - Chilwell (Inham Nook)
+5624113,2026-04-12 12:00:00+02,35,"",Bulwell,35,Nottingham - Bulwell
+5641092,2026-04-12 12:53:00+02,35,"",Nottingham,35,Nottingham - Bulwell
+5654467,2026-04-12 13:50:00+02,36,"",Chilwell,36,Nottingham - Chilwell (Inham Nook)
+5663803,2026-04-12 14:25:00+02,36,"",Nottingham,36,Nottingham - Chilwell (Inham Nook)
+5675134,2026-04-12 15:20:00+02,35,"",Bulwell,35,Nottingham - Bulwell
+5691707,2026-04-12 16:13:00+02,35,"",Nottingham,35,Nottingham - Bulwell
+5702121,2026-04-12 17:10:00+02,36,"",Chilwell,36,Nottingham - Chilwell (Inham Nook)
+5713397,2026-04-12 17:45:00+02,36,"",Nottingham,36,Nottingham - Chilwell (Inham Nook)
+5724210,2026-04-12 18:40:00+02,36,"",Chilwell,36,Nottingham - Chilwell (Inham Nook)
+5735068,2026-04-12 19:13:00+02,36,"",Nottingham,36,Nottingham - Chilwell (Inham Nook)
+5743343,2026-04-12 19:55:00+02,35,"",Bulwell,35,Nottingham - Bulwell
+5753325,2026-04-12 20:52:00+02,35,"",Nottingham,35,Nottingham - Bulwell
+5763319,2026-04-12 21:40:00+02,36,"",Chilwell,36,Nottingham - Chilwell (Inham Nook)
+5770078,2026-04-12 22:13:00+02,36,"",Nottingham,36,Nottingham - Chilwell (Inham Nook)
+5777133,2026-04-12 22:55:00+02,35B,"",Strelley,35B,Nottingham - Bulwell
+5784629,2026-04-12 23:55:00+02,35B,"",Strelley,35B,Nottingham - Bulwell
+5840141,2026-04-13 07:48:00+02,27,"",Nottingham,27,Nottingham - Mapperley - Arnold
+5850965,2026-04-13 08:15:00+02,27,"",Carlton,27,Nottingham - Mapperley - Arnold
+5862073,2026-04-13 08:43:00+02,27,"",Nottingham,27,Nottingham - Mapperley - Arnold
+5878985,2026-04-13 09:15:00+02,27,"",Carlton,27,Nottingham - Mapperley - Arnold
+5889993,2026-04-13 09:43:00+02,27,"",Nottingham,27,Nottingham - Mapperley - Arnold
+5902770,2026-04-13 10:15:00+02,27,"",Carlton,27,Nottingham - Mapperley - Arnold
+5918193,2026-04-13 10:43:00+02,27,"",Nottingham,27,Nottingham - Mapperley - Arnold
+5932077,2026-04-13 11:15:00+02,27,"",Carlton,27,Nottingham - Mapperley - Arnold
+5943457,2026-04-13 11:43:00+02,27,"",Nottingham,27,Nottingham - Mapperley - Arnold
+5957787,2026-04-13 12:15:00+02,27,"",Carlton,27,Nottingham - Mapperley - Arnold
+5971734,2026-04-13 12:43:00+02,27,"",Nottingham,27,Nottingham - Mapperley - Arnold
+5985337,2026-04-13 13:15:00+02,27,"",Carlton,27,Nottingham - Mapperley - Arnold
+5997872,2026-04-13 13:43:00+02,27,"",Nottingham,27,Nottingham - Mapperley - Arnold
+6011141,2026-04-13 14:15:00+02,27,"",Carlton,27,Nottingham - Mapperley - Arnold
+6026755,2026-04-13 14:43:00+02,27,"",Nottingham,27,Nottingham - Mapperley - Arnold
+6038905,2026-04-13 15:15:00+02,27,"",Carlton,27,Nottingham - Mapperley - Arnold
+6052315,2026-04-13 15:43:00+02,27,"",Nottingham,27,Nottingham - Mapperley - Arnold
+6065105,2026-04-13 16:15:00+02,27,"",Carlton,27,Nottingham - Mapperley - Arnold
+6078402,2026-04-13 16:43:00+02,27,"",Nottingham,27,Nottingham - Mapperley - Arnold
+6089962,2026-04-13 17:15:00+02,27,"",Carlton,27,Nottingham - Mapperley - Arnold
+6105494,2026-04-13 17:44:00+02,27,"",Nottingham,27,Nottingham - Mapperley - Arnold
+6116847,2026-04-13 18:15:00+02,27,"",Carlton,27,Nottingham - Mapperley - Arnold
+6133070,2026-04-13 18:46:00+02,27,"",Nottingham,27,Nottingham - Mapperley - Arnold
+6142086,2026-04-13 19:15:00+02,27,"",Carlton,27,Nottingham - Mapperley - Arnold
+6153492,2026-04-13 20:03:00+02,27,"",Nottingham,27,Nottingham - Mapperley - Arnold
+6168167,2026-04-13 20:32:00+02,27,"",Carlton,27,Nottingham - Mapperley - Arnold
+6176598,2026-04-13 21:03:00+02,27,"",Nottingham,27,Nottingham - Mapperley - Arnold
+6184964,2026-04-13 21:32:00+02,27,"",Carlton,27,Nottingham - Mapperley - Arnold
+6190693,2026-04-13 22:05:00+02,27,"",Nottingham,27,Nottingham - Mapperley - Arnold
+6198244,2026-04-13 22:32:00+02,27,"",Carlton,27,Nottingham - Mapperley - Arnold
+6203460,2026-04-13 23:05:00+02,27,"",Nottingham,27,Nottingham - Mapperley - Arnold
+6210753,2026-04-13 23:32:00+02,27,"",Carlton,27,Nottingham - Mapperley - Arnold
+6215912,2026-04-14 00:05:00+02,27,"",Nottingham,27,Nottingham - Mapperley - Arnold
+6221682,2026-04-14 00:32:00+02,27,"",Carlton,27,Nottingham - Mapperley - Arnold
+6268917,2026-04-14 07:52:00+02,35,"",Nottingham,35,Nottingham - Bulwell
+6297251,2026-04-14 08:49:00+02,35,"",Bulwell,35,Nottingham - Bulwell
+6330745,2026-04-14 10:01:00+02,35,"",Nottingham,35,Nottingham - Bulwell
+6356876,2026-04-14 11:01:00+02,35,"",Bulwell,35,Nottingham - Bulwell
+6381328,2026-04-14 12:01:00+02,35,"",Nottingham,35,Nottingham - Bulwell
+6407420,2026-04-14 13:01:00+02,35,"",Bulwell,35,Nottingham - Bulwell
+6435032,2026-04-14 14:01:00+02,35,"",Nottingham,35,Nottingham - Bulwell
+6460575,2026-04-14 15:01:00+02,35,"",Bulwell,35,Nottingham - Bulwell
+6495469,2026-04-14 16:01:00+02,35,"",Nottingham,35,Nottingham - Bulwell
+6520095,2026-04-14 16:58:00+02,35,"",Bulwell,35,Nottingham - Bulwell
+6552842,2026-04-14 18:12:00+02,35,"",Nottingham,35,Nottingham - Bulwell
+6574273,2026-04-14 19:20:00+02,35,"",Bulwell,35,Nottingham - Bulwell
+6699944,2026-04-15 07:48:00+02,27,"",Nottingham,27,Nottingham - Mapperley - Arnold
+6713289,2026-04-15 08:15:00+02,27,"",Carlton,27,Nottingham - Mapperley - Arnold
+6724799,2026-04-15 08:43:00+02,27,"",Nottingham,27,Nottingham - Mapperley - Arnold
+6740555,2026-04-15 09:15:00+02,27,"",Carlton,27,Nottingham - Mapperley - Arnold
+6752654,2026-04-15 09:43:00+02,27,"",Nottingham,27,Nottingham - Mapperley - Arnold
+6765351,2026-04-15 10:15:00+02,27,"",Carlton,27,Nottingham - Mapperley - Arnold
+6778572,2026-04-15 10:43:00+02,27,"",Nottingham,27,Nottingham - Mapperley - Arnold
+6792383,2026-04-15 11:15:00+02,27,"",Carlton,27,Nottingham - Mapperley - Arnold
+6806861,2026-04-15 11:43:00+02,27,"",Nottingham,27,Nottingham - Mapperley - Arnold
+6819750,2026-04-15 12:15:00+02,27,"",Carlton,27,Nottingham - Mapperley - Arnold
+6834506,2026-04-15 12:43:00+02,27,"",Nottingham,27,Nottingham - Mapperley - Arnold
+6847934,2026-04-15 13:15:00+02,27,"",Carlton,27,Nottingham - Mapperley - Arnold
+6861088,2026-04-15 13:43:00+02,27,"",Nottingham,27,Nottingham - Mapperley - Arnold
+6874452,2026-04-15 14:15:00+02,27,"",Carlton,27,Nottingham - Mapperley - Arnold
+6888887,2026-04-15 14:43:00+02,27,"",Nottingham,27,Nottingham - Mapperley - Arnold
+6901128,2026-04-15 15:15:00+02,27,"",Carlton,27,Nottingham - Mapperley - Arnold
+6914550,2026-04-15 15:43:00+02,27,"",Nottingham,27,Nottingham - Mapperley - Arnold
+6927969,2026-04-15 16:15:00+02,27,"",Carlton,27,Nottingham - Mapperley - Arnold
+6944762,2026-04-15 16:43:00+02,27,"",Nottingham,27,Nottingham - Mapperley - Arnold
+6959108,2026-04-15 17:15:00+02,27,"",Carlton,27,Nottingham - Mapperley - Arnold
+6971584,2026-04-15 17:44:00+02,27,"",Nottingham,27,Nottingham - Mapperley - Arnold
+6981221,2026-04-15 18:15:00+02,27,"",Carlton,27,Nottingham - Mapperley - Arnold
+6995840,2026-04-15 18:46:00+02,27,"",Nottingham,27,Nottingham - Mapperley - Arnold
+7004079,2026-04-15 19:15:00+02,27,"",Carlton,27,Nottingham - Mapperley - Arnold
+7014307,2026-04-15 20:03:00+02,27,"",Nottingham,27,Nottingham - Mapperley - Arnold
+7030656,2026-04-15 20:32:00+02,27,"",Carlton,27,Nottingham - Mapperley - Arnold
+7037803,2026-04-15 21:03:00+02,27,"",Nottingham,27,Nottingham - Mapperley - Arnold
+7046163,2026-04-15 21:32:00+02,27,"",Carlton,27,Nottingham - Mapperley - Arnold
+7054318,2026-04-15 22:05:00+02,27,"",Nottingham,27,Nottingham - Mapperley - Arnold
+7060300,2026-04-15 22:32:00+02,27,"",Carlton,27,Nottingham - Mapperley - Arnold
+7066166,2026-04-15 23:05:00+02,27,"",Nottingham,27,Nottingham - Mapperley - Arnold
+7072855,2026-04-15 23:32:00+02,27,"",Carlton,27,Nottingham - Mapperley - Arnold
+7078568,2026-04-16 00:05:00+02,27,"",Nottingham,27,Nottingham - Mapperley - Arnold
+7083949,2026-04-16 00:32:00+02,27,"",Carlton,27,Nottingham - Mapperley - Arnold
+7127309,2026-04-16 07:36:00+02,25,"",Nottingham,25,Nottingham - Mapperley - Arnold
+7146537,2026-04-16 08:20:00+02,25B,"",Mapperley,25B,Nottingham - Mapperley - Arnold
+7164257,2026-04-16 08:56:00+02,25,"",Nottingham,25,Nottingham - Mapperley - Arnold
+7181164,2026-04-16 09:35:00+02,25,"",Arnold,25,Nottingham - Mapperley - Arnold
+7202464,2026-04-16 10:26:00+02,25,"",Nottingham,25,Nottingham - Mapperley - Arnold
+7226948,2026-04-16 11:20:00+02,25,"",Arnold,25,Nottingham - Mapperley - Arnold
+7249192,2026-04-16 12:11:00+02,25,"",Nottingham,25,Nottingham - Mapperley - Arnold
+7272983,2026-04-16 13:05:00+02,25,"",Arnold,25,Nottingham - Mapperley - Arnold
+7287847,2026-04-16 13:56:00+02,25,"",Nottingham,25,Nottingham - Mapperley - Arnold
+7304009,2026-04-16 14:50:00+02,25,"",Arnold,25,Nottingham - Mapperley - Arnold
+7318531,2026-04-16 15:41:00+02,25,"",Nottingham,25,Nottingham - Mapperley - Arnold
+7334533,2026-04-16 16:35:00+02,25B,"",Mapperley,25B,Nottingham - Mapperley - Arnold
+7355833,2026-04-16 17:11:00+02,25,"",Nottingham,25,Nottingham - Mapperley - Arnold
+7372073,2026-04-16 17:50:00+02,25,"",Arnold,25,Nottingham - Mapperley - Arnold
+7395401,2026-04-16 18:57:00+02,25,"",Nottingham,25,Nottingham - Mapperley - Arnold
+7419051,2026-04-16 19:47:00+02,25,"",Arnold,25,Nottingham - Mapperley - Arnold
+7431894,2026-04-16 20:32:00+02,25,"",Nottingham,25,Nottingham - Mapperley - Arnold
+7443663,2026-04-16 21:17:00+02,25,"",Arnold,25,Nottingham - Mapperley - Arnold
+7453398,2026-04-16 22:06:00+02,25,"",Nottingham,25,Nottingham - Mapperley - Arnold
+7463763,2026-04-16 22:47:00+02,25,"",Arnold,25,Nottingham - Mapperley - Arnold
+7472558,2026-04-16 23:36:00+02,25,"",Nottingham,25,Nottingham - Mapperley - Arnold
+7482047,2026-04-17 00:17:00+02,25B,"",Mapperley,25B,Nottingham - Mapperley - Arnold
+7504371,2026-04-17 05:58:00+02,58,"",Nottingham,58,Nottingham - Arnold (Killisick)
+7508731,2026-04-17 06:32:00+02,58X,"",Killisick,58X,Nottingham - Arnold (Killisick)
+7514264,2026-04-17 06:58:00+02,58,"",Nottingham,58,Nottingham - Arnold (Killisick)
+7526267,2026-04-17 07:32:00+02,58,"",Killisick,58,Nottingham - Arnold (Killisick)
+7538237,2026-04-17 08:06:00+02,58,"",Nottingham,58,Nottingham - Arnold (Killisick)
+7560755,2026-04-17 08:50:00+02,57X,"",Plains Estate,57X,Nottingham - Arnold
+7574250,2026-04-17 09:22:00+02,57,"",Nottingham,57,Nottingham - Arnold
+7591309,2026-04-17 10:05:00+02,58,"",Killisick,58,Nottingham - Arnold (Killisick)
+7614366,2026-04-17 10:45:00+02,58,"",Nottingham,58,Nottingham - Arnold (Killisick)
+7630982,2026-04-17 11:25:00+02,58,"",Killisick,58,Nottingham - Arnold (Killisick)
+7646556,2026-04-17 12:05:00+02,58,"",Nottingham,58,Nottingham - Arnold (Killisick)
+7665657,2026-04-17 12:45:00+02,58,"",Killisick,58,Nottingham - Arnold (Killisick)
+7682991,2026-04-17 13:25:00+02,58,"",Nottingham,58,Nottingham - Arnold (Killisick)
+7700926,2026-04-17 14:05:00+02,58,"",Killisick,58,Nottingham - Arnold (Killisick)
+7717681,2026-04-17 14:45:00+02,58,"",Nottingham,58,Nottingham - Arnold (Killisick)
+7738353,2026-04-17 15:25:00+02,58,"",Killisick,58,Nottingham - Arnold (Killisick)
+7755307,2026-04-17 16:05:00+02,58,"",Nottingham,58,Nottingham - Arnold (Killisick)
+7773350,2026-04-17 16:45:00+02,58,"",Killisick,58,Nottingham - Arnold (Killisick)
+7793282,2026-04-17 17:29:00+02,58,"",Nottingham,58,Nottingham - Arnold (Killisick)
+7808742,2026-04-17 18:10:00+02,59,"",Killisick,59,Nottingham - Arnold
+7824946,2026-04-17 18:49:00+02,59,"",Nottingham,59,Nottingham - Arnold
+7839570,2026-04-17 19:25:00+02,58,"",Killisick,58,Nottingham - Arnold (Killisick)
+7851335,2026-04-17 20:12:00+02,59,"",Nottingham,59,Nottingham - Arnold
+7864245,2026-04-17 20:45:00+02,58,"",Killisick,58,Nottingham - Arnold (Killisick)
+7874240,2026-04-17 21:17:00+02,58,"",Nottingham,58,Nottingham - Arnold (Killisick)
+7880980,2026-04-17 21:50:00+02,58,"",Killisick,58,Nottingham - Arnold (Killisick)
+7888366,2026-04-17 22:20:00+02,58,"",Nottingham,58,Nottingham - Arnold (Killisick)
+7894703,2026-04-17 22:50:00+02,58,"",Killisick,58,Nottingham - Arnold (Killisick)
+7901603,2026-04-17 23:20:00+02,58,"",Nottingham,58,Nottingham - Arnold (Killisick)
+7906640,2026-04-17 23:50:00+02,58,"",Killisick,58,Nottingham - Arnold (Killisick)
+7912175,2026-04-18 00:20:00+02,58,"",Nottingham,58,Nottingham - Arnold (Killisick)
+7917662,2026-04-18 01:02:00+02,58,"",Killisick,58,Nottingham - Arnold (Killisick)
+8028489,2026-04-18 11:15:00+02,58,"",Nottingham,58,Nottingham - Arnold (Killisick)
+8048144,2026-04-18 11:55:00+02,58,"",Killisick,58,Nottingham - Arnold (Killisick)
+8061157,2026-04-18 12:33:00+02,58,"",Nottingham,58,Nottingham - Arnold (Killisick)
+8085887,2026-04-18 13:15:00+02,58,"",Arnold,58,Nottingham - Arnold (Killisick)
+8097128,2026-04-18 13:53:00+02,58,"",Nottingham,58,Nottingham - Arnold (Killisick)
+8112501,2026-04-18 14:35:00+02,58,"",Killisick,58,Nottingham - Arnold (Killisick)
+8130511,2026-04-18 15:15:00+02,58,"",Woodthorpe,58,Nottingham - Arnold (Killisick)
+8144205,2026-04-18 15:55:00+02,58,"",Killisick,58,Nottingham - Arnold (Killisick)
+8158894,2026-04-18 16:35:00+02,58,"",Nottingham,58,Nottingham - Arnold (Killisick)
+8176472,2026-04-18 17:15:00+02,58,"",Killisick,58,Nottingham - Arnold (Killisick)
+8193554,2026-04-18 17:55:00+02,58,"",Nottingham,58,Nottingham - Arnold (Killisick)
+8209325,2026-04-18 18:35:00+02,58,"",Killisick,58,Nottingham - Arnold (Killisick)
+8224189,2026-04-18 19:15:00+02,58,"",Nottingham,58,Nottingham - Arnold (Killisick)
+8236838,2026-04-18 19:55:00+02,56,"",Arnold,56,Nottingham - Arnold
+8246859,2026-04-18 20:29:00+02,56,"",Nottingham,56,Nottingham - Arnold
+8256041,2026-04-18 21:05:00+02,58,"",Killisick,58,Nottingham - Arnold (Killisick)
+8264649,2026-04-18 21:47:00+02,58,"",Nottingham,58,Nottingham - Arnold (Killisick)
+8273147,2026-04-18 22:20:00+02,58,"",Killisick,58,Nottingham - Arnold (Killisick)
+8279732,2026-04-18 22:50:00+02,58,"",Nottingham,58,Nottingham - Arnold (Killisick)
+8285070,2026-04-18 23:20:00+02,58,"",Killisick,58,Nottingham - Arnold (Killisick)
+8291149,2026-04-18 23:50:00+02,58,"",Nottingham,58,Nottingham - Arnold (Killisick)
+8297472,2026-04-19 00:30:00+02,58,"",Killisick,58,Nottingham - Arnold (Killisick)
+8358840,2026-04-19 10:38:00+02,59,"",Nottingham,59,Nottingham - Arnold
+8367721,2026-04-19 11:15:00+02,56,"",Arnold,56,Nottingham - Arnold
+8375722,2026-04-19 11:52:00+02,56,"",Nottingham,56,Nottingham - Arnold
+8392792,2026-04-19 12:55:00+02,59,"",Killisick,59,Nottingham - Arnold
+8405610,2026-04-19 13:38:00+02,59,"",Nottingham,59,Nottingham - Arnold
+8412450,2026-04-19 14:15:00+02,56,"",Arnold,56,Nottingham - Arnold
+8421933,2026-04-19 14:52:00+02,56,"",Nottingham,56,Nottingham - Arnold
+8437460,2026-04-19 15:55:00+02,59,"",Killisick,59,Nottingham - Arnold
+8445259,2026-04-19 16:38:00+02,59,"",Nottingham,59,Nottingham - Arnold
+8456547,2026-04-19 17:15:00+02,56,"",Arnold,56,Nottingham - Arnold
+8467424,2026-04-19 18:09:00+02,56,"",Nottingham,56,Nottingham - Arnold
+8481772,2026-04-19 18:50:00+02,59,"",Killisick,59,Nottingham - Arnold
+8489244,2026-04-19 19:28:00+02,58,"",Nottingham,58,Nottingham - Arnold (Killisick)
+8498328,2026-04-19 20:00:00+02,58,"",Killisick,58,Nottingham - Arnold (Killisick)
+8504464,2026-04-19 20:30:00+02,58,"",Nottingham,58,Nottingham - Arnold (Killisick)
+8509425,2026-04-19 21:00:00+02,58,"",Killisick,58,Nottingham - Arnold (Killisick)
+8514867,2026-04-19 21:30:00+02,58,"",Nottingham,58,Nottingham - Arnold (Killisick)
+8520792,2026-04-19 22:00:00+02,58,"",Killisick,58,Nottingham - Arnold (Killisick)
+8525709,2026-04-19 22:30:00+02,58,"",Nottingham,58,Nottingham - Arnold (Killisick)
+8531361,2026-04-19 23:00:00+02,58,"",Killisick,58,Nottingham - Arnold (Killisick)
+8535541,2026-04-19 23:30:00+02,58,"",Nottingham,58,Nottingham - Arnold (Killisick)
+8540662,2026-04-20 00:00:00+02,58,"",Killisick,58,Nottingham - Arnold (Killisick)
+8620401,2026-04-20 08:47:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+8637589,2026-04-20 09:22:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+8649512,2026-04-20 09:57:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+8664974,2026-04-20 10:32:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+8680032,2026-04-20 11:07:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+8697392,2026-04-20 11:42:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+8711279,2026-04-20 12:17:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+8728125,2026-04-20 12:52:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+8744020,2026-04-20 13:27:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+8761848,2026-04-20 14:02:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+8773270,2026-04-20 14:37:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+8791870,2026-04-20 15:12:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+8805658,2026-04-20 15:47:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+8823085,2026-04-20 16:22:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+8840122,2026-04-20 16:57:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+8854577,2026-04-20 17:32:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+8869330,2026-04-20 18:07:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+8883593,2026-04-20 18:42:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+8898439,2026-04-20 19:29:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+8914310,2026-04-20 20:00:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+8923693,2026-04-20 20:29:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+8930617,2026-04-20 21:00:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+8938405,2026-04-20 21:29:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+8945083,2026-04-20 22:00:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+8952067,2026-04-20 22:29:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+8958679,2026-04-20 23:00:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+8963925,2026-04-20 23:29:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+8970789,2026-04-21 00:00:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+8975309,2026-04-21 00:29:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+8979971,2026-04-21 01:02:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+9036539,2026-04-21 08:12:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+9050080,2026-04-21 08:43:00+02,6,"",Gamston,6,Nottingham - Edwalton
+9062951,2026-04-21 09:25:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+9081978,2026-04-21 10:00:00+02,6,"",Gamston,6,Nottingham - Edwalton
+9096055,2026-04-21 10:43:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+9116472,2026-04-21 11:15:00+02,6,"",Gamston,6,Nottingham - Edwalton
+9131720,2026-04-21 11:58:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+9152563,2026-04-21 12:30:00+02,6,"",Gamston,6,Nottingham - Edwalton
+9165507,2026-04-21 13:13:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+9188613,2026-04-21 13:45:00+02,6,"",Gamston,6,Nottingham - Edwalton
+9203973,2026-04-21 14:28:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+9218573,2026-04-21 15:00:00+02,6,"",Gamston,6,Nottingham - Edwalton
+9233608,2026-04-21 15:43:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+9251870,2026-04-21 16:15:00+02,6,"",Gamston,6,Nottingham - Edwalton
+9268074,2026-04-21 16:57:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+9284200,2026-04-21 17:30:00+02,6,"",Gamston,6,Nottingham - Edwalton
+9297942,2026-04-21 18:10:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+9313242,2026-04-21 18:45:00+02,6,"",Gamston,6,Nottingham - Edwalton
+9329590,2026-04-21 19:30:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+9343240,2026-04-21 20:00:00+02,6,"",Gamston,6,Nottingham - Edwalton
+9351669,2026-04-21 20:32:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+9359383,2026-04-21 21:00:00+02,6,"",Gamston,6,Nottingham - Edwalton
+9367837,2026-04-21 21:32:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+9374047,2026-04-21 22:00:00+02,6,"",Gamston,6,Nottingham - Edwalton
+9380100,2026-04-21 22:34:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+9386629,2026-04-21 23:00:00+02,6,"",Gamston,6,Nottingham - Edwalton
+9392891,2026-04-21 23:34:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+9398433,2026-04-22 00:00:00+02,6,"",Gamston,6,Nottingham - Edwalton
+9403869,2026-04-22 00:34:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+9408465,2026-04-22 01:00:00+02,6,"",Gamston,6,Nottingham - Edwalton
+9470640,2026-04-22 08:24:00+02,35,"",Nottingham,35,Nottingham - Bulwell
+9502545,2026-04-22 09:25:00+02,35B,"",Strelley,35B,Nottingham - Bulwell
+10109969,2026-04-23 16:19:00+02,57X,"",Nottingham,57X,Nottingham - Arnold
+10126780,2026-04-23 16:57:00+02,88,"",Top Valley,88,Nottingham - City Hospital - Arnold
+10143450,2026-04-23 17:25:00+02,88,"",Nottingham,88,Nottingham - City Hospital - Arnold
+10157224,2026-04-23 18:07:00+02,88,"",Top Valley,88,Nottingham - City Hospital - Arnold
+10176515,2026-04-23 18:58:00+02,88,"",Nottingham,88,Nottingham - City Hospital - Arnold
+10194483,2026-04-23 19:40:00+02,88,"",Top Valley,88,Nottingham - City Hospital - Arnold
+10203235,2026-04-23 20:03:00+02,88,"",Nottingham,88,Nottingham - City Hospital - Arnold
+10214421,2026-04-23 20:45:00+02,88,"",Top Valley,88,Nottingham - City Hospital - Arnold
+10221020,2026-04-23 21:08:00+02,88,"",Nottingham,88,Nottingham - City Hospital - Arnold
+10229239,2026-04-23 21:45:00+02,88,"",Top Valley,88,Nottingham - City Hospital - Arnold
+10234497,2026-04-23 22:08:00+02,88,"",Nottingham,88,Nottingham - City Hospital - Arnold
+10241933,2026-04-23 22:45:00+02,88,"",Top Valley,88,Nottingham - City Hospital - Arnold
+10247276,2026-04-23 23:08:00+02,88,"",Nottingham,88,Nottingham - City Hospital - Arnold
+10254064,2026-04-23 23:45:00+02,88,"",Top Valley,88,Nottingham - City Hospital - Arnold
+10258790,2026-04-24 00:08:00+02,88,"",Nottingham,88,Nottingham - City Hospital - Arnold
+10343516,2026-04-24 09:02:00+02,17,"",Nottingham,17,Nottingham - City Hospital - Bulwell
+10358829,2026-04-24 09:44:00+02,17,"",Bulwell,17,Nottingham - City Hospital - Bulwell
+10373040,2026-04-24 10:18:00+02,17,"",Nottingham,17,Nottingham - City Hospital - Bulwell
+10391244,2026-04-24 10:55:00+02,17,"",Bulwell,17,Nottingham - City Hospital - Bulwell
+10406419,2026-04-24 11:28:00+02,17,"",Nottingham,17,Nottingham - City Hospital - Bulwell
+10420149,2026-04-24 12:05:00+02,17,"",Bulwell,17,Nottingham - City Hospital - Bulwell
+10435867,2026-04-24 12:38:00+02,17,"",Nottingham,17,Nottingham - City Hospital - Bulwell
+10452277,2026-04-24 13:15:00+02,17,"",Bulwell,17,Nottingham - City Hospital - Bulwell
+10466445,2026-04-24 13:48:00+02,17,"",Nottingham,17,Nottingham - City Hospital - Bulwell
+10482592,2026-04-24 14:25:00+02,17,"",Bulwell,17,Nottingham - City Hospital - Bulwell
+10497357,2026-04-24 14:58:00+02,17,"",Nottingham,17,Nottingham - City Hospital - Bulwell
+10513987,2026-04-24 15:35:00+02,17,"",Bulwell,17,Nottingham - City Hospital - Bulwell
+10530912,2026-04-24 16:11:00+02,17,"",Nottingham,17,Nottingham - City Hospital - Bulwell
+10547344,2026-04-24 16:50:00+02,15,"",Rise Park,15,Nottingham - Nottingham Hospital - Rise Park
+10574264,2026-04-24 17:28:00+02,16,"",Nottingham,16,Nottingham - Nottingham Hospital - Rise Park
+10579063,2026-04-24 18:10:00+02,15,"",Rise Park,15,Nottingham - Nottingham Hospital - Rise Park
+10595535,2026-04-24 18:58:00+02,16,"",Nottingham,16,Nottingham - Nottingham Hospital - Rise Park
+10615639,2026-04-24 19:38:00+02,15,"",Rise Park,15,Nottingham - Nottingham Hospital - Rise Park
+10626239,2026-04-24 20:19:00+02,15,"",Nottingham,15,Nottingham - Nottingham Hospital - Rise Park
+10765365,2026-04-25 09:59:00+02,87,"",Nottingham,87,Nottingham - City Hospital - Arnold
+10779990,2026-04-25 10:42:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+10794952,2026-04-25 11:17:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+10810791,2026-04-25 11:52:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+10824719,2026-04-25 12:27:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+10840005,2026-04-25 13:02:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+10852984,2026-04-25 13:37:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+10869235,2026-04-25 14:12:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+10886096,2026-04-25 14:47:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+10900654,2026-04-25 15:22:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+10913473,2026-04-25 15:57:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+10928319,2026-04-25 16:32:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+10941945,2026-04-25 17:07:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+10954128,2026-04-25 17:42:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+11072641,2026-04-26 01:40:00+02,N34,"",Beeston,N34,Nottingham - Beeston
+11074954,2026-04-26 02:15:00+02,N34,"",Nottingham,N34,Nottingham - Beeston
+11076531,2026-04-26 02:40:00+02,N34,"",Beeston,N34,Nottingham - Beeston
+11077461,2026-04-26 03:15:00+02,N34,"",Nottingham,N34,Nottingham - Beeston
+11078361,2026-04-26 03:40:00+02,N34,"",Beeston,N34,Nottingham - Beeston
+11079124,2026-04-26 04:15:00+02,N34,"",Nottingham,N34,Nottingham - Beeston
+11079981,2026-04-26 04:40:00+02,N34,"",Beeston,N34,Nottingham - Beeston
+11080827,2026-04-26 05:15:00+02,N34,"",Nottingham,N34,Nottingham - Beeston
+11375936,2026-04-27 08:30:00+02,87,"",Nottingham,87,Nottingham - City Hospital - Arnold
+11391833,2026-04-27 09:05:00+02,87,"",Arnold,87,Nottingham - City Hospital - Arnold
+11407920,2026-04-27 09:37:00+02,87,"",Nottingham,87,Nottingham - City Hospital - Arnold
+11420952,2026-04-27 10:17:00+02,88,"",Top Valley,88,Nottingham - City Hospital - Arnold
+11432593,2026-04-27 10:45:00+02,88,"",Nottingham,88,Nottingham - City Hospital - Arnold
+11452595,2026-04-27 11:27:00+02,87,"",Arnold,87,Nottingham - City Hospital - Arnold
+11467648,2026-04-27 11:59:00+02,87,"",Nottingham,87,Nottingham - City Hospital - Arnold
+11482714,2026-04-27 12:37:00+02,88,"",Top Valley,88,Nottingham - City Hospital - Arnold
+11495273,2026-04-27 13:05:00+02,88,"",Nottingham,88,Nottingham - City Hospital - Arnold
+11506127,2026-04-27 13:47:00+02,87,"",Arnold,87,Nottingham - City Hospital - Arnold
+11516458,2026-04-27 14:19:00+02,87,"",Nottingham,87,Nottingham - City Hospital - Arnold
+11535495,2026-04-27 14:57:00+02,88,"",Top Valley,88,Nottingham - City Hospital - Arnold
+11548679,2026-04-27 15:25:00+02,88,"",Nottingham,88,Nottingham - City Hospital - Arnold
+11566422,2026-04-27 16:07:00+02,87,"",Arnold,87,Nottingham - City Hospital - Arnold
+11586171,2026-04-27 16:39:00+02,87,"",Nottingham,87,Nottingham - City Hospital - Arnold
+11600616,2026-04-27 17:17:00+02,87,"",Arnold,87,Nottingham - City Hospital - Arnold
+11615057,2026-04-27 17:59:00+02,87,"",Nottingham,87,Nottingham - City Hospital - Arnold
+11631949,2026-04-27 18:37:00+02,87,"",Arnold,87,Nottingham - City Hospital - Arnold
+11647627,2026-04-27 19:19:00+02,87,"",Nottingham,87,Nottingham - City Hospital - Arnold
+11662310,2026-04-27 19:50:00+02,87,"",Arnold,87,Nottingham - City Hospital - Arnold
+11670805,2026-04-27 20:19:00+02,87,"",Nottingham,87,Nottingham - City Hospital - Arnold
+11776078,2026-04-28 07:45:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+11786683,2026-04-28 08:13:00+02,6,"",Gamston,6,Nottingham - Edwalton
+11801684,2026-04-28 08:53:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+11821142,2026-04-28 09:28:00+02,6,"",Gamston,6,Nottingham - Edwalton
+11838497,2026-04-28 10:13:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+11855661,2026-04-28 10:45:00+02,6,"",Gamston,6,Nottingham - Edwalton
+11870117,2026-04-28 11:28:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+11890562,2026-04-28 12:00:00+02,6,"",Gamston,6,Nottingham - Edwalton
+11905799,2026-04-28 12:43:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+11925561,2026-04-28 13:15:00+02,6,"",Gamston,6,Nottingham - Edwalton
+11940930,2026-04-28 13:58:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+11956759,2026-04-28 14:30:00+02,6,"",Gamston,6,Nottingham - Edwalton
+11972667,2026-04-28 15:13:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+11993340,2026-04-28 15:45:00+02,6,"",Gamston,6,Nottingham - Edwalton
+12009109,2026-04-28 16:27:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+12026066,2026-04-28 17:00:00+02,6,"",Gamston,6,Nottingham - Edwalton
+12041139,2026-04-28 17:40:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+12057697,2026-04-28 18:15:00+02,6,"",Gamston,6,Nottingham - Edwalton
+12074503,2026-04-28 19:10:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+12091361,2026-04-28 19:40:00+02,6,"",Gamston,6,Nottingham - Edwalton
+12109421,2026-04-28 22:37:00+02,10,"",Nottingham,10,Nottingham - Ruddington
+12122620,2026-04-28 23:05:00+02,10,"",Ruddington,10,Nottingham - Ruddington
+12127718,2026-04-28 23:37:00+02,10,"",Nottingham,10,Nottingham - Ruddington
+12132676,2026-04-29 00:05:00+02,10,"",Ruddington,10,Nottingham - Ruddington
+12138510,2026-04-29 00:35:00+02,10,"",Nottingham,10,Nottingham - Ruddington
+12141882,2026-04-29 01:00:00+02,10,"",Ruddington,10,Nottingham - Ruddington
+12213341,2026-04-29 08:47:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+12230393,2026-04-29 09:22:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+12243351,2026-04-29 09:57:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+12257920,2026-04-29 10:32:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+12271479,2026-04-29 11:07:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+12290815,2026-04-29 11:42:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+12303027,2026-04-29 12:17:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+12323202,2026-04-29 12:52:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+12334734,2026-04-29 13:27:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+12354657,2026-04-29 14:02:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+12368794,2026-04-29 14:37:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+12382697,2026-04-29 15:12:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+12397941,2026-04-29 15:47:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+12415231,2026-04-29 16:22:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+12429115,2026-04-29 16:57:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+12444924,2026-04-29 17:32:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+12462579,2026-04-29 18:07:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+12476199,2026-04-29 18:42:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+12489502,2026-04-29 19:29:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+12506038,2026-04-29 20:00:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+12515277,2026-04-29 20:29:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+12522844,2026-04-29 21:00:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+12531458,2026-04-29 21:29:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+12537890,2026-04-29 22:00:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+12544414,2026-04-29 22:29:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+12550863,2026-04-29 23:00:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+12556799,2026-04-29 23:29:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+12562606,2026-04-30 00:00:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+12567805,2026-04-30 00:29:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+12572872,2026-04-30 01:02:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+12627207,2026-04-30 08:12:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+12643071,2026-04-30 08:43:00+02,6,"",Gamston,6,Nottingham - Edwalton
+12657378,2026-04-30 09:25:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+12674512,2026-04-30 10:00:00+02,6,"",Gamston,6,Nottingham - Edwalton
+12689895,2026-04-30 10:43:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+12709942,2026-04-30 11:15:00+02,6,"",Gamston,6,Nottingham - Edwalton
+12725459,2026-04-30 11:58:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+12745032,2026-04-30 12:30:00+02,6,"",Gamston,6,Nottingham - Edwalton
+12758534,2026-04-30 13:13:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+12778664,2026-04-30 13:45:00+02,6,"",Gamston,6,Nottingham - Edwalton
+12792233,2026-04-30 14:28:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+12812199,2026-04-30 15:00:00+02,6,"",Gamston,6,Nottingham - Edwalton
+12828467,2026-04-30 15:43:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+12845928,2026-04-30 16:15:00+02,6,"",Gamston,6,Nottingham - Edwalton
+12861196,2026-04-30 16:57:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+12879054,2026-04-30 17:30:00+02,6,"",Gamston,6,Nottingham - Edwalton
+12892941,2026-04-30 18:10:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+12908906,2026-04-30 18:45:00+02,6,"",Gamston,6,Nottingham - Edwalton
+12923147,2026-04-30 19:30:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+12938341,2026-04-30 20:00:00+02,6,"",Gamston,6,Nottingham - Edwalton
+12949813,2026-04-30 20:32:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+12955654,2026-04-30 21:00:00+02,6,"",Gamston,6,Nottingham - Edwalton
+12962606,2026-04-30 21:32:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+12969654,2026-04-30 22:00:00+02,6,"",Gamston,6,Nottingham - Edwalton
+12976957,2026-04-30 22:34:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+12984073,2026-04-30 23:00:00+02,6,"",Gamston,6,Nottingham - Edwalton
+12991807,2026-04-30 23:34:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+12997690,2026-05-01 00:00:00+02,6,"",Gamston,6,Nottingham - Edwalton
+13001997,2026-05-01 00:34:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+13004607,2026-05-01 01:00:00+02,6,"",Gamston,6,Nottingham - Edwalton
+13078354,2026-05-01 08:54:00+02,78,"",Nottingham,78,Nottingham - Strelley
+13095462,2026-05-01 09:30:00+02,78,"",Strelley,78,Nottingham - Strelley
+13116065,2026-05-01 10:19:00+02,78,"",Nottingham,78,Nottingham - Strelley
+13133262,2026-05-01 10:52:00+02,78,"",Strelley,78,Nottingham - Strelley
+13151918,2026-05-01 11:39:00+02,78,"",Nottingham,78,Nottingham - Strelley
+13169975,2026-05-01 12:12:00+02,78,"",Strelley,78,Nottingham - Strelley
+13188931,2026-05-01 12:59:00+02,78,"",Nottingham,78,Nottingham - Strelley
+13204610,2026-05-01 13:32:00+02,78,"",Strelley,78,Nottingham - Strelley
+13227345,2026-05-01 14:19:00+02,78,"",Nottingham,78,Nottingham - Strelley
+13242890,2026-05-01 14:52:00+02,78,"",Strelley,78,Nottingham - Strelley
+13264108,2026-05-01 15:39:00+02,78,"",Nottingham,78,Nottingham - Strelley
+13277075,2026-05-01 16:12:00+02,78,"",Strelley,78,Nottingham - Strelley
+13298141,2026-05-01 16:59:00+02,78,"",Nottingham,78,Nottingham - Strelley
+13313295,2026-05-01 17:32:00+02,78,"",Strelley,78,Nottingham - Strelley
+13332245,2026-05-01 18:19:00+02,78,"",Nottingham,78,Nottingham - Strelley
+13509662,2026-05-02 09:55:00+02,24,"",Netherfield,24,Nottingham - Mapperley - Arnold
+13531037,2026-05-02 10:43:00+02,24,"",Nottingham,24,Nottingham - Mapperley - Arnold
+13548301,2026-05-02 11:25:00+02,24,"",Netherfield,24,Nottingham - Mapperley - Arnold
+13567097,2026-05-02 12:13:00+02,24,"",Nottingham,24,Nottingham - Mapperley - Arnold
+13584158,2026-05-02 12:55:00+02,24,"",Netherfield,24,Nottingham - Mapperley - Arnold
+13602746,2026-05-02 13:43:00+02,24,"",Nottingham,24,Nottingham - Mapperley - Arnold
+13624242,2026-05-02 14:25:00+02,24,"",Netherfield,24,Nottingham - Mapperley - Arnold
+13637217,2026-05-02 15:13:00+02,24,"",Nottingham,24,Nottingham - Mapperley - Arnold
+13659538,2026-05-02 15:55:00+02,24,"",Netherfield,24,Nottingham - Mapperley - Arnold
+13681749,2026-05-02 16:43:00+02,24,"",Nottingham,24,Nottingham - Mapperley - Arnold
+13696522,2026-05-02 17:25:00+02,24,"",Netherfield,24,Nottingham - Mapperley - Arnold
+13718900,2026-05-02 18:13:00+02,24,"",Nottingham,24,Nottingham - Mapperley - Arnold
+13733339,2026-05-02 18:55:00+02,24,"",Netherfield,24,Nottingham - Mapperley - Arnold
+14089204,2026-05-04 07:47:00+02,36,"",Nottingham,36,Nottingham - Chilwell (Inham Nook)
+14094350,2026-05-04 08:30:00+02,36,"",Chilwell,36,Nottingham - Chilwell (Inham Nook)
+14099657,2026-05-04 09:15:00+02,36,"",Nottingham,36,Nottingham - Chilwell (Inham Nook)
+14110418,2026-05-04 09:55:00+02,36,"",Chilwell,36,Nottingham - Chilwell (Inham Nook)
+14118097,2026-05-04 10:25:00+02,36,"",Nottingham,36,Nottingham - Chilwell (Inham Nook)
+14129435,2026-05-04 11:20:00+02,35,"",Bulwell,35,Nottingham - Bulwell
+14145640,2026-05-04 12:13:00+02,35,"",Nottingham,35,Nottingham - Bulwell
+14159160,2026-05-04 13:10:00+02,36,"",Chilwell,36,Nottingham - Chilwell (Inham Nook)
+14170247,2026-05-04 13:45:00+02,36,"",Nottingham,36,Nottingham - Chilwell (Inham Nook)
+14181264,2026-05-04 14:40:00+02,35,"",Bulwell,35,Nottingham - Bulwell
+14197972,2026-05-04 15:33:00+02,35,"",Nottingham,35,Nottingham - Bulwell
+14211320,2026-05-04 16:30:00+02,36,"",Chilwell,36,Nottingham - Chilwell (Inham Nook)
+14223203,2026-05-04 17:05:00+02,36,"",Nottingham,36,Nottingham - Chilwell (Inham Nook)
+14233605,2026-05-04 18:00:00+02,35,"",Bulwell,35,Nottingham - Bulwell
+14248814,2026-05-04 18:52:00+02,35,"",Nottingham,35,Nottingham - Bulwell
+14259999,2026-05-04 19:40:00+02,36,"",Chilwell,36,Nottingham - Chilwell (Inham Nook)
+14268226,2026-05-04 20:13:00+02,36,"",Nottingham,36,Nottingham - Chilwell (Inham Nook)
+14275486,2026-05-04 20:55:00+02,35,"",Bulwell,35,Nottingham - Bulwell
+14285307,2026-05-04 21:52:00+02,35,"",Nottingham,35,Nottingham - Bulwell
+14294968,2026-05-04 22:40:00+02,36,"",Chilwell,36,Nottingham - Chilwell (Inham Nook)
+14301303,2026-05-04 23:16:00+02,36,"",Nottingham,36,Nottingham - Chilwell (Inham Nook)
+14308515,2026-05-05 00:00:00+02,36,"",Chilwell,36,Nottingham - Chilwell (Inham Nook)
+14387103,2026-05-05 08:47:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+14403724,2026-05-05 09:22:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+14418063,2026-05-05 09:57:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+14432556,2026-05-05 10:32:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+14446611,2026-05-05 11:07:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+14463230,2026-05-05 11:42:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+14477944,2026-05-05 12:17:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+14495221,2026-05-05 12:52:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+14510251,2026-05-05 13:27:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+14525211,2026-05-05 14:02:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+14543143,2026-05-05 14:37:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+14557965,2026-05-05 15:12:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+14577159,2026-05-05 15:47:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+14591756,2026-05-05 16:22:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+14608267,2026-05-05 16:57:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+14621579,2026-05-05 17:32:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+14636595,2026-05-05 18:07:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+14651899,2026-05-05 18:42:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+14665927,2026-05-05 19:29:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+14681795,2026-05-05 20:00:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+14691272,2026-05-05 20:29:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+14699179,2026-05-05 21:00:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+14707213,2026-05-05 21:29:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+14714222,2026-05-05 22:00:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+14721024,2026-05-05 22:29:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+14727228,2026-05-05 23:00:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+14732917,2026-05-05 23:29:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+14739283,2026-05-06 00:00:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+14744453,2026-05-06 00:29:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+14749243,2026-05-06 01:02:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+14770447,2026-05-06 06:38:00+02,79,"",Nottingham,79,Nottingham - Rise Park - Arnold
+14780512,2026-05-06 07:13:00+02,79,"",Arnold,79,Nottingham - Rise Park - Arnold
+14813798,2026-05-06 08:28:00+02,79,"",Nottingham,79,Nottingham - Rise Park - Arnold
+14850766,2026-05-06 09:40:00+02,79,"",Arnold,79,Nottingham - Rise Park - Arnold
+14884791,2026-05-06 11:13:00+02,79,"",Nottingham,79,Nottingham - Rise Park - Arnold
+14918507,2026-05-06 12:22:00+02,79A,"",Arnold,79A,Nottingham - Rise Park - Arnold
+14954938,2026-05-06 13:53:00+02,79,"",Nottingham,79,Nottingham - Rise Park - Arnold
+14988918,2026-05-06 15:02:00+02,79,"",Arnold,79,Nottingham - Rise Park - Arnold
+15030688,2026-05-06 16:40:00+02,79A,"",Nottingham,79A,Nottingham - Rise Park - Arnold
+15068709,2026-05-06 18:02:00+02,79,"",Arnold,79,Nottingham - Rise Park - Arnold
+15102786,2026-05-06 19:40:00+02,79A,"",Nottingham,79A,Nottingham - Rise Park - Arnold
+15128952,2026-05-06 20:39:00+02,79A,"",Arnold,79A,Nottingham - Rise Park - Arnold
+15236530,2026-05-07 08:12:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+15253753,2026-05-07 08:43:00+02,6,"",Gamston,6,Nottingham - Edwalton
+15266417,2026-05-07 09:25:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+15285678,2026-05-07 10:00:00+02,6,"",Gamston,6,Nottingham - Edwalton
+15300585,2026-05-07 10:43:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+15321580,2026-05-07 11:15:00+02,6,"",Gamston,6,Nottingham - Edwalton
+15336530,2026-05-07 11:58:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+15356313,2026-05-07 12:30:00+02,6,"",Gamston,6,Nottingham - Edwalton
+15370232,2026-05-07 13:13:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+15389443,2026-05-07 13:45:00+02,6,"",Gamston,6,Nottingham - Edwalton
+15404830,2026-05-07 14:28:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+15422834,2026-05-07 15:00:00+02,6,"",Gamston,6,Nottingham - Edwalton
+15437308,2026-05-07 15:43:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+15457566,2026-05-07 16:15:00+02,6,"",Gamston,6,Nottingham - Edwalton
+15472873,2026-05-07 16:57:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+15491016,2026-05-07 17:30:00+02,6,"",Gamston,6,Nottingham - Edwalton
+15505740,2026-05-07 18:10:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+15520084,2026-05-07 18:45:00+02,6,"",Gamston,6,Nottingham - Edwalton
+15536227,2026-05-07 19:30:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+15549273,2026-05-07 20:00:00+02,6,"",Gamston,6,Nottingham - Edwalton
+15559506,2026-05-07 20:32:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+15566744,2026-05-07 21:00:00+02,6,"",Gamston,6,Nottingham - Edwalton
+15575049,2026-05-07 21:32:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+15581439,2026-05-07 22:00:00+02,6,"",Gamston,6,Nottingham - Edwalton
+15588663,2026-05-07 22:34:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+15595114,2026-05-07 23:00:00+02,6,"",Gamston,6,Nottingham - Edwalton
+15601423,2026-05-07 23:34:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+15606756,2026-05-08 00:00:00+02,6,"",Gamston,6,Nottingham - Edwalton
+15612489,2026-05-08 00:34:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+15616759,2026-05-08 01:00:00+02,6,"",Gamston,6,Nottingham - Edwalton
+15690871,2026-05-08 08:47:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+15705934,2026-05-08 09:22:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+15717953,2026-05-08 09:57:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+15736057,2026-05-08 10:32:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+15748162,2026-05-08 11:07:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+15765324,2026-05-08 11:42:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+15782202,2026-05-08 12:17:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+15799263,2026-05-08 12:52:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+15811694,2026-05-08 13:27:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+15829763,2026-05-08 14:02:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+15843757,2026-05-08 14:37:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+15862288,2026-05-08 15:12:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+15878465,2026-05-08 15:47:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+15892884,2026-05-08 16:22:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+15908863,2026-05-08 16:57:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+15938568,2026-05-08 17:32:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+15955353,2026-05-08 19:29:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+15984939,2026-05-08 20:00:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+15994864,2026-05-08 20:29:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+16000388,2026-05-08 21:00:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+16008863,2026-05-08 21:29:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+16015133,2026-05-08 22:00:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+16022041,2026-05-08 22:29:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+16028262,2026-05-08 23:00:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+16034110,2026-05-08 23:29:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+16040676,2026-05-09 00:00:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+16045348,2026-05-09 00:29:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+16050361,2026-05-09 01:02:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+16147107,2026-05-09 10:44:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+16160946,2026-05-09 11:15:00+02,6,"",Gamston,6,Nottingham - Edwalton
+16172542,2026-05-09 11:58:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+16191521,2026-05-09 12:30:00+02,6,"",Gamston,6,Nottingham - Edwalton
+16205402,2026-05-09 13:13:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+16222803,2026-05-09 13:45:00+02,6,"",Gamston,6,Nottingham - Edwalton
+16237718,2026-05-09 14:28:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+16256183,2026-05-09 15:00:00+02,6,"",Gamston,6,Nottingham - Edwalton
+16270062,2026-05-09 15:43:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+16285640,2026-05-09 16:15:00+02,6,"",Gamston,6,Nottingham - Edwalton
+16299798,2026-05-09 16:58:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+16316051,2026-05-09 17:30:00+02,6,"",Gamston,6,Nottingham - Edwalton
+16330081,2026-05-09 18:13:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+16346663,2026-05-09 18:45:00+02,6,"",Gamston,6,Nottingham - Edwalton
+16358235,2026-05-09 19:32:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+16371866,2026-05-09 20:00:00+02,6,"",Gamston,6,Nottingham - Edwalton
+16380054,2026-05-09 20:32:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+16387546,2026-05-09 21:00:00+02,6,"",Gamston,6,Nottingham - Edwalton
+16394198,2026-05-09 21:32:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+16400707,2026-05-09 22:00:00+02,6,"",Gamston,6,Nottingham - Edwalton
+16408174,2026-05-09 22:34:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+16414304,2026-05-09 23:00:00+02,6,"",Gamston,6,Nottingham - Edwalton
+16419792,2026-05-09 23:34:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+16424414,2026-05-10 00:00:00+02,6,"",Gamston,6,Nottingham - Edwalton
+16430907,2026-05-10 00:34:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+16435472,2026-05-10 01:00:00+02,6,"",Gamston,6,Nottingham - Edwalton
+16471753,2026-05-10 09:10:00+02,87,"",Arnold,87,Nottingham - City Hospital - Arnold
+16476867,2026-05-10 09:37:00+02,87,"",Nottingham,87,Nottingham - City Hospital - Arnold
+16484778,2026-05-10 10:10:00+02,87,"",Arnold,87,Nottingham - City Hospital - Arnold
+16490875,2026-05-10 10:37:00+02,87,"",Nottingham,87,Nottingham - City Hospital - Arnold
+16499235,2026-05-10 11:10:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+16505742,2026-05-10 11:45:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+16516683,2026-05-10 12:30:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+16526540,2026-05-10 13:05:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+16537888,2026-05-10 13:40:00+02,88,"",Top Valley,88,Nottingham - City Hospital - Arnold
+16545446,2026-05-10 14:08:00+02,88,"",Nottingham,88,Nottingham - City Hospital - Arnold
+16554432,2026-05-10 14:50:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+16562148,2026-05-10 15:25:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+16571464,2026-05-10 16:00:00+02,87,"",Arnold,87,Nottingham - City Hospital - Arnold
+16580694,2026-05-10 16:32:00+02,87,"",Nottingham,87,Nottingham - City Hospital - Arnold
+16589421,2026-05-10 17:10:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+16597694,2026-05-10 17:55:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+16608910,2026-05-10 18:30:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+16617792,2026-05-10 19:00:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+16624414,2026-05-10 19:30:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+16630584,2026-05-10 20:00:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+16636225,2026-05-10 20:30:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+16641848,2026-05-10 21:00:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+16647529,2026-05-10 21:30:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+16736212,2026-05-11 08:10:00+02,68,"",Hempshill Vale,68,Nottingham - Snape Wood
+16749603,2026-05-11 08:35:00+02,68,"",Nottingham,68,Nottingham - Snape Wood
+16779045,2026-05-11 09:40:00+02,69,"",Bulwell,69,Nottingham - Snape Wood
+16792106,2026-05-11 10:11:00+02,69,"",Nottingham,69,Nottingham - Snape Wood
+16815255,2026-05-11 11:12:00+02,68,"",Hempshill Vale,68,Nottingham - Snape Wood
+16832675,2026-05-11 11:41:00+02,68,"",Nottingham,68,Nottingham - Snape Wood
+16856724,2026-05-11 12:42:00+02,69,"",Bulwell,69,Nottingham - Snape Wood
+16873657,2026-05-11 13:11:00+02,69,"",Nottingham,69,Nottingham - Snape Wood
+16896749,2026-05-11 14:12:00+02,68,"",Hempshill Vale,68,Nottingham - Snape Wood
+16914176,2026-05-11 14:41:00+02,68,"",Nottingham,68,Nottingham - Snape Wood
+16938873,2026-05-11 15:42:00+02,69,"",Bulwell,69,Nottingham - Snape Wood
+16956623,2026-05-11 16:12:00+02,69,"",Nottingham,69,Nottingham - Snape Wood
+16984401,2026-05-11 17:22:00+02,69,"",Bulwell,69,Nottingham - Snape Wood
+16999476,2026-05-11 17:53:00+02,69,"",Nottingham,69,Nottingham - Snape Wood
+17023642,2026-05-11 19:02:00+02,69,"",Bulwell,69,Nottingham - Snape Wood
+17039704,2026-05-11 19:30:00+02,69,"",Nottingham,69,Nottingham - Snape Wood
+17055288,2026-05-11 20:25:00+02,69,"",Bulwell,69,Nottingham - Snape Wood
+17065512,2026-05-11 20:51:00+02,69,"",Nottingham,69,Nottingham - Snape Wood
+17075992,2026-05-11 21:40:00+02,68,"",Hempshill Vale,68,Nottingham - Snape Wood
+17083665,2026-05-11 22:06:00+02,68,"",Nottingham,68,Nottingham - Snape Wood
+17092699,2026-05-11 23:00:00+02,69,"",Bulwell,69,Nottingham - Snape Wood
+17100000,2026-05-11 23:21:00+02,69,"",Nottingham,69,Nottingham - Snape Wood
+17106471,2026-05-12 00:00:00+02,69,"",Bulwell,69,Nottingham - Snape Wood
+17111402,2026-05-12 00:21:00+02,69,"",Nottingham,69,Nottingham - Snape Wood
+17116577,2026-05-12 01:02:00+02,68,"",Hempshill Vale,68,Nottingham - Snape Wood
+17119869,2026-05-12 01:23:00+02,68B,"",Bulwell,68B,Nottingham - Snape Wood
+17188272,2026-05-12 08:54:00+02,A2,"",Beechdale,A2,Rise Park - Aspley Schools
+17608298,2026-05-13 08:19:00+02,58,"",Nottingham,58,Nottingham - Arnold (Killisick)
+17626869,2026-05-13 09:43:00+02,56,"",Nottingham,56,Nottingham - Arnold
+21054684,2026-05-21 16:25:00+02,77,"",Nottingham,77,Nottingham - Strelley
+21074633,2026-05-21 17:00:00+02,16,"",Rise Park,16,Nottingham - Nottingham Hospital - Rise Park
+21089604,2026-05-21 17:37:00+02,15,"",Nottingham,15,Nottingham - Nottingham Hospital - Rise Park
+21105307,2026-05-21 18:20:00+02,16C,"",Rise Park,16C,Nottingham - Nottingham Hospital - Rise Park
+21207725,2026-05-22 00:30:00+02,68,"",Hempshill Vale,68,Nottingham - Snape Wood
+21211493,2026-05-22 00:51:00+02,68B,"",Bulwell,68B,Nottingham - Snape Wood
+21255402,2026-05-22 07:48:00+02,27,"",Nottingham,27,Nottingham - Mapperley - Arnold
+21264699,2026-05-22 08:15:00+02,27,"",Carlton,27,Nottingham - Mapperley - Arnold
+21277595,2026-05-22 08:43:00+02,27,"",Nottingham,27,Nottingham - Mapperley - Arnold
+21294417,2026-05-22 09:15:00+02,27,"",Carlton,27,Nottingham - Mapperley - Arnold
+21305285,2026-05-22 09:43:00+02,27,"",Nottingham,27,Nottingham - Mapperley - Arnold
+21320409,2026-05-22 10:15:00+02,27,outbound,Carlton,27,Nottingham - Mapperley - Arnold
+21370412,2026-05-22 12:02:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+21327068,2026-05-22 12:15:00+02,27,"",Carlton,27,Nottingham - Mapperley - Arnold
+21384671,2026-05-22 12:37:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+21397949,2026-05-22 13:12:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+21412218,2026-05-22 13:47:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+21427226,2026-05-22 14:22:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+21444982,2026-05-22 14:57:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+21460927,2026-05-22 15:32:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+21484243,2026-05-22 16:42:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+21514877,2026-05-22 17:17:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+21528805,2026-05-22 17:52:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+21543508,2026-05-22 18:27:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+21555338,2026-05-22 19:02:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+21757888,2026-05-23 11:36:00+02,10,"",Nottingham,10,Nottingham - Ruddington
+21772046,2026-05-23 12:10:00+02,10,"",Ruddington,10,Nottingham - Ruddington
+21789092,2026-05-23 12:51:00+02,10,"",Nottingham,10,Nottingham - Ruddington
+21804191,2026-05-23 13:25:00+02,10,"",Ruddington,10,Nottingham - Ruddington
+21819699,2026-05-23 14:06:00+02,10,"",Nottingham,10,Nottingham - Ruddington
+21835240,2026-05-23 14:40:00+02,10,"",Ruddington,10,Nottingham - Ruddington
+21850213,2026-05-23 15:21:00+02,10,"",Nottingham,10,Nottingham - Ruddington
+21868006,2026-05-23 15:55:00+02,10,"",Ruddington,10,Nottingham - Ruddington
+21884241,2026-05-23 16:36:00+02,10,"",Nottingham,10,Nottingham - Ruddington
+21897514,2026-05-23 17:10:00+02,10,"",Ruddington,10,Nottingham - Ruddington
+21912106,2026-05-23 17:51:00+02,10,"",Nottingham,10,Nottingham - Ruddington
+21927355,2026-05-23 18:25:00+02,10,"",Ruddington,10,Nottingham - Ruddington
+21941628,2026-05-23 19:13:00+02,10,"",Nottingham,10,Nottingham - Ruddington
+21955834,2026-05-23 19:45:00+02,10,"",Ruddington,10,Nottingham - Ruddington
+21966791,2026-05-23 20:17:00+02,10,"",Nottingham,10,Nottingham - Ruddington
+21974473,2026-05-23 20:45:00+02,10,"",Ruddington,10,Nottingham - Ruddington
+21983247,2026-05-23 21:37:00+02,10,"",Nottingham,10,Nottingham - Ruddington
+21990500,2026-05-23 22:05:00+02,10,"",Ruddington,10,Nottingham - Ruddington
+21997133,2026-05-23 22:37:00+02,10,"",Nottingham,10,Nottingham - Ruddington
+22002809,2026-05-23 23:05:00+02,10,"",Ruddington,10,Nottingham - Ruddington
+22009261,2026-05-23 23:37:00+02,10,"",Nottingham,10,Nottingham - Ruddington
+22014313,2026-05-24 00:05:00+02,10,"",Ruddington,10,Nottingham - Ruddington
+22019939,2026-05-24 00:35:00+02,10,"",Nottingham,10,Nottingham - Ruddington
+22023415,2026-05-24 01:00:00+02,10,"",Ruddington,10,Nottingham - Ruddington
+22093518,2026-05-24 11:40:00+02,43,"",Bakersfield,43,Nottingham - Bakersfield
+22099296,2026-05-24 11:55:00+02,43,"",Nottingham,43,Nottingham - Bakersfield
+22105047,2026-05-24 12:25:00+02,44,"",Gedling,44,Nottingham - Gedling
+22113980,2026-05-24 12:59:00+02,44,"",Nottingham,44,Nottingham - Gedling
+22124086,2026-05-24 13:40:00+02,43,"",Bakersfield,43,Nottingham - Bakersfield
+22129790,2026-05-24 13:55:00+02,43,"",Nottingham,43,Nottingham - Bakersfield
+22136718,2026-05-24 14:25:00+02,44,"",Gedling,44,Nottingham - Gedling
+22143974,2026-05-24 14:59:00+02,44,"",Nottingham,44,Nottingham - Gedling
+22154194,2026-05-24 15:40:00+02,43,"",Bakersfield,43,Nottingham - Bakersfield
+22160253,2026-05-24 15:55:00+02,43,"",Nottingham,43,Nottingham - Bakersfield
+22166015,2026-05-24 16:25:00+02,44,"",Gedling,44,Nottingham - Gedling
+22175427,2026-05-24 16:59:00+02,44,"",Nottingham,44,Nottingham - Gedling
+22185108,2026-05-24 17:40:00+02,43,"",Bakersfield,43,Nottingham - Bakersfield
+22191734,2026-05-24 17:55:00+02,43,"",Nottingham,43,Nottingham - Bakersfield
+22230324,2026-05-24 21:05:00+02,26,"",Southwell,26,Nottingham - Southwell
+22238794,2026-05-24 21:49:00+02,26,"",Nottingham,26,Nottingham - Southwell
+22251022,2026-05-24 23:05:00+02,26,"",Southwell,26,Nottingham - Southwell
+22259213,2026-05-24 23:49:00+02,26,"",Nottingham,26,Nottingham - Southwell
+22289877,2026-05-25 07:24:00+02,77C,"",Cinderhill,77C,Nottingham - Strelley
+22295115,2026-05-25 08:13:00+02,68,"",Hempshill Vale,68,Nottingham - Snape Wood
+22297141,2026-05-25 08:16:00+02,68,"",Nottingham,68,Nottingham - Snape Wood
+22304659,2026-05-25 09:02:00+02,69,"",Bulwell,69,Nottingham - Snape Wood
+22309939,2026-05-25 09:29:00+02,69,"",Nottingham,69,Nottingham - Snape Wood
+22321873,2026-05-25 10:30:00+02,69,"",Bulwell,69,Nottingham - Snape Wood
+22330356,2026-05-25 10:54:00+02,69,"",Nottingham,69,Nottingham - Snape Wood
+22342904,2026-05-25 11:55:00+02,69,"",Bulwell,69,Nottingham - Snape Wood
+22353989,2026-05-25 12:24:00+02,69,"",Nottingham,69,Nottingham - Snape Wood
+22368657,2026-05-25 13:25:00+02,69,"",Bulwell,69,Nottingham - Snape Wood
+22377078,2026-05-25 13:54:00+02,69,"",Nottingham,69,Nottingham - Snape Wood
+22390504,2026-05-25 14:55:00+02,69,"",Bulwell,69,Nottingham - Snape Wood
+22401263,2026-05-25 16:25:00+02,69,"",Bulwell,69,Nottingham - Snape Wood
+22672012,2026-05-26 11:38:00+02,34,"",Nottingham,34,Nottingham - University Park Campus
+22678114,2026-05-26 12:09:00+02,34,"",Nottingham University Main Campus,34,Nottingham - University Park Campus
+22689366,2026-05-26 12:35:00+02,34,"",Nottingham,34,Nottingham - University Park Campus
+22703999,2026-05-26 13:09:00+02,34,"",Nottingham University Main Campus,34,Nottingham - University Park Campus
+22715674,2026-05-26 13:35:00+02,34,"",Nottingham,34,Nottingham - University Park Campus
+22729930,2026-05-26 14:09:00+02,34,"",Nottingham University Main Campus,34,Nottingham - University Park Campus
+22742352,2026-05-26 14:35:00+02,34,"",Nottingham,34,Nottingham - University Park Campus
+22756290,2026-05-26 15:09:00+02,34,"",Nottingham University Main Campus,34,Nottingham - University Park Campus
+22768101,2026-05-26 15:35:00+02,34,"",Nottingham,34,Nottingham - University Park Campus
+22781352,2026-05-26 16:08:00+02,34,"",Nottingham University Main Campus,34,Nottingham - University Park Campus
+22793106,2026-05-26 16:34:00+02,34,"",Nottingham,34,Nottingham - University Park Campus
+22805393,2026-05-26 17:04:00+02,34,"",Nottingham University Main Campus,34,Nottingham - University Park Campus
+22816934,2026-05-26 17:34:00+02,34,"",Nottingham,34,Nottingham - University Park Campus
+22830105,2026-05-26 18:04:00+02,34,"",Nottingham University Main Campus,34,Nottingham - University Park Campus
+22841529,2026-05-26 18:34:00+02,34,"",Nottingham,34,Nottingham - University Park Campus
+22853696,2026-05-26 19:04:00+02,34,"",Nottingham University Main Campus,34,Nottingham - University Park Campus
+22863394,2026-05-26 19:34:00+02,34,"",Nottingham,34,Nottingham - University Park Campus
+22873554,2026-05-26 19:59:00+02,34C,"",Nottingham University Main Campus,34C,Nottingham - University Park Campus
+22882066,2026-05-26 20:30:00+02,34C,"",Nottingham,34C,Nottingham - University Park Campus
+22890356,2026-05-26 20:59:00+02,34C,"",Nottingham University Main Campus,34C,Nottingham - University Park Campus
+22897379,2026-05-26 21:30:00+02,34C,"",Nottingham,34C,Nottingham - University Park Campus
+22904499,2026-05-26 21:59:00+02,34C,"",Nottingham University Main Campus,34C,Nottingham - University Park Campus
+22910678,2026-05-26 22:30:00+02,34C,"",Nottingham,34C,Nottingham - University Park Campus
+22917254,2026-05-26 22:59:00+02,34C,"",Nottingham University Main Campus,34C,Nottingham - University Park Campus
+22923023,2026-05-26 23:30:00+02,34C,"",Nottingham,34C,Nottingham - University Park Campus
+22928790,2026-05-26 23:59:00+02,34C,"",Nottingham University Main Campus,34C,Nottingham - University Park Campus
+23017566,2026-05-27 09:14:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+23032796,2026-05-27 09:52:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+23046407,2026-05-27 10:27:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+23064049,2026-05-27 11:02:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+23076981,2026-05-27 11:37:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+23096024,2026-05-27 12:12:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+23107688,2026-05-27 12:47:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+23125551,2026-05-27 13:22:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+23138543,2026-05-27 13:57:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+23155281,2026-05-27 14:32:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+23170872,2026-05-27 15:07:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+23187464,2026-05-27 15:42:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+23201883,2026-05-27 16:17:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+23218978,2026-05-27 16:52:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+23230469,2026-05-27 17:27:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+23246637,2026-05-27 18:02:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+23260898,2026-05-27 18:37:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+23274696,2026-05-27 21:30:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+23393285,2026-05-28 07:35:00+02,43,"",Bakersfield,43,Nottingham - Bakersfield
+23404367,2026-05-28 07:56:00+02,43,"",Nottingham,43,Nottingham - Bakersfield
+23412226,2026-05-28 08:20:00+02,43,"",Bakersfield,43,Nottingham - Bakersfield
+23421403,2026-05-28 08:42:00+02,43,"",Nottingham,43,Nottingham - Bakersfield
+23434976,2026-05-28 09:10:00+02,43,"",Bakersfield,43,Nottingham - Bakersfield
+23442903,2026-05-28 09:30:00+02,43,"",Nottingham,43,Nottingham - Bakersfield
+23455431,2026-05-28 10:00:00+02,43,"",Bakersfield,43,Nottingham - Bakersfield
+23464618,2026-05-28 10:17:00+02,43,"",Nottingham,43,Nottingham - Bakersfield
+23476452,2026-05-28 10:50:00+02,43,"",Bakersfield,43,Nottingham - Bakersfield
+23488343,2026-05-28 11:07:00+02,43,"",Nottingham,43,Nottingham - Bakersfield
+23499092,2026-05-28 11:40:00+02,43,"",Bakersfield,43,Nottingham - Bakersfield
+23508446,2026-05-28 11:57:00+02,43,"",Nottingham,43,Nottingham - Bakersfield
+23521208,2026-05-28 12:30:00+02,43,"",Bakersfield,43,Nottingham - Bakersfield
+23534090,2026-05-28 12:47:00+02,43,"",Nottingham,43,Nottingham - Bakersfield
+23545467,2026-05-28 13:20:00+02,43,"",Bakersfield,43,Nottingham - Bakersfield
+23554052,2026-05-28 13:37:00+02,43,"",Nottingham,43,Nottingham - Bakersfield
+23566436,2026-05-28 14:10:00+02,43,"",Bakersfield,43,Nottingham - Bakersfield
+23576185,2026-05-28 14:27:00+02,43,"",Nottingham,43,Nottingham - Bakersfield
+23588240,2026-05-28 15:00:00+02,43,"",Bakersfield,43,Nottingham - Bakersfield
+23598805,2026-05-28 15:17:00+02,43,"",Nottingham,43,Nottingham - Bakersfield
+23611720,2026-05-28 15:50:00+02,43,"",Bakersfield,43,Nottingham - Bakersfield
+23620350,2026-05-28 16:09:00+02,43,"",Nottingham,43,Nottingham - Bakersfield
+23631425,2026-05-28 16:40:00+02,43,"",Bakersfield,43,Nottingham - Bakersfield
+23641853,2026-05-28 16:59:00+02,43,"",Nottingham,43,Nottingham - Bakersfield
+23654011,2026-05-28 17:30:00+02,43,"",Bakersfield,43,Nottingham - Bakersfield
+23663768,2026-05-28 17:49:00+02,43,"",Nottingham,43,Nottingham - Bakersfield
+23674420,2026-05-28 18:20:00+02,43,"",Bakersfield,43,Nottingham - Bakersfield
+23682158,2026-05-28 18:39:00+02,43,"",Nottingham,43,Nottingham - Bakersfield
+23691615,2026-05-28 19:10:00+02,43,"",Bakersfield,43,Nottingham - Bakersfield
+23700814,2026-05-28 19:27:00+02,43,"",Nottingham,43,Nottingham - Bakersfield
+23711227,2026-05-28 20:05:00+02,43,"",Bakersfield,43,Nottingham - Bakersfield
+23718032,2026-05-28 20:21:00+02,43,"",Nottingham,43,Nottingham - Bakersfield
+23724279,2026-05-28 20:50:00+02,43,"",Bakersfield,43,Nottingham - Bakersfield
+23730792,2026-05-28 21:06:00+02,43,"",Nottingham,43,Nottingham - Bakersfield
+23742197,2026-05-28 21:55:00+02,35,"",Bulwell,35,Nottingham - Bulwell
+23752835,2026-05-28 22:52:00+02,35,"",Nottingham,35,Nottingham - Bulwell
+23763122,2026-05-28 23:40:00+02,36,"",Chilwell,36,Nottingham - Chilwell (Inham Nook)
+23769961,2026-05-29 00:18:00+02,36,"",Nottingham,36,Nottingham - Chilwell (Inham Nook)
+23776390,2026-05-29 01:00:00+02,36,"",Chilwell,36,Nottingham - Chilwell (Inham Nook)
+23807113,2026-05-29 07:10:00+02,59,"",Nottingham,59,Nottingham - Arnold
+23815191,2026-05-29 07:40:00+02,56,"",Arnold,56,Nottingham - Arnold
+23828514,2026-05-29 08:12:00+02,56,"",Nottingham,56,Nottingham - Arnold
+23848855,2026-05-29 08:55:00+02,57X,"",Plains Estate,57X,Nottingham - Arnold
+23863816,2026-05-29 09:33:00+02,58,"",Nottingham,58,Nottingham - Arnold (Killisick)
+23882343,2026-05-29 10:15:00+02,58,"",Killisick,58,Nottingham - Arnold (Killisick)
+23899772,2026-05-29 10:55:00+02,58,"",Nottingham,58,Nottingham - Arnold (Killisick)
+23919186,2026-05-29 11:35:00+02,58,"",Killisick,58,Nottingham - Arnold (Killisick)
+23935769,2026-05-29 12:15:00+02,58,"",Nottingham,58,Nottingham - Arnold (Killisick)
+23958786,2026-05-29 12:55:00+02,58,"",Killisick,58,Nottingham - Arnold (Killisick)
+23974788,2026-05-29 13:35:00+02,58,"",Nottingham,58,Nottingham - Arnold (Killisick)
+23987094,2026-05-29 14:15:00+02,58,outbound,Killisick,58,Nottingham - Arnold (Killisick)
+24004607,2026-05-29 15:35:00+02,58,"",Killisick,58,Nottingham - Arnold (Killisick)
+24042063,2026-05-29 16:15:00+02,58,"",Nottingham,58,Nottingham - Arnold (Killisick)
+24060198,2026-05-29 16:55:00+02,58,"",Killisick,58,Nottingham - Arnold (Killisick)
+24077342,2026-05-29 17:39:00+02,58,"",Nottingham,58,Nottingham - Arnold (Killisick)
+24091779,2026-05-29 18:20:00+02,56,"",Arnold,56,Nottingham - Arnold
+24109212,2026-05-29 19:09:00+02,56,"",Nottingham,56,Nottingham - Arnold
+24127189,2026-05-29 19:55:00+02,56,"",Arnold,56,Nottingham - Arnold
+24139972,2026-05-29 20:29:00+02,56,"",Nottingham,56,Nottingham - Arnold
+24147571,2026-05-29 21:05:00+02,58,"",Killisick,58,Nottingham - Arnold (Killisick)
+24165165,2026-05-29 22:10:00+02,26,"",Southwell,26,Nottingham - Southwell
+24174489,2026-05-29 22:54:00+02,26,"",Nottingham,26,Nottingham - Southwell
+24189269,2026-05-30 00:10:00+02,26,"",Southwell,26,Nottingham - Southwell
+24633400,2026-05-31 10:38:00+02,59,"",Nottingham,59,Nottingham - Arnold
+24641335,2026-05-31 11:15:00+02,56,"",Arnold,56,Nottingham - Arnold
+24651227,2026-05-31 11:52:00+02,56,"",Nottingham,56,Nottingham - Arnold
+24666852,2026-05-31 12:55:00+02,59,"",Killisick,59,Nottingham - Arnold
+24675131,2026-05-31 13:38:00+02,59,"",Nottingham,59,Nottingham - Arnold
+24687887,2026-05-31 14:15:00+02,56,"",Arnold,56,Nottingham - Arnold
+24696251,2026-05-31 14:52:00+02,56,"",Nottingham,56,Nottingham - Arnold
+24712916,2026-05-31 15:55:00+02,59,"",Killisick,59,Nottingham - Arnold
+24720636,2026-05-31 16:38:00+02,59,"",Nottingham,59,Nottingham - Arnold
+24732066,2026-05-31 17:15:00+02,56,"",Arnold,56,Nottingham - Arnold
+24742027,2026-05-31 18:09:00+02,56,"",Nottingham,56,Nottingham - Arnold
+24755462,2026-05-31 18:50:00+02,59,"",Killisick,59,Nottingham - Arnold
+24763587,2026-05-31 19:28:00+02,58,"",Nottingham,58,Nottingham - Arnold (Killisick)
+24771376,2026-05-31 20:00:00+02,58,"",Killisick,58,Nottingham - Arnold (Killisick)
+24777797,2026-05-31 20:30:00+02,58,"",Nottingham,58,Nottingham - Arnold (Killisick)
+24783262,2026-05-31 21:00:00+02,58,"",Killisick,58,Nottingham - Arnold (Killisick)
+24789169,2026-05-31 21:30:00+02,58,"",Nottingham,58,Nottingham - Arnold (Killisick)
+24794041,2026-05-31 22:00:00+02,58,"",Killisick,58,Nottingham - Arnold (Killisick)
+24800071,2026-05-31 22:30:00+02,58,"",Nottingham,58,Nottingham - Arnold (Killisick)
+24804303,2026-05-31 23:00:00+02,58,"",Killisick,58,Nottingham - Arnold (Killisick)
+24808703,2026-05-31 23:30:00+02,58,"",Nottingham,58,Nottingham - Arnold (Killisick)
+24814110,2026-06-01 00:00:00+02,58,"",Killisick,58,Nottingham - Arnold (Killisick)
+24906820,2026-06-01 09:12:00+02,34,"",Nottingham University Main Campus,34,Nottingham - University Park Campus
+24917479,2026-06-01 09:38:00+02,34,"",Nottingham,34,Nottingham - University Park Campus
+24929283,2026-06-01 10:07:00+02,34,"",Nottingham University Main Campus,34,Nottingham - University Park Campus
+24943130,2026-06-01 10:33:00+02,34,"",Nottingham,34,Nottingham - University Park Campus
+24952299,2026-06-01 10:57:00+02,34,"",Nottingham University Main Campus,34,Nottingham - University Park Campus
+24965360,2026-06-01 11:23:00+02,34,"",Nottingham,34,Nottingham - University Park Campus
+24975563,2026-06-01 11:49:00+02,34,"",Nottingham University Main Campus,34,Nottingham - University Park Campus
+24987896,2026-06-01 12:15:00+02,34,"",Nottingham,34,Nottingham - University Park Campus
+25003785,2026-06-01 12:49:00+02,34,"",Nottingham University Main Campus,34,Nottingham - University Park Campus
+25014629,2026-06-01 13:15:00+02,34,"",Nottingham,34,Nottingham - University Park Campus
+25029873,2026-06-01 13:49:00+02,34,"",Nottingham University Main Campus,34,Nottingham - University Park Campus
+25041768,2026-06-01 14:15:00+02,34,"",Nottingham,34,Nottingham - University Park Campus
+25055833,2026-06-01 14:49:00+02,34,"",Nottingham University Main Campus,34,Nottingham - University Park Campus
+25068869,2026-06-01 15:15:00+02,34,"",Nottingham,34,Nottingham - University Park Campus
+25082124,2026-06-01 15:48:00+02,34,"",Nottingham University Main Campus,34,Nottingham - University Park Campus
+25095498,2026-06-01 16:14:00+02,34,"",Nottingham,34,Nottingham - University Park Campus
+25108640,2026-06-01 16:46:00+02,34,"",Nottingham University Main Campus,34,Nottingham - University Park Campus
+25120186,2026-06-01 17:14:00+02,34,"",Nottingham,34,Nottingham - University Park Campus
+25134109,2026-06-01 17:44:00+02,34,"",Nottingham University Main Campus,34,Nottingham - University Park Campus
+25145994,2026-06-01 18:14:00+02,34,"",Nottingham,34,Nottingham - University Park Campus
+25159586,2026-06-01 18:44:00+02,34,"",Nottingham University Main Campus,34,Nottingham - University Park Campus
+25171162,2026-06-01 19:14:00+02,34,"",Nottingham,34,Nottingham - University Park Campus
+25182950,2026-06-01 19:44:00+02,34C,"",Nottingham University Main Campus,34C,Nottingham - University Park Campus
+25192178,2026-06-01 20:15:00+02,34C,"",Nottingham,34C,Nottingham - University Park Campus
+25201200,2026-06-01 20:44:00+02,34C,"",Nottingham University Main Campus,34C,Nottingham - University Park Campus
+25208497,2026-06-01 21:15:00+02,34C,"",Nottingham,34C,Nottingham - University Park Campus
+25216657,2026-06-01 21:44:00+02,34C,"",Nottingham University Main Campus,34C,Nottingham - University Park Campus
+25223051,2026-06-01 22:15:00+02,34C,"",Nottingham,34C,Nottingham - University Park Campus
+25229821,2026-06-01 22:44:00+02,34C,"",Nottingham University Main Campus,34C,Nottingham - University Park Campus
+25235525,2026-06-01 23:15:00+02,34C,"",Nottingham,34C,Nottingham - University Park Campus
+25241699,2026-06-01 23:44:00+02,34C,"",Nottingham University Main Campus,34C,Nottingham - University Park Campus
+25247111,2026-06-02 00:15:00+02,34C,"",Nottingham,34C,Nottingham - University Park Campus
+25252367,2026-06-02 00:44:00+02,34C,"",Nottingham University Main Campus,34C,Nottingham - University Park Campus
+25322931,2026-06-02 08:40:00+02,35,"",Nottingham,35,Nottingham - Bulwell
+25350271,2026-06-02 09:49:00+02,35,"",Bulwell,35,Nottingham - Bulwell
+25376939,2026-06-02 10:49:00+02,35,"",Nottingham,35,Nottingham - Bulwell
+25401904,2026-06-02 11:49:00+02,35,"",Bulwell,35,Nottingham - Bulwell
+25429386,2026-06-02 12:49:00+02,35,"",Nottingham,35,Nottingham - Bulwell
+25454703,2026-06-02 13:49:00+02,35,"",Bulwell,35,Nottingham - Bulwell
+25482780,2026-06-02 14:49:00+02,35,"",Nottingham,35,Nottingham - Bulwell
+25509635,2026-06-02 15:49:00+02,35,"",Bulwell,35,Nottingham - Bulwell
+25542666,2026-06-02 16:49:00+02,35,"",Nottingham,35,Nottingham - Bulwell
+25565679,2026-06-02 17:56:00+02,35,"",Bulwell,35,Nottingham - Bulwell
+25735523,2026-06-03 08:15:00+02,17,"",Nottingham,17,Nottingham - City Hospital - Bulwell
+25754814,2026-06-03 08:53:00+02,17,"",Bulwell,17,Nottingham - City Hospital - Bulwell
+25770299,2026-06-03 09:32:00+02,17,"",Nottingham,17,Nottingham - City Hospital - Bulwell
+25790527,2026-06-03 10:15:00+02,17,"",Bulwell,17,Nottingham - City Hospital - Bulwell
+25805697,2026-06-03 10:48:00+02,17,"",Nottingham,17,Nottingham - City Hospital - Bulwell
+25821748,2026-06-03 11:25:00+02,17,"",Bulwell,17,Nottingham - City Hospital - Bulwell
+25835898,2026-06-03 11:58:00+02,17,"",Nottingham,17,Nottingham - City Hospital - Bulwell
+25852485,2026-06-03 12:35:00+02,17,"",Bulwell,17,Nottingham - City Hospital - Bulwell
+25866932,2026-06-03 13:08:00+02,17,"",Nottingham,17,Nottingham - City Hospital - Bulwell
+25883864,2026-06-03 13:45:00+02,17,"",Bulwell,17,Nottingham - City Hospital - Bulwell
+25900787,2026-06-03 14:18:00+02,17,"",Nottingham,17,Nottingham - City Hospital - Bulwell
+25915755,2026-06-03 14:55:00+02,17,"",Bulwell,17,Nottingham - City Hospital - Bulwell
+25929467,2026-06-03 15:28:00+02,17,"",Nottingham,17,Nottingham - City Hospital - Bulwell
+25947460,2026-06-03 16:05:00+02,17,"",Bulwell,17,Nottingham - City Hospital - Bulwell
+25964079,2026-06-03 16:44:00+02,17,"",Nottingham,17,Nottingham - City Hospital - Bulwell
+25986017,2026-06-03 17:25:00+02,17,"",Bulwell,17,Nottingham - City Hospital - Bulwell
+25998211,2026-06-03 18:05:00+02,17,"",Nottingham,17,Nottingham - City Hospital - Bulwell
+26015877,2026-06-03 18:45:00+02,17,"",Bulwell,17,Nottingham - City Hospital - Bulwell
+26031131,2026-06-03 19:25:00+02,17,"",Nottingham,17,Nottingham - City Hospital - Bulwell
+26046380,2026-06-03 20:00:00+02,17,"",Bulwell,17,Nottingham - City Hospital - Bulwell
+26054520,2026-06-03 20:28:00+02,17,"",Nottingham,17,Nottingham - City Hospital - Bulwell
+26063697,2026-06-03 21:00:00+02,17,"",Bulwell,17,Nottingham - City Hospital - Bulwell
+26071831,2026-06-03 21:28:00+02,17,"",Nottingham,17,Nottingham - City Hospital - Bulwell
+26079220,2026-06-03 22:00:00+02,17,"",Bulwell,17,Nottingham - City Hospital - Bulwell
+26086092,2026-06-03 22:28:00+02,17,"",Nottingham,17,Nottingham - City Hospital - Bulwell
+26091270,2026-06-03 23:00:00+02,17,"",Bulwell,17,Nottingham - City Hospital - Bulwell
+26097748,2026-06-03 23:28:00+02,17,"",Nottingham,17,Nottingham - City Hospital - Bulwell
+26104017,2026-06-04 00:00:00+02,17,"",Bulwell,17,Nottingham - City Hospital - Bulwell
+26109474,2026-06-04 00:28:00+02,17,"",Nottingham,17,Nottingham - City Hospital - Bulwell
+26114099,2026-06-04 01:02:00+02,17,"",Bulwell,17,Nottingham - City Hospital - Bulwell
+26154765,2026-06-04 07:40:00+02,79A,"",Nottingham,79A,Nottingham - Rise Park - Arnold
+26187145,2026-06-04 08:44:00+02,79,"",Arnold,79,Nottingham - Rise Park - Arnold
+26219142,2026-06-04 10:13:00+02,79,"",Nottingham,79,Nottingham - Rise Park - Arnold
+26255018,2026-06-04 11:22:00+02,79A,"",Arnold,79A,Nottingham - Rise Park - Arnold
+26292784,2026-06-04 12:53:00+02,79,"",Nottingham,79,Nottingham - Rise Park - Arnold
+26327510,2026-06-04 14:02:00+02,79,"",Arnold,79,Nottingham - Rise Park - Arnold
+26364143,2026-06-04 15:33:00+02,79A,"",Nottingham,79A,Nottingham - Rise Park - Arnold
+26400182,2026-06-04 16:42:00+02,79,"",Arnold,79,Nottingham - Rise Park - Arnold
+26437645,2026-06-04 18:15:00+02,79,"",Nottingham,79,Nottingham - Rise Park - Arnold
+26469402,2026-06-04 19:39:00+02,79A,"",Arnold,79A,Nottingham - Rise Park - Arnold
+26491721,2026-06-04 20:45:00+02,79A,"",Nottingham,79A,Nottingham - Rise Park - Arnold
+26620206,2026-06-05 08:54:00+02,A2,"",Beechdale,A2,Rise Park - Aspley Schools
+26809604,2026-06-05 16:35:00+02,28,"",Nottingham,28,Nottingham - Bilborough
+26838176,2026-06-05 17:08:00+02,35,"",Bulwell,35,Nottingham - Bulwell
+26868909,2026-06-05 18:32:00+02,35,"",Nottingham,35,Nottingham - Bulwell
+26898684,2026-06-05 19:40:00+02,35,"",Bulwell,35,Nottingham - Bulwell
+26919963,2026-06-05 20:32:00+02,35,"",Nottingham,35,Nottingham - Bulwell
+26932790,2026-06-05 21:25:00+02,35,"",Bulwell,35,Nottingham - Bulwell
+26947271,2026-06-05 22:22:00+02,35,"",Nottingham,35,Nottingham - Bulwell
+26956892,2026-06-05 23:10:00+02,36,"",Chilwell,36,Nottingham - Chilwell (Inham Nook)
+26963480,2026-06-05 23:43:00+02,36,"",Nottingham,36,Nottingham - Chilwell (Inham Nook)
+26969949,2026-06-06 00:25:00+02,35,"",Bulwell,35,Nottingham - Bulwell
+27078592,2026-06-06 11:15:00+02,58,"",Nottingham,58,Nottingham - Arnold (Killisick)
+27091860,2026-06-06 11:55:00+02,58,"",Killisick,58,Nottingham - Arnold (Killisick)
+27109839,2026-06-06 12:33:00+02,58,"",Nottingham,58,Nottingham - Arnold (Killisick)
+27126900,2026-06-06 13:15:00+02,58,"",Killisick,58,Nottingham - Arnold (Killisick)
+27141441,2026-06-06 13:53:00+02,58,"",Nottingham,58,Nottingham - Arnold (Killisick)
+27161026,2026-06-06 14:35:00+02,58,"",Killisick,58,Nottingham - Arnold (Killisick)
+27178121,2026-06-06 15:15:00+02,58,"",Nottingham,58,Nottingham - Arnold (Killisick)
+27192784,2026-06-06 15:55:00+02,58,"",Killisick,58,Nottingham - Arnold (Killisick)
+27207588,2026-06-06 16:35:00+02,58,"",Nottingham,58,Nottingham - Arnold (Killisick)
+27222711,2026-06-06 17:15:00+02,58,"",Killisick,58,Nottingham - Arnold (Killisick)
+27238308,2026-06-06 17:55:00+02,58,"",Nottingham,58,Nottingham - Arnold (Killisick)
+27254107,2026-06-06 18:35:00+02,58,"",Killisick,58,Nottingham - Arnold (Killisick)
+27268576,2026-06-06 19:15:00+02,58,"",Nottingham,58,Nottingham - Arnold (Killisick)
+27282184,2026-06-06 19:55:00+02,56,"",Arnold,56,Nottingham - Arnold
+27291585,2026-06-06 20:29:00+02,56,"",Nottingham,56,Nottingham - Arnold
+27299290,2026-06-06 21:05:00+02,58,"",Killisick,58,Nottingham - Arnold (Killisick)
+27307982,2026-06-06 21:47:00+02,58,"",Nottingham,58,Nottingham - Arnold (Killisick)
+27316808,2026-06-06 22:20:00+02,58,"",Killisick,58,Nottingham - Arnold (Killisick)
+27323174,2026-06-06 22:50:00+02,58,"",Nottingham,58,Nottingham - Arnold (Killisick)
+27328485,2026-06-06 23:20:00+02,58,"",Killisick,58,Nottingham - Arnold (Killisick)
+27334491,2026-06-06 23:50:00+02,58,"",Nottingham,58,Nottingham - Arnold (Killisick)
+27340521,2026-06-07 00:30:00+02,58,"",Killisick,58,Nottingham - Arnold (Killisick)
+27361632,2026-06-07 06:47:00+02,36,"",Nottingham,36,Nottingham - Chilwell (Inham Nook)
+27364778,2026-06-07 07:30:00+02,36,"",Chilwell,36,Nottingham - Chilwell (Inham Nook)
+27369025,2026-06-07 08:17:00+02,36,"",Nottingham,36,Nottingham - Chilwell (Inham Nook)
+27375761,2026-06-07 09:00:00+02,36,"",Chilwell,36,Nottingham - Chilwell (Inham Nook)
+27381701,2026-06-07 09:42:00+02,36,"",Nottingham,36,Nottingham - Chilwell (Inham Nook)
+27393260,2026-06-07 10:30:00+02,36,"",Chilwell,36,Nottingham - Chilwell (Inham Nook)
+27403119,2026-06-07 11:05:00+02,36,"",Nottingham,36,Nottingham - Chilwell (Inham Nook)
+27421585,2026-06-07 12:00:00+02,35,"",Bulwell,35,Nottingham - Bulwell
+27435920,2026-06-07 13:50:00+02,36,outbound,Chilwell,36,Nottingham - Chilwell (Inham Nook)
+27436697,2026-06-07 14:25:00+02,36,"",Nottingham,36,Nottingham - Chilwell (Inham Nook)
+27467838,2026-06-07 15:20:00+02,35,"",Bulwell,35,Nottingham - Bulwell
+27479782,2026-06-07 16:13:00+02,35,"",Nottingham,35,Nottingham - Bulwell
+27490411,2026-06-07 17:10:00+02,36,"",Chilwell,36,Nottingham - Chilwell (Inham Nook)
+27502131,2026-06-07 17:45:00+02,36,"",Nottingham,36,Nottingham - Chilwell (Inham Nook)
+27511991,2026-06-07 18:40:00+02,36,"",Chilwell,36,Nottingham - Chilwell (Inham Nook)
+27522785,2026-06-07 19:13:00+02,36,"",Nottingham,36,Nottingham - Chilwell (Inham Nook)
+27530447,2026-06-07 19:55:00+02,35,"",Bulwell,35,Nottingham - Bulwell
+27540357,2026-06-07 20:52:00+02,35,"",Nottingham,35,Nottingham - Bulwell
+27549928,2026-06-07 21:40:00+02,36,"",Chilwell,36,Nottingham - Chilwell (Inham Nook)
+27556502,2026-06-07 22:13:00+02,36,"",Nottingham,36,Nottingham - Chilwell (Inham Nook)
+27562864,2026-06-07 22:55:00+02,35B,"",Strelley,35B,Nottingham - Bulwell
+27571555,2026-06-07 23:55:00+02,35B,"",Strelley,35B,Nottingham - Bulwell
+27851821,2026-06-08 16:28:00+02,59,"",Nottingham,59,Nottingham - Arnold
+27871511,2026-06-08 17:10:00+02,59,"",Killisick,59,Nottingham - Arnold
+27887715,2026-06-08 17:47:00+02,59,"",Nottingham,59,Nottingham - Arnold
+27903728,2026-06-08 18:25:00+02,58,"",Killisick,58,Nottingham - Arnold (Killisick)
+27921259,2026-06-08 19:09:00+02,58,"",Nottingham,58,Nottingham - Arnold (Killisick)
+28066081,2026-06-09 08:15:00+02,17,"",Nottingham,17,Nottingham - City Hospital - Bulwell
+28083814,2026-06-09 08:53:00+02,17,"",Bulwell,17,Nottingham - City Hospital - Bulwell
+28097327,2026-06-09 09:32:00+02,17,"",Nottingham,17,Nottingham - City Hospital - Bulwell
+28118067,2026-06-09 10:15:00+02,17,"",Bulwell,17,Nottingham - City Hospital - Bulwell
+28132307,2026-06-09 10:48:00+02,17,"",Nottingham,17,Nottingham - City Hospital - Bulwell
+28198778,2026-06-09 13:12:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+28212174,2026-06-09 13:47:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+28229124,2026-06-09 14:22:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+28243872,2026-06-09 14:57:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+28259941,2026-06-09 15:32:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+28275671,2026-06-09 16:07:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+28292153,2026-06-09 16:42:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+28307346,2026-06-09 17:17:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+28322354,2026-06-09 17:52:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+28338287,2026-06-09 18:27:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+28352048,2026-06-09 19:02:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+28479606,2026-06-10 07:45:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+28505500,2026-06-10 08:13:00+02,6,"",Gamston,6,Nottingham - Edwalton
+28569679,2026-06-10 10:55:00+02,36,"",Chilwell,36,Nottingham - Chilwell (Inham Nook)
+28587699,2026-06-10 11:35:00+02,36,"",Nottingham,36,Nottingham - Chilwell (Inham Nook)
+28610394,2026-06-10 12:31:00+02,36,"",Chilwell,36,Nottingham - Chilwell (Inham Nook)
+28629511,2026-06-10 13:11:00+02,36,"",Nottingham,36,Nottingham - Chilwell (Inham Nook)
+28651102,2026-06-10 14:07:00+02,36,"",Chilwell,36,Nottingham - Chilwell (Inham Nook)
+28673018,2026-06-10 14:47:00+02,36,"",Nottingham,36,Nottingham - Chilwell (Inham Nook)
+28693821,2026-06-10 15:43:00+02,36,"",Chilwell,36,Nottingham - Chilwell (Inham Nook)
+28716802,2026-06-10 16:21:00+02,36,"",Nottingham,36,Nottingham - Chilwell (Inham Nook)
+28738858,2026-06-10 17:14:00+02,36,"",Chilwell,36,Nottingham - Chilwell (Inham Nook)
+28758165,2026-06-10 17:57:00+02,36,"",Nottingham,36,Nottingham - Chilwell (Inham Nook)
+28776684,2026-06-10 18:50:00+02,36,"",Chilwell,36,Nottingham - Chilwell (Inham Nook)
+28906000,2026-06-11 07:27:00+02,44,"",Nottingham,44,Nottingham - Gedling
+28920990,2026-06-11 08:02:00+02,44A,"",Gedling,44A,Nottingham - Gedling
+28938707,2026-06-11 08:37:00+02,44,"",Nottingham,44,Nottingham - Gedling
+28956250,2026-06-11 09:17:00+02,44,"",Gedling,44,Nottingham - Gedling
+28971683,2026-06-11 09:55:00+02,44,"",Nottingham,44,Nottingham - Gedling
+28989986,2026-06-11 10:35:00+02,44,"",Gedling,44,Nottingham - Gedling
+29007966,2026-06-11 11:16:00+02,44,"",Nottingham,44,Nottingham - Gedling
+29028160,2026-06-11 11:55:00+02,44,"",Gedling,44,Nottingham - Gedling
+29044208,2026-06-11 12:36:00+02,44,"",Nottingham,44,Nottingham - Gedling
+29065963,2026-06-11 13:15:00+02,44,"",Gedling,44,Nottingham - Gedling
+29081205,2026-06-11 13:56:00+02,44,"",Nottingham,44,Nottingham - Gedling
+29096393,2026-06-11 14:35:00+02,44,"",Gedling,44,Nottingham - Gedling
+29115034,2026-06-11 15:16:00+02,44,"",Nottingham,44,Nottingham - Gedling
+29135117,2026-06-11 15:55:00+02,44,"",Gedling,44,Nottingham - Gedling
+29152046,2026-06-11 16:34:00+02,44,"",Nottingham,44,Nottingham - Gedling
+29170137,2026-06-11 17:15:00+02,44,"",Gedling,44,Nottingham - Gedling
+29195285,2026-06-11 18:07:00+02,44A,"",Nottingham,44A,Nottingham - Gedling
+29204548,2026-06-11 18:35:00+02,44,"",Gedling,44,Nottingham - Gedling
+29220593,2026-06-11 19:19:00+02,44,"",Nottingham,44,Nottingham - Gedling
+29234816,2026-06-11 19:55:00+02,44,"",Gedling,44,Nottingham - Gedling
+29244894,2026-06-11 20:30:00+02,44,"",Nottingham,44,Nottingham - Gedling
+29254206,2026-06-11 21:00:00+02,44,"",Gedling,44,Nottingham - Gedling
+29261657,2026-06-11 21:30:00+02,44,"",Nottingham,44,Nottingham - Gedling
+29268957,2026-06-11 22:00:00+02,44,"",Gedling,44,Nottingham - Gedling
+29275852,2026-06-11 22:30:00+02,44,"",Nottingham,44,Nottingham - Gedling
+29282040,2026-06-11 23:00:00+02,44,"",Gedling,44,Nottingham - Gedling
+29289318,2026-06-11 23:30:00+02,44,"",Nottingham,44,Nottingham - Gedling
+29293527,2026-06-12 00:00:00+02,44,"",Gedling,44,Nottingham - Gedling
+29300112,2026-06-12 00:30:00+02,44,"",Nottingham,44,Nottingham - Gedling
+29303689,2026-06-12 01:02:00+02,44,"",Gedling,44,Nottingham - Gedling
+29338825,2026-06-12 07:22:00+02,10X,"",Ruddington Business Park,10X,Nottingham - Ruddington
+29349098,2026-06-12 07:56:00+02,10C,"",Nottingham,10C,Nottingham - Ruddington
+29368045,2026-06-12 08:32:00+02,10X,"",Ruddington Business Park,10X,Nottingham - Ruddington
+29384837,2026-06-12 09:12:00+02,10C,"",Nottingham,10C,Nottingham - Ruddington
+29405760,2026-06-12 09:55:00+02,10,"",Ruddington,10,Nottingham - Ruddington
+29422115,2026-06-12 10:36:00+02,10,"",Nottingham,10,Nottingham - Ruddington
+29440503,2026-06-12 11:10:00+02,10,"",Ruddington,10,Nottingham - Ruddington
+29456841,2026-06-12 11:51:00+02,10,"",Nottingham,10,Nottingham - Ruddington
+29474142,2026-06-12 12:25:00+02,10,"",Ruddington,10,Nottingham - Ruddington
+29490302,2026-06-12 13:06:00+02,10,"",Nottingham,10,Nottingham - Ruddington
+29507601,2026-06-12 13:40:00+02,10,"",Ruddington,10,Nottingham - Ruddington
+29524594,2026-06-12 14:21:00+02,10,"",Nottingham,10,Nottingham - Ruddington
+29542023,2026-06-12 14:55:00+02,10,"",Ruddington,10,Nottingham - Ruddington
+29558669,2026-06-12 15:36:00+02,10,"",Nottingham,10,Nottingham - Ruddington
+29575219,2026-06-12 16:10:00+02,10,"",Ruddington,10,Nottingham - Ruddington
+29591913,2026-06-12 16:51:00+02,10,"",Nottingham,10,Nottingham - Ruddington
+29607100,2026-06-12 17:25:00+02,10C,"",Ruddington Business Park,10C,Nottingham - Ruddington
+29625441,2026-06-12 18:11:00+02,10X,"",Nottingham,10X,Nottingham - Ruddington
+29641764,2026-06-12 18:45:00+02,10,"",Ruddington,10,Nottingham - Ruddington
+29656431,2026-06-12 19:33:00+02,10,"",Nottingham,10,Nottingham - Ruddington
+29669807,2026-06-12 20:05:00+02,10,"",Ruddington,10,Nottingham - Ruddington
+29680454,2026-06-12 20:37:00+02,10,"",Nottingham,10,Nottingham - Ruddington
+29687457,2026-06-12 21:05:00+02,10,"",Ruddington,10,Nottingham - Ruddington
+29695588,2026-06-12 21:37:00+02,10,"",Nottingham,10,Nottingham - Ruddington
+29701590,2026-06-12 22:05:00+02,10,"",Ruddington,10,Nottingham - Ruddington
+29709499,2026-06-12 22:37:00+02,10,"",Nottingham,10,Nottingham - Ruddington
+29714980,2026-06-12 23:05:00+02,10,"",Ruddington,10,Nottingham - Ruddington
+29722068,2026-06-12 23:37:00+02,10,"",Nottingham,10,Nottingham - Ruddington
+29726939,2026-06-13 00:05:00+02,10,"",Ruddington,10,Nottingham - Ruddington
+29732320,2026-06-13 00:35:00+02,10,"",Nottingham,10,Nottingham - Ruddington
+29735729,2026-06-13 01:00:00+02,10,"",Ruddington,10,Nottingham - Ruddington
+30122817,2026-06-14 01:15:00+02,N4,"",Clifton,N4,NTU City Campus - NTU Clifton Campus
+30127640,2026-06-14 01:52:00+02,N4,"",Nottingham,N4,NTU City Campus - NTU Clifton Campus
+30128377,2026-06-14 02:15:00+02,N4,"",Clifton,N4,NTU City Campus - NTU Clifton Campus
+30130108,2026-06-14 02:52:00+02,N4,"",Nottingham,N4,NTU City Campus - NTU Clifton Campus
+30130709,2026-06-14 03:15:00+02,N4,"",Clifton,N4,NTU City Campus - NTU Clifton Campus
+30131833,2026-06-14 03:52:00+02,N4,"",Nottingham,N4,NTU City Campus - NTU Clifton Campus
+30132371,2026-06-14 04:15:00+02,N4,"",Clifton,N4,NTU City Campus - NTU Clifton Campus
+30133530,2026-06-14 04:52:00+02,N4,"",Nottingham,N4,NTU City Campus - NTU Clifton Campus
+30195687,2026-06-14 11:56:00+02,28,"",Nottingham,28,Nottingham - Bilborough
+30204070,2026-06-14 12:35:00+02,28,"",Bilborough,28,Nottingham - Bilborough
+30214315,2026-06-14 13:11:00+02,28,"",Nottingham,28,Nottingham - Bilborough
+30224263,2026-06-14 13:50:00+02,28,"",Bilborough,28,Nottingham - Bilborough
+30233157,2026-06-14 14:26:00+02,28,"",Nottingham,28,Nottingham - Bilborough
+30242639,2026-06-14 15:05:00+02,28,"",Bilborough,28,Nottingham - Bilborough
+30252544,2026-06-14 15:41:00+02,28,"",Nottingham,28,Nottingham - Bilborough
+30260613,2026-06-14 16:20:00+02,28,"",Bilborough,28,Nottingham - Bilborough
+30272652,2026-06-14 16:56:00+02,28,"",Nottingham,28,Nottingham - Bilborough
+30280910,2026-06-14 17:35:00+02,28,"",Bilborough,28,Nottingham - Bilborough
+30424819,2026-06-15 08:12:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+30438831,2026-06-15 08:43:00+02,6,"",Gamston,6,Nottingham - Edwalton
+30453388,2026-06-15 09:25:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+30471018,2026-06-15 10:00:00+02,6,"",Gamston,6,Nottingham - Edwalton
+30487021,2026-06-15 10:43:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+30505888,2026-06-15 11:15:00+02,6,"",Gamston,6,Nottingham - Edwalton
+30521498,2026-06-15 11:58:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+30539781,2026-06-15 12:30:00+02,6,"",Gamston,6,Nottingham - Edwalton
+30555821,2026-06-15 13:13:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+30573751,2026-06-15 13:45:00+02,6,"",Gamston,6,Nottingham - Edwalton
+30586696,2026-06-15 14:28:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+30606283,2026-06-15 15:00:00+02,6,"",Gamston,6,Nottingham - Edwalton
+30624356,2026-06-15 15:43:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+30642466,2026-06-15 16:15:00+02,6,"",Gamston,6,Nottingham - Edwalton
+30656725,2026-06-15 16:57:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+30674577,2026-06-15 17:30:00+02,6,"",Gamston,6,Nottingham - Edwalton
+30690250,2026-06-15 18:10:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+30706067,2026-06-15 18:45:00+02,6,"",Gamston,6,Nottingham - Edwalton
+30718387,2026-06-15 19:30:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+30732490,2026-06-15 20:00:00+02,6,"",Gamston,6,Nottingham - Edwalton
+30743356,2026-06-15 20:32:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+30749955,2026-06-15 21:00:00+02,6,"",Gamston,6,Nottingham - Edwalton
+30757340,2026-06-15 21:32:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+30764326,2026-06-15 22:00:00+02,6,"",Gamston,6,Nottingham - Edwalton
+30771025,2026-06-15 22:34:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+30777196,2026-06-15 23:00:00+02,6,"",Gamston,6,Nottingham - Edwalton
+30783024,2026-06-15 23:34:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+30788800,2026-06-16 00:00:00+02,6,"",Gamston,6,Nottingham - Edwalton
+30794248,2026-06-16 00:34:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+30798734,2026-06-16 01:00:00+02,6,"",Gamston,6,Nottingham - Edwalton
+30829233,2026-06-16 07:15:00+02,36,"",Nottingham,36,Nottingham - Chilwell (Inham Nook)
+30845871,2026-06-16 08:00:00+02,36,"",Chilwell,36,Nottingham - Chilwell (Inham Nook)
+30865843,2026-06-16 08:36:00+02,36,"",Nottingham,36,Nottingham - Chilwell (Inham Nook)
+30887382,2026-06-16 09:31:00+02,36U,"",Chilwell,36U,Nottingham - Chilwell (Inham Nook)
+30909823,2026-06-16 10:11:00+02,36,"",Nottingham,36,Nottingham - Chilwell (Inham Nook)
+30928623,2026-06-16 11:07:00+02,36,"",Chilwell,36,Nottingham - Chilwell (Inham Nook)
+30951640,2026-06-16 11:47:00+02,36,"",Nottingham,36,Nottingham - Chilwell (Inham Nook)
+30973314,2026-06-16 12:43:00+02,36,"",Chilwell,36,Nottingham - Chilwell (Inham Nook)
+30995371,2026-06-16 13:23:00+02,36,"",Nottingham,36,Nottingham - Chilwell (Inham Nook)
+31014694,2026-06-16 14:19:00+02,36,"",Chilwell,36,Nottingham - Chilwell (Inham Nook)
+31038719,2026-06-16 14:59:00+02,36,"",Nottingham,36,Nottingham - Chilwell (Inham Nook)
+31058196,2026-06-16 15:55:00+02,36,"",Chilwell,36,Nottingham - Chilwell (Inham Nook)
+31082281,2026-06-16 16:33:00+02,36,"",Nottingham,36,Nottingham - Chilwell (Inham Nook)
+31100057,2026-06-16 17:26:00+02,36,"",Chilwell,36,Nottingham - Chilwell (Inham Nook)
+31122458,2026-06-16 18:09:00+02,36,"",Nottingham,36,Nottingham - Chilwell (Inham Nook)
+31139146,2026-06-16 19:02:00+02,36,"",Chilwell,36,Nottingham - Chilwell (Inham Nook)
+31156182,2026-06-16 19:45:00+02,36,"",Nottingham,36,Nottingham - Chilwell (Inham Nook)
+31171553,2026-06-16 20:30:00+02,36,"",Chilwell,36,Nottingham - Chilwell (Inham Nook)
+31182695,2026-06-16 21:13:00+02,36,"",Nottingham,36,Nottingham - Chilwell (Inham Nook)
+31193430,2026-06-16 21:55:00+02,35,"",Bulwell,35,Nottingham - Bulwell
+31204784,2026-06-16 22:52:00+02,35,"",Nottingham,35,Nottingham - Bulwell
+31216073,2026-06-16 23:40:00+02,36,"",Chilwell,36,Nottingham - Chilwell (Inham Nook)
+31222495,2026-06-17 00:18:00+02,36,"",Nottingham,36,Nottingham - Chilwell (Inham Nook)
+31228997,2026-06-17 01:00:00+02,36,"",Chilwell,36,Nottingham - Chilwell (Inham Nook)
+31314052,2026-06-17 09:14:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+31333541,2026-06-17 09:52:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+31343633,2026-06-17 10:27:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+31361019,2026-06-17 11:02:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+31373370,2026-06-17 11:37:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+31389467,2026-06-17 12:12:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+31405256,2026-06-17 12:47:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+31422820,2026-06-17 13:22:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+31436263,2026-06-17 13:57:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+31452760,2026-06-17 14:32:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+31469831,2026-06-17 15:07:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+31487079,2026-06-17 15:42:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+31505474,2026-06-17 16:17:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+31522764,2026-06-17 16:52:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+31540821,2026-06-17 17:27:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+31555135,2026-06-17 18:02:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+31568365,2026-06-17 19:15:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+31588049,2026-06-17 19:59:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+31601729,2026-06-17 20:30:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+31609468,2026-06-17 20:59:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+31617650,2026-06-17 21:30:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+31624928,2026-06-17 21:59:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+31631352,2026-06-17 22:30:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+31637694,2026-06-17 22:59:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+31643712,2026-06-17 23:30:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+31649276,2026-06-17 23:59:00+02,89,"",Nottingham,89,Nottingham - Rise Park
+31655112,2026-06-18 00:30:00+02,89,"",Rise Park,89,Nottingham - Rise Park
+31936414,2026-06-18 16:23:00+02,43,"",Nottingham,43,Nottingham - Bakersfield
+31950902,2026-06-18 17:02:00+02,69,"",Bulwell,69,Nottingham - Snape Wood
+31966882,2026-06-18 17:33:00+02,69,"",Nottingham,69,Nottingham - Snape Wood
+31991990,2026-06-18 18:42:00+02,69,"",Bulwell,69,Nottingham - Snape Wood
+32007736,2026-06-18 19:11:00+02,69B,"",Bulwell,69B,Nottingham - Snape Wood
+32109975,2026-06-19 06:38:00+02,79,"",Nottingham,79,Nottingham - Rise Park - Arnold
+32119816,2026-06-19 07:13:00+02,79,"",Arnold,79,Nottingham - Rise Park - Arnold
+32152475,2026-06-19 08:28:00+02,79,"",Nottingham,79,Nottingham - Rise Park - Arnold
+32185415,2026-06-19 09:40:00+02,79,"",Arnold,79,Nottingham - Rise Park - Arnold
+32223214,2026-06-19 11:13:00+02,79,"",Nottingham,79,Nottingham - Rise Park - Arnold
+32257751,2026-06-19 12:22:00+02,79A,"",Arnold,79A,Nottingham - Rise Park - Arnold
+32293358,2026-06-19 13:53:00+02,79,"",Nottingham,79,Nottingham - Rise Park - Arnold
+32325929,2026-06-19 15:02:00+02,79,"",Arnold,79,Nottingham - Rise Park - Arnold
+32367574,2026-06-19 16:40:00+02,79A,"",Nottingham,79A,Nottingham - Rise Park - Arnold
+32405469,2026-06-19 18:02:00+02,79,"",Arnold,79,Nottingham - Rise Park - Arnold
+32437453,2026-06-19 19:40:00+02,79A,"",Nottingham,79A,Nottingham - Rise Park - Arnold
+32462083,2026-06-19 20:39:00+02,79A,"",Arnold,79A,Nottingham - Rise Park - Arnold
+32491613,2026-06-19 22:45:00+02,34C,"",Nottingham,34C,Nottingham - University Park Campus
+32497209,2026-06-19 23:14:00+02,34C,"",Nottingham University Main Campus,34C,Nottingham - University Park Campus
+32502224,2026-06-19 23:45:00+02,34C,"",Nottingham,34C,Nottingham - University Park Campus
+32508554,2026-06-20 00:14:00+02,34C,"",Nottingham University Main Campus,34C,Nottingham - University Park Campus
+32922884,2026-06-21 07:47:00+02,36,"",Nottingham,36,Nottingham - Chilwell (Inham Nook)
+32928038,2026-06-21 08:30:00+02,36,"",Chilwell,36,Nottingham - Chilwell (Inham Nook)
+32933533,2026-06-21 09:15:00+02,36,"",Nottingham,36,Nottingham - Chilwell (Inham Nook)
+32943144,2026-06-21 09:55:00+02,36,"",Chilwell,36,Nottingham - Chilwell (Inham Nook)
+32951457,2026-06-21 10:25:00+02,36,"",Nottingham,36,Nottingham - Chilwell (Inham Nook)
+32963171,2026-06-21 11:20:00+02,35,"",Bulwell,35,Nottingham - Bulwell
+32977857,2026-06-21 12:13:00+02,35,"",Nottingham,35,Nottingham - Bulwell
+32990685,2026-06-21 13:10:00+02,36,"",Chilwell,36,Nottingham - Chilwell (Inham Nook)
+33001992,2026-06-21 13:45:00+02,36,"",Nottingham,36,Nottingham - Chilwell (Inham Nook)
+33013056,2026-06-21 14:40:00+02,35,"",Bulwell,35,Nottingham - Bulwell
+33028583,2026-06-21 15:33:00+02,35,"",Nottingham,35,Nottingham - Bulwell
+33041107,2026-06-21 16:30:00+02,36,"",Chilwell,36,Nottingham - Chilwell (Inham Nook)
+33052917,2026-06-21 17:05:00+02,36,"",Nottingham,36,Nottingham - Chilwell (Inham Nook)
+33065094,2026-06-21 18:00:00+02,35,"",Bulwell,35,Nottingham - Bulwell
+33079033,2026-06-21 18:52:00+02,35,"",Nottingham,35,Nottingham - Bulwell
+33090577,2026-06-21 19:40:00+02,36,"",Chilwell,36,Nottingham - Chilwell (Inham Nook)
+33097599,2026-06-21 20:13:00+02,36,"",Nottingham,36,Nottingham - Chilwell (Inham Nook)
+33104913,2026-06-21 20:55:00+02,35,"",Bulwell,35,Nottingham - Bulwell
+33115151,2026-06-21 21:52:00+02,35,"",Nottingham,35,Nottingham - Bulwell
+33124141,2026-06-21 22:40:00+02,36,"",Chilwell,36,Nottingham - Chilwell (Inham Nook)
+33130332,2026-06-21 23:16:00+02,36,"",Nottingham,36,Nottingham - Chilwell (Inham Nook)
+33137170,2026-06-22 00:00:00+02,36,"",Chilwell,36,Nottingham - Chilwell (Inham Nook)
+33852482,2026-06-23 16:31:00+02,60,"",Nottingham,60,Nottingham - Gedling
+33867180,2026-06-23 17:05:00+02,60,"",Gedling,60,Nottingham - Gedling
+33882654,2026-06-23 17:43:00+02,60,"",Nottingham,60,Nottingham - Gedling
+33898237,2026-06-23 18:15:00+02,60,"",Gedling,60,Nottingham - Gedling
+33911909,2026-06-23 18:53:00+02,60,"",Nottingham,60,Nottingham - Gedling
+33922843,2026-06-23 19:25:00+02,60,"",Gedling,60,Nottingham - Gedling
+33935323,2026-06-23 19:58:00+02,60,"",Nottingham,60,Nottingham - Gedling
+33944315,2026-06-23 20:30:00+02,60,"",Gedling,60,Nottingham - Gedling
+33952939,2026-06-23 20:58:00+02,60,"",Nottingham,60,Nottingham - Gedling
+33972884,2026-06-23 22:17:00+02,25,"",Arnold,25,Nottingham - Mapperley - Arnold
+33980867,2026-06-23 23:06:00+02,25,"",Nottingham,25,Nottingham - Mapperley - Arnold
+33990625,2026-06-23 23:47:00+02,25,"",Arnold,25,Nottingham - Mapperley - Arnold
+34050338,2026-06-24 07:53:00+02,58,"",Nottingham,58,Nottingham - Arnold (Killisick)
+34069766,2026-06-24 08:35:00+02,58,"",Killisick,58,Nottingham - Arnold (Killisick)
+34084675,2026-06-24 09:10:00+02,59,"",Nottingham,59,Nottingham - Arnold
+34101278,2026-06-24 09:50:00+02,56,"",Arnold,56,Nottingham - Arnold
+34115879,2026-06-24 10:28:00+02,56,"",Nottingham,56,Nottingham - Arnold
+34139010,2026-06-24 11:10:00+02,59,"",Killisick,59,Nottingham - Arnold
+34151779,2026-06-24 11:43:00+02,59,"",Nottingham,59,Nottingham - Arnold
+34168038,2026-06-24 12:20:00+02,56,"",Arnold,56,Nottingham - Arnold
+34184545,2026-06-24 12:58:00+02,56,"",Nottingham,56,Nottingham - Arnold
+34202856,2026-06-24 13:40:00+02,59,"",Killisick,59,Nottingham - Arnold
+34216782,2026-06-24 14:13:00+02,59,"",Nottingham,59,Nottingham - Arnold
+34233475,2026-06-24 14:50:00+02,56,"",Arnold,56,Nottingham - Arnold
+34250729,2026-06-24 15:28:00+02,56,"",Nottingham,56,Nottingham - Arnold
+34268109,2026-06-24 16:10:00+02,59,"",Killisick,59,Nottingham - Arnold
+34284170,2026-06-24 16:47:00+02,59,"",Nottingham,59,Nottingham - Arnold
+34300307,2026-06-24 17:25:00+02,58,"",Killisick,58,Nottingham - Arnold (Killisick)
+34317929,2026-06-24 18:09:00+02,58,"",Nottingham,58,Nottingham - Arnold (Killisick)
+34335618,2026-06-24 18:50:00+02,56,"",Arnold,56,Nottingham - Arnold
+34350508,2026-06-24 19:50:00+02,56,"",Nottingham,56,Nottingham - Arnold
+34369395,2026-06-24 20:35:00+02,59,"",Killisick,59,Nottingham - Arnold
+34380001,2026-06-24 21:20:00+02,59,"",Nottingham,59,Nottingham - Arnold
+34389789,2026-06-24 21:50:00+02,58,"",Killisick,58,Nottingham - Arnold (Killisick)
+34396896,2026-06-24 22:20:00+02,58,"",Nottingham,58,Nottingham - Arnold (Killisick)
+34403426,2026-06-24 22:50:00+02,58,"",Killisick,58,Nottingham - Arnold (Killisick)
+34409412,2026-06-24 23:20:00+02,58,"",Nottingham,58,Nottingham - Arnold (Killisick)
+34415416,2026-06-24 23:50:00+02,58,"",Killisick,58,Nottingham - Arnold (Killisick)
+34420480,2026-06-25 00:25:00+02,58,"",Nottingham,58,Nottingham - Arnold (Killisick)
+34425912,2026-06-25 01:02:00+02,58,"",Killisick,58,Nottingham - Arnold (Killisick)
+34482524,2026-06-25 08:13:00+02,43,"",Nottingham,43,Nottingham - Bakersfield
+34493195,2026-06-25 08:40:00+02,43,"",Bakersfield,43,Nottingham - Bakersfield
+34503790,2026-06-25 09:00:00+02,43,"",Nottingham,43,Nottingham - Bakersfield
+34515284,2026-06-25 09:30:00+02,43,"",Bakersfield,43,Nottingham - Bakersfield
+34524341,2026-06-25 09:48:00+02,43,"",Nottingham,43,Nottingham - Bakersfield
+34537178,2026-06-25 10:20:00+02,43,"",Bakersfield,43,Nottingham - Bakersfield
+34547442,2026-06-25 10:37:00+02,43,"",Nottingham,43,Nottingham - Bakersfield
+34559388,2026-06-25 11:10:00+02,43,"",Bakersfield,43,Nottingham - Bakersfield
+34569406,2026-06-25 11:27:00+02,43,"",Nottingham,43,Nottingham - Bakersfield
+34582066,2026-06-25 12:00:00+02,43,"",Bakersfield,43,Nottingham - Bakersfield
+34592275,2026-06-25 12:17:00+02,43,"",Nottingham,43,Nottingham - Bakersfield
+34604302,2026-06-25 12:50:00+02,43,"",Bakersfield,43,Nottingham - Bakersfield
+34615736,2026-06-25 13:07:00+02,43,"",Nottingham,43,Nottingham - Bakersfield
+34627241,2026-06-25 13:40:00+02,43,"",Bakersfield,43,Nottingham - Bakersfield
+34637256,2026-06-25 13:57:00+02,43,"",Nottingham,43,Nottingham - Bakersfield
+34649793,2026-06-25 14:30:00+02,43,"",Bakersfield,43,Nottingham - Bakersfield
+34658636,2026-06-25 14:47:00+02,43,"",Nottingham,43,Nottingham - Bakersfield
+34672579,2026-06-25 15:20:00+02,43,"",Bakersfield,43,Nottingham - Bakersfield
+34681125,2026-06-25 15:37:00+02,43,"",Nottingham,43,Nottingham - Bakersfield
+34691669,2026-06-25 16:10:00+02,43,"",Bakersfield,43,Nottingham - Bakersfield
+34703128,2026-06-25 16:29:00+02,43,"",Nottingham,43,Nottingham - Bakersfield
+34714019,2026-06-25 17:00:00+02,43,"",Bakersfield,43,Nottingham - Bakersfield
+34724277,2026-06-25 17:19:00+02,43,"",Nottingham,43,Nottingham - Bakersfield
+34734726,2026-06-25 17:50:00+02,43,"",Bakersfield,43,Nottingham - Bakersfield
+34744927,2026-06-25 18:09:00+02,43,"",Nottingham,43,Nottingham - Bakersfield
+34755838,2026-06-25 18:40:00+02,43,"",Bakersfield,43,Nottingham - Bakersfield
+34765330,2026-06-25 18:59:00+02,43,"",Nottingham,43,Nottingham - Bakersfield
+34899516,2026-06-26 07:55:00+02,35,"",Bulwell,35,Nottingham - Bulwell
+34922452,2026-06-26 08:48:00+02,35,"",Nottingham,35,Nottingham - Bulwell
+34951868,2026-06-26 10:01:00+02,35,"",Bulwell,35,Nottingham - Bulwell
+34981453,2026-06-26 11:01:00+02,35,"",Nottingham,35,Nottingham - Bulwell
+35005140,2026-06-26 12:01:00+02,35,"",Bulwell,35,Nottingham - Bulwell
+35034018,2026-06-26 13:01:00+02,35,"",Nottingham,35,Nottingham - Bulwell
+35057310,2026-06-26 14:01:00+02,35,"",Bulwell,35,Nottingham - Bulwell
+35138890,2026-06-26 17:07:00+02,87,"",Arnold,87,Nottingham - City Hospital - Arnold
+35157225,2026-06-26 17:45:00+02,87,"",Nottingham,87,Nottingham - City Hospital - Arnold
+35172684,2026-06-26 18:27:00+02,88,"",Rise Park,88,Nottingham - City Hospital - Arnold
+35287110,2026-06-27 05:59:00+02,44,"",Nottingham,44,Nottingham - Gedling
+35291330,2026-06-27 06:32:00+02,44,"",Gedling,44,Nottingham - Gedling
+35294711,2026-06-27 07:00:00+02,44,"",Nottingham,44,Nottingham - Gedling
+35300506,2026-06-27 07:32:00+02,44,"",Gedling,44,Nottingham - Gedling
+35307863,2026-06-27 08:00:00+02,44,"",Nottingham,44,Nottingham - Gedling
+35316687,2026-06-27 08:32:00+02,44,"",Gedling,44,Nottingham - Gedling
+35326138,2026-06-27 09:10:00+02,44,"",Nottingham,44,Nottingham - Gedling
+35342588,2026-06-27 09:45:00+02,44,"",Gedling,44,Nottingham - Gedling
+35356041,2026-06-27 10:25:00+02,44,"",Nottingham,44,Nottingham - Gedling
+35374254,2026-06-27 11:05:00+02,44,"",Gedling,44,Nottingham - Gedling
+35388577,2026-06-27 11:46:00+02,44,"",Nottingham,44,Nottingham - Gedling
+35408172,2026-06-27 12:25:00+02,44,"",Gedling,44,Nottingham - Gedling
+35421509,2026-06-27 13:06:00+02,44,"",Nottingham,44,Nottingham - Gedling
+35443467,2026-06-27 13:45:00+02,44,"",Gedling,44,Nottingham - Gedling
+35457456,2026-06-27 14:26:00+02,44,"",Nottingham,44,Nottingham - Gedling
+35477828,2026-06-27 15:05:00+02,44,"",Gedling,44,Nottingham - Gedling
+35491935,2026-06-27 15:46:00+02,44,"",Nottingham,44,Nottingham - Gedling
+35506733,2026-06-27 16:25:00+02,44,"",Gedling,44,Nottingham - Gedling
+35521439,2026-06-27 17:06:00+02,44,"",Nottingham,44,Nottingham - Gedling
+35537683,2026-06-27 17:45:00+02,44,"",Gedling,44,Nottingham - Gedling
+35631787,2026-06-27 23:13:00+02,49X,"",Nottingham,49X,Nottingham - Boots Site
+35703111,2026-06-28 10:32:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+35711765,2026-06-28 11:00:00+02,6,"",Gamston,6,Nottingham - Edwalton
+35719313,2026-06-28 11:32:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+35726550,2026-06-28 12:00:00+02,6,"",Gamston,6,Nottingham - Edwalton
+35733976,2026-06-28 12:32:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+35740424,2026-06-28 13:00:00+02,6,"",Gamston,6,Nottingham - Edwalton
+35749852,2026-06-28 13:32:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+35757027,2026-06-28 14:00:00+02,6,"",Gamston,6,Nottingham - Edwalton
+35763964,2026-06-28 14:32:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+35770871,2026-06-28 15:00:00+02,6,"",Gamston,6,Nottingham - Edwalton
+35778834,2026-06-28 15:32:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+35786207,2026-06-28 16:00:00+02,6,"",Gamston,6,Nottingham - Edwalton
+35794248,2026-06-28 16:32:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+35801221,2026-06-28 17:00:00+02,6,"",Gamston,6,Nottingham - Edwalton
+35810118,2026-06-28 17:32:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+35816646,2026-06-28 18:00:00+02,6,"",Gamston,6,Nottingham - Edwalton
+35824726,2026-06-28 18:32:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+35830848,2026-06-28 19:00:00+02,6,"",Gamston,6,Nottingham - Edwalton
+35838662,2026-06-28 19:32:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+35844559,2026-06-28 20:00:00+02,6,"",Gamston,6,Nottingham - Edwalton
+35849802,2026-06-28 20:34:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+35856049,2026-06-28 21:00:00+02,6,"",Gamston,6,Nottingham - Edwalton
+35861851,2026-06-28 21:34:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+35867329,2026-06-28 22:00:00+02,6,"",Gamston,6,Nottingham - Edwalton
+35872204,2026-06-28 22:34:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+35877634,2026-06-28 23:00:00+02,6,"",Gamston,6,Nottingham - Edwalton
+35881775,2026-06-28 23:34:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+35887155,2026-06-29 00:00:00+02,6,"",Gamston,6,Nottingham - Edwalton
+35909981,2026-06-29 05:59:00+02,44,"",Nottingham,44,Nottingham - Gedling
+35915365,2026-06-29 06:32:00+02,44A,"",Gedling,44A,Nottingham - Gedling
+35922860,2026-06-29 07:26:00+02,44,"",Nottingham,44,Nottingham - Gedling
+35944040,2026-06-29 08:02:00+02,44A,"",Gedling,44A,Nottingham - Gedling
+35961352,2026-06-29 08:37:00+02,44,"",Nottingham,44,Nottingham - Gedling
+35979073,2026-06-29 09:17:00+02,44,"",Gedling,44,Nottingham - Gedling
+35995458,2026-06-29 09:55:00+02,44,"",Nottingham,44,Nottingham - Gedling
+36013938,2026-06-29 10:35:00+02,44,"",Gedling,44,Nottingham - Gedling
+36028690,2026-06-29 11:16:00+02,44,"",Nottingham,44,Nottingham - Gedling
+36048289,2026-06-29 11:55:00+02,44,"",Gedling,44,Nottingham - Gedling
+36064084,2026-06-29 12:36:00+02,44,"",Nottingham,44,Nottingham - Gedling
+36086172,2026-06-29 13:15:00+02,44,"",Gedling,44,Nottingham - Gedling
+36102002,2026-06-29 13:56:00+02,44,"",Nottingham,44,Nottingham - Gedling
+36120612,2026-06-29 14:35:00+02,44,"",Gedling,44,Nottingham - Gedling
+36136346,2026-06-29 15:16:00+02,44,"",Nottingham,44,Nottingham - Gedling
+36155569,2026-06-29 15:55:00+02,44,"",Gedling,44,Nottingham - Gedling
+36171104,2026-06-29 16:34:00+02,44,"",Nottingham,44,Nottingham - Gedling
+36189102,2026-06-29 17:15:00+02,44,"",Gedling,44,Nottingham - Gedling
+36213726,2026-06-29 18:07:00+02,44A,"",Nottingham,44A,Nottingham - Gedling
+36222839,2026-06-29 18:35:00+02,44,"",Gedling,44,Nottingham - Gedling
+36239291,2026-06-29 19:19:00+02,44,"",Nottingham,44,Nottingham - Gedling
+36253814,2026-06-29 19:55:00+02,44,"",Gedling,44,Nottingham - Gedling
+36264112,2026-06-29 20:30:00+02,44,"",Nottingham,44,Nottingham - Gedling
+36272778,2026-06-29 21:00:00+02,44,"",Gedling,44,Nottingham - Gedling
+36280741,2026-06-29 21:30:00+02,44,"",Nottingham,44,Nottingham - Gedling
+36286755,2026-06-29 22:00:00+02,44,"",Gedling,44,Nottingham - Gedling
+36295001,2026-06-29 22:30:00+02,44,"",Nottingham,44,Nottingham - Gedling
+36300279,2026-06-29 23:00:00+02,44,"",Gedling,44,Nottingham - Gedling
+36306323,2026-06-29 23:30:00+02,44,"",Nottingham,44,Nottingham - Gedling
+36311645,2026-06-30 00:00:00+02,44,"",Gedling,44,Nottingham - Gedling
+36317498,2026-06-30 00:30:00+02,44,"",Nottingham,44,Nottingham - Gedling
+36321809,2026-06-30 01:02:00+02,44,"",Gedling,44,Nottingham - Gedling
+36374507,2026-06-30 08:12:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+36391035,2026-06-30 08:43:00+02,6,"",Gamston,6,Nottingham - Edwalton
+36404391,2026-06-30 09:25:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+36424020,2026-06-30 10:00:00+02,6,"",Gamston,6,Nottingham - Edwalton
+36438216,2026-06-30 10:43:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+36458271,2026-06-30 11:15:00+02,6,"",Gamston,6,Nottingham - Edwalton
+36471401,2026-06-30 11:58:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+36491662,2026-06-30 12:30:00+02,6,"",Gamston,6,Nottingham - Edwalton
+36505166,2026-06-30 13:13:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+36525040,2026-06-30 13:45:00+02,6,"",Gamston,6,Nottingham - Edwalton
+36540867,2026-06-30 14:28:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+36557008,2026-06-30 15:00:00+02,6,"",Gamston,6,Nottingham - Edwalton
+36572346,2026-06-30 15:43:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+36591947,2026-06-30 16:15:00+02,6,"",Gamston,6,Nottingham - Edwalton
+36605427,2026-06-30 16:57:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+36623957,2026-06-30 17:30:00+02,6,"",Gamston,6,Nottingham - Edwalton
+36638214,2026-06-30 18:10:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+36653549,2026-06-30 18:45:00+02,6,"",Gamston,6,Nottingham - Edwalton
+36666794,2026-06-30 19:30:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+36681149,2026-06-30 20:00:00+02,6,"",Gamston,6,Nottingham - Edwalton
+36690507,2026-06-30 20:32:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+36698555,2026-06-30 21:00:00+02,6,"",Gamston,6,Nottingham - Edwalton
+36706497,2026-06-30 21:32:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+36713124,2026-06-30 22:00:00+02,6,"",Gamston,6,Nottingham - Edwalton
+36719897,2026-06-30 22:34:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+36726233,2026-06-30 23:00:00+02,6,"",Gamston,6,Nottingham - Edwalton
+36732555,2026-06-30 23:34:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+36738424,2026-07-01 00:00:00+02,6,"",Gamston,6,Nottingham - Edwalton
+36744744,2026-07-01 00:34:00+02,6,"",Nottingham,6,Nottingham - Edwalton
+36748156,2026-07-01 01:00:00+02,6,"",Gamston,6,Nottingham - Edwalton
+36794226,2026-07-01 07:53:00+02,58,"",Nottingham,58,Nottingham - Arnold (Killisick)
+36810468,2026-07-01 08:35:00+02,58,"",Killisick,58,Nottingham - Arnold (Killisick)
+36829733,2026-07-01 09:10:00+02,59,"",Nottingham,59,Nottingham - Arnold
+36846309,2026-07-01 09:50:00+02,56,"",Arnold,56,Nottingham - Arnold
+36862441,2026-07-01 10:28:00+02,56,"",Nottingham,56,Nottingham - Arnold
+36882571,2026-07-01 11:10:00+02,59,"",Killisick,59,Nottingham - Arnold
+36899869,2026-07-01 11:43:00+02,59,"",Nottingham,59,Nottingham - Arnold
+36916654,2026-07-01 12:20:00+02,56,"",Arnold,56,Nottingham - Arnold
+36933125,2026-07-01 12:58:00+02,56,"",Nottingham,56,Nottingham - Arnold
+36950398,2026-07-01 13:40:00+02,59,"",Killisick,59,Nottingham - Arnold
+36954515,2026-07-01 15:07:00+02,36,"",Chilwell,36,Nottingham - Chilwell (Inham Nook)
+37004779,2026-07-01 15:47:00+02,36,"",Nottingham,36,Nottingham - Chilwell (Inham Nook)
+37025631,2026-07-01 16:41:00+02,36,"",Chilwell,36,Nottingham - Chilwell (Inham Nook)
+37045678,2026-07-01 17:21:00+02,36,"",Nottingham,36,Nottingham - Chilwell (Inham Nook)
+37064019,2026-07-01 18:14:00+02,36,"",Chilwell,36,Nottingham - Chilwell (Inham Nook)
+37085090,2026-07-01 19:05:00+02,36,"",Nottingham,36,Nottingham - Chilwell (Inham Nook)
+37105696,2026-07-01 19:50:00+02,36,"",Chilwell,36,Nottingham - Chilwell (Inham Nook)
+37117145,2026-07-01 20:28:00+02,36,"",Nottingham,36,Nottingham - Chilwell (Inham Nook)
+37127973,2026-07-01 21:10:00+02,36,"",Chilwell,36,Nottingham - Chilwell (Inham Nook)
+37136611,2026-07-01 21:43:00+02,36,"",Nottingham,36,Nottingham - Chilwell (Inham Nook)
+37145503,2026-07-01 22:25:00+02,35,"",Bulwell,35,Nottingham - Bulwell
+37156313,2026-07-01 23:22:00+02,35,"",Nottingham,35,Nottingham - Bulwell
+37166719,2026-07-02 00:10:00+02,36,"",Chilwell,36,Nottingham - Chilwell (Inham Nook)
+37658395,2026-07-03 08:17:00+02,79,"",Arnold,79,Nottingham - Rise Park - Arnold
+37675609,2026-07-03 09:00:00+02,79,"",Nottingham,79,Nottingham - Rise Park - Arnold
+37720842,2026-07-03 10:35:00+02,79B,"",Rise Park,79B,Nottingham - Rise Park - Arnold
+37749060,2026-07-03 11:35:00+02,79,"",Nottingham,79,Nottingham - Rise Park - Arnold
+37768750,2026-07-03 12:20:00+02,79,"",Arnold,79,Nottingham - Rise Park - Arnold
+37804843,2026-07-03 13:55:00+02,79,"",Nottingham,79,Nottingham - Rise Park - Arnold
+37838628,2026-07-03 15:05:00+02,79B,"",Rise Park,79B,Nottingham - Rise Park - Arnold
+37877287,2026-07-03 15:25:00+02,79,"",Arnold,79,Nottingham - Rise Park - Arnold
+37887834,2026-07-03 17:00:00+02,79,"",Nottingham,79,Nottingham - Rise Park - Arnold
+37925566,2026-07-03 18:50:00+02,79B,"",Bulwell,79B,Nottingham - Rise Park - Arnold
+38205029,2026-07-04 13:11:00+02,27,"",Nottingham,27,Nottingham - Mapperley - Arnold
+38198039,2026-07-04 14:11:00+02,27,"",Nottingham,27,Nottingham - Mapperley - Arnold
+38216034,2026-07-04 14:43:00+02,27,"",Carlton,27,Nottingham - Mapperley - Arnold
+38228616,2026-07-04 15:11:00+02,27,"",Nottingham,27,Nottingham - Mapperley - Arnold
+38242291,2026-07-04 15:43:00+02,27,"",Carlton,27,Nottingham - Mapperley - Arnold
+38253444,2026-07-04 16:11:00+02,27,"",Nottingham,27,Nottingham - Mapperley - Arnold
+38265606,2026-07-04 16:43:00+02,27,"",Carlton,27,Nottingham - Mapperley - Arnold
+38278423,2026-07-04 17:11:00+02,27,"",Nottingham,27,Nottingham - Mapperley - Arnold
