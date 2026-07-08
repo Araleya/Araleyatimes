@@ -1805,3 +1805,66 @@ def update_vehicle_livery(request):
         return JsonResponse({"ok": True, "fleet": v.fleet_code, "reg": v.reg, "livery_id": livery_id})
     except Exception as e:
         return JsonResponse({"error": str(e)}, status=500)
+
+from django.http import JsonResponse
+from vehicles.models import VehicleJourney
+from datetime import date
+from collections import defaultdict
+
+def working_timetable(request):
+    route = request.GET.get("route", "")
+    day = request.GET.get("date", str(date.today()))
+    london_nocs = ['ABLO','AVLO','ELBG','MTLN','LONC','LGEN','GAHL','MBGA','BTRI','FLON','DLBU','UNOL','RDAY']
+    
+    journeys = VehicleJourney.objects.filter(
+        route_name=route,
+        date=day,
+        vehicle__operator__noc__in=london_nocs
+    ).select_related('vehicle', 'vehicle__operator', 'vehicle__garage').order_by('datetime')
+    
+    buses = {}
+    for j in journeys:
+        vid = j.vehicle_id
+        if vid not in buses:
+            buses[vid] = {
+                'fleet': j.vehicle.fleet_code or '',
+                'reg': j.vehicle.reg or '',
+                'operator': j.vehicle.operator.noc if j.vehicle.operator else '',
+                'operator_name': j.vehicle.operator.name if j.vehicle.operator else '',
+                'garage': j.vehicle.garage.name if j.vehicle.garage else '',
+                'garage_code': j.vehicle.garage.code if j.vehicle.garage else '',
+                'first_seen': j.datetime.isoformat(),
+                'last_seen': j.datetime.isoformat(),
+                'first_dest': j.destination or '',
+                'last_dest': j.destination or '',
+                'trips': 0,
+            }
+        buses[vid]['last_seen'] = j.datetime.isoformat()
+        buses[vid]['last_dest'] = j.destination or ''
+        buses[vid]['trips'] += 1
+    
+    result = sorted(buses.values(), key=lambda b: b['first_seen'])
+    return JsonResponse({'route': route, 'date': day, 'buses': result})
+
+
+def route_vehicles_api(request):
+    """Return fleet codes seen on each London route in the last 14 days"""
+    from vehicles.models import VehicleJourney
+    from django.utils import timezone
+    from datetime import timedelta
+    import json
+
+    cutoff = timezone.now() - timedelta(days=14)
+    services = Service.objects.filter(region_id='L', mode='bus')
+    
+    route_vehicles = {}
+    for svc in services:
+        line = svc.line_name
+        vehicles = VehicleJourney.objects.filter(
+            service=svc, datetime__gte=cutoff
+        ).values_list('vehicle__fleet_code', flat=True).distinct()
+        vlist = sorted(set(v for v in vehicles if v))
+        if vlist:
+            route_vehicles[line] = vlist
+    
+    return JsonResponse(route_vehicles)

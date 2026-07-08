@@ -246,7 +246,7 @@ def operator_vehicles(request, slug=None, group_slug=None):
 
         context["features_column"] = any(vehicle.feature_names for vehicle in vehicles)
 
-    columns = set(key for vehicle in vehicles if vehicle.data for key in vehicle.data)
+    columns = set(key for vehicle in vehicles if vehicle.data for key in vehicle.data if key != "garage_locked")
     for vehicle in vehicles:
         vehicle.column_values = [
             vehicle.data and vehicle.data_get(key) or "" for key in columns

@@ -1032,13 +1032,23 @@ class Command(BaseCommand):
         else:
             Trip.objects.bulk_create(trips, batch_size=1000)
 
-        Trip.notes.through.objects.bulk_create(trip_notes, batch_size=1000)
+        if trip_notes:
+            from django.db import connection
+            with connection.cursor() as _c:
+                for tn in trip_notes:
+                    if tn.trip_id is not None:
+                        _c.execute("INSERT INTO bustimes_trip_notes (trip_id, note_id) VALUES (%s, %s) ON CONFLICT DO NOTHING", [tn.trip_id, tn.note_id])
 
         for stop_time in stop_times:
             stop_time.trip = stop_time.trip  # set trip_id
         StopTime.objects.bulk_create(stop_times, batch_size=1000)
 
-        StopTime.notes.through.objects.bulk_create(stop_time_notes, batch_size=1000)
+        if stop_time_notes:
+            from django.db import connection
+            with connection.cursor() as _c:
+                for stn in stop_time_notes:
+                    if stn.stoptime_id is not None:
+                        _c.execute("INSERT INTO bustimes_stoptime_notes (stoptime_id, note_id) VALUES (%s, %s) ON CONFLICT DO NOTHING", [stn.stoptime_id, stn.note_id])
 
     def should_defer_to_other_source(self, operators: dict, line_name: str):
         nocs = {operator.noc for operator in operators.values()}
