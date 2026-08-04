@@ -1646,11 +1646,11 @@ def search(request):
             query_text = query_text.replace(" ", "")
             if len(query_text) >= 2:
                 if query_text.isdigit():
-                    context["vehicles"] = vehicles.filter(fleet_code__iexact=query_text)
+                    context["vehicles"] = vehicles.filter(fleet_code__icontains=query_text)
                 elif not query_text.isalpha():
                     context["vehicles"] = vehicles.filter(
                         Q(reg__iexact=query_text)
-                        | Q(fleet_code__iexact=query_text)
+                        | Q(fleet_code__icontains=query_text)
                         | Q(**{"data__Previous reg__icontains": query_text})
                     )
 
@@ -1868,3 +1868,14 @@ def route_vehicles_api(request):
             route_vehicles[line] = vlist
     
     return JsonResponse(route_vehicles)
+
+
+def fleet_garages_api(request):
+    """Return fleet_code -> garage name mapping for London operators"""
+    from vehicles.models import Vehicle
+    london_ops = ['LONC','LGEN','MBGA','ABLO','AVLO','ELBG','MTLN','BTRI','FLON','GAHL','DLBU','UNOL','TFLO']
+    result = {}
+    for v in Vehicle.objects.filter(operator_id__in=london_ops, garage__isnull=False).select_related('garage'):
+        if v.fleet_code and v.garage:
+            result[v.fleet_code] = v.garage.name
+    return JsonResponse(result)

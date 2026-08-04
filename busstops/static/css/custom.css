@@ -120,3 +120,4 @@ select {
 .select2-container--default .select2-selection--single {
     border: 2px solid #cc3d87 !important;
 }
+.fleet .trivia { display: table-cell !important; }

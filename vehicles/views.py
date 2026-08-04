@@ -293,10 +293,12 @@ def operator_vehicles(request, slug=None, group_slug=None):
             vehicle.notes and not vehicle.is_spare_ticket_machine()
             for vehicle in vehicles
         ),
-        "garage_column": len(garage_names) > 1,
+        "garage_column": len(garage_names) >= 1,
     }
 
-    return render(request, "operator_vehicles.html", context)
+    response = render(request, "operator_vehicles.html", context)
+    response["Cache-Control"] = "no-cache, no-store, must-revalidate"
+    return response
 
 
 @cdn_cache_control(max_age=300)
