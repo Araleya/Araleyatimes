@@ -6,6 +6,7 @@ service_id,line_name,description,operators
 154,397,"Crooked Billet, Sainsbury's - Endlebury Road- Chingford - Woodford Wells - Debden",ELBG
 155,462,"Limes Farm - Hainault, The Lowe - Fairlop - Barkingside - Gants Hill - Ilford",ELBG
 156,498,"Romford, Queen's Hospital -  Romford Station - Gallows Corner - South Weald - Brentwood",ELBG
+157,W14,Loughton - South Woodford - Whipps Cross,ELBG
 158,215,Lee Valley Campsite - Yardley Lane Estate - Sewardstone Road - Chingford Mount - Walthamstow Central,ELBG
 159,667,"Ilford High Road, Hainault Street - Gants Hill - Barkingside - Chigwell - West Hatch School",ELBG
 4176,B12,Erith - Bedonwell Road - Pickford Lane -  Bexleyheath - Joydens Wood,LONC
@@ -312,7 +313,7 @@ service_id,line_name,description,operators
 14380,126,Bromley - Grove Park - Dunkery Road - Mottingham - Eltham,LONC
 14381,127,Purley - Wallington - Carshalton - Mitcham - Tooting Broadway,MBGA
 14382,162,Beckenham Junction - Park Langley - Bromley - Chislehurst - Eltham Station,LONC
-14383,208,"Lewisham Station - Bellingham - Bromley - Southborough - Orpington, Perry Hall Road",MBGA
+14383,208,"Lewisham Station - Bellingham - Bromley - Southborough - Orpington, Perry Hall Road",ELBG
 14384,227,Bromley North - Shortlands - Beckenham - Penge - Crystal Palace,LONC
 14385,233,Eltham - Longlands Road - Sidcup - Foots Cray -Swanley,MBGA
 14386,264,West Croydon - Mitcham Common - Mitcham - Tooting - St George's Hospital,MBGA
@@ -533,7 +534,7 @@ service_id,line_name,description,operators
 14601,425,"Ilford - Stratford - Mile End - Homerton Hospital - Clapton, Nightingale Road",ELBG
 14602,488,Bromley-by-Bow - Hackney Wick - Homerton - Clapton - Dalston Junction,ELBG
 14603,496,"Harold Wood Station - Harold Hill - Gidea Park - Romford Station - Romford, Queens Hospital",ELBG
-14604,499,"Gallows Corner, Tesco - Harold Hill - Romford Station - Becontree Heath - Heath Park Estate",NATX
+14604,499,"Gallows Corner, Tesco - Harold Hill - Romford Station - Becontree Heath - Heath Park Estate",ELBG
 14605,55,Walthamstow Central - Bakers Arms - Lea Bridge Road - Clapton - Hackney Central - Cambridge Heath - Shoreditch - Old Street - Clerkenwell - Bloomsbury - Oxford Circus,ELBG
 14606,N550,Trafalgar Square - Aldgate - Canary Wharf - Leamouth - Canning Town,ELBG
 14607,N551,"Trafalgar Square - Aldgate - Canning Town - Custom House - Gallions Reach, Shopping Park",ELBG
@@ -640,7 +641,7 @@ service_id,line_name,description,operators
 14710,279,Waltham Cross - Enfield Highway - Ponders End - Edmonton - Manor House,AVLO
 14711,289,Elmers End - West Croydon - Croydon University Hospital - Thornton Heath Pond - Purley,AVLO
 14712,29,Wood Green Station - Manor House - Finsbury Park - Camden Town - Trafalgar Square,AVLO
-14713,301,"Market Place, Bexleyheath  - Woodland Way, Thamesmead - Abbey Wood Station -  Hawksmoor School - Woolwich Market",AVLO
+14713,301,"Market Place, Bexleyheath  - Woodland Way, Thamesmead - Abbey Wood Station -  Hawksmoor School - Woolwich Market",ELBG
 14714,307,Brimsdown - Southbury - Enfield Town - New Barnet - Barnet Hospital,AVLO
 14715,312,"Purley, Old Lodge Lane - Reedham Station - Croydon Town Centre - East Croydon Station - Norwood Junction",AVLO
 14716,313,Chingford Station - Ponders End -  Enfield - Botany Bay - Potters Bar,AVLO
@@ -724,7 +725,6 @@ service_id,line_name,description,operators
 14794,PL-4,Gunnersbury Station - Uxbridge Station,REPS
 14795,C,Stratford City - Forest Gate - Manor Park - Ilford - Seven Kings - Goodmayes - Chadwell Heath - Romford,ABLO
 14796,D,Newbury Park - Shenfield,REPS
-15074,W14,Whipps Cross - Nightingale Lane - South Woodford - Roding Valley - Loughton,
 15075,DLR-5,Canning Town - King George V,
 15076,DLR-6,Canning Town - London City Airport,
 15077,DLR-2,Canary Wharf - Canning Town - Beckton - Gallions Reach,
