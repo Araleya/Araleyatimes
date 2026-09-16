@@ -18,7 +18,8 @@
 <link rel="manifest" href="{% static 'manifest.webmanifest' %}">
 <link rel="stylesheet" href="{% static 'dist/css/style.css' %}">
 <link rel="stylesheet" href="{% static 'css/custom.css' %}">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap">
+<link rel="stylesheet" href="{% static 'css/custom-v2.css' %}">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap">
 
 {% block head %}{% endblock %}
 
@@ -31,7 +32,7 @@
 <script async src="https://umami.bustimes.org.uk/script.js" data-website-id="62fea6ac-a287-4ede-962b-5cf0029a8a7b" data-exclude-hash="true"></script>
 
 </head>
-<body class="{% block bodyclass %}wide{% endblock %}{% if ad is False %} no-ads{% endif %}">
+<body class="{% if request.GET.v2 is not None %}redesign-v2{% endif %} {% block bodyclass %}wide{% endblock %}{% if ad is False %} no-ads{% endif %}">
 <script>
 (function () {
     {% if user.id == 1 %}document.body.classList.add("dark-mode");{% endif %}

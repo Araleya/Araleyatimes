@@ -522,9 +522,13 @@ export default function JourneyMap({
 
   React.useEffect(() => {
     if (bounds && mapRef.current) {
-      mapRef.current.fitBounds(bounds, {
-        padding: 50,
-      });
+      try {
+        mapRef.current.fitBounds(bounds, {
+          padding: 50,
+        });
+      } catch (e) {
+        // map may have been destroyed (e.g. switching apps)
+      }
     }
   }, [bounds]);
 

@@ -2,7 +2,7 @@
 {% block canonical %}
     <link rel="canonical" href="https://araleyatimes.net">
 {% endblock canonical %}
-{% block bodyclass %}narrow{% endblock %}
+{% block bodyclass %}narrow{% if request.GET.v2 is not None %} homepage-v2{% endif %}{% endblock %}
 {% block breadcrumb %}{% endblock %}
 {% block content %}
 <p>Maps, timetables and more</p>

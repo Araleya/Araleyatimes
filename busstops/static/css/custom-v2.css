@@ -1,0 +1,365 @@
+/* araleyatimes redesign v2 — Idea 5: Bold stripe accent */
+
+/* ===== BASE ===== */
+body.redesign-v2 {
+    font-family: system-ui, -apple-system, sans-serif;
+    background: #0c0c16 !important;
+    color: #c8c4d8;
+    --brand-color: #ff6b9d;
+    --brand-color-darker: #d4507a;
+    --border-color: #2a2a40;
+    --background-color: #0c0c16;
+    --text-color: #c8c4d8;
+    --link-color: #ff6b9d;
+    --active-link-color: #fff;
+    --header-text-color: #fff;
+    color-scheme: dark;
+}
+
+/* ===== ACCENT STRIPE ===== */
+body.redesign-v2 .site-header::before {
+    content: '';
+    display: block;
+    height: 3px;
+    background: linear-gradient(90deg, #d4507a, #ff6b9d, #ff8db5);
+}
+
+/* ===== HEADER ===== */
+body.redesign-v2 .site-header {
+    background: #12121e !important;
+    border-bottom: 1px solid #222238;
+}
+body.redesign-v2 .site-header a { color: #888 !important; text-decoration: none; }
+body.redesign-v2 .site-name {
+    background: transparent !important;
+    font-weight: 700 !important;
+    font-size: 18px !important;
+    color: #fff !important;
+    letter-spacing: -0.3px;
+}
+body.redesign-v2 .site-name:hover {
+    background: transparent !important;
+    color: #ff6b9d !important;
+}
+html body.redesign-v2 .site-header div .site-name {
+    position: static !important;
+    display: inline-block !important;
+    float: left !important;
+    width: auto !important;
+}
+
+/* Map button highlighted in header */
+body.redesign-v2 .site-header ul a {
+    background: #ff6b9d !important;
+    color: #fff !important;
+    border-radius: 5px;
+    padding: 5px 12px !important;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1;
+}
+body.redesign-v2 .site-header ul a:hover {
+    background: #ff8db5 !important;
+    text-decoration: none;
+}
+
+/* Search in header (inner pages) */
+body.redesign-v2:not(.homepage-v2) .site-header .search label {
+    background: #1a1a2c; border: 1px solid #2a2a40; border-radius: 6px;
+    padding: 0; top: 0; position: relative; width: auto;
+}
+body.redesign-v2:not(.homepage-v2) .site-header .search label input[type="search"] {
+    background: transparent !important; border: none !important;
+    color: #aaa !important; font-size: 12px; padding: 6px 10px;
+    border-radius: 6px; position: static; width: 100%;
+}
+body.redesign-v2:not(.homepage-v2) .site-header .search label input[type="search"]::placeholder { color: #555; }
+body.redesign-v2:not(.homepage-v2) .site-header .search input[type="submit"] {
+    background: #ff6b9d !important; border: none !important; color: #fff !important;
+    border-radius: 6px; padding: 6px 12px; font-size: 11px; margin: 0; top: 0;
+    font-weight: 600;
+}
+
+/* ===== LINKS ===== */
+body.redesign-v2 a { color: #ff6b9d; }
+body.redesign-v2 a:hover { color: #ff8db5; }
+body.redesign-v2 a:active { background-color: transparent; color: #fff; }
+
+/* ===== BUTTONS ===== */
+body.redesign-v2 .button, body.redesign-v2 input[type="submit"] {
+    background: #ff6b9d !important;
+    border: none !important;
+    color: #fff !important;
+    border-radius: 6px; padding: 7px 14px; font-weight: 600; font-size: 13px;
+}
+body.redesign-v2 .button:hover, body.redesign-v2 input[type="submit"]:hover {
+    background: #ff8db5 !important;
+    top: 0 !important; margin-bottom: 0 !important;
+}
+body.redesign-v2 .button:focus, body.redesign-v2 .button:active,
+body.redesign-v2 input[type="submit"]:focus, body.redesign-v2 input[type="submit"]:active {
+    top: 0 !important; margin-bottom: 0 !important;
+}
+
+/* ===== INPUTS ===== */
+body.redesign-v2 input[type="search"], body.redesign-v2 input[type="text"],
+body.redesign-v2 input[type="url"], body.redesign-v2 input[type="email"],
+body.redesign-v2 input[type="password"], body.redesign-v2 input[type="number"],
+body.redesign-v2 textarea, body.redesign-v2 select {
+    background: #1a1a2c !important; border: 1px solid #2a2a40 !important;
+    color: #ccc !important; border-radius: 6px;
+}
+body.redesign-v2 input:focus, body.redesign-v2 textarea:focus, body.redesign-v2 select:focus {
+    border-color: #ff6b9d !important;
+}
+
+/* ===== HOMEPAGE ===== */
+
+/* Hide header search + map on homepage (search is in body) */
+body.redesign-v2.homepage-v2 .site-header .search {
+    display: none !important;
+}
+body.redesign-v2.homepage-v2 .site-header ul { display: none !important; }
+
+/* Hero text */
+body.redesign-v2 #content > p:first-child {
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 4px;
+    letter-spacing: -0.3px;
+}
+
+/* Stats strip */
+body.redesign-v2 .horizontal {
+    display: flex !important;
+    gap: 0; margin: 0 0 14px; padding: 0;
+    background: #1a1a2c;
+    border: 1px solid #2a2a40;
+    border-radius: 8px;
+    overflow: hidden;
+}
+body.redesign-v2 .horizontal li {
+    flex: 1;
+    padding: 8px 10px;
+    border-right: 1px solid #222236;
+    text-align: center;
+    font-size: 16px; font-weight: 700; color: #ff6b9d;
+    display: flex !important; flex-direction: column;
+    line-height: 1.2;
+}
+body.redesign-v2 .horizontal li:last-child { border-right: none; }
+body.redesign-v2 .horizontal li:after { display: none !important; }
+body.redesign-v2 .horizontal li a {
+    color: #ff6b9d !important; font-size: inherit; font-weight: inherit;
+    display: inline; padding: 0;
+}
+
+/* Search pane */
+body.redesign-v2 .panes { display: block !important; margin: 0 0 14px; }
+body.redesign-v2 .panes .pane { margin-bottom: 10px; }
+body.redesign-v2 .panes .search h2 { display: none !important; }
+body.redesign-v2 .panes .search p label {
+    color: #888 !important; font-size: 12px !important;
+    cursor: default; pointer-events: none;
+}
+body.redesign-v2 .panes .search p { gap: 6px; }
+body.redesign-v2 #q, body.redesign-v2 .panes input[type="search"] { color: #fff !important; }
+
+/* Map button */
+body.redesign-v2 .panes .pane:last-child {
+    background: transparent !important;
+    border: none !important;
+    padding: 0 !important;
+}
+body.redesign-v2 .panes .pane:last-child h2 { display: none; }
+body.redesign-v2 .panes .pane:last-child .button {
+    background: #ff6b9d !important;
+    border: none !important;
+    color: #fff !important;
+    padding: 8px 16px !important;
+    font-size: 13px !important;
+    font-weight: 600 !important;
+    border-radius: 6px;
+    display: inline-block;
+}
+
+/* Regions heading with accent bar */
+body.redesign-v2 h2 {
+    font-size: 12px;
+    color: #888;
+    font-weight: 600;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+/* England region grid */
+body.redesign-v2 .regions { margin: 0; padding: 0; }
+body.redesign-v2 .regions > li:first-child {
+    font-size: 12px; color: #888; font-weight: 600; margin-bottom: 8px; padding: 0;
+}
+body.redesign-v2 .regions > li:first-child > ul {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 4px;
+    background: transparent !important;
+    border: none !important;
+    border-radius: 0;
+    margin: 6px 0 0; padding: 0;
+    column-count: unset !important;
+}
+body.redesign-v2 .regions > li:first-child > ul li {
+    margin: 0; padding: 0;
+    border-bottom: none !important;
+}
+body.redesign-v2 .regions > li:first-child > ul li a {
+    display: block;
+    padding: 8px 10px;
+    background: #1a1a2c;
+    border: 1px solid #2a2a40;
+    border-radius: 6px;
+    color: #c0bcd0 !important;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+}
+body.redesign-v2 .regions > li:first-child > ul li a:after { display: none; }
+body.redesign-v2 .regions > li:first-child > ul li a:hover {
+    border-color: #ff6b9d;
+    color: #ff6b9d !important;
+    background: #1a1a2c;
+}
+
+/* Wales, Scotland, GB — left border accent cards */
+body.redesign-v2 .regions > li:not(:first-child) {
+    background: #1a1a2c;
+    border: 1px solid #2a2a40;
+    border-left: 3px solid #ff6b9d;
+    border-radius: 6px;
+    margin-bottom: 4px;
+    font-size: 13px; font-weight: 400;
+    padding: 0;
+}
+body.redesign-v2 .regions > li:not(:first-child) > a {
+    display: block;
+    padding: 8px 12px;
+    color: #ddd !important;
+    text-decoration: none;
+}
+body.redesign-v2 .regions > li:not(:first-child) > a:after { display: none; }
+body.redesign-v2 .regions > li:not(:first-child) > a:hover {
+    color: #ff6b9d !important;
+    background: transparent;
+}
+
+/* ===== BREADCRUMBS ===== */
+body.redesign-v2 .breadcrumb { border: none; font-size: 11px; }
+body.redesign-v2 .breadcrumb a { color: #ff6b9d; padding: 6px 8px; }
+body.redesign-v2 .breadcrumb li:after { color: #555; }
+
+/* ===== TABLES ===== */
+body.redesign-v2 table {
+    background: transparent;
+    border: none;
+    border-radius: 0;
+    overflow: visible;
+}
+body.redesign-v2 th, body.redesign-v2 td { border-color: #1e1e30; padding: 6px 8px; }
+body.redesign-v2 thead th {
+    background: transparent;
+    color: #555;
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border-bottom: 1px solid #1e1e30;
+}
+body.redesign-v2 tbody td { border-top: 1px solid #141422; font-size: 13px; }
+body.redesign-v2 tbody tr:hover { background: #161628; }
+
+/* ===== TABS ===== */
+body.redesign-v2 .tabs {
+    border-color: transparent;
+    border-bottom: 2px solid #1e1e30;
+    display: flex;
+    gap: 0;
+}
+body.redesign-v2 .tabs > li { box-shadow: none; }
+body.redesign-v2 .tabs > li > a {
+    color: #888;
+    font-weight: 500;
+    font-size: 12px;
+    padding: 6px 12px;
+    border-bottom: 2px solid transparent;
+    margin-bottom: -2px;
+}
+body.redesign-v2 .tabs > li > a:hover { color: #ff6b9d; }
+body.redesign-v2 .tabs > li:last-child {
+    color: #ff6b9d;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 6px 12px;
+}
+
+/* ===== VEHICLE DETAIL ===== */
+body.redesign-v2 h1 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: -0.5px;
+}
+body.redesign-v2 h1 .reg {
+    background: #222240;
+    border: 1px solid #2a2a40;
+    border-radius: 4px;
+    color: #ff6b9d;
+    font-family: monospace;
+    letter-spacing: 1px;
+    font-size: 13px;
+}
+body.redesign-v2 .contact-details {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 10px;
+}
+body.redesign-v2 .contact-details dt {
+    font-size: 9px;
+    color: #555;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+body.redesign-v2 .contact-details dd {
+    font-size: 13px;
+    color: #ccc;
+}
+
+/* ===== FOOTER ===== */
+body.redesign-v2 footer {
+    background: #12121e !important;
+    border-top: 1px solid #222238;
+    margin-bottom: 0;
+    padding: 12px 0;
+}
+body.redesign-v2 footer ul { border: none; font-size: 11px; }
+body.redesign-v2 footer a { color: #888 !important; }
+body.redesign-v2 footer a:hover { color: #ff6b9d !important; }
+body.redesign-v2 footer li:after { color: #444 !important; }
+body.redesign-v2 footer button { color: #888 !important; }
+
+/* ===== MISC ===== */
+body.redesign-v2 section header { background: transparent !important; }
+body.redesign-v2 nav.pagination, body.redesign-v2 .pagination { background: transparent !important; }
+body.redesign-v2 div#content > nav { background: transparent !important; }
+body.redesign-v2 .message { background: #1a1a2c; border: 1px solid #2a2a40; border-radius: 6px; }
+body.redesign-v2 #hugemap .map-link {
+    background: #ff6b9d !important; color: #fff !important; border-radius: 0 0 0 6px;
+}
+body.redesign-v2 .select2-selection { border-color: #2a2a40 !important; background: #1a1a2c !important; }
+body.redesign-v2 .select2-dropdown { background: #0c0c16 !important; border-color: #2a2a40 !important; }
+body.redesign-v2 form:has(input[name="url"]) { display: none !important; }
+
+/* Hide fleet list disclaimer */
+body.redesign-v2 #content > p:has(strong), body.redesign-v2 #content > ul.bulleted { }

@@ -109,36 +109,51 @@ function MapChild({ onInit }: { onInit?: (map: MapLibreMap) => void }) {
   const { current: map } = useMap();
 
   useEffect(() => {
-    if (map) {
-      const _map = map.getMap();
-      _map.keyboard.disableRotation();
-      _map.touchZoomRotate.disableRotation();
+    if (!map) return;
 
-      if (onInit) {
-        onInit(_map);
-      }
+    let _map: MapLibreMap;
+    try {
+      _map = map.getMap();
+    } catch (e) {
+      // map may have been destroyed
+      return;
+    }
 
-      const onStyleImageMissing = (e: MapStyleImageMissingEvent) => {
-        if (e.id in imagesByName) {
-          const image = new Image();
-          image.src = imagesByName[e.id];
-          image.onload = () => {
+    _map.keyboard.disableRotation();
+    _map.touchZoomRotate.disableRotation();
+
+    if (onInit) {
+      onInit(_map);
+    }
+
+    const onStyleImageMissing = (e: MapStyleImageMissingEvent) => {
+      if (e.id in imagesByName) {
+        const image = new Image();
+        image.src = imagesByName[e.id];
+        image.onload = () => {
+          try {
             if (!map.hasImage(e.id)) {
               map.addImage(e.id, image, {
                 pixelRatio: 2,
               });
             }
-          };
-        }
-      };
+          } catch (e) {
+            // map may have been destroyed
+          }
+        };
+      }
+    };
 
-      map.on("styleimagemissing", onStyleImageMissing);
+    map.on("styleimagemissing", onStyleImageMissing);
 
-      return () => {
+    return () => {
+      try {
         map.off("styleimagemissing", onStyleImageMissing);
-      };
-    }
-  });
+      } catch (e) {
+        // map may have been destroyed
+      }
+    };
+  }, [map, onInit]);
 
   return null;
 }
