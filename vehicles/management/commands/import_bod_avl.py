@@ -116,6 +116,17 @@ class Command(ImportLiveVehiclesCommand):
 
         vehicle_ref = vehicle_ref.removeprefix(f"{operator_ref}-")
 
+        # Skip bogus DEMO pings — debug + filter
+        line_ref_check = (monitored_vehicle_journey.get("LineRef") or "").upper()
+        dest_check = (monitored_vehicle_journey.get("DestinationName") or "").strip()
+        block_ref = (monitored_vehicle_journey.get("BlockRef") or "")
+        # Debug: log what no-operator vehicles look like
+        if not self.get_operator(operator_ref):
+            vr = vehicle_ref or "none"
+            print(f'NO-OP: operator_ref={operator_ref} vehicle_ref={vr} line={line_ref_check} dest={dest_check} block={block_ref}', flush=True)
+        if line_ref_check == "DEMO" and dest_check == "End" and block_ref.upper().startswith("DEMO-"):
+            return None, False
+
         try:
             vehicle_unique_id = item["Extensions"]["VehicleJourney"]["VehicleUniqueId"]
         except (KeyError, TypeError):
@@ -154,6 +165,9 @@ class Command(ImportLiveVehiclesCommand):
                 Q(operator__in=operators) | Q(operator=None)
             )
         elif not operators:
+            # Skip bogus DEMO operator pings
+            if operator_ref == "DEMO":
+                return None, False
             vehicles = self.vehicles.filter(operator=None)
         elif len(operators) == 1:
             operator = operators[0]
