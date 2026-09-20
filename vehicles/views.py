@@ -1385,6 +1385,8 @@ def withdraw_vehicle(request, slug):
         raise PermissionDenied("Can only withdraw London vehicles")
 
     ex_operator_name = vehicle.operator.name if vehicle.operator else 'Unknown'
+    prev_vehicle = vehicle.get_previous()
+    next_vehicle = vehicle.get_next()
 
     if vehicle.notes:
         vehicle.notes = f'[ex:{ex_operator_name}]|{vehicle.notes}'
@@ -1397,5 +1399,7 @@ def withdraw_vehicle(request, slug):
     return render(request, 'confirm_withdraw.html', {
         'vehicle': vehicle,
         'ex_operator_name': ex_operator_name,
+        'previous': prev_vehicle,
+        'next': next_vehicle,
         'breadcrumb': [vehicle.operator, vehicle],
     })

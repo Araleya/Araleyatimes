@@ -7,4 +7,15 @@
 <p>Vehicle withdrawn:</p>
 <p><strong>{{ vehicle.fleet_code }}</strong> ({{ vehicle.reg }}) has been moved from <strong>{{ ex_operator_name }}</strong> to <strong>Withdrawn (London)</strong>.</p>
 <p><a href="{{ vehicle.get_absolute_url }}">View vehicle</a></p>
+
+<div style="display:flex;justify-content:space-between;margin-top:16px;">
+    {% if previous %}
+        <a href="{{ previous.get_edit_url }}">← {{ previous }}</a>
+    {% else %}
+        <span></span>
+    {% endif %}
+    {% if next %}
+        <a href="{{ next.get_edit_url }}">{{ next }} →</a>
+    {% endif %}
+</div>
 {% endblock %}
