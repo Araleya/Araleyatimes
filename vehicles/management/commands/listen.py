@@ -68,6 +68,12 @@ class Command(BaseCommand):
             for notify in gen:
                 print(notify)
                 try:
+                    # Skip DEMO/bogus vehicles
+                    vehicle = Vehicle.objects.filter(slug=notify.payload).first()
+                    if vehicle and not vehicle.operator and vehicle.code == vehicle.reg and vehicle.reg:
+                        print(f"Skipped bogus: {notify.payload}")
+                        continue
+
                     embed = get_embed(notify.payload)
                     response = session.post(
                         settings.NEW_VEHICLE_WEBHOOK_URL,
