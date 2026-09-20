@@ -64,6 +64,7 @@ ticket machines, a byproduct of the live bus tracking.</p>
     <thead>
         <tr>
             <th scope="col" colspan="2"></th>
+            {% if object.noc == "WDWN" %}<th scope="col">Ex-Operator</th>{% endif %}
             {% if not parent %}<th scope="col" colspan="2">Last tracked</th>{% endif %}
             <th scope="col">Livery</th>
             {% if branding_column %}<th scope="col">Branding</th>{% endif %}
@@ -95,6 +96,7 @@ ticket machines, a byproduct of the live bus tracking.</p>
                         </a>
                     </td>
                 {% endif %}
+                {% if object.noc == "WDWN" %}<td>{% if vehicle.notes and "[ex:" in vehicle.notes %}{{ vehicle.notes|cut:"[ex:"|cut:"]" }}{% endif %}</td>{% endif %}
                 {% if not parent %}<td class="last-seen">
                     {{ vehicle.last_seen.service }}
                 </td>

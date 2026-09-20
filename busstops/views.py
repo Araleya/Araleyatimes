@@ -71,7 +71,7 @@ from .utils import get_bounding_box
 
 operator_has_current_services = Exists("service", filter=Q(service__current=True))
 operator_has_current_services_or_vehicles = operator_has_current_services | Exists(
-    "vehicle", filter=Q(withdrawn=False, latest_journey__isnull=False)
+    "vehicle", filter=Q(latest_journey__isnull=False)
 )
 
 
@@ -888,6 +888,12 @@ class OperatorDetailView(DetailView):
 
     model = Operator
     queryset = model.objects.select_related("region").prefetch_related("licences")
+
+    def get(self, request, *args, **kwargs):
+        obj = self.get_object()
+        if obj.noc == 'WDWN':
+            return redirect('/operators/withdrawn-london/vehicles')
+        return super().get(request, *args, **kwargs)
 
     def get_object(self, **kwargs):
         try:

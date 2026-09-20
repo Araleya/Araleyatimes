@@ -121,3 +121,15 @@ select {
     border: 2px solid #cc3d87 !important;
 }
 .fleet .trivia { display: table-cell !important; }
+
+/* Withdraw button */
+input[value="Withdraw"] {
+    background-color: #d9534f !important;
+    border-color: #d9534f !important;
+    color: #fff !important;
+    margin-left: 8px;
+}
+input[value="Withdraw"]:hover {
+    background-color: #c9302c !important;
+    border-color: #c9302c !important;
+}

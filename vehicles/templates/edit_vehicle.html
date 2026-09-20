@@ -51,6 +51,9 @@
         {% csrf_token %}
 
         <input type="submit" value="Save changes">
+        {% if vehicle.operator_id == "ABLO" or vehicle.operator_id == "ARRI" or vehicle.operator_id == "AVLO" or vehicle.operator_id == "BTRI" or vehicle.operator_id == "DLBU" or vehicle.operator_id == "ELBG" or vehicle.operator_id == "FLON" or vehicle.operator_id == "LGEN" or vehicle.operator_id == "LONC" or vehicle.operator_id == "MBGA" or vehicle.operator_id == "MTLN" or vehicle.operator_id == "UNOL" or vehicle.operator_id == "TFLO" %}
+        <input type="submit" value="Withdraw" formaction="/vehicles/{{ vehicle.slug }}/withdraw" formmethod="get" >
+        {% endif %}
     </form>
 
     {{ form.media }}

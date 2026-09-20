@@ -1,0 +1,10 @@
+{% extends 'page.html' %}
+
+{% block title %}Vehicle withdrawn – Araleyatimes{% endblock %}
+
+{% block content %}
+<h1>Thank you</h1>
+<p>Vehicle withdrawn:</p>
+<p><strong>{{ vehicle.fleet_code }}</strong> ({{ vehicle.reg }}) has been moved from <strong>{{ ex_operator_name }}</strong> to <strong>Withdrawn (London)</strong>.</p>
+<p><a href="{{ vehicle.get_absolute_url }}">View vehicle</a></p>
+{% endblock %}

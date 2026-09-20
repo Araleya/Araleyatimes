@@ -196,7 +196,7 @@ def operator_vehicles(request, slug=None, group_slug=None):
             )
         vehicles = operator.vehicle_set
 
-    if "withdrawn" not in request.GET:
+    if "withdrawn" not in request.GET and (not slug or slug.lower() != "withdrawn-london"):
         vehicles = vehicles.filter(withdrawn=False)
 
     vehicles = vehicles.order_by("fleet_number", "fleet_code", "reg", "code")
@@ -289,7 +289,7 @@ def operator_vehicles(request, slug=None, group_slug=None):
         "vehicles": vehicles,
         "branding_column": any(vehicle.branding for vehicle in vehicles),
         "name_column": any(vehicle.name for vehicle in vehicles),
-        "notes_column": any(
+        "notes_column": slug and slug.lower() != "withdrawn-london" and any(
             vehicle.notes and not vehicle.is_spare_ticket_machine()
             for vehicle in vehicles
         ),
@@ -1371,3 +1371,31 @@ def mark_london_done(request, slug):
     vehicle.livery = livery
     vehicle.save(update_fields=["livery"])
     return redirect(vehicle.get_absolute_url())
+
+
+@login_required
+def withdraw_vehicle(request, slug):
+    check_user(request)
+    vehicle = get_object_or_404(
+        Vehicle.objects.select_related('operator'), slug=slug
+    )
+
+    london_ops = ['ABLO', 'ARRI', 'AVLO', 'BTRI', 'DLBU', 'ELBG', 'FLON', 'LGEN', 'LONC', 'MBGA', 'MTLN', 'UNOL', 'TFLO']
+    if vehicle.operator_id not in london_ops:
+        raise PermissionDenied("Can only withdraw London vehicles")
+
+    ex_operator_name = vehicle.operator.name if vehicle.operator else 'Unknown'
+
+    if vehicle.notes:
+        vehicle.notes = f'[ex:{ex_operator_name}]|{vehicle.notes}'
+    else:
+        vehicle.notes = f'[ex:{ex_operator_name}]'
+    vehicle.operator_id = 'WDWN'
+    vehicle.withdrawn = True
+    vehicle.save(update_fields=['operator_id', 'withdrawn', 'notes'])
+
+    return render(request, 'confirm_withdraw.html', {
+        'vehicle': vehicle,
+        'ex_operator_name': ex_operator_name,
+        'breadcrumb': [vehicle.operator, vehicle],
+    })
