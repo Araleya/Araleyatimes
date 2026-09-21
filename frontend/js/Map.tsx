@@ -108,6 +108,27 @@ export const ThemeContext = createContext("");
 function MapChild({ onInit }: { onInit?: (map: MapLibreMap) => void }) {
   const { current: map } = useMap();
 
+  // Handle PWA visibility changes — prevent map operations when backgrounded
+  useEffect(() => {
+    const handleVisibilityChange = () => {
+      if (!map) return;
+      try {
+        const _map = map.getMap();
+        if (document.hidden) {
+          _map.stop();
+        } else {
+          _map.resize();
+        }
+      } catch (e) {
+        // map may have been destroyed
+      }
+    };
+    document.addEventListener("visibilitychange", handleVisibilityChange);
+    return () => {
+      document.removeEventListener("visibilitychange", handleVisibilityChange);
+    };
+  }, [map]);
+
   useEffect(() => {
     if (!map) return;
 
