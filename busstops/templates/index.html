@@ -5,24 +5,25 @@
 {% block bodyclass %}narrow{% if request.GET.v2 is not None %} homepage-v2{% endif %}{% endblock %}
 {% block breadcrumb %}{% endblock %}
 {% block content %}
-<p>Maps, timetables and more</p>
+<p>Bus fleet tracking, timetables and more</p>
 {% load cache %}
 {% cache 600 "index_stats" %}
 {% with stats=stats %}
 {% load humanize %}
-<ul class="horizontal">
+<div class="stats-row"><ul class="horizontal">
     <li><a href="/map">Tracking {{ stats.buses|intcomma }} buses</a></li>
     <li>{{ stats.routes|intcomma }} routes</li>
     <li>{{ stats.stops|intcomma }} stops</li>
     <li>{{ stats.operators|intcomma }} operators</li>
 </ul>
+<a href="/map" class="map-bar"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7l6-3 6 3 6-3v13l-6 3-6-3-6 3z"/><path d="M9 4v13"/><path d="M15 7v13"/></svg>Map</a></div>
 {% endwith %}
 {% endcache %}
 <div class="panes">
     <div class="pane">
         <form method="get" action="/search" class="search">
             <h2><label for="q">Search</label></h2>
-            <p><label for="q">Search for places, operators or routes</label></p>
+            <p><label for="q">Search by fleet number, reg plate, route, operator or place</label></p>
             <p>
                 <input id="q" name="q" type="search" required>
                 <input type="submit" value="Search">

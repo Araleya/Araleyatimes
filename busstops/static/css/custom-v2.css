@@ -2,6 +2,9 @@
 
 /* ===== BASE ===== */
 body.redesign-v2 {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     font-family: system-ui, -apple-system, sans-serif;
     background: #0c0c16 !important;
     color: #c8c4d8;
@@ -15,31 +18,24 @@ body.redesign-v2 {
     --header-text-color: #fff;
     color-scheme: dark;
 }
-
-/* ===== ACCENT STRIPE ===== */
-body.redesign-v2 .site-header::before {
-    content: '';
-    display: block;
-    height: 3px;
-    background: linear-gradient(90deg, #d4507a, #ff6b9d, #ff8db5);
-}
-
-/* ===== HEADER ===== */
+/* ===== HEADER — gradient pink bar ===== */
 body.redesign-v2 .site-header {
-    background: #12121e !important;
-    border-bottom: 1px solid #222238;
+    background: linear-gradient(135deg, #d4507a, #ff6b9d) !important;
+    border-bottom: none;
 }
-body.redesign-v2 .site-header a { color: #888 !important; text-decoration: none; }
+body.redesign-v2 .site-header::before { display: none; }
+body.redesign-v2 .site-header a { color: rgba(255,255,255,0.85) !important; text-decoration: none; }
 body.redesign-v2 .site-name {
     background: transparent !important;
     font-weight: 700 !important;
-    font-size: 18px !important;
+    font-size: 28px !important;
     color: #fff !important;
     letter-spacing: -0.3px;
 }
 body.redesign-v2 .site-name:hover {
-    background: transparent !important;
-    color: #ff6b9d !important;
+    background: rgba(255,255,255,0.1) !important;
+    border-radius: 4px;
+    color: #fff !important;
 }
 html body.redesign-v2 .site-header div .site-name {
     position: static !important;
@@ -48,20 +44,66 @@ html body.redesign-v2 .site-header div .site-name {
     width: auto !important;
 }
 
-/* Map button highlighted in header */
+/* Nav links in header */
 body.redesign-v2 .site-header ul a {
-    background: #ff6b9d !important;
-    color: #fff !important;
-    border-radius: 5px;
-    padding: 5px 12px !important;
-    font-size: 12px;
-    font-weight: 600;
+    color: rgba(255,255,255,0.85) !important;
+    background: rgba(255,255,255,0.15) !important;
+    font-size: 16px;
+    padding: 8px 14px !important;
+    border-radius: 4px;
     line-height: 1;
 }
 body.redesign-v2 .site-header ul a:hover {
-    background: #ff8db5 !important;
+    background: rgba(255,255,255,0.25) !important;
     text-decoration: none;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Search in header (inner pages) */
 body.redesign-v2:not(.homepage-v2) .site-header .search label {
@@ -70,13 +112,13 @@ body.redesign-v2:not(.homepage-v2) .site-header .search label {
 }
 body.redesign-v2:not(.homepage-v2) .site-header .search label input[type="search"] {
     background: transparent !important; border: none !important;
-    color: #aaa !important; font-size: 12px; padding: 6px 10px;
+    color: #aaa !important; font-size: 14px; padding: 8px 12px;
     border-radius: 6px; position: static; width: 100%;
 }
 body.redesign-v2:not(.homepage-v2) .site-header .search label input[type="search"]::placeholder { color: #555; }
 body.redesign-v2:not(.homepage-v2) .site-header .search input[type="submit"] {
-    background: #ff6b9d !important; border: none !important; color: #fff !important;
-    border-radius: 6px; padding: 6px 12px; font-size: 11px; margin: 0; top: 0;
+    background: linear-gradient(135deg, #d4507a, #ff6b9d) !important; border: none !important; color: #fff !important;
+    border-radius: 6px; padding: 8px 14px; font-size: 14px; margin: 0; top: 0;
     font-weight: 600;
 }
 
@@ -87,18 +129,30 @@ body.redesign-v2 a:active { background-color: transparent; color: #fff; }
 
 /* ===== BUTTONS ===== */
 body.redesign-v2 .button, body.redesign-v2 input[type="submit"] {
-    background: #ff6b9d !important;
-    border: none !important;
+    background: linear-gradient(135deg, #d4507a, #ff6b9d) !important;
+    border: 2px solid transparent !important;
+    border-radius: 8px;
     color: #fff !important;
-    border-radius: 6px; padding: 7px 14px; font-weight: 600; font-size: 13px;
+    padding: 6px 12px;
+    font-weight: 600;
+    font-size: 16px;
+    transition: border-color 0.2s, box-shadow 0.2s;
+    position: relative;
+    top: 0 !important;
+    margin-bottom: 0 !important;
 }
 body.redesign-v2 .button:hover, body.redesign-v2 input[type="submit"]:hover {
-    background: #ff8db5 !important;
-    top: 0 !important; margin-bottom: 0 !important;
+    border-color: #ff8db5 !important;
+    box-shadow: 0 0 14px rgba(255,107,157,0.45);
+    background: linear-gradient(135deg, #d4507a, #ff6b9d) !important;
+    transform: scale(1.03);
+    top: 0 !important;
+    margin-bottom: 0 !important;
 }
 body.redesign-v2 .button:focus, body.redesign-v2 .button:active,
 body.redesign-v2 input[type="submit"]:focus, body.redesign-v2 input[type="submit"]:active {
-    top: 0 !important; margin-bottom: 0 !important;
+    top: 0 !important;
+    margin-bottom: 0 !important;
 }
 
 /* ===== INPUTS ===== */
@@ -107,7 +161,7 @@ body.redesign-v2 input[type="url"], body.redesign-v2 input[type="email"],
 body.redesign-v2 input[type="password"], body.redesign-v2 input[type="number"],
 body.redesign-v2 textarea, body.redesign-v2 select {
     background: #1a1a2c !important; border: 1px solid #2a2a40 !important;
-    color: #ccc !important; border-radius: 6px;
+    color: #ccc !important; border-radius: 6px; padding: 6px 10px; font-size: 14px;
 }
 body.redesign-v2 input:focus, body.redesign-v2 textarea:focus, body.redesign-v2 select:focus {
     border-color: #ff6b9d !important;
@@ -123,7 +177,7 @@ body.redesign-v2.homepage-v2 .site-header ul { display: none !important; }
 
 /* Hero text */
 body.redesign-v2 #content > p:first-child {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 700;
     color: #fff;
     margin-bottom: 4px;
@@ -133,7 +187,7 @@ body.redesign-v2 #content > p:first-child {
 /* Stats strip */
 body.redesign-v2 .horizontal {
     display: flex !important;
-    gap: 0; margin: 0 0 14px; padding: 0;
+    gap: 0; margin: 0 0 6px; padding: 0;
     background: #1a1a2c;
     border: 1px solid #2a2a40;
     border-radius: 8px;
@@ -141,12 +195,12 @@ body.redesign-v2 .horizontal {
 }
 body.redesign-v2 .horizontal li {
     flex: 1;
-    padding: 8px 10px;
+    padding: 22px 12px;
     border-right: 1px solid #222236;
     text-align: center;
-    font-size: 16px; font-weight: 700; color: #ff6b9d;
+    font-size: 17px; font-weight: 700; color: #ff6b9d;
     display: flex !important; flex-direction: column;
-    line-height: 1.2;
+    line-height: 1.4;
 }
 body.redesign-v2 .horizontal li:last-child { border-right: none; }
 body.redesign-v2 .horizontal li:after { display: none !important; }
@@ -156,14 +210,14 @@ body.redesign-v2 .horizontal li a {
 }
 
 /* Search pane */
-body.redesign-v2 .panes { display: block !important; margin: 0 0 14px; }
+body.redesign-v2 .panes { display: block !important; margin: 0 0 6px; }
 body.redesign-v2 .panes .pane { margin-bottom: 10px; }
 body.redesign-v2 .panes .search h2 { display: none !important; }
 body.redesign-v2 .panes .search p label {
-    color: #888 !important; font-size: 12px !important;
+    color: #888 !important; font-size: 16px !important;
     cursor: default; pointer-events: none;
 }
-body.redesign-v2 .panes .search p { gap: 6px; }
+body.redesign-v2 .panes .search p { column-gap: 6px; row-gap: 8px; }
 body.redesign-v2 #q, body.redesign-v2 .panes input[type="search"] { color: #fff !important; }
 
 /* Map button */
@@ -174,36 +228,38 @@ body.redesign-v2 .panes .pane:last-child {
 }
 body.redesign-v2 .panes .pane:last-child h2 { display: none; }
 body.redesign-v2 .panes .pane:last-child .button {
-    background: #ff6b9d !important;
+    background: linear-gradient(135deg, #d4507a, #ff6b9d) !important;
     border: none !important;
     color: #fff !important;
-    padding: 8px 16px !important;
-    font-size: 13px !important;
+    padding: 7px 14px !important;
+    font-size: 16px !important;
     font-weight: 600 !important;
     border-radius: 6px;
     display: inline-block;
 }
+/* Hide map button on homepage — stats already link to map */
+body.redesign-v2.homepage-v2 .panes .pane:last-child { display: none !important; }
 
 /* Regions heading with accent bar */
 body.redesign-v2 h2 {
-    font-size: 12px;
-    color: #888;
+    font-size: 16px;
+    color: #fff;
     font-weight: 600;
     margin-bottom: 8px;
     display: flex;
     align-items: center;
-    gap: 6px;
+    column-gap: 6px; row-gap: 8px;
 }
 
 /* England region grid */
-body.redesign-v2 .regions { margin: 0; padding: 0; }
+body.redesign-v2 .regions { margin: 0; padding: 0; display: flex; flex-wrap: wrap; column-gap: 6px; row-gap: 8px; justify-content: center; }
 body.redesign-v2 .regions > li:first-child {
-    font-size: 12px; color: #888; font-weight: 600; margin-bottom: 8px; padding: 0;
+    font-size: 16px; color: #ff6b9d; font-weight: 600; margin-bottom: 8px; margin-top: 8px; padding: 0; width: 100%;
 }
 body.redesign-v2 .regions > li:first-child > ul {
     display: grid !important;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 4px;
+    column-gap: 6px; row-gap: 8px;
     background: transparent !important;
     border: none !important;
     border-radius: 0;
@@ -215,14 +271,14 @@ body.redesign-v2 .regions > li:first-child > ul li {
     border-bottom: none !important;
 }
 body.redesign-v2 .regions > li:first-child > ul li a {
-    display: block;
-    padding: 8px 10px;
+
+    padding: 6px 10px;
     background: #1a1a2c;
     border: 1px solid #2a2a40;
     border-radius: 6px;
     color: #c0bcd0 !important;
     text-decoration: none;
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 400;
     text-align: center;
 }
@@ -240,12 +296,12 @@ body.redesign-v2 .regions > li:not(:first-child) {
     border-left: 3px solid #ff6b9d;
     border-radius: 6px;
     margin-bottom: 4px;
-    font-size: 13px; font-weight: 400;
+    font-size: 16px; font-weight: 400;
     padding: 0;
 }
 body.redesign-v2 .regions > li:not(:first-child) > a {
-    display: block;
-    padding: 8px 12px;
+
+    padding: 10px 16px;
     color: #ddd !important;
     text-decoration: none;
 }
@@ -256,7 +312,7 @@ body.redesign-v2 .regions > li:not(:first-child) > a:hover {
 }
 
 /* ===== BREADCRUMBS ===== */
-body.redesign-v2 .breadcrumb { border: none; font-size: 11px; }
+body.redesign-v2 .breadcrumb { border: none; font-size: 16px; }
 body.redesign-v2 .breadcrumb a { color: #ff6b9d; padding: 6px 8px; }
 body.redesign-v2 .breadcrumb li:after { color: #555; }
 
@@ -277,7 +333,7 @@ body.redesign-v2 thead th {
     letter-spacing: 0.5px;
     border-bottom: 1px solid #1e1e30;
 }
-body.redesign-v2 tbody td { border-top: 1px solid #141422; font-size: 13px; }
+body.redesign-v2 tbody td { border-top: 1px solid #141422; font-size: 15px; }
 body.redesign-v2 tbody tr:hover { background: #161628; }
 
 /* ===== TABS ===== */
@@ -291,17 +347,17 @@ body.redesign-v2 .tabs > li { box-shadow: none; }
 body.redesign-v2 .tabs > li > a {
     color: #888;
     font-weight: 500;
-    font-size: 12px;
-    padding: 6px 12px;
+    font-size: 14px;
+    padding: 8px 14px;
     border-bottom: 2px solid transparent;
     margin-bottom: -2px;
 }
 body.redesign-v2 .tabs > li > a:hover { color: #ff6b9d; }
 body.redesign-v2 .tabs > li:last-child {
     color: #ff6b9d;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 500;
-    padding: 6px 12px;
+    padding: 8px 14px;
 }
 
 /* ===== VEHICLE DETAIL ===== */
@@ -318,7 +374,7 @@ body.redesign-v2 h1 .reg {
     color: #ff6b9d;
     font-family: monospace;
     letter-spacing: 1px;
-    font-size: 13px;
+    font-size: 15px;
 }
 body.redesign-v2 .contact-details {
     display: flex;
@@ -332,18 +388,19 @@ body.redesign-v2 .contact-details dt {
     letter-spacing: 0.5px;
 }
 body.redesign-v2 .contact-details dd {
-    font-size: 13px;
+    font-size: 15px;
     color: #ccc;
 }
 
 /* ===== FOOTER ===== */
 body.redesign-v2 footer {
+    margin-top: auto !important;
     background: #12121e !important;
     border-top: 1px solid #222238;
     margin-bottom: 0;
     padding: 12px 0;
 }
-body.redesign-v2 footer ul { border: none; font-size: 11px; }
+body.redesign-v2 footer ul { border: none; font-size: 12px; }
 body.redesign-v2 footer a { color: #888 !important; }
 body.redesign-v2 footer a:hover { color: #ff6b9d !important; }
 body.redesign-v2 footer li:after { color: #444 !important; }
@@ -355,7 +412,7 @@ body.redesign-v2 nav.pagination, body.redesign-v2 .pagination { background: tran
 body.redesign-v2 div#content > nav { background: transparent !important; }
 body.redesign-v2 .message { background: #1a1a2c; border: 1px solid #2a2a40; border-radius: 6px; }
 body.redesign-v2 #hugemap .map-link {
-    background: #ff6b9d !important; color: #fff !important; border-radius: 0 0 0 6px;
+    background: linear-gradient(135deg, #d4507a, #ff6b9d) !important; color: #fff !important; border-radius: 0 0 0 6px;
 }
 body.redesign-v2 .select2-selection { border-color: #2a2a40 !important; background: #1a1a2c !important; }
 body.redesign-v2 .select2-dropdown { background: #0c0c16 !important; border-color: #2a2a40 !important; }
@@ -363,3 +420,72 @@ body.redesign-v2 form:has(input[name="url"]) { display: none !important; }
 
 /* Hide fleet list disclaimer */
 body.redesign-v2 #content > p:has(strong), body.redesign-v2 #content > ul.bulleted { }
+
+/* Tighten content to header */
+body.redesign-v2 #content { padding-top: 8px !important; margin-top: 0 !important; }
+body.redesign-v2 main { padding-top: 0 !important; margin-top: 0 !important; }
+
+    background: linear-gradient(135deg, #d4507a, #ff6b9d);
+    padding: 8px 16px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+}
+
+
+/* ===== MAP BAR — hidden by default, option D on v2 ===== */
+
+
+.map-bar { display: none !important; }
+.stats-row { display: contents; }
+/* ===== OPTION D — Map button beside stats ===== */
+.map-bar { display: none !important; }
+.stats-row { display: contents; }
+
+body.redesign-v2 .stats-row {
+    display: flex !important;
+    gap: 6px;
+    align-items: stretch;
+    margin-bottom: 6px;
+}
+body.redesign-v2 .stats-row .horizontal {
+    flex: 1;
+    margin-bottom: 0;
+}
+body.redesign-v2 .stats-row .map-bar {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 6px;
+    width: 85px;
+    flex-shrink: 0;
+    background: linear-gradient(135deg, #d4507a, #ff6b9d) !important;
+    border-radius: 8px;
+    color: #fff !important;
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+    border: 2px solid transparent;
+    transition: border-color 0.2s, box-shadow 0.2s, transform 0.15s;
+}
+body.redesign-v2 .stats-row .map-bar:hover {
+    border-color: #ff8db5;
+    box-shadow: 0 0 14px rgba(255,107,157,0.45);
+    transform: scale(1.03);
+}
+
+/* Stats — white text, pink first, tracking not clickable */
+body.redesign-v2 .horizontal li { color: #fff;  align-items: center; justify-content: center; }
+body.redesign-v2 .horizontal li:first-child { color: #ff6b9d; }
+body.redesign-v2 .horizontal li:first-child a {
+    color: #ff6b9d !important;
+    pointer-events: none;
+    text-decoration: none;
+}
+
+/* Remove flex on #content that was breaking layout */
+body.redesign-v2 #content {
+    display: block;
+}
