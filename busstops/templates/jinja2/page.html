@@ -47,14 +47,13 @@
         </ul>
         <form method="GET" action="/search" class="search">
             <label>
-                Search
+                <span class="search-label-text">Search</span>
                 <input name="q" placeholder="Search" type="search" value="" required>
             </label>
             <input type="submit" value="Search">
         </form>
     </div>
 </header>
-{% endblock header %}
 <main>
     {% block breadcrumb %}{% include 'breadcrumb.html' %}{% endblock %}
     <div id="content">
@@ -83,7 +82,7 @@
     <ul>
         <li><a href="/contact">Contact</a></li>
         <li><a href="/data">Data sources</a></li>
-        <li><a href="https://status.bustimes.org">Status</a></li>
+        <li><a href="https://status.araleyatimes.net">Status</a></li>
         <li><a href="/privacy">Privacy policy</a></li>
     </ul>
 </footer>
