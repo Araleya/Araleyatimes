@@ -2,7 +2,7 @@
 {% block canonical %}
     <link rel="canonical" href="https://araleyatimes.net">
 {% endblock canonical %}
-{% block bodyclass %}narrow redesign-v2 homepage-v2{% endblock %}
+{% block bodyclass %}{% if request.GET.old is None %} narrow redesign-v2 homepage-v2{% endif %}{% endblock %}
 {% block breadcrumb %}{% endblock %}
 {% block content %}
 <p>Bus fleet tracking, timetables and more</p>
