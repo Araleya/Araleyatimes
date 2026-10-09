@@ -102,5 +102,25 @@
 
 {% block foot %}{% endblock %}
 
+<script>
+if (window.matchMedia("(max-width: 600px)").matches && document.body.classList.contains("redesign-v2") && !document.body.classList.contains("homepage-v2")) {
+    var searchForm = document.querySelector(".site-header .search");
+    var searchBtn = searchForm.querySelector("input[type=submit]");
+    var searchInput = searchForm.querySelector("input[type=search]");
+    searchBtn.addEventListener("click", function(e) {
+        if (!searchForm.classList.contains("search-open")) {
+            e.preventDefault();
+            searchForm.classList.add("search-open");
+            searchInput.focus();
+        } else if (!searchInput.value.trim()) {
+            e.preventDefault();
+            searchForm.classList.remove("search-open");
+        }
+    });
+    searchInput.addEventListener("blur", function() {
+        setTimeout(function() { searchForm.classList.remove("search-open"); }, 200);
+    });
+}
+</script>
 </body>
 </html>

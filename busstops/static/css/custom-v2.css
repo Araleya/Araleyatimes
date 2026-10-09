@@ -777,3 +777,116 @@ body.redesign-v2:not(.homepage-v2) .site-header .search label + input[type="subm
 body.redesign-v2:not(.homepage-v2) .site-header ul a {
     padding: 10px 14px !important;
 }
+
+/* Mobile inner page header — keep title left */
+@media (max-width: 600px) {
+    body.redesign-v2:not(.homepage-v2) .site-header div {
+        display: flex !important;
+        flex-wrap: wrap !important;
+        align-items: center !important;
+    }
+    body.redesign-v2:not(.homepage-v2) .site-name {
+        flex: 1 !important;
+        float: none !important;
+    }
+}
+
+/* Mobile search — icon only, expand on tap */
+@media (max-width: 600px) {
+    body.redesign-v2:not(.homepage-v2) .site-header .search {
+        position: static !important;
+        display: flex !important;
+        align-items: center !important;
+    }
+    body.redesign-v2:not(.homepage-v2) .site-header .search label {
+        display: none !important;
+    }
+    body.redesign-v2:not(.homepage-v2) .site-header .search input[type="submit"] {
+        display: block !important;
+        padding: 8px 14px !important;
+    }
+}
+
+@media (max-width: 600px) {
+    body.redesign-v2:not(.homepage-v2) .site-header ul {
+        position: static !important;
+        float: none !important;
+        order: 3 !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    body.redesign-v2:not(.homepage-v2) .site-header div {
+        flex-wrap: nowrap !important;
+    }
+    body.redesign-v2:not(.homepage-v2) .site-header .search {
+        order: 2 !important;
+    }
+}
+
+@media (max-width: 600px) {
+    /* Match button sizes on mobile */
+    body.redesign-v2:not(.homepage-v2) .site-header ul a {
+        padding: 8px 12px !important;
+        font-size: 14px !important;
+    }
+    body.redesign-v2:not(.homepage-v2) .site-header .search input[type="submit"] {
+        padding: 8px 12px !important;
+        font-size: 14px !important;
+    }
+    /* Push title to left */
+    body.redesign-v2:not(.homepage-v2) .site-name {
+        margin-right: auto !important;
+    }
+}
+
+@media (max-width: 600px) {
+    body.redesign-v2:not(.homepage-v2) .site-header div {
+        gap: 8px !important;
+        justify-content: flex-start !important;
+    }
+    body.redesign-v2:not(.homepage-v2) .site-header .site-name {
+        flex: 1 !important;
+        text-align: left !important;
+    }
+}
+
+@media (max-width: 600px) {
+    body.redesign-v2:not(.homepage-v2) .site-header .site-name {
+        padding-left: 10px !important;
+        margin-left: 0 !important;
+    }
+    body.redesign-v2:not(.homepage-v2) .site-header div {
+        padding-left: 10px !important;
+    }
+    body.redesign-v2:not(.homepage-v2) .site-header .search input[type="submit"] {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+}
+
+/* Mobile: make submit button act as toggle when input is hidden */
+@media (max-width: 600px) {
+    body.redesign-v2:not(.homepage-v2) .site-header .search.search-open label {
+        display: flex !important;
+        position: absolute !important;
+        top: 0 !important;
+        left: 0 !important;
+        right: 0 !important;
+        bottom: 0 !important;
+        z-index: 10 !important;
+        background: linear-gradient(135deg, #d4507a, #ff6b9d) !important;
+        align-items: center !important;
+        padding: 0 16px !important;
+    }
+    body.redesign-v2:not(.homepage-v2) .site-header .search.search-open label input {
+        width: 100% !important;
+        background: #1a1a2c !important;
+        border-radius: 6px !important;
+        padding: 10px 12px !important;
+        font-size: 16px !important;
+    }
+    body.redesign-v2:not(.homepage-v2) .site-header .search.search-open input[type="submit"] {
+        display: none !important;
+    }
+}
