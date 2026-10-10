@@ -1125,26 +1125,30 @@ body.redesign-v2.wide:not(.operator-page) .site-header div {
 }
 
 /* Operator page — wider layout */
-body.operator-page .site-header div {
-    width: auto !important;
-    max-width: none !important;
-    display: flex !important;
-    align-items: center !important;
-    padding: 0 32px !important;
-    box-sizing: border-box !important;
+@media (min-width: 62.5em) {
+    body.operator-page .site-header div {
+        width: auto !important;
+        max-width: none !important;
+        display: flex !important;
+        align-items: center !important;
+        padding: 0 32px !important;
+        box-sizing: border-box !important;
+    }
+    body.operator-page main {
+        max-width: none !important;
+        padding: 0 32px !important;
+    }
 }
-body.operator-page main {
-    max-width: none !important;
-    padding: 0 32px !important;
-}
 
 
 
-/* All wide v2 pages — header matches content */
-body.redesign-v2.wide:not(.operator-page) .site-header div {
-    display: flex !important;
-    align-items: center !important;
-    width: auto !important;
-    max-width: 58.6em !important;
-    padding: 0 2em !important;
+/* All wide v2 pages — header matches content (desktop only) */
+@media (min-width: 62.5em) {
+    body.redesign-v2.wide:not(.operator-page) .site-header div {
+        display: flex !important;
+        align-items: center !important;
+        width: auto !important;
+        max-width: 58.6em !important;
+        padding: 0 2em !important;
+    }
 }
