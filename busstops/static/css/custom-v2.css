@@ -41,7 +41,7 @@ html body.redesign-v2 .site-header div .site-name {
     position: static !important;
     display: inline-block !important;
     float: left !important;
-    width: auto !important;
+    max-width: 100% !important;
 }
 
 /* Nav links in header */
@@ -468,7 +468,7 @@ body.redesign-v2 form:has(input[name="url"]) { display: none !important; }
 body.redesign-v2 #content > p:has(strong), body.redesign-v2 #content > ul.bulleted { }
 
 /* Tighten content to header */
-body.redesign-v2 #content { padding-top: 8px !important; margin-top: 0 !important; }
+body.redesign-v2 .services { padding-top: 8px !important; margin-top: 0 !important; }
 body.redesign-v2 main { padding-top: 0 !important; margin-top: 0 !important; }
 
     background: linear-gradient(135deg, #d4507a, #ff6b9d);
@@ -532,7 +532,7 @@ body.redesign-v2 .horizontal li:first-child a {
 }
 
 /* Remove flex on #content that was breaking layout */
-body.redesign-v2 #content {
+body.redesign-v2 .services {
     display: block;
 }
 
@@ -569,7 +569,7 @@ body.redesign-v2 #content {
 
 /* Fix mobile overflow */
 @media (max-width: 600px) {
-    body.redesign-v2 #content {
+    body.redesign-v2 .services {
         overflow-x: hidden !important;
         max-width: 100vw;
         box-sizing: border-box;
@@ -619,7 +619,7 @@ body.redesign-v2:not(.homepage-v2) .site-header .search {
 }
 body.redesign-v2:not(.homepage-v2) .site-header .search label {
     float: none !important;
-    width: auto !important;
+    max-width: 100% !important;
     padding: 0 !important;
     position: static !important;
     display: flex !important;
@@ -1071,11 +1071,55 @@ body.redesign-v2.wide main {
 }
 body.redesign-v2.wide .site-header div {
     max-width: none !important;
-    width: auto !important;
+    max-width: 100% !important;
 }
 
 @media (max-width: 600px) {
     body.redesign-v2 .services {
         grid-template-columns: 1fr !important;
+    }
+}
+
+@media (max-width: 600px) {
+    body.redesign-v2 .services {
+        margin: 0 !important;
+    }
+}
+
+@media (max-width: 600px) {
+    body.redesign-v2 .services {
+        margin: 0 !important;
+    }
+}
+
+@media (max-width: 600px) {
+    body.redesign-v2 .services {
+        max-width: 100% !important;
+        box-sizing: border-box !important;
+        overflow: hidden !important;
+    }
+    }
+}
+
+@media (max-width: 600px) {
+    }
+}
+
+@media (max-width: 600px) {
+    body.redesign-v2 .services {
+        max-width: 100% !important;
+        margin-left: 16px !important;
+        margin-right: 16px !important;
+        overflow: hidden !important;
+    }
+}
+
+@media (max-width: 600px) {
+    body.redesign-v2 .services {
+        grid-template-columns: 1fr !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        max-width: calc(100vw - 32px) !important;
+        box-sizing: border-box !important;
     }
 }
