@@ -28,7 +28,7 @@ body.redesign-v2 .site-header a { color: rgba(255,255,255,0.85) !important; text
 body.redesign-v2 .site-name {
     background: transparent !important;
     font-weight: 700 !important;
-    font-size: 28px !important;
+    font-size: 24px !important;
     color: #fff !important;
     letter-spacing: -0.3px;
 }
@@ -945,5 +945,137 @@ body.redesign-v2:not(.homepage-v2) .long li a:hover {
     body.redesign-v2:not(.homepage-v2) .long {
         grid-template-columns: 1fr !important;
         overflow: hidden !important;
+    }
+}
+
+/* Route cards grid on operator pages */
+body.redesign-v2 .services {
+    column-count: unset !important;
+    column-width: unset !important;
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 8px !important;
+}
+body.redesign-v2 .services li {
+    break-inside: unset !important;
+}
+body.redesign-v2 .services a {
+    display: flex !important;
+    align-items: center !important;
+    gap: 10px !important;
+    background: #1a1a2c !important;
+    border: 1px solid #2a2a40 !important;
+    border-radius: 8px !important;
+    padding: 12px !important;
+    text-decoration: none !important;
+    transition: border-color 0.2s;
+}
+body.redesign-v2 .services a:hover {
+    border-color: #ff6b9d !important;
+    text-decoration: none !important;
+    background: #1a1a2c !important;
+}
+body.redesign-v2 .services .description {
+    color: #c8c4d8 !important;
+    font-size: 13px !important;
+    line-height: 1.3 !important;
+}
+body.redesign-v2 .services .names {
+    flex-shrink: 0 !important;
+}
+
+/* Route description pink, bolder numbers */
+body.redesign-v2 .services .description {
+    color: #ff6b9d !important;
+}
+body.redesign-v2 .services .name {
+    font-weight: 700 !important;
+    font-size: 18px !important;
+}
+body.redesign-v2 .services .name.is-short {
+    font-size: 24px !important;
+    font-weight: 700 !important;
+}
+
+/* Stretch cards to fill row height */
+body.redesign-v2 .services li {
+    display: flex !important;
+}
+body.redesign-v2 .services a {
+    flex: 1 !important;
+}
+
+/* Hide ad space on v2 */
+body.redesign-v2 .ad-wrapper {
+    display: none !important;
+    min-height: 0 !important;
+}
+
+body.redesign-v2 .services .name {
+    border: none !important;
+}
+
+
+/* Tabs as buttons */
+body.redesign-v2 .tabs {
+    border-bottom: none !important;
+    gap: 8px !important;
+}
+body.redesign-v2 .tabs > li {
+    box-shadow: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+body.redesign-v2 .tabs > li:first-child {
+    background: #1a1a2c !important;
+    border: 1px solid #2a2a40 !important;
+    border-radius: 8px !important;
+    padding: 8px 16px !important;
+    color: #fff !important;
+}
+body.redesign-v2 .tabs > li > a {
+    background: #1a1a2c !important;
+    border: 1px solid #2a2a40 !important;
+    border-radius: 8px !important;
+    padding: 8px 16px !important;
+    color: #ff6b9d !important;
+    box-shadow: none !important;
+    margin: 0 !important;
+    transition: border-color 0.2s, background 0.2s;
+}
+body.redesign-v2 .tabs > li > a:hover {
+    border-color: #ff6b9d !important;
+    background: #1f1f35 !important;
+    text-decoration: none !important;
+}
+
+/* Tabs alignment and hover fixes */
+body.redesign-v2 .tabs {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 0 !important;
+}
+body.redesign-v2 .tabs > li > a {
+    text-decoration: none !important;
+}
+body.redesign-v2 .services a:hover .description {
+    text-decoration: none !important;
+}
+body.redesign-v2 .services a:hover span {
+    text-decoration: none !important;
+}
+
+/* Wider v2 layout */
+body.redesign-v2.wide main {
+    max-width: none !important;
+}
+body.redesign-v2.wide .site-header div {
+    max-width: none !important;
+    width: auto !important;
+}
+
+@media (max-width: 600px) {
+    body.redesign-v2 .services {
+        grid-template-columns: 1fr !important;
     }
 }
