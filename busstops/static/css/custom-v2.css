@@ -1069,7 +1069,7 @@ body.redesign-v2 .services a:hover span {
 body.redesign-v2.wide main {
     max-width: none !important;
 }
-body.redesign-v2.wide .site-header div {
+body.redesign-v2.wide:not(.operator-page) .site-header div {
     max-width: none !important;
     max-width: 100% !important;
 }
@@ -1136,4 +1136,15 @@ body.operator-page .site-header div {
 body.operator-page main {
     max-width: none !important;
     padding: 0 32px !important;
+}
+
+
+
+/* All wide v2 pages — header matches content */
+body.redesign-v2.wide:not(.operator-page) .site-header div {
+    display: flex !important;
+    align-items: center !important;
+    width: auto !important;
+    max-width: 58.6em !important;
+    padding: 0 2em !important;
 }
