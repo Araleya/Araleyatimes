@@ -1152,3 +1152,34 @@ body.redesign-v2.wide:not(.operator-page) .site-header div {
         padding: 0 2em !important;
     }
 }
+
+/* Admin links as pill buttons */
+body.redesign-v2 .horizontal li a {
+    background: #1a1a2c !important;
+    border: 1px solid #2a2a40 !important;
+    border-radius: 8px !important;
+    padding: 8px 16px !important;
+    color: #ff6b9d !important;
+    text-decoration: none !important;
+    transition: border-color 0.2s, background 0.2s;
+}
+body.redesign-v2 .horizontal li a:hover {
+    border-color: #ff6b9d !important;
+    background: #1f1f35 !important;
+    text-decoration: none !important;
+}
+
+body.redesign-v2 .horizontal {
+    background: transparent !important;
+    border: none !important;
+    display: flex !important;
+    gap: 8px !important;
+    justify-content: center !important;
+}
+
+body.redesign-v2 .horizontal li:after {
+    display: none !important;
+}
+body.redesign-v2 .horizontal li {
+    margin: 0 !important;
+}
