@@ -1123,3 +1123,17 @@ body.redesign-v2.wide .site-header div {
         box-sizing: border-box !important;
     }
 }
+
+/* Operator page — wider layout */
+body.operator-page .site-header div {
+    width: auto !important;
+    max-width: none !important;
+    display: flex !important;
+    align-items: center !important;
+    padding: 0 32px !important;
+    box-sizing: border-box !important;
+}
+body.operator-page main {
+    max-width: none !important;
+    padding: 0 32px !important;
+}
