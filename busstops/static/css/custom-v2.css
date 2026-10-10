@@ -890,3 +890,60 @@ body.redesign-v2:not(.homepage-v2) .site-header ul a {
         display: none !important;
     }
 }
+
+
+/* Breadcrumb box */
+body.redesign-v2 .breadcrumb {
+    background: #1a1a2c !important;
+    border: 1px solid #2a2a40 !important;
+    border-radius: 8px !important;
+    padding: 6px 14px !important;
+    margin: 16px 0 !important;
+    display: inline-block !important;
+}
+body.redesign-v2 .breadcrumb a {
+    padding: 4px 6px !important;
+}
+body.redesign-v2 .breadcrumb li:after {
+    color: #666 !important;
+}
+
+
+
+
+/* Grid box for list links */
+/* Region detail page — pill grid matching homepage style */
+body.redesign-v2:not(.homepage-v2) .long {
+    column-count: unset !important;
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 8px !important;
+}
+body.redesign-v2:not(.homepage-v2) .long li {
+    break-inside: unset !important;
+}
+body.redesign-v2:not(.homepage-v2) .long li a {
+    display: block !important;
+    text-align: center !important;
+    background: #1a1a2c !important;
+    border: 1px solid #2a2a40 !important;
+    border-radius: 8px !important;
+    padding: 10px 16px !important;
+    margin: 0 !important;
+    color: #ff6b9d !important;
+    text-decoration: none !important;
+    transition: border-color 0.2s, background 0.2s;
+}
+body.redesign-v2:not(.homepage-v2) .long li a:hover {
+    border-color: #ff6b9d !important;
+    background: #1f1f35 !important;
+    text-decoration: none !important;
+}
+
+/* Mobile grid — 2 columns, no overflow */
+@media (max-width: 600px) {
+    body.redesign-v2:not(.homepage-v2) .long {
+        grid-template-columns: 1fr !important;
+        overflow: hidden !important;
+    }
+}
