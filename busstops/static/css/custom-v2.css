@@ -916,7 +916,7 @@ body.redesign-v2 .breadcrumb li:after {
 body.redesign-v2:not(.homepage-v2) .long {
     column-count: unset !important;
     display: grid !important;
-    grid-template-columns: repeat(3, 1fr) !important;
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
     gap: 8px !important;
 }
 body.redesign-v2:not(.homepage-v2) .long li {
@@ -953,7 +953,7 @@ body.redesign-v2 .services {
     column-count: unset !important;
     column-width: unset !important;
     display: grid !important;
-    grid-template-columns: repeat(3, 1fr) !important;
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
     gap: 8px !important;
 }
 body.redesign-v2 .services li {
@@ -1258,4 +1258,30 @@ body.operator-page .horizontal li:first-child a {
         max-width: 56.6em !important;
         padding: 0 2em !important;
     }
+}
+
+
+body.redesign-v2 #content {
+    overflow: hidden !important;
+}
+
+body.redesign-v2:not(.homepage-v2) .long {
+    max-width: 100% !important;
+    overflow: hidden !important;
+}
+
+body.redesign-v2:not(.homepage-v2) .long li > a {
+    white-space: normal !important;
+    overflow: visible !important;
+    text-overflow: unset !important;
+}
+
+body.redesign-v2:not(.homepage-v2) .long li {
+    display: flex !important;
+}
+body.redesign-v2:not(.homepage-v2) .long li a {
+    flex: 1 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
 }
