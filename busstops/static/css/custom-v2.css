@@ -1230,3 +1230,15 @@ body.operator-page .horizontal li:first-child a {
     pointer-events: auto !important;
     cursor: pointer !important;
 }
+
+@media (max-width: 600px) {
+    body.operator-page .contact-details {
+        display: block !important;
+        max-width: calc(100vw - 32px) !important;
+        box-sizing: border-box !important;
+    }
+    body.operator-page .horizontal {
+        flex-wrap: wrap !important;
+        max-width: calc(100vw - 32px) !important;
+    }
+}
