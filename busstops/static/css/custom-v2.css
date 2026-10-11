@@ -944,7 +944,27 @@ body.redesign-v2:not(.homepage-v2) .long li a:hover {
 @media (max-width: 600px) {
     body.redesign-v2:not(.homepage-v2) .long {
         grid-template-columns: 1fr !important;
+        width: calc(100vw - 32px) !important;
         overflow: hidden !important;
+    }
+}
+
+/* Mobile region pills — consistent full-width within main */
+@media (max-width: 600px) {
+    body.redesign-v2:not(.homepage-v2) main {
+        padding: 0 16px !important;
+        box-sizing: border-box !important;
+        overflow: hidden !important;
+    }
+    body.redesign-v2:not(.homepage-v2) .long {
+        max-width: 100% !important;
+        box-sizing: border-box !important;
+    }
+    body.redesign-v2:not(.homepage-v2) .long li a {
+        box-sizing: border-box !important;
+        white-space: normal !important;
+        overflow-wrap: break-word !important;
+        text-overflow: unset !important;
     }
 }
 
@@ -1077,6 +1097,8 @@ body.redesign-v2.wide:not(.operator-page) .site-header div {
 @media (max-width: 600px) {
     body.redesign-v2 .services {
         grid-template-columns: 1fr !important;
+        width: calc(100vw - 32px) !important;
+        width: calc(100vw - 32px) !important;
     }
 }
 
@@ -1089,19 +1111,6 @@ body.redesign-v2.wide:not(.operator-page) .site-header div {
 @media (max-width: 600px) {
     body.redesign-v2 .services {
         margin: 0 !important;
-    }
-}
-
-@media (max-width: 600px) {
-    body.redesign-v2 .services {
-        max-width: 100% !important;
-        box-sizing: border-box !important;
-        overflow: hidden !important;
-    }
-    }
-}
-
-@media (max-width: 600px) {
     }
 }
 
@@ -1117,6 +1126,8 @@ body.redesign-v2.wide:not(.operator-page) .site-header div {
 @media (max-width: 600px) {
     body.redesign-v2 .services {
         grid-template-columns: 1fr !important;
+        width: calc(100vw - 32px) !important;
+        width: calc(100vw - 32px) !important;
         margin: 0 !important;
         padding: 0 !important;
         max-width: calc(100vw - 32px) !important;
@@ -1265,23 +1276,6 @@ body.redesign-v2 #content {
     overflow: hidden !important;
 }
 
-body.redesign-v2:not(.homepage-v2) .long {
-    max-width: 100% !important;
-    overflow: hidden !important;
-}
-
-body.redesign-v2:not(.homepage-v2) .long li > a {
-    white-space: normal !important;
-    overflow: visible !important;
-    text-overflow: unset !important;
-}
-
-body.redesign-v2:not(.homepage-v2) .long li {
-    display: flex !important;
-}
-body.redesign-v2:not(.homepage-v2) .long li a {
-    flex: 1 !important;
-    display: flex !important;
-    align-items: center !important;
-    justify-content: center !important;
+body.operator-page main {
+    margin: 0 !important;
 }
