@@ -1066,7 +1066,7 @@ body.redesign-v2 .services a:hover span {
 }
 
 /* Wider v2 layout */
-body.redesign-v2.wide main {
+body.operator-page main {
     max-width: none !important;
 }
 body.redesign-v2.wide:not(.operator-page) .site-header div {
@@ -1240,5 +1240,13 @@ body.operator-page .horizontal li:first-child a {
     body.operator-page .horizontal {
         flex-wrap: wrap !important;
         max-width: calc(100vw - 32px) !important;
+    }
+}
+
+
+/* Align header site-name at mid widths */
+@media (max-width: 62.49em) {
+    body.redesign-v2:not(.homepage-v2) .site-header .site-name {
+        padding-left: 0 !important;
     }
 }
