@@ -977,7 +977,7 @@ body.redesign-v2 .services a:hover {
 }
 body.redesign-v2 .services .description {
     color: #c8c4d8 !important;
-    font-size: 13px !important;
+    font-size: 15px !important;
     line-height: 1.3 !important;
 }
 body.redesign-v2 .services .names {
@@ -1174,7 +1174,7 @@ body.operator-page .horizontal {
     border: none !important;
     display: flex !important;
     gap: 8px !important;
-    justify-content: center !important;
+    justify-content: flex-start !important;
 }
 
 body.operator-page .horizontal li:after {
@@ -1182,4 +1182,51 @@ body.operator-page .horizontal li:after {
 }
 body.operator-page .horizontal li {
     margin: 0 !important;
+}
+
+/* Operator contact details box */
+body.redesign-v2 .contact-details {
+    background: #1a1a2c !important;
+    border: 1px solid #2a2a40 !important;
+    border-radius: 8px !important;
+    padding: 16px 20px;
+    display: inline-flex !important;
+}
+
+body.redesign-v2 .contact-details dt {
+    font-size: 11px !important;
+    color: #888 !important;
+}
+body.redesign-v2 .contact-details dd {
+    font-size: 15px !important;
+    color: #fff !important;
+}
+body.redesign-v2 .contact-details dd a {
+    color: #ff6b9d !important;
+}
+
+/* Operator page admin links — left aligned, close together */
+
+body.operator-page .horizontal li {
+    flex: none !important;
+}
+
+body.operator-page .horizontal li {
+    border-right: none !important;
+    padding: 0 !important;
+}
+body.operator-page .horizontal {
+    gap: 6px !important;
+}
+
+body.operator-page .contact-details {
+    margin: 16px 0 !important;
+}
+body.operator-page .horizontal {
+    margin: 16px 0 !important;
+}
+
+body.operator-page .horizontal li:first-child a {
+    pointer-events: auto !important;
+    cursor: pointer !important;
 }
