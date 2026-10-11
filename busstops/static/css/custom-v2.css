@@ -1250,3 +1250,12 @@ body.operator-page .horizontal li:first-child a {
         padding-left: 0 !important;
     }
 }
+
+
+/* Force same main width on all region pages */
+@media (min-width: 62.5em) {
+    body.redesign-v2.wide:not(.operator-page) main {
+        max-width: 56.6em !important;
+        padding: 0 2em !important;
+    }
+}
