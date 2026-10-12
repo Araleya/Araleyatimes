@@ -62,7 +62,6 @@ body.redesign-v2 .site-header ul a:hover {
     transform: scale(1.03);
     text-decoration: none;
 }
-}
 
 
 
@@ -139,17 +138,6 @@ body.redesign-v2:not(.homepage-v2) .site-header .search label input[type="search
 }
 body.redesign-v2:not(.homepage-v2) .site-header .search label input[type="search"]::placeholder {
     color: rgba(255,255,255,0.5) !important;
-}
-    border: none !important;
-    color: rgba(255,255,255,0.9) !important;
-    font-size: 14px;
-    padding: 8px 12px;
-    border-radius: 6px;
-    position: static;
-    width: 180px;
-}
-body.redesign-v2:not(.homepage-v2) .site-header .search label input[type="search"]::placeholder {
-    color: rgba(255,255,255,0.5);
 }
 body.redesign-v2:not(.homepage-v2) .site-header .search input[type="submit"] {
     background: linear-gradient(135deg, #d4507a, #ff6b9d) !important;
@@ -471,13 +459,6 @@ body.redesign-v2 #content > p:has(strong), body.redesign-v2 #content > ul.bullet
 body.redesign-v2 .services { padding-top: 8px !important; margin-top: 0 !important; }
 body.redesign-v2 main { padding-top: 0 !important; margin-top: 0 !important; }
 
-    background: linear-gradient(135deg, #d4507a, #ff6b9d);
-    padding: 8px 16px;
-    text-align: center;
-    font-size: 15px;
-    font-weight: 600;
-    color: #fff;
-}
 
 
 /* ===== MAP BAR — hidden by default, option D on v2 ===== */
@@ -921,9 +902,20 @@ body.redesign-v2:not(.homepage-v2) .long {
 }
 body.redesign-v2:not(.homepage-v2) .long li {
     break-inside: unset !important;
+    display: flex !important;
+}
+/* Fix long operator names clipping in region pills (all modes) */
+.long li a {
+    white-space: normal !important;
+    overflow-wrap: break-word !important;
+    text-overflow: unset !important;
 }
 body.redesign-v2:not(.homepage-v2) .long li a {
-    display: block !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
     text-align: center !important;
     background: #1a1a2c !important;
     border: 1px solid #2a2a40 !important;
@@ -932,6 +924,9 @@ body.redesign-v2:not(.homepage-v2) .long li a {
     margin: 0 !important;
     color: #ff6b9d !important;
     text-decoration: none !important;
+    white-space: normal !important;
+    overflow-wrap: break-word !important;
+    text-overflow: unset !important;
     transition: border-color 0.2s, background 0.2s;
 }
 body.redesign-v2:not(.homepage-v2) .long li a:hover {
@@ -947,8 +942,8 @@ body.redesign-v2:not(.homepage-v2) .long li a:hover {
         width: calc(100vw - 32px) !important;
         overflow: hidden !important;
     }
-}
 
+}
 /* Mobile region pills — consistent full-width within main */
 @media (max-width: 600px) {
     body.redesign-v2:not(.homepage-v2) main {
@@ -978,6 +973,7 @@ body.redesign-v2 .services {
 }
 body.redesign-v2 .services li {
     break-inside: unset !important;
+    display: flex !important;
 }
 body.redesign-v2 .services a {
     display: flex !important;
@@ -1040,13 +1036,19 @@ body.redesign-v2 .services .name {
 body.redesign-v2 .tabs {
     border-bottom: none !important;
     gap: 8px !important;
+    align-items: stretch !important;
 }
 body.redesign-v2 .tabs > li {
+    display: inline-flex !important;
+    align-items: center !important;
     box-shadow: none !important;
     padding: 0 !important;
     margin: 0 !important;
 }
 body.redesign-v2 .tabs > li:first-child {
+    box-sizing: border-box !important;
+    display: inline-flex !important;
+    align-items: center !important;
     background: #1a1a2c !important;
     border: 1px solid #2a2a40 !important;
     border-radius: 8px !important;
@@ -1054,6 +1056,10 @@ body.redesign-v2 .tabs > li:first-child {
     color: #fff !important;
 }
 body.redesign-v2 .tabs > li > a {
+    display: flex !important;
+    align-items: center !important;
+    height: 100% !important;
+    box-sizing: border-box !important;
     background: #1a1a2c !important;
     border: 1px solid #2a2a40 !important;
     border-radius: 8px !important;
@@ -1278,4 +1284,211 @@ body.redesign-v2 #content {
 
 body.operator-page main {
     margin: 0 !important;
+}
+
+/* ===== VEHICLE LIST PAGE — IDEA D: REFINED DENSE TABLE ===== */
+
+body.vehicle-list-page .table-wrapper {
+    overflow-x: auto;
+    margin: 12px 0;
+    border-radius: 10px;
+    border: 1px solid #2a2a40;
+    background: #12122a;
+}
+
+body.vehicle-list-page table.fleet {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+}
+
+body.vehicle-list-page table.fleet thead th {
+    background: #16162e;
+    color: #8a86a0;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    font-weight: 600;
+    padding: 8px 10px;
+    text-align: left;
+    border-bottom: 1px solid #2a2a40;
+    white-space: nowrap;
+}
+
+body.vehicle-list-page table.fleet tbody tr {
+    border-bottom: 1px solid #1e1e35;
+    border-left: 3px solid transparent;
+    transition: background 0.12s;
+}
+
+body.vehicle-list-page table.fleet tbody tr:hover {
+    background: rgba(255, 107, 157, 0.04);
+    border-left-color: #ff6b9d;
+}
+
+body.vehicle-list-page table.fleet td {
+    padding: 6px 10px;
+    vertical-align: middle;
+    color: #c8c4d8;
+}
+
+body.vehicle-list-page table.fleet td.tabular {
+    font-weight: 700;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+body.vehicle-list-page table.fleet td.tabular a {
+    color: #ff6b9d;
+    text-decoration: none;
+}
+
+body.vehicle-list-page table.fleet td.tabular a:hover {
+    text-decoration: underline;
+}
+
+body.vehicle-list-page table.fleet td a.reg {
+    color: #c8c4d8;
+    text-decoration: none;
+    background: rgba(255, 255, 255, 0.04);
+    padding: 2px 6px;
+    border-radius: 3px;
+    border: 1px solid #1e1e35;
+    font-variant-numeric: tabular-nums;
+    letter-spacing: 0.3px;
+    font-size: 12px;
+}
+
+body.vehicle-list-page table.fleet td a.reg:hover {
+    border-color: #ff6b9d;
+}
+
+body.vehicle-list-page table.fleet td.last-seen {
+    font-variant-numeric: tabular-nums;
+    color: #8a86a0;
+    font-size: 12px;
+    white-space: nowrap;
+}
+
+body.vehicle-list-page table.fleet td.last-seen a {
+    color: #ff6b9d;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+body.vehicle-list-page table.fleet td.livery-cell {
+    white-space: nowrap;
+    font-size: 12px;
+    color: #8a86a0;
+}
+
+body.vehicle-list-page table.fleet td.livery-cell .livery {
+    display: inline-block;
+    width: 24px;
+    height: 13px;
+    border-radius: 3px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    vertical-align: middle;
+    margin-right: 6px;
+}
+
+body.vehicle-list-page table.fleet td.trivia {
+    font-size: 12px;
+    color: #8a86a0;
+    white-space: nowrap;
+}
+
+body.vehicle-list-page table.fleet td a[href*="/edit"] {
+    color: #8a86a0;
+    text-decoration: none;
+    font-size: 11px;
+}
+
+body.vehicle-list-page table.fleet td a[href*="/edit"]:hover {
+    color: #ff6b9d;
+}
+
+body.vehicle-list-page ul.tabs {
+    display: flex;
+    gap: 0;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border-bottom: 1px solid #2a2a40;
+}
+
+body.vehicle-list-page ul.tabs li {
+    padding: 10px 16px;
+    font-size: 14px;
+    color: #8a86a0;
+    border-bottom: 2px solid transparent;
+    margin-bottom: -1px;
+}
+
+body.vehicle-list-page ul.tabs li:last-child {
+    color: #ff6b9d;
+    border-bottom-color: #ff6b9d;
+    font-weight: 600;
+}
+
+body.vehicle-list-page ul.tabs li a {
+    color: #8a86a0;
+    text-decoration: none;
+}
+
+body.vehicle-list-page ul.tabs li a:hover {
+    color: #c8c4d8;
+}
+
+body.vehicle-list-page p {
+    color: #8a86a0;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+body.vehicle-list-page p strong {
+    color: #c8c4d8;
+}
+
+body.vehicle-list-page ul.bulleted {
+    color: #8a86a0;
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+body.vehicle-list-page ul.bulleted li {
+    margin-bottom: 4px;
+}
+
+body.vehicle-list-page ul.horizontal {
+    display: flex;
+    gap: 16px;
+    list-style: none;
+    padding: 0;
+    margin: 8px 0 16px;
+}
+
+body.vehicle-list-page ul.horizontal a {
+    color: #ff6b9d;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+body.vehicle-list-page ul.horizontal a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    body.vehicle-list-page table.fleet {
+        font-size: 12px;
+    }
+    body.vehicle-list-page table.fleet td {
+        padding: 5px 6px;
+    }
+    body.vehicle-list-page table.fleet td.tabular {
+        font-size: 13px;
+    }
+    body.vehicle-list-page table.fleet .trivia {
+        display: none;
+    }
 }
