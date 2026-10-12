@@ -597,6 +597,8 @@ body.redesign-v2:not(.homepage-v2) .site-header .search {
     background: #1a1a2c !important;
     border-radius: 6px !important;
     overflow: hidden !important;
+    flex-shrink: 0 !important;
+    min-width: 240px !important;
 }
 body.redesign-v2:not(.homepage-v2) .site-header .search label {
     float: none !important;
@@ -606,6 +608,7 @@ body.redesign-v2:not(.homepage-v2) .site-header .search label {
     display: flex !important;
     align-items: center !important;
     background: transparent !important;
+    flex: 1 1 auto !important;
 }
 body.redesign-v2:not(.homepage-v2) .site-header .search label input {
     position: static !important;
@@ -1092,10 +1095,10 @@ body.redesign-v2 .services a:hover span {
 }
 
 /* Wider v2 layout */
-body.operator-page main {
+body.operator-page main, body.vehicle-list-page main {
     max-width: none !important;
 }
-body.redesign-v2.wide:not(.operator-page) .site-header div {
+body.redesign-v2.wide:not(.operator-page):not(.vehicle-list-page) .site-header div {
     max-width: none !important;
     max-width: 100% !important;
 }
@@ -1143,7 +1146,7 @@ body.redesign-v2.wide:not(.operator-page) .site-header div {
 
 /* Operator page — wider layout */
 @media (min-width: 62.5em) {
-    body.operator-page .site-header div {
+    body.operator-page .site-header div, body.vehicle-list-page .site-header div {
         width: auto !important;
         max-width: none !important;
         display: flex !important;
@@ -1151,7 +1154,7 @@ body.redesign-v2.wide:not(.operator-page) .site-header div {
         padding: 0 32px !important;
         box-sizing: border-box !important;
     }
-    body.operator-page main {
+    body.operator-page main, body.vehicle-list-page main {
         max-width: none !important;
         padding: 0 32px !important;
     }
@@ -1161,7 +1164,7 @@ body.redesign-v2.wide:not(.operator-page) .site-header div {
 
 /* All wide v2 pages — header matches content (desktop only) */
 @media (min-width: 62.5em) {
-    body.redesign-v2.wide:not(.operator-page) .site-header div {
+    body.redesign-v2.wide:not(.operator-page):not(.vehicle-list-page) .site-header div {
         display: flex !important;
         align-items: center !important;
         width: auto !important;
@@ -1271,7 +1274,7 @@ body.operator-page .horizontal li:first-child a {
 
 /* Force same main width on all region pages */
 @media (min-width: 62.5em) {
-    body.redesign-v2.wide:not(.operator-page) main {
+    body.redesign-v2.wide:not(.operator-page):not(.vehicle-list-page) main {
         max-width: 56.6em !important;
         padding: 0 2em !important;
     }
@@ -1282,11 +1285,24 @@ body.redesign-v2 #content {
     overflow: hidden !important;
 }
 
-body.operator-page main {
+body.operator-page main, body.vehicle-list-page main {
     margin: 0 !important;
 }
 
 /* ===== VEHICLE LIST PAGE — IDEA D: REFINED DENSE TABLE ===== */
+/* Vehicle list page tabs — count is last-child, not first-child */
+body.vehicle-list-page .tabs > li:first-child {
+    background: transparent !important;
+    border: none !important;
+    padding: 0 !important;
+}
+body.vehicle-list-page .tabs > li:last-child {
+    background: #1a1a2c !important;
+    border: 1px solid #2a2a40 !important;
+    border-radius: 8px !important;
+    padding: 8px 16px !important;
+    color: #fff !important;
+}
 
 body.vehicle-list-page .table-wrapper {
     overflow-x: auto;
@@ -1408,37 +1424,6 @@ body.vehicle-list-page table.fleet td a[href*="/edit"]:hover {
     color: #ff6b9d;
 }
 
-body.vehicle-list-page ul.tabs {
-    display: flex;
-    gap: 0;
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    border-bottom: 1px solid #2a2a40;
-}
-
-body.vehicle-list-page ul.tabs li {
-    padding: 10px 16px;
-    font-size: 14px;
-    color: #8a86a0;
-    border-bottom: 2px solid transparent;
-    margin-bottom: -1px;
-}
-
-body.vehicle-list-page ul.tabs li:last-child {
-    color: #ff6b9d;
-    border-bottom-color: #ff6b9d;
-    font-weight: 600;
-}
-
-body.vehicle-list-page ul.tabs li a {
-    color: #8a86a0;
-    text-decoration: none;
-}
-
-body.vehicle-list-page ul.tabs li a:hover {
-    color: #c8c4d8;
-}
 
 body.vehicle-list-page p {
     color: #8a86a0;
