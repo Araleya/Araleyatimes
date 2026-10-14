@@ -32,13 +32,10 @@
 {% endif %}
 
 {% if not parent %}
-    <ul class="horizontal">
-        <li><a href="/vehicles/edits?operator={{ object.noc }}&status=approved">Recent changes</a></li>
+    <ul class="admin-links">
         {% if request.user.trusted %}
-            <li><a href="/vehicles/edits?operator={{ object.noc }}&status=pending">Pending vehicle edits</a></li>
-        {% endif %}
-        {% if request.user.is_superuser %}
-            <li><a href="{% url 'admin:vehicles_vehicle_changelist' %}?operator={{ object.noc }}">✎</a></li>
+            <li><a href="/vehicles/edits?operator={{ object.noc }}&status=approved">Recent changes</a></li>
+            <li><a href="{% url 'admin:vehicles_vehicle_changelist' %}?operator={{ object.noc }}">Admin Vehicles</a></li>
         {% endif %}
     </ul>
 {% endif %}

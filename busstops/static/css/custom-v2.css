@@ -1463,25 +1463,39 @@ body.vehicle-list-page ul.bulleted li {
     margin-bottom: 4px;
 }
 
-body.vehicle-list-page ul.horizontal {
+/* Admin links bar */
+.admin-links {
     display: flex;
-    gap: 16px;
+    gap: 6px;
     list-style: none;
     padding: 0;
-    margin: 8px 0 16px;
+    margin: 4px 0 12px;
+    justify-content: center;
 }
 
-body.vehicle-list-page ul.horizontal a {
+.admin-links li {
+    padding: 0;
+    border: none;
+}
+
+.admin-links li a {
+    background: #1a1a2c;
+    border: 1px solid #2a2a40;
+    border-radius: 8px;
+    padding: 8px 16px;
     color: #ff6b9d;
     text-decoration: none;
-    font-size: 13px;
+    font-size: 14px;
+    font-weight: 700;
+    display: block;
+    transition: border-color 0.2s, background 0.2s;
 }
 
-body.vehicle-list-page ul.horizontal a:hover {
-    text-decoration: underline;
+.admin-links li a:hover {
+    border-color: #ff6b9d;
+    background: #1f1f35;
+    text-decoration: none;
 }
-
-@media (max-width: 600px) {
     body.vehicle-list-page table.fleet {
         font-size: 12px;
     }
