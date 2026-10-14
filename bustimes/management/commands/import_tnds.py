@@ -32,9 +32,13 @@ class Command(BaseCommand):
             self.do_file(name, details)
 
     def do_file(self, name, details):
-        source, _ = DataSource.objects.get_or_create(
+        source = DataSource.objects.filter(
             url=f"ftp://{self.ftp.host}/{name}"
-        )
+        ).first()
+        if not source:
+            source = DataSource.objects.create(
+                url=f"ftp://{self.ftp.host}/{name}"
+            )
 
         path = settings.TNDS_DIR / name
 

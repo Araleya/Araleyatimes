@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="/liveries.{{ liveries_css_version }}.css">
 {% endblock head %}
 
-{% block bodyclass %}{% endblock %}
+{% block bodyclass %}{% if v2 %}wide redesign-v2 vehicle-list-page{% endif %}{% endblock %}
 
 {% block content %}
 
@@ -26,23 +26,7 @@
     </ul>
 {% endif %}
 
-<p>This is <strong>not intended to be a complete fleet list</strong>. It’s really a list of
-{% firstof parent object %}
-{% if parent and operators and operators|length < 10 %}
-    ({% for operator in operators %}{% if not forloop.first and not forloop.last %}, {% elif forloop.last and not forloop.first %} and {% endif %}{{ operator }}{% endfor %})
-{% endif %}
-ticket machines, a byproduct of the live bus tracking.</p>
-
-<p>Remember:</p>
-
-<ul class="bulleted">
-    <li>Ticket machines IDs sometimes don’t correspond with the actual vehicles they’re attached to. (Equipment gets swapped between vehicles, etc.)</li>
-    <li>Vehicles don’t always track all the time. If a journey isn’t listed, it doesn’t necessarily mean it didn’t operate.</li>
-    {% if garage_column %}
-        <li>“Garage” information is worked out automatically, using the Garage field in the operator’s timetable data and the last trip a vehicle worked.</li>
-    {% endif %}
-</ul>
-
+<p class="fleet-disclaimer">This is not a complete fleet list &mdash; it's a list of {% firstof parent object %} ticket machine codes, which are used to track each vehicle. IDs may not match the correct vehicle, and not every journey is recorded.{% if garage_column %} Garage allocations are estimated from timetable data or added manually.{% endif %}</p>
 {% if object.group %}
     <p>There’s also <a href="{{ object.group.get_absolute_url }}">a list of all {{ object.group }} vehicles</a>.</p>
 {% endif %}
