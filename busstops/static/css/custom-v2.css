@@ -1464,7 +1464,7 @@ body.vehicle-list-page ul.bulleted li {
 }
 
 /* Admin links bar */
-.admin-links {
+body.redesign-v2 .admin-links {
     display: flex;
     gap: 6px;
     list-style: none;
@@ -1473,12 +1473,12 @@ body.vehicle-list-page ul.bulleted li {
     justify-content: center;
 }
 
-.admin-links li {
+body.redesign-v2 .admin-links li {
     padding: 0;
     border: none;
 }
 
-.admin-links li a {
+body.redesign-v2 .admin-links li a {
     background: #1a1a2c;
     border: 1px solid #2a2a40;
     border-radius: 8px;
@@ -1491,7 +1491,7 @@ body.vehicle-list-page ul.bulleted li {
     transition: border-color 0.2s, background 0.2s;
 }
 
-.admin-links li a:hover {
+body.redesign-v2 .admin-links li a:hover {
     border-color: #ff6b9d;
     background: #1f1f35;
     text-decoration: none;
