@@ -692,6 +692,7 @@ body.redesign-v2 .site-header .search {
     --border-color: transparent !important;
 }
 
+
 /* Map button gradient + hover glow */
 body.redesign-v2:not(.homepage-v2) .site-header ul a {
     background: linear-gradient(135deg, #b8406a, #d4507a) !important;
@@ -712,18 +713,127 @@ body.redesign-v2:not(.homepage-v2) .site-header ul a:hover {
 }
 
 
-body.redesign-v2:not(.homepage-v2) .site-header .search {
-    padding: 0 !important;
+/* Mobile header search fix — consolidated */
+@media (max-width: 600px) {
+    /* Override header overflow so fixed children can escape */
+    body.redesign-v2:not(.homepage-v2) .site-header {
+        overflow: visible !important;
+    }
+
+    /* Header layout */
+    body.redesign-v2:not(.homepage-v2) .site-header div {
+        flex-wrap: nowrap !important;
+        gap: 6px !important;
+        overflow: visible !important;
+    }
+    body.redesign-v2:not(.homepage-v2) .site-header .site-name {
+        flex: 1 !important;
+        float: none !important;
+        text-align: left !important;
+        padding-left: 10px !important;
+        margin-left: 0 !important;
+        margin-right: auto !important;
+    }
+    body.redesign-v2:not(.homepage-v2) .site-header ul {
+        position: static !important;
+        float: none !important;
+        order: 3 !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    body.redesign-v2:not(.homepage-v2) .site-header .search {
+        order: 2 !important;
+        min-width: 0 !important;
+        flex: 0 0 auto !important;
+        position: static !important;
+        float: none !important;
+        padding: 0 !important;
+        top: auto !important;
+    }
+
+    /* Default: hide label, show only submit button */
+    body.redesign-v2:not(.homepage-v2) .site-header .search label {
+        display: none !important;
+    }
+    body.redesign-v2:not(.homepage-v2) .site-header .search label + input[type="submit"] {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        padding: 8px 12px !important;
+        font-size: 15px !important;
+        font-weight: bold !important;
+    }
+
+    /* Match Map button size */
+    body.redesign-v2:not(.homepage-v2) .site-header ul a {
+        padding: 8px 12px !important;
+        font-size: 15px !important;
+        font-weight: bold !important;
+    }
+
+    /* When search-open: label becomes full-width fixed overlay */
+    body.redesign-v2:not(.homepage-v2) .site-header .search.search-open label {
+        display: flex !important;
+        position: fixed !important;
+        top: 0 !important;
+        left: 0 !important;
+        width: 100vw !important;
+        height: 56px !important;
+        z-index: 99999 !important;
+        background: linear-gradient(135deg, #d4507a, #ff6b9d) !important;
+        align-items: center !important;
+        padding: 0 16px !important;
+        box-sizing: border-box !important;
+        margin: 0 !important;
+        float: none !important;
+    }
+    body.redesign-v2:not(.homepage-v2) .site-header .search.search-open label .search-label-text {
+        display: none !important;
+    }
+    body.redesign-v2:not(.homepage-v2) .site-header .search.search-open label input[type="search"] {
+        width: 100% !important;
+        min-width: 0 !important;
+        flex: 1 !important;
+        background: rgba(255,255,255,0.2) !important;
+        border: none !important;
+        border-radius: 8px !important;
+        color: #fff !important;
+        padding: 10px 14px !important;
+        font-size: 16px !important;
+        position: static !important;
+        top: auto !important;
+        left: auto !important;
+        border-width: 0 !important;
+        margin: 0 !important;
+        z-index: 1 !important;
+    }
+    body.redesign-v2:not(.homepage-v2) .site-header .search.search-open label input[type="search"]::placeholder {
+        color: rgba(255,255,255,0.6) !important;
+    }
+    body.redesign-v2:not(.homepage-v2) .site-header .search.search-open label input[type="search"]:focus {
+        width: 100% !important;
+        border-width: 0 !important;
+        position: static !important;
+        top: auto !important;
+    }
+    /* Hide submit when overlay is open (user presses Enter) */
+    body.redesign-v2:not(.homepage-v2) .site-header .search.search-open label + input[type="submit"] {
+        display: none !important;
+    }
+
+    /* Prevent horizontal scroll */
+    body.redesign-v2 {
+        overflow-x: hidden !important;
+    }
+    body.redesign-v2 main,
+    body.redesign-v2 #content {
+        max-width: 100vw !important;
+        overflow-x: hidden !important;
+        box-sizing: border-box !important;
+    }
 }
 
-body.redesign-v2:not(.homepage-v2) .site-header .search label input:focus {
-    width: 200px !important;
-    position: static !important;
-    top: auto !important;
-    left: auto !important;
-    border-width: 0 !important;
-}
-
+/* Desktop header alignment */
 body.redesign-v2:not(.homepage-v2) .site-header > div {
     align-items: center !important;
 }
@@ -736,7 +846,12 @@ body.redesign-v2:not(.homepage-v2) .site-header ul li {
     display: flex !important;
     align-items: center !important;
 }
-
+body.redesign-v2:not(.homepage-v2) .site-header .search {
+    padding: 0 !important;
+    height: auto !important;
+    display: flex !important;
+    align-items: center !important;
+}
 body.redesign-v2:not(.homepage-v2) .site-header .search label + input[type="submit"],
 body.redesign-v2:not(.homepage-v2) .site-header ul a {
     display: flex !important;
@@ -745,148 +860,26 @@ body.redesign-v2:not(.homepage-v2) .site-header ul a {
     gap: 6px !important;
 }
 
-body.redesign-v2:not(.homepage-v2) .site-header .search label input {
-}
-body.redesign-v2:not(.homepage-v2) .site-header .search label + input[type="submit"] {
-}
-body.redesign-v2:not(.homepage-v2) .site-header .search label {
-}
-
-/* Unified header control sizing */
-body.redesign-v2:not(.homepage-v2) .site-header .search {
-    height: auto !important;
-    display: flex !important;
-    align-items: stretch !important;
-}
-body.redesign-v2:not(.homepage-v2) .site-header .search label {
-    display: flex !important;
-    align-items: center !important;
-}
-body.redesign-v2:not(.homepage-v2) .site-header .search label input {
-    padding: 6px 12px !important;
-}
-body.redesign-v2:not(.homepage-v2) .site-header .search label + input[type="submit"] {
-    padding: 6px 14px !important;
-}
-body.redesign-v2:not(.homepage-v2) .site-header ul a {
-    padding: 10px 14px !important;
-}
-
-/* Mobile inner page header — keep title left */
-@media (max-width: 600px) {
-    body.redesign-v2:not(.homepage-v2) .site-header div {
-        display: flex !important;
-        flex-wrap: wrap !important;
-        align-items: center !important;
-    }
-    body.redesign-v2:not(.homepage-v2) .site-name {
-        flex: 1 !important;
-        float: none !important;
-    }
-}
-
-/* Mobile search — icon only, expand on tap */
-@media (max-width: 600px) {
-    body.redesign-v2:not(.homepage-v2) .site-header .search {
-        position: static !important;
-        display: flex !important;
-        align-items: center !important;
-    }
+/* Desktop search label visible */
+@media (min-width: 601px) {
     body.redesign-v2:not(.homepage-v2) .site-header .search label {
-        display: none !important;
+        display: flex !important;
+        align-items: center !important;
     }
-    body.redesign-v2:not(.homepage-v2) .site-header .search input[type="submit"] {
-        display: block !important;
-        padding: 8px 14px !important;
+    body.redesign-v2:not(.homepage-v2) .site-header .search label input {
+        padding: 6px 12px !important;
     }
-}
-
-@media (max-width: 600px) {
-    body.redesign-v2:not(.homepage-v2) .site-header ul {
+    body.redesign-v2:not(.homepage-v2) .site-header .search label + input[type="submit"] {
+        padding: 6px 14px !important;
+    }
+    body.redesign-v2:not(.homepage-v2) .site-header .search label input:focus {
+        width: 200px !important;
         position: static !important;
-        float: none !important;
-        order: 3 !important;
-        margin: 0 !important;
-        padding: 0 !important;
-    }
-    body.redesign-v2:not(.homepage-v2) .site-header div {
-        flex-wrap: nowrap !important;
-    }
-    body.redesign-v2:not(.homepage-v2) .site-header .search {
-        order: 2 !important;
+        top: auto !important;
+        left: auto !important;
+        border-width: 0 !important;
     }
 }
-
-@media (max-width: 600px) {
-    /* Match button sizes on mobile */
-    body.redesign-v2:not(.homepage-v2) .site-header ul a {
-        padding: 8px 12px !important;
-        font-size: 15px !important;
-    font-weight: bold !important;
-    }
-    body.redesign-v2:not(.homepage-v2) .site-header .search input[type="submit"] {
-        padding: 8px 12px !important;
-        font-size: 15px !important;
-    font-weight: bold !important;
-    }
-    /* Push title to left */
-    body.redesign-v2:not(.homepage-v2) .site-name {
-        margin-right: auto !important;
-    }
-}
-
-@media (max-width: 600px) {
-    body.redesign-v2:not(.homepage-v2) .site-header div {
-        gap: 8px !important;
-        justify-content: flex-start !important;
-    }
-    body.redesign-v2:not(.homepage-v2) .site-header .site-name {
-        flex: 1 !important;
-        text-align: left !important;
-    }
-}
-
-@media (max-width: 600px) {
-    body.redesign-v2:not(.homepage-v2) .site-header .site-name {
-        padding-left: 10px !important;
-        margin-left: 0 !important;
-    }
-    body.redesign-v2:not(.homepage-v2) .site-header div {
-        padding-left: 10px !important;
-    }
-    body.redesign-v2:not(.homepage-v2) .site-header .search input[type="submit"] {
-        display: flex !important;
-        align-items: center !important;
-        justify-content: center !important;
-    }
-}
-
-/* Mobile: make submit button act as toggle when input is hidden */
-@media (max-width: 600px) {
-    body.redesign-v2:not(.homepage-v2) .site-header .search.search-open label {
-        display: flex !important;
-        position: absolute !important;
-        top: 0 !important;
-        left: 0 !important;
-        right: 0 !important;
-        bottom: 0 !important;
-        z-index: 10 !important;
-        background: linear-gradient(135deg, #d4507a, #ff6b9d) !important;
-        align-items: center !important;
-        padding: 0 16px !important;
-    }
-    body.redesign-v2:not(.homepage-v2) .site-header .search.search-open label input {
-        width: 100% !important;
-        background: #1a1a2c !important;
-        border-radius: 6px !important;
-        padding: 10px 12px !important;
-        font-size: 16px !important;
-    }
-    body.redesign-v2:not(.homepage-v2) .site-header .search.search-open input[type="submit"] {
-        display: none !important;
-    }
-}
-
 
 /* Breadcrumb box */
 body.redesign-v2 .breadcrumb {
@@ -1333,7 +1326,7 @@ body.vehicle-list-page .table-wrapper {
 body.vehicle-list-page table.fleet {
     width: 100%;
     border-collapse: collapse;
-    font-size: 13px;
+    font-size: 15px !important;
 }
 
 body.vehicle-list-page table.fleet thead th {
@@ -1361,9 +1354,9 @@ body.vehicle-list-page table.fleet tbody tr:hover {
 }
 
 body.vehicle-list-page table.fleet td {
-    padding: 6px 10px;
+    padding: 10px 10px;
     vertical-align: middle;
-    color: #c8c4d8;
+    color: #ffffff !important;
 }
 
 body.vehicle-list-page table.fleet td.tabular {
@@ -1411,19 +1404,26 @@ body.vehicle-list-page table.fleet td.last-seen a {
 }
 
 body.vehicle-list-page table.fleet td.livery-cell {
+    
+    
+    
     white-space: nowrap;
+    vertical-align: middle !important;
+    
     font-size: 12px;
     color: #8a86a0;
 }
 
-body.vehicle-list-page table.fleet td.livery-cell .livery {
+body.vehicle-list-page.redesign-v2 table.fleet td.livery-cell .livery {
     display: inline-block;
-    width: 24px;
-    height: 13px;
+    width: 20px;
+    height: 12px;
     border-radius: 3px;
     border: 1px solid rgba(255, 255, 255, 0.1);
-    vertical-align: middle;
-    margin-right: 6px;
+    vertical-align: -1px !important;
+    position: relative !important;
+    margin-right: 8px !important;
+    flex-shrink: 0;
 }
 
 body.vehicle-list-page table.fleet td.trivia {
