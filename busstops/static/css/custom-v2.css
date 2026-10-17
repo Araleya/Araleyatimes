@@ -623,14 +623,18 @@ body.redesign-v2:not(.homepage-v2) .site-header .search label input {
     top: auto !important;
     left: auto !important;
     width: 200px !important;
-    background: transparent !important;
-    border: none !important;
+    background: rgba(255,255,255,0.1) !important;
+    border: 2px solid rgba(255,255,255,0.2) !important;
+    border-right: none !important;
     color: rgba(255,255,255,0.9) !important;
     font-size: 15px !important;
     font-weight: bold !important;
-    padding: 6px 12px !important;
+    padding: 8px 12px !important;
     margin: 0 !important;
-    border-radius: 0 !important;
+    border-radius: 6px 0 0 6px !important;
+    box-sizing: border-box !important;
+    height: 38px !important;
+    line-height: 1 !important;
 }
 body.redesign-v2:not(.homepage-v2) .site-header .search label input:focus {
     width: 200px !important;
@@ -649,13 +653,15 @@ body.redesign-v2:not(.homepage-v2) .site-header .search label + input[type="subm
     color: #fff !important;
     padding: 8px 14px !important;
     font-size: 15px !important;
-    font-weight: bold !important;
     font-weight: 600 !important;
     border-radius: 0 6px 6px 0 !important;
     margin: 0 !important;
     top: auto !important;
     position: static !important;
     cursor: pointer !important;
+    box-sizing: border-box !important;
+    height: 38px !important;
+    line-height: 1 !important;
     transition: border-color 0.2s, box-shadow 0.2s, transform 0.15s;
 }
 body.redesign-v2:not(.homepage-v2) .site-header .search label + input[type="submit"]:hover {
@@ -762,6 +768,9 @@ body.redesign-v2:not(.homepage-v2) .site-header ul a:hover {
         padding: 8px 12px !important;
         font-size: 15px !important;
         font-weight: bold !important;
+        line-height: 1.2 !important;
+        height: 38px !important;
+        box-sizing: border-box !important;
     }
 
     /* Match Map button size */
@@ -769,6 +778,9 @@ body.redesign-v2:not(.homepage-v2) .site-header ul a:hover {
         padding: 8px 12px !important;
         font-size: 15px !important;
         font-weight: bold !important;
+        line-height: 1.2 !important;
+        height: 38px !important;
+        box-sizing: border-box !important;
     }
 
     /* When search-open: label becomes full-width fixed overlay */
