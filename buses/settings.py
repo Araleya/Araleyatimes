@@ -49,6 +49,7 @@ INSTALLED_APPS = [
     "disruptions",
     "fares",
     "vehicles",
+    "tfl",
     "vosa",
     "email_obfuscator",
     "api",

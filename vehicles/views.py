@@ -46,6 +46,7 @@ from bustimes.models import Garage, Route, StopTime
 from bustimes.utils import contiguous_stoptimes_only, get_other_trips_in_block
 from photos.forms import PhotoForm
 from photos.utils import add_flickr_photo
+from tfl.models import Journey as TflJourney
 
 from . import filters, forms
 from .management.commands import import_bod_avl
@@ -645,6 +646,17 @@ def journeys_list(request, journeys, service=None, vehicle=None) -> dict:
                             del context["predictions"]
                             break
 
+
+        # TfL iBus prediction fallback
+        if (
+            not context.get("predictions")
+            and vehicle.latest_journey_id == journeys[-1].pk
+        ):
+            last_journey = journeys[-1]
+            if last_journey.route_name and last_journey.code and last_journey.code.isdigit():
+                tfl_journey = TflJourney.from_vehicle_journey(last_journey)
+                if tfl_journey:
+                    context["predictions"] = tfl_journey.get_next_journeys()
     return context
 
 
