@@ -356,7 +356,7 @@ service_id,operator_id,operator_name,line_name,description
 8774,ABLO,Transport UK,464,Tatsfield - Biggin Hill Valley - Biggin Hill - Satbox Hill - New Addington
 8332,ABLO,Transport UK,465,Cromwell Road Bus Station - South Street/ Rose Hill
 14734,AVLO,Arriva London,466,Addington Interchange - Upper Shirley - South Croydon - Purley - Caterham-on-the-Hill
-8333,FLON,First Bus London,467,Hinchley Wood School - Epsom Hospital
+8333,FALC,Falcon Buses,467,Hinchley Wood School - Epsom Hospital
 14735,AVLO,Arriva London,468,"South Croydon, South End - Norwood - Herne Hill - Denmark Hill - Elephant & Castle"
 14246,LONC,London Central (Go Ahead),469,"Woolwich Common, Queen Elizabeth Hospital - Plumstead - Abbey Wood - Woolwich Road - Belvedere Station - Erith"
 14544,ELBG,Stagecoach London,47,"Bellingham, Catford Bus Garage - Lewisham - Deptford - Canada Water - Bermondsey - London Bridge - Liverpool Street - Shoreditch"
@@ -515,7 +515,6 @@ service_id,operator_id,operator_name,line_name,description
 14260,LONC,London Central (Go Ahead),B16,"Bexleyheath, Bus Garage - Welling - Falconwood - Eltham - Kidbrooke"
 14095,LULD,London Underground (TfL),Bakerloo,Elephant & Castle - Queen's Park - Harrow & Wealdstone
 14322,LGEN,London General (Go Ahead),BL1,"Lewisham, Shopping Centre - New Cross Gate - Old Kent Road - Elephant & Castle - Waterlioo"
-14795,ABLO,Transport UK,C,Stratford City - Forest Gate - Manor Park - Ilford - Seven Kings - Goodmayes - Chadwell Heath - Romford
 14357,FLON,First Bus London,C1,Victoria - Knightsbridge - South Kensington - Holland Road - White City
 14184,ABLO,Transport UK,C10,Canada Water - Rotherhithe - Bermondsey - Elephant & Castle - Waterloo - Pimlico - Victoria
 14495,MTLN,Metroline Travel,C11,Archway - Hampstead Heath - Swiss Cottage - West Hampstead - Brent Cross
@@ -755,8 +754,8 @@ service_id,operator_id,operator_name,line_name,description
 14331,LGEN,London General (Go Ahead),W15,"Higham Hill, Cogan Avenue - Walthamstow - Whipps Cross Hospital - Leytonstone - Hackney, Town Hall"
 14631,ELBG,Stagecoach London,W16,Chingford Mount - Highams Park - Bakers Arms - Leyton - Leytonstone
 14632,ELBG,Stagecoach London,W19,"Walthamstow, Argall Avenue - Walthamstow Central - Whipps Cross Hospital - Manor Park - Ilford High Road, Hainault Street"
-15173,REPS,Replacement Service,W3,Maidenhead - Taplow - Burnham - Slough (all day service)
 14764,AVLO,Arriva London,W3,Northumberland Park - Wood Green - Alexandra Palace & Park - Hornsey - Finsbury Park Station
+15173,REPS,Replacement Service,W3,Maidenhead - Taplow - Burnham - Slough (all day service)
 14765,AVLO,Arriva London,W4,"Oakthorpe Park - Wood Green -  Downhills Park - Bruce Grove - Tottenham Hale, Ferry Lane"
 14633,ELBG,Stagecoach London,W5,"Archway - Hornsey Lane - Crouch End - Harringay Station - Harringay, Superstores"
 14766,AVLO,Arriva London,W6,Southgate - Palmers Green - Edmonton (Cambridge) - Haselbury Road - Edmonton Green
