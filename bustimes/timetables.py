@@ -228,6 +228,17 @@ class Timetable:
 
         del trips
 
+        # deduplicate trips from overlapping sources (TNDS + BODS + Passenger)
+        for grouping in self.groupings:
+            seen = set()
+            deduped = []
+            for trip in grouping.trips:
+                key = trip.start
+                if key not in seen:
+                    seen.add(key)
+                    deduped.append(trip)
+            grouping.trips = deduped
+
         for grouping in self.groupings:
             if not self.detailed:
                 grouping.trips.sort(key=lambda t: t.start)
