@@ -35,6 +35,14 @@ class User(AbstractUser):
     objects = CustomUserManager()
 
     USERNAME_FIELD = "email"  # this was a bad idea
+
+    @staticmethod
+    def get_by_username_or_email(login):
+        from django.db.models import Q
+        try:
+            return User.objects.get(Q(username__iexact=login) | Q(email__iexact=login))
+        except User.DoesNotExist:
+            return None
     REQUIRED_FIELDS = ["username"]  # so that ./manage.py createsuperuser works
 
     def get_absolute_url(self):

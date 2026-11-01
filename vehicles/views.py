@@ -619,8 +619,9 @@ def journeys_list(request, journeys, service=None, vehicle=None) -> dict:
             trips = [journey.trip for journey in journeys if journey.trip]
             if trips:
                 last_trip = trips[-1]
-                if last_trip.block and all(
-                    trip.block == last_trip.block for trip in trips[-3:-1]
+                if last_trip.block and (
+                    last_trip.route and last_trip.route.source_id == 7
+                    or all(trip.block == last_trip.block for trip in trips[-2:-1])
                 ):
                     context["predictions"] = (
                         get_other_trips_in_block(

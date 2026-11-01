@@ -361,3 +361,5 @@ ABBREVIATE_HOURLY = False  # we override this in some tests, that's all
 SESSION_COOKIE_AGE = 60 * 60 * 24 * 30  # 30 days
 SESSION_SAVE_EVERY_REQUEST = True
 SESSION_EXPIRE_AT_BROWSER_CLOSE = False
+
+AUTHENTICATION_BACKENDS = ['accounts.backends.UsernameOrEmailBackend']

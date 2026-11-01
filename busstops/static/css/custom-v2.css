@@ -1521,3 +1521,9 @@ body.redesign-v2 .admin-links li a:hover {
         display: none;
     }
 }
+
+/* Vehicle list table — center text */
+body.redesign-v2.vehicle-list-page .fleet th,
+body.redesign-v2.vehicle-list-page .fleet td {
+    text-align: center !important;
+}

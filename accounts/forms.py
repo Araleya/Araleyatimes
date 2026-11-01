@@ -8,6 +8,7 @@ from django.forms import (
     CharField,
     EmailField,
     EmailInput,
+    TextInput,
     Form,
     ModelMultipleChoiceField,
     CheckboxSelectMultiple,
@@ -61,10 +62,10 @@ class RegistrationForm(PasswordResetForm):
 
 
 class LoginForm(AuthenticationForm):
-    username = EmailField(
-        widget=EmailInput(attrs={"autofocus": True, "autocomplete": "email"})
+    username = CharField(
+        label="Email or username",
+        widget=TextInput(attrs={"autofocus": True, "autocomplete": "username"})
     )
-
 
 class UserForm(Form):
     name = CharField(

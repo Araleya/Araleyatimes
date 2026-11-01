@@ -174,20 +174,40 @@ def get_other_trips_in_block(trip, date):
     if not trip.route_id:
         return Trip.objects.none()
 
+    # For London, always look up block trips from source 7
+    # since that has the canonical iBus block data
+    source_id = trip.route.source_id
+    use_source_7 = False
+    if source_id != 7:
+        from bustimes.models import Route as R
+        if R.objects.filter(source_id=7, line_name=trip.route.line_name).exists():
+            source_id = 7
+            use_source_7 = True
+
     trips = Trip.objects.filter(
         block=trip.block,
-        route__source=trip.route.source_id,
-        route__version=trip.route.version_id,
-        garage=trip.garage_id,
-        operator=trip.operator_id,
+        route__source=source_id,
     )
+    if not use_source_7:
+        trips = trips.filter(
+            garage=trip.garage_id,
+            operator=trip.operator_id,
+        )
     if trip.route.service_id:
         trips = trips.filter(route__service__isnull=False)
 
     routes = Route.objects.filter(trip__in=trips).select_related("source")
 
     calendars = get_calendars(date, [trip.calendar_id for trip in trips])
-    routes = get_routes(routes, date)
+    if source_id == 7 and trip.route.source_id != 7:
+        # Skip get_routes which would filter out source 7 in favour of 986
+        # Just filter to routes active today by date
+        routes = routes.filter(
+            Q(start_date__isnull=True) | Q(start_date__lte=date),
+            Q(end_date__isnull=True) | Q(end_date__gte=date),
+        )
+    else:
+        routes = get_routes(routes, date)
     return trips.filter(calendar__in=calendars, route__in=routes).order_by("start")
 
 
