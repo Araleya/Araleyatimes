@@ -297,35 +297,46 @@ class Journey(models.Model):
 
     @classmethod
     def from_vehicle_journey(cls, vehicle_journey, base_version=None):
-        """Journey idxs are reused between base versions, so check the line and
-        start time, and use the newest base version in which the block runs that day
+        """Match a live vehicle journey to an iBus journey by route name,
+        approximate start time (±30 min) and calendar day.
+
+        Handles overnight services by also checking the previous day's
+        calendar with a +24h offset on the target time.
         """
-        if not vehicle_journey.code.isdigit():
+        if not vehicle_journey.datetime or not vehicle_journey.route_name:
             return
-        if vehicle_journey.datetime:
-            date = timezone.localdate(vehicle_journey.datetime)
-        else:
-            date = vehicle_journey.date
+        local_dt = timezone.localtime(vehicle_journey.datetime)
+        d = local_dt.date()
+        secs = local_dt.hour * 3600 + local_dt.minute * 60
+        target = timedelta(seconds=secs)
+        margin = timedelta(minutes=30)
+        target_overnight = timedelta(seconds=secs + 86400)
+
         journeys = cls.objects.all()
         if base_version:
             journeys = journeys.filter(base_version=base_version)
-        for journey in (
-            journeys.filter(
-                idx=vehicle_journey.code,
+
+        for cal_day, t in [
+            (d, target),
+            (d - timedelta(days=1), target),
+            (d - timedelta(days=1), target_overnight),
+        ]:
+            matches = journeys.filter(
                 pattern__line__service_line_no__iexact=vehicle_journey.route_name,
+                start_time__gte=t - margin,
+                start_time__lte=t + margin,
                 block__calendar_days__runs=True,
-                block__calendar_days__calendar_day__range=(
-                    date - timedelta(days=1),
-                    date,
-                ),
-            )
-            .annotate(calendar_day=F("block__calendar_days__calendar_day"))
-            .order_by("-base_version")
-        ):
-            if journey.calendar_day == date - timedelta(
-                days=journey.start_time.days
-            ) and journey.matches(vehicle_journey.datetime):
-                return journey
+                block__calendar_days__calendar_day=cal_day,
+            ).order_by("-base_version")
+            best = None
+            best_diff = None
+            for m in matches:
+                diff = abs(m.start_time.total_seconds() - t.total_seconds())
+                if best_diff is None or diff < best_diff:
+                    best = m
+                    best_diff = diff
+            if best:
+                return best
 
     def get_next_journeys(self):
         """Later journeys in the same block"""
