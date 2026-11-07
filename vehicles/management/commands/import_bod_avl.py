@@ -439,7 +439,7 @@ class Command(ImportLiveVehiclesCommand):
                 THREE_HOURS = timedelta(hours=3)
                 if (
                     route_name == latest_journey.route_name
-                    and journey_ref == latest_journey.code
+                    and (journey_code if operator_ref == "TFLO" else journey_ref) == latest_journey.code
                 ):
                     if datetime - latest_journey.datetime < THREE_HOURS:
                         journey = latest_journey
@@ -461,6 +461,8 @@ class Command(ImportLiveVehiclesCommand):
 
         if journey_ref:
             journey.code = journey_ref
+        if operator_ref == "TFLO" and journey_code and journey_code != journey_ref:
+            journey.code = journey_code
 
         if destination_ref := monitored_vehicle_journey.get("DestinationRef"):
             destination_ref = get_destination_ref(destination_ref)

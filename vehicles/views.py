@@ -653,7 +653,7 @@ def journeys_list(request, journeys, service=None, vehicle=None) -> dict:
             and vehicle.latest_journey_id == journeys[-1].pk
         ):
             last_journey = journeys[-1]
-            if last_journey.route_name:
+            if last_journey.route_name and vehicle.operator_id and vehicle.operator.region_id == 'L':
                 tfl_journey = TflJourney.from_vehicle_journey(last_journey)
                 if tfl_journey:
                     context["predictions"] = tfl_journey.get_next_journeys()

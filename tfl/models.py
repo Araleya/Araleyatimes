@@ -297,24 +297,45 @@ class Journey(models.Model):
 
     @classmethod
     def from_vehicle_journey(cls, vehicle_journey, base_version=None):
-        """Match a live vehicle journey to an iBus journey by route name,
-        approximate start time (±30 min) and calendar day.
+        """Match a live vehicle journey to an iBus journey.
 
-        Handles overnight services by also checking the previous day's
-        calendar with a +24h offset on the target time.
+        First tries exact matching by journey code (idx) + route + calendar day.
+        Falls back to fuzzy matching by route + approximate start time (±30 min).
+        Handles overnight services by checking the previous day with +24h offset.
         """
         if not vehicle_journey.datetime or not vehicle_journey.route_name:
             return
         local_dt = timezone.localtime(vehicle_journey.datetime)
         d = local_dt.date()
-        secs = local_dt.hour * 3600 + local_dt.minute * 60
-        target = timedelta(seconds=secs)
-        margin = timedelta(minutes=30)
-        target_overnight = timedelta(seconds=secs + 86400)
 
         journeys = cls.objects.all()
         if base_version:
             journeys = journeys.filter(base_version=base_version)
+
+        # Exact match by idx (iBus journey code from ticket machine)
+        if vehicle_journey.code and vehicle_journey.code.isdigit():
+            for journey in (
+                journeys.filter(
+                    idx=vehicle_journey.code,
+                    pattern__line__service_line_no__iexact=vehicle_journey.route_name,
+                    block__calendar_days__runs=True,
+                    block__calendar_days__calendar_day__range=(
+                        d - timedelta(days=1), d,
+                    ),
+                )
+                .annotate(calendar_day=F("block__calendar_days__calendar_day"))
+                .order_by("-base_version")
+            ):
+                if journey.calendar_day == d - timedelta(
+                    days=journey.start_time.days
+                ) and journey.matches(vehicle_journey.datetime):
+                    return journey
+
+        # Fuzzy fallback: match by route + approximate start time
+        secs = local_dt.hour * 3600 + local_dt.minute * 60
+        target = timedelta(seconds=secs)
+        margin = timedelta(minutes=30)
+        target_overnight = timedelta(seconds=secs + 86400)
 
         for cal_day, t in [
             (d, target),
