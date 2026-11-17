@@ -374,7 +374,6 @@ class Journey(models.Model):
                 base_version=self.base_version_id,
                 block_idx=self.block_idx,
                 start_time__gt=self.start_time,
-                type=1,
             )
             .annotate(
                 line_name=F("pattern__line__service_line_no"),
