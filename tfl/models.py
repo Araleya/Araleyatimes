@@ -297,7 +297,9 @@ class Journey(models.Model):
 
 
     def get_absolute_url(self):
-        return f"/tfl/journeys/{self.base_version_id}/{self.idx}"
+        if self.type == 1:
+            return f"/tfl/journeys/{self.base_version_id}/{self.idx}"
+        return ""
 
     @classmethod
     def from_vehicle_journey(cls, vehicle_journey, base_version=None):
