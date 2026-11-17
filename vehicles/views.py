@@ -46,6 +46,7 @@ from bustimes.models import Garage, Route, StopTime
 from bustimes.utils import contiguous_stoptimes_only, get_other_trips_in_block
 from photos.forms import PhotoForm
 from photos.utils import add_flickr_photo
+from bustimes.formatting import format_timedelta
 from tfl.models import Journey as TflJourney
 
 from . import filters, forms
@@ -595,6 +596,14 @@ def journeys_list(request, journeys, service=None, vehicle=None) -> dict:
 
     context["journeys"] = journeys = list(journeys)
 
+    # For London buses without a trip, link to iBus timetable
+    if vehicle and vehicle.operator_id and vehicle.operator.region_id == "L":
+        for journey in journeys:
+            if not journey.trip_id and journey.code and journey.code.isdigit():
+                tfl_match = TflJourney.from_vehicle_journey(journey)
+                if tfl_match:
+                    journey.tfl_journey_url = tfl_match.get_absolute_url()
+
     # annotate journeys with whether each one has some location history in redis
     # (in order to show the "Map" link or not)
     if redis_client:
@@ -1128,6 +1137,26 @@ def journey_json(request, pk, vehicle_id=None, service_id=None):
                     "coordinates": stop and stop.latlong and stop.latlong.coords,
                 }
             )
+    elif journey.code and journey.code.isdigit() and journey.vehicle and journey.vehicle.operator_id and journey.vehicle.operator.region_id == "L":
+        # London bus with no trip - use iBus stop times
+        tfl_match = TflJourney.from_vehicle_journey(journey)
+        if tfl_match:
+            from tfl.utils import get_stop_times as tfl_get_stop_times
+            tfl_stops = tfl_get_stop_times(tfl_match)
+            data["stops"] = [
+                {
+                    "id": i,
+                    "atco_code": st.stop.atco_code if hasattr(st.stop, "atco_code") and st.stop.atco_code else None,
+                    "name": st.stop.common_name or "",
+                    "aimed_arrival_time": format_timedelta(st.arrival, plus_one=True) if st.arrival else None,
+                    "aimed_departure_time": format_timedelta(st.departure, plus_one=True) if st.departure else None,
+                    "minor": not st.timing_status or st.timing_status == "OTH",
+                    "heading": st.stop.get_heading() if hasattr(st.stop, "get_heading") else None,
+                    "coordinates": st.stop.latlong.coords if st.stop.latlong else None,
+                }
+                for i, st in enumerate(tfl_stops)
+                if st.pick_up
+            ]
     elif journey.service_id:
         stop_usages = StopUsage.objects.filter(
             service_id=journey.service_id
