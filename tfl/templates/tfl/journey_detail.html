@@ -1,0 +1,32 @@
+{% extends 'page.html' %}
+
+{% block title %}{{ line_name }} – {{ start_time }} – araleyatimes{% endblock %}
+
+{% block canonical %}<meta name="robots" content="noindex,noarchive">{% endblock %}
+
+{% block content %}
+<h1>{{ line_name }} – {{ start_time }}</h1>
+
+<p>iBus scheduled stop times</p>
+
+<table>
+<thead>
+<tr>
+    <th>Stop</th>
+    <th>Arr</th>
+    <th>Dep</th>
+</tr>
+</thead>
+<tbody>
+{% for st in stop_times %}
+{% if st.pick_up %}
+<tr>
+    <td>{% if st.stop.atco_code %}<a href="/stops/{{ st.stop.atco_code }}">{{ st.stop.common_name }}</a>{% else %}{{ st.stop.common_name }}{% endif %}</td>
+    <td class="tabular">{{ st.arrival_formatted }}</td>
+    <td class="tabular">{{ st.departure_formatted }}</td>
+</tr>
+{% endif %}
+{% endfor %}
+</tbody>
+</table>
+{% endblock %}

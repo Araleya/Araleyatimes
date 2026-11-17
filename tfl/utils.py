@@ -66,7 +66,7 @@ def get_stop_times(journey):
                 arrival=arrival,
                 departure=time,
                 sequence=sip.sequence_no,
-                timing_point=bool(sip.timing_point_code),
+                timing_status="OTH" if not sip.timing_point_code else "PTP",
                 pick_up=passenger,
                 set_down=passenger,
             )
