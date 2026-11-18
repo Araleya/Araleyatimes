@@ -1,4 +1,5 @@
 import datetime
+from ciso8601 import parse_datetime
 import json
 import logging
 from itertools import pairwise, groupby
@@ -601,7 +602,7 @@ def journeys_list(request, journeys, service=None, vehicle=None) -> dict:
         for journey in journeys:
             if not journey.trip_id and journey.code and journey.code.isdigit():
                 tfl_match = TflJourney.from_vehicle_journey(journey)
-                if tfl_match:
+                if tfl_match and tfl_match.type == 1:
                     journey.tfl_journey_url = tfl_match.get_absolute_url()
 
     # annotate journeys with whether each one has some location history in redis
@@ -1140,7 +1141,7 @@ def journey_json(request, pk, vehicle_id=None, service_id=None):
     elif journey.code and journey.code.isdigit() and journey.vehicle and journey.vehicle.operator_id and journey.vehicle.operator.region_id == "L":
         # London bus with no trip - use iBus stop times
         tfl_match = TflJourney.from_vehicle_journey(journey)
-        if tfl_match:
+        if tfl_match and tfl_match.type == 1:
             from tfl.utils import get_stop_times as tfl_get_stop_times
             tfl_stops = tfl_get_stop_times(tfl_match)
             data["stops"] = [
@@ -1263,6 +1264,47 @@ def journey_json(request, pk, vehicle_id=None, service_id=None):
             "id": previous_journey.id,
             "datetime": timezone.localtime(previous_journey.datetime),
         }
+
+    # Calculate delay for London buses from iBus stop times
+    if (
+        "delay" not in data
+        and len(data.get("stops", [])) > 3
+        and data.get("locations")
+        and data.get("current")
+        and not journey.trip_id
+        and journey.code and journey.code.isdigit()
+    ):
+        try:
+            last_loc = data["locations"][-1]
+            loc_dt = last_loc["datetime"]
+            if isinstance(loc_dt, str):
+                loc_dt = parse_datetime(loc_dt)
+            loc_dt = timezone.localtime(loc_dt)
+            loc_td = datetime.timedelta(hours=loc_dt.hour, minutes=loc_dt.minute, seconds=loc_dt.second)
+            bus_point = Point(last_loc["coordinates"])
+            best_delay = None
+            for stop in data["stops"]:
+                if stop.get("coordinates") and stop.get("aimed_departure_time"):
+                    stop_point = Point(stop["coordinates"])
+                    dist = bus_point.distance(stop_point)
+                    if dist < 0.01:
+                        parts = stop["aimed_departure_time"].split(":")
+                        expected = datetime.timedelta(hours=int(parts[0]), minutes=int(parts[1]))
+                        delay_secs = (loc_td - expected).total_seconds()
+                        if -3600 < delay_secs < 7200:
+                            if best_delay is None or abs(delay_secs) < abs(best_delay):
+                                best_delay = delay_secs
+            if best_delay is not None:
+                data["delay"] = int(best_delay)
+                import json as _json  # for delay Redis update
+                rk = f"vehicle{journey.vehicle_id}"
+                rd = redis_client.get(rk)
+                if rd:
+                    rd = json.loads(rd)
+                    rd["delay"] = int(best_delay)
+                    redis_client.set(rk, json.dumps(rd), ex=900)
+        except Exception:
+            pass
 
     return JsonResponse(data)
 

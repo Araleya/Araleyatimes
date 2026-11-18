@@ -397,7 +397,7 @@ class Journey(models.Model):
     def matches(self, departure):
         if departure:
             departure = timezone.localtime(departure)
-            seconds = departure.hour * 3600 + departure.minute * 60
+            seconds = departure.hour * 3600 + departure.minute * 60 + departure.second
             return self.start_time.total_seconds() % 86400 == seconds
         return True
 
