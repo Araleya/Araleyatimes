@@ -993,11 +993,15 @@ export default function BigMap(
           ) : null}
 
           {props.mode === MapMode.Journey && journey?.stops ? (
-            <JourneyStops
-              stops={journey.stops}
-              clickedStopUrl={clickedStopUrl}
-              setClickedStop={setClickedStopURL}
-            />
+            journey.stops[0]?.aimed_departure_time ? (
+              <Route times={tripFromJourney(journey)?.times || []} />
+            ) : (
+              <JourneyStops
+                stops={journey.stops}
+                clickedStopUrl={clickedStopUrl}
+                setClickedStop={setClickedStopURL}
+              />
+            )
           ) : null}
 
           {/* props.mode === MapMode.Slippy ? <SlippyMapHash /> : null */}
@@ -1013,6 +1017,12 @@ export default function BigMap(
           ) : trip ? (
             <Stops
               times={trip.times}
+              clickedStopUrl={clickedStopUrl}
+              setClickedStop={setClickedStopURL}
+            />
+          ) : journey?.stops ? (
+            <Stops
+              times={tripFromJourney(journey)?.times}
               clickedStopUrl={clickedStopUrl}
               setClickedStop={setClickedStopURL}
             />
@@ -1039,7 +1049,7 @@ export default function BigMap(
             </div>
           ) : null}
 
-          {props.mode === MapMode.Journey && journey?.locations && (
+          {props.mode === MapMode.Journey && journey?.locations && !journey?.stops?.[0]?.aimed_departure_time && (
             <Locations locations={journey.locations} />
           )}
         </BusTimesMap>
