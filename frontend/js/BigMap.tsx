@@ -610,6 +610,8 @@ export default function BigMap(
             url = `?service=${journey?.service_id}`;
             if (journey.trip_id) {
               url += `&trip=${journey.trip_id}`;
+            } else if (journey.vehicle_id) {
+              url += `&vehicle=${journey.vehicle_id}`;
             }
           } else if (journey?.vehicle_id) {
             url = `?id=${journey.vehicle_id}`;

@@ -62,6 +62,109 @@ from .models import (
     VehicleRevisionFeature,
 )
 from .rtpi import add_progress_and_delay
+
+
+def add_ibus_progress_and_delay(item):
+    """Calculate progress and delay for London buses using iBus stop times."""
+    try:
+        from django.contrib.gis.geos import LineString, Point
+        from tfl.models import Journey as IBusJourney
+        from tfl.utils import get_stop_times as ibus_get_stop_times
+        from vehicles.utils import calculate_bearing
+        from itertools import pairwise
+
+        vj = VehicleJourney.objects.select_related('vehicle__operator').get(pk=item['journey_id'])
+        if not (vj.code and vj.code.isdigit()):
+            return
+        if not (vj.vehicle and vj.vehicle.operator_id and vj.vehicle.operator.region_id == 'L'):
+            return
+
+        ibus_journey = IBusJourney.from_vehicle_journey(vj)
+        if not ibus_journey or ibus_journey.type != 1:
+            return
+
+        raw_stops = ibus_get_stop_times(ibus_journey)
+        stop_times = []
+        stop_objs = []
+        for st in raw_stops:
+            if st.pick_up and st.stop and st.stop.latlong:
+                stop_objs.append(st.stop)
+                st.id = len(stop_times)
+                stop_times.append(st)
+        if len(stop_times) < 2:
+            return
+        point = Point(*item['coordinates'], srid=4326)
+        point_3857 = point.transform(3857, clone=True)
+
+        nearby_pairs = []
+        for idx in range(len(stop_times) - 1):
+            a, b = stop_times[idx], stop_times[idx+1]
+            geometry = LineString([stop_objs[idx].latlong, stop_objs[idx+1].latlong], srid=4326)
+            geometry_3857 = geometry.transform(3857, clone=True)
+            distance = geometry_3857.distance(point_3857)
+            if distance < 1000:
+                progress = geometry.project_normalized(point)
+                nearby_pairs.append((a, b, geometry, distance, progress))
+
+        if not nearby_pairs:
+            return
+
+        nearby_pairs.sort(key=lambda p: p[3])
+        closest = nearby_pairs[0]
+
+        if len(nearby_pairs) >= 2 and item.get('heading') is not None:
+            vehicle_heading = int(item['heading'])
+            delta = 0.01
+            geom = closest[2]
+            prog = closest[4]
+            p1 = geom.interpolate_normalized(max(0, prog - delta))
+            p2 = geom.interpolate_normalized(min(1, prog + delta))
+            route_bearing = calculate_bearing(p1, p2)
+            difference = (vehicle_heading - route_bearing + 180) % 360 - 180
+            if not (abs(difference) < 90):
+                nc = nearby_pairs[1]
+                if nc[3] < 100:
+                    geom2 = nc[2]
+                    prog2 = nc[4]
+                    p1 = geom2.interpolate_normalized(max(0, prog2 - delta))
+                    p2 = geom2.interpolate_normalized(min(1, prog2 + delta))
+                    route_bearing = calculate_bearing(p1, p2)
+                    difference = (vehicle_heading - route_bearing + 180) % 360 - 180
+                    if abs(difference) < 90:
+                        closest = nc
+
+        prev_st, next_st = closest[0], closest[1]
+        sequence = stop_times.index(prev_st)
+
+        item['progress'] = {
+            'id': prev_st.id,
+            'sequence': sequence,
+            'prev_stop': stop_objs[prev_st.id].atco_code if hasattr(stop_objs[prev_st.id], 'atco_code') else str(prev_st.id),
+            'next_stop': stop_objs[next_st.id].atco_code if hasattr(stop_objs[next_st.id], 'atco_code') else str(next_st.id),
+            'progress': round(closest[4], 3),
+        }
+
+        import datetime as _dt
+        from ciso8601 import parse_datetime as _parse_dt
+        from django.utils import timezone as _tz
+        when = _parse_dt(item['datetime']) if isinstance(item['datetime'], str) else item['datetime']
+        when = _tz.localtime(when)
+        when_td = _dt.timedelta(hours=when.hour, minutes=when.minute, seconds=when.second)
+        prev_time = prev_st.departure if prev_st.departure else prev_st.arrival
+        next_time = next_st.arrival if next_st.arrival else next_st.departure
+        if prev_time and next_time:
+            if when_td - prev_time < -_dt.timedelta(hours=12):
+                when_td += _dt.timedelta(hours=24)
+            elif when_td - prev_time > _dt.timedelta(hours=12):
+                when_td -= _dt.timedelta(hours=24)
+            expected_time = prev_time + (next_time - prev_time) * closest[4]
+            delay = int((when_td - expected_time).total_seconds())
+            item['delay'] = delay
+
+    except Exception:
+        import logging
+        logging.exception('iBus progress calculation failed')
+
 from .tasks import handle_siri_post
 from .utils import apply_revision, get_revision, redis_client  # calculate_bearing,
 
@@ -508,6 +611,15 @@ def vehicles_json(request) -> JsonResponse:
                 and (len(vehicle_ids) == 1 or trip and item["trip_id"] == trip)
             ):
                 add_progress_and_delay(item)
+
+            # iBus progress for London buses without a Trip
+            if (
+                "progress" not in item
+                and "trip_id" not in item
+                and "tfl_code" in item
+                and (len(vehicle_ids) == 1 or str(item.get("id")) == request.GET.get("vehicle"))
+            ):
+                add_ibus_progress_and_delay(item)
 
         if (
             service_ids
@@ -1041,7 +1153,7 @@ class VehicleJourneyDetailView(DetailView):
 @require_safe
 def journey_json(request, pk, vehicle_id=None, service_id=None):
     journey = get_object_or_404(
-        VehicleJourney.objects.select_related("trip", "vehicle"), pk=pk
+        VehicleJourney.objects.select_related("trip", "vehicle__operator", "service"), pk=pk
     )
 
     data = {
@@ -1055,6 +1167,13 @@ def journey_json(request, pk, vehicle_id=None, service_id=None):
         "direction": journey.direction,
         "current": journey.vehicle and journey.id == journey.vehicle.latest_journey_id,
     }
+
+    # Add operator and service info for the breadcrumb
+    if journey.vehicle and journey.vehicle.operator:
+        op = journey.vehicle.operator
+        data["operator"] = {"name": op.name, "slug": op.slug}
+    if journey.service:
+        data["service"] = {"line_name": journey.service.line_name, "slug": journey.service.slug}
 
     if redis_client:
         locations = redis_client and redis_client.lrange(journey.get_redis_key(), 0, -1)
