@@ -1067,9 +1067,9 @@ body.redesign-v2 .tabs > li {
     margin: 0 !important;
 }
 body.redesign-v2 .tabs > li:first-child {
-    box-sizing: border-box !important;
     display: inline-flex !important;
     align-items: center !important;
+    box-shadow: none !important;
     background: #1a1a2c !important;
     border: 1px solid #2a2a40 !important;
     border-radius: 8px !important;
@@ -1077,6 +1077,12 @@ body.redesign-v2 .tabs > li:first-child {
     font-size: 15px !important;
     font-weight: bold !important;
     color: #fff !important;
+}
+/* When first-child contains a link, remove li styling so the <a> handles it */
+body.redesign-v2 .tabs > li:first-child:has(> a) {
+    background: none !important;
+    border: none !important;
+    padding: 0 !important;
 }
 body.redesign-v2 .tabs > li > a {
     display: flex !important;
