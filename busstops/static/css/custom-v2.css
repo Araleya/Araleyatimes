@@ -1634,3 +1634,39 @@ body.redesign-v2 tr:target {
     background: none !important;
     background-color: transparent !important;
 }
+
+
+/* Mobile vehicle list fixes */
+@media (max-width: 600px) {
+    /* Align tabs/buttons to left */
+    body.redesign-v2 .tabs {
+        justify-content: flex-start !important;
+        padding-left: 0 !important;
+        margin-left: 0 !important;
+    }
+
+    /* Breadcrumb scroll without clipping */
+    body.redesign-v2 .breadcrumb {
+        white-space: normal !important;
+        overflow-x: visible !important;
+        display: block !important;
+        max-width: 100% !important;
+        box-sizing: border-box !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        font-size: 14px !important;
+        text-align: center !important;
+    }
+    body.redesign-v2 .breadcrumb a {
+        padding: 3px 4px !important;
+    }
+    body.redesign-v2 .breadcrumb::-webkit-scrollbar {
+        display: none !important;
+    }
+
+    /* Admin links center on mobile */
+    body.redesign-v2 .admin-links {
+        justify-content: flex-start !important;
+        padding-left: 0 !important;
+    }
+}
