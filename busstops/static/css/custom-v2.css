@@ -1576,7 +1576,7 @@ body.redesign-v2.vehicle-list-page .fleet td.tabular a {
 
 /* Full-row pink border on hover — exclude Flickr/Edit columns */
 body.redesign-v2.vehicle-list-page .table-wrapper {
-    overflow-x: visible !important;
+    overflow-x: auto !important;
 }
 
 /* Edit link pink */
@@ -1585,20 +1585,20 @@ body.redesign-v2.vehicle-list-page .fleet td a[href*="edit"] {
 }
 
 /* Row hover — only when hovering data cells, not Flickr/Edit */
-body.redesign-v2.vehicle-list-page .fleet tbody tr:has(td:not(:nth-last-child(-n+2)):hover) td:not(:nth-last-child(-n+2)) {
+body.redesign-v2.vehicle-list-page .fleet tbody tr:has(td:not(.action-cell):hover) td:not(.action-cell) {
     background: rgba(255,107,157,0.06) !important;
     box-shadow: inset 0 1px 0 #ff6b9d, inset 0 -1px 0 #ff6b9d !important;
 }
-body.redesign-v2.vehicle-list-page .fleet tbody tr:has(td:not(:nth-last-child(-n+2)):hover) td:not(:nth-last-child(-n+2)):first-child {
+body.redesign-v2.vehicle-list-page .fleet tbody tr:has(td:not(.action-cell):hover) td:not(.action-cell):first-child {
     box-shadow: inset 0 1px 0 #ff6b9d, inset 0 -1px 0 #ff6b9d, inset 2px 0 0 #ff6b9d !important;
 }
-body.redesign-v2.vehicle-list-page .fleet tbody tr:has(td:not(:nth-last-child(-n+2)):hover) td:nth-last-child(3) {
+body.redesign-v2.vehicle-list-page .fleet tbody tr:has(td:not(.action-cell):hover) td:not(.action-cell):has(+ td.action-cell) {
     box-shadow: inset 0 1px 0 #ff6b9d, inset 0 -1px 0 #ff6b9d, inset -2px 0 0 #ff6b9d !important;
 }
-body.redesign-v2.vehicle-list-page .fleet tbody tr:has(td:not(:nth-last-child(-n+2)):hover) a {
+body.redesign-v2.vehicle-list-page .fleet tbody tr:has(td:not(.action-cell):hover) a {
     text-decoration: none !important;
 }
-body.redesign-v2.vehicle-list-page .fleet tbody tr:has(td:not(:nth-last-child(-n+2)):hover) td.reg {
+body.redesign-v2.vehicle-list-page .fleet tbody tr:has(td:not(.action-cell):hover) td.reg {
     color: #fff !important;
 }
 
@@ -1613,17 +1613,17 @@ body.redesign-v2.vehicle-list-page .fleet td a {
 
 
 /* Flickr and Edit — no underline, own hover effect */
-body.redesign-v2.vehicle-list-page .fleet td:nth-last-child(-n+2) a {
+body.redesign-v2.vehicle-list-page .fleet td.action-cell a {
     text-decoration: none !important;
 }
-body.redesign-v2.vehicle-list-page .fleet td:nth-last-child(-n+2) a:active,
-body.redesign-v2.vehicle-list-page .fleet td:nth-last-child(-n+2) a:focus,
-body.redesign-v2.vehicle-list-page .fleet td:nth-last-child(-n+2) a:visited:active {
+body.redesign-v2.vehicle-list-page .fleet td.action-cell a:active,
+body.redesign-v2.vehicle-list-page .fleet td.action-cell a:focus,
+body.redesign-v2.vehicle-list-page .fleet td.action-cell a:visited:active {
     color: #ff6b9d !important;
     background: transparent !important;
     background-color: transparent !important;
 }
-body.redesign-v2.vehicle-list-page .fleet td:nth-last-child(-n+2):hover {
+body.redesign-v2.vehicle-list-page .fleet td.action-cell:hover {
     outline: 2px solid #ff6b9d !important;
     outline-offset: -1px !important;
     background: rgba(255,107,157,0.1) !important;

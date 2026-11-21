@@ -1,4 +1,8 @@
 {
+    "name": "Araleyatimes",
+    "short_name": "Araleyatimes",
+    "start_url": "/",
+    "display": "standalone",
     "icons": [
         {
             "src": "/apple-touch-icon.png",

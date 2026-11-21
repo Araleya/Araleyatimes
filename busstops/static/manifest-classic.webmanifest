@@ -1,0 +1,15 @@
+{
+    "name": "Araleyatimes Classic",
+    "short_name": "AT Classic",
+    "start_url": "/?classic",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "/apple-touch-icon.png",
+            "sizes": "180x180",
+            "type": "image/png"
+        }
+    ],
+    "background_color": "#fff",
+    "theme_color": "#ffff9e"
+}

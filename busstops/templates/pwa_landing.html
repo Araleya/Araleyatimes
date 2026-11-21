@@ -1,0 +1,13 @@
+{% extends 'page.html' %}
+
+{% block title %}{{ title }} – Araleyatimes{% endblock %}
+
+{% block bodyclass %}{% if mode == "v2" %}redesign-v2{% endif %}{% endblock %}
+
+{% block content %}
+<div style="text-align: center; padding: 60px 20px;">
+    <h1>{{ title }}</h1>
+    <p style="font-size: 18px; margin: 20px 0;">Install this as an app from your browser menu.</p>
+    <p style="color: #8a86a0;">Tap the menu (⋮) and select "Add to Home screen" or "Install app".</p>
+</div>
+{% endblock %}

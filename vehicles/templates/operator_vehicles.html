@@ -34,8 +34,8 @@
 
 {% if not parent %}
     <ul class="admin-links">
+        <li><a href="/vehicles/edits?operator={{ object.noc }}&status=approved">Recent changes</a></li>
         {% if request.user.trusted %}
-            <li><a href="/vehicles/edits?operator={{ object.noc }}&status=approved">Recent changes</a></li>
             <li><a href="{% url 'admin:vehicles_vehicle_changelist' %}?operator={{ object.noc }}">Admin Vehicles</a></li>
         {% endif %}
     </ul>
@@ -100,9 +100,9 @@
                 {% if garage_column %}<td class="trivia">{{ vehicle.garage_name|default:'' }}{% if vehicle.data.garage_locked %} ★{% endif %}</td>{% endif %}
                 {% for value in vehicle.column_values %}<td class="trivia">{{ value }}</td>{% endfor %}
                 {% if parent %}<td>{{ vehicle.operator_name }}</td>{% endif %}
-                <td>{{ vehicle.get_flickr_link }}</td>
-                {% if vehicle.is_editable %}
-                    <td><a href="{{ vehicle.get_edit_url }}">Edit{% if vehicle.pending_edits %}<abbr title="pending edits">*</abbr>{% endif %}</a></td>
+                <td class="action-cell">{{ vehicle.get_flickr_link }}</td>
+                {% if vehicle.is_editable and request.user.is_authenticated %}
+                    <td class="action-cell"><a href="{{ vehicle.get_edit_url }}">Edit{% if vehicle.pending_edits %}<abbr title="pending edits">*</abbr>{% endif %}</a></td>
                 {% endif %}
             </tr>
         {% endfor %}

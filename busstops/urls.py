@@ -22,6 +22,8 @@ sitemaps = {
 
 urlpatterns = [
     path("", views.index, name="index"),
+    path("v2/", views.pwa_v2),
+    path("classic/", views.pwa_classic),
     path("version", views.version),
     path("api/london-route/", views.london_route_checker),
     path("api/update-vehicle-livery/", views.update_vehicle_livery),
@@ -132,7 +134,7 @@ urlpatterns = [
 
 urlpatterns += bustimes_views + disruptions_urls + vehicles_urls + vosa_urls
 urlpatterns += [path("tracker", views.tracker, name="tracker"), path("tracker/stop", views.tracker_stop, name="tracker_stop"), path("tracker-root", views.tracker_root, name="tracker_root")]
-urlpatterns += [path("api/working-timetable/", views.working_timetable), path("api/route-vehicles/", views.route_vehicles_api), path("api/fleet-garages/", views.fleet_garages_api)]
+urlpatterns += [path("api/working-timetable/", views.working_timetable), path("api/route-vehicles/", views.route_vehicles_api), path("api/fleet-garages/", views.fleet_garages_api), path("api/place-search/", views.place_search), path("api/services-by-place/", views.services_by_place)]
 
 
 if apps.is_installed("debug_toolbar"):

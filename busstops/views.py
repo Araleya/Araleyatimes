@@ -123,6 +123,19 @@ def index(request):
     return render(request, "index.html", context)
 
 
+def pwa_v2(request):
+    response = render(request, "pwa_landing.html", {"mode": "v2", "title": "Araleyatimes V2"})
+    response.set_cookie("at_mode", "v2", max_age=365*24*60*60)
+    return response
+
+
+def pwa_classic(request):
+    response = render(request, "pwa_landing.html", {"mode": "classic", "title": "Araleyatimes Classic"})
+    response.set_cookie("at_mode", "classic", max_age=365*24*60*60)
+    return response
+
+
+
 def not_found(request, exception):
     """Custom 404 handler view"""
 
@@ -1885,3 +1898,83 @@ def fleet_garages_api(request):
         if v.fleet_code and v.garage:
             result[v.fleet_code] = v.garage.name
     return JsonResponse(result)
+
+
+def place_search(request):
+    q = request.GET.get('q', '').strip()
+    if not q or len(q) < 2:
+        return JsonResponse({'results': []})
+
+    query = SearchQuery(q, search_type='websearch', config='english')
+    rank = SearchRank(F('search_vector'), query)
+
+    results = (
+        Locality.objects.annotate(rank=rank)
+        .filter(search_vector=query)
+        .filter(Q(stoppoint__active=True) | Q(locality__stoppoint__active=True))
+        .distinct()
+        .order_by('-rank')[:15]
+    )
+
+    data = []
+    for loc in results:
+        entry = {
+            'id': loc.id,
+            'name': loc.name,
+            'qualifier': loc.qualifier_name or '',
+        }
+        if loc.latlong:
+            entry['lat'] = loc.latlong.y
+            entry['lng'] = loc.latlong.x
+        # Get key stops (bus stations first, then others)
+        stops = (
+            StopPoint.objects.filter(locality=loc, active=True)
+            .filter(service__current=True)
+            .distinct()
+            .order_by('-stop_type', 'common_name')[:20]
+        )
+        entry['stops'] = [
+            {
+                'atco_code': s.atco_code,
+                'name': s.common_name,
+                'indicator': s.indicator or '',
+            }
+            for s in stops
+        ]
+        data.append(entry)
+
+    return JsonResponse({'results': data})
+
+
+def services_by_place(request):
+    """Return services that actually serve stops in a given locality."""
+    from django.http import JsonResponse
+    from busstops.models import Locality, Service
+    q = request.GET.get('q', '').strip()
+    region = request.GET.get('region', '')
+    if not q:
+        return JsonResponse({'results': []})
+    locs = Locality.objects.filter(name__iexact=q)
+    if region:
+        locs = locs.filter(stoppoint__atco_code__startswith=region).distinct()
+    loc = locs.first()
+    if not loc:
+        return JsonResponse({'results': []})
+    svcs = Service.objects.filter(current=True, stops__locality=loc).distinct().select_related()
+    results = []
+    for s in svcs:
+        desc = s.description or ''
+        parts = [p.strip() for p in desc.split(' - ')]
+        if len(parts) >= 2:
+            last = parts[-1].lower()
+            if any(w in last for w in ['college', ' school', ' sch']):
+                continue
+        ops = [o.noc for o in s.operator.all()]
+        results.append({
+            'id': s.id,
+            'line_name': s.line_name or '',
+            'description': desc,
+            'operator': ops,
+        })
+    results.sort(key=lambda x: (x['line_name'].zfill(5)))
+    return JsonResponse({'results': results})

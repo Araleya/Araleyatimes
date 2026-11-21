@@ -390,7 +390,7 @@ def operator_vehicles(request, slug=None, group_slug=None):
     )
 
     context = {
-        "v2": True,
+        "v2": request.COOKIES.get("at_mode") != "classic",
         **context,
         "parent": group,
         "vehicles": vehicles,
