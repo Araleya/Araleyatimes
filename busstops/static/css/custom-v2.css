@@ -370,6 +370,7 @@ body.redesign-v2 thead th {
 }
 body.redesign-v2 tbody td { border-top: 1px solid #141422; font-size: 15px; }
 body.redesign-v2 tbody tr:hover { background: #161628; }
+body.redesign-v2.vehicle-list-page .fleet tbody tr:hover { background: none !important; }
 
 /* ===== TABS ===== */
 body.redesign-v2 .tabs {
@@ -1367,8 +1368,7 @@ body.vehicle-list-page table.fleet tbody tr {
 }
 
 body.vehicle-list-page table.fleet tbody tr:hover {
-    background: rgba(255, 107, 157, 0.04);
-    border-left-color: #ff6b9d;
+    background: none !important;
 }
 
 body.vehicle-list-page table.fleet td {
@@ -1432,14 +1432,21 @@ body.vehicle-list-page table.fleet td.livery-cell {
     color: #8a86a0;
 }
 
-body.vehicle-list-page.redesign-v2 table.fleet td.livery-cell .livery {
-    display: inline-block;
-    width: 20px;
-    height: 12px;
-    border-radius: 3px;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    vertical-align: -1px !important;
+body.vehicle-list-page.redesign-v2 table.fleet td.livery-cell {
+    padding-left: 10px !important;
     position: relative !important;
+    vertical-align: middle !important;
+}
+body.vehicle-list-page.redesign-v2 table.fleet td.livery-cell .livery {
+    display: inline-block !important;
+    position: static !important;
+    top: auto !important;
+    left: auto !important;
+    width: 32px !important;
+    height: 18px !important;
+    border-radius: 3px !important; overflow: hidden !important;
+    border: none !important;
+    vertical-align: middle !important;
     margin-right: 8px !important;
     flex-shrink: 0;
 }
@@ -1529,7 +1536,101 @@ body.redesign-v2 .admin-links li a:hover {
 }
 
 /* Vehicle list table — center text */
+body.redesign-v2.vehicle-list-page .fleet {
+    font-size: 14px !important;
+}
 body.redesign-v2.vehicle-list-page .fleet th,
 body.redesign-v2.vehicle-list-page .fleet td {
     text-align: center !important;
+    font-size: 14px !important;
+}
+body.redesign-v2.vehicle-list-page .fleet td a,
+body.redesign-v2.vehicle-list-page .fleet td .reg {
+    font-size: 14px !important;
+}
+
+/* Livery column left-aligned */
+body.redesign-v2.vehicle-list-page .fleet td.livery-cell {
+    text-align: left !important;
+}
+
+/* Row and column grid lines */
+body.redesign-v2.vehicle-list-page .fleet td,
+body.redesign-v2.vehicle-list-page .fleet th {
+    border: 1px solid #2a2a40 !important;
+    padding: 6px 8px !important;
+    white-space: nowrap !important;
+}
+body.redesign-v2.vehicle-list-page .fleet {
+    table-layout: auto !important;
+    width: 100% !important;
+}
+body.redesign-v2.vehicle-list-page .fleet td.tabular,
+body.redesign-v2.vehicle-list-page .fleet td.tabular a {
+    white-space: nowrap !important;
+    padding: 6px 4px !important;
+}
+
+
+
+
+/* Full-row pink border on hover — exclude Flickr/Edit columns */
+body.redesign-v2.vehicle-list-page .table-wrapper {
+    overflow-x: visible !important;
+}
+
+/* Edit link pink */
+body.redesign-v2.vehicle-list-page .fleet td a[href*="edit"] {
+    color: #ff6b9d !important;
+}
+
+/* Row hover — only when hovering data cells, not Flickr/Edit */
+body.redesign-v2.vehicle-list-page .fleet tbody tr:has(td:not(:nth-last-child(-n+2)):hover) td:not(:nth-last-child(-n+2)) {
+    background: rgba(255,107,157,0.06) !important;
+    box-shadow: inset 0 1px 0 #ff6b9d, inset 0 -1px 0 #ff6b9d !important;
+}
+body.redesign-v2.vehicle-list-page .fleet tbody tr:has(td:not(:nth-last-child(-n+2)):hover) td:not(:nth-last-child(-n+2)):first-child {
+    box-shadow: inset 0 1px 0 #ff6b9d, inset 0 -1px 0 #ff6b9d, inset 2px 0 0 #ff6b9d !important;
+}
+body.redesign-v2.vehicle-list-page .fleet tbody tr:has(td:not(:nth-last-child(-n+2)):hover) td:nth-last-child(3) {
+    box-shadow: inset 0 1px 0 #ff6b9d, inset 0 -1px 0 #ff6b9d, inset -2px 0 0 #ff6b9d !important;
+}
+body.redesign-v2.vehicle-list-page .fleet tbody tr:has(td:not(:nth-last-child(-n+2)):hover) a {
+    text-decoration: none !important;
+}
+body.redesign-v2.vehicle-list-page .fleet tbody tr:has(td:not(:nth-last-child(-n+2)):hover) td.reg {
+    color: #fff !important;
+}
+
+/* Make fleet number and reg links fill their cells for full clickability */
+body.redesign-v2.vehicle-list-page .fleet td a {
+    display: block !important;
+    padding: 6px 10px !important;
+    margin: -6px -10px !important;
+    text-decoration: none !important;
+}
+
+
+
+/* Flickr and Edit — no underline, own hover effect */
+body.redesign-v2.vehicle-list-page .fleet td:nth-last-child(-n+2) a {
+    text-decoration: none !important;
+}
+body.redesign-v2.vehicle-list-page .fleet td:nth-last-child(-n+2) a:active,
+body.redesign-v2.vehicle-list-page .fleet td:nth-last-child(-n+2) a:focus,
+body.redesign-v2.vehicle-list-page .fleet td:nth-last-child(-n+2) a:visited:active {
+    color: #ff6b9d !important;
+    background: transparent !important;
+    background-color: transparent !important;
+}
+body.redesign-v2.vehicle-list-page .fleet td:nth-last-child(-n+2):hover {
+    outline: 2px solid #ff6b9d !important;
+    outline-offset: -1px !important;
+    background: rgba(255,107,157,0.1) !important;
+}
+
+/* No target highlight */
+body.redesign-v2 tr:target {
+    background: none !important;
+    background-color: transparent !important;
 }

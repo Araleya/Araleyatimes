@@ -390,7 +390,7 @@ def operator_vehicles(request, slug=None, group_slug=None):
     )
 
     context = {
-        "v2": "v2" in request.GET,
+        "v2": True,
         **context,
         "parent": group,
         "vehicles": vehicles,

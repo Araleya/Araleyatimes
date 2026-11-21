@@ -27,6 +27,7 @@
 {% endif %}
 
 <p class="fleet-disclaimer">This is not a complete fleet list &mdash; it's a list of {% firstof parent object %} ticket machine codes, which are used to track each vehicle. IDs may not match the correct vehicle, and not every journey is recorded.{% if garage_column %} Garage allocations are estimated from timetable data or added manually.{% endif %}</p>
+{% if features_column %}<p class="fleet-disclaimer">Click on a vehicle to see its special features.</p>{% endif %}
 {% if object.group %}
     <p>There’s also <a href="{{ object.group.get_absolute_url }}">a list of all {{ object.group }} vehicles</a>.</p>
 {% endif %}
@@ -55,14 +56,13 @@
             {% if notes_column %}<th scope="col" class="trivia">Notes</th>{% endif %}
             {% if garage_column %}<th scope="col" class="trivia">Garage</th>{% endif %}
             {% for col in columns %}<th scope="col" class="trivia">{{ col }}</th>{% endfor %}
-            {% if features_column %}<th scope="col" class="trivia">Special features</th>{% endif %}
             {% if parent %}<th>Operator</th>{% endif %}
         </tr>
     </thead>
     <tbody>
         {% for vehicle in vehicles %}
             <tr id="{{ vehicle.slug }}">
-                <td class="tabular"{% if not vehicle.reg %} colspan="2"{% endif %}>
+                <td class="tabular">
                     <a href="{{ vehicle.get_absolute_url }}">
                         {% if vehicle.fleet_code or vehicle.fleet_number %}
                             {% firstof vehicle.fleet_code vehicle.fleet_number %}
@@ -72,17 +72,15 @@
                     </a>
                 </td>
                 {% if vehicle.reg %}
-                    <td>
-                        <a href="{{ vehicle.get_absolute_url }}" class="reg">
-                            {{ vehicle.get_reg }}
-                        </a>
-                    </td>
+                    <td class="reg">{{ vehicle.get_reg }}</td>
+                {% else %}
+                    <td></td>
                 {% endif %}
                 {% if object.noc == "WDWN" %}<td>{% if vehicle.notes and "[ex:" in vehicle.notes %}{{ vehicle.notes|cut:"[ex:"|cut:"]" }}{% endif %}</td>{% endif %}
-                {% if not parent %}<td class="last-seen">
+                {% if not parent %}<td class="last-tracked">
                     {{ vehicle.last_seen.service }}
                 </td>
-                <td class="last-seen">
+                <td class="last-tracked">
                     {% if vehicle.last_seen.today %}
                         {{ vehicle.last_seen.when|time:"H:i" }}
                     {% elif vehicle.last_seen.when.year == today.year %}
@@ -91,17 +89,16 @@
                         {{ vehicle.last_seen.when|date:"j M Y" }}
                     {% endif %}
                 </td>{% endif %}
-                <td{% if vehicle.colours or vehicle.livery_id %} class="livery-cell"{% endif %}{% if branding_column %}{% if not vehicle.branding or not vehicle.livery_name %} colspan="2"{% endif %}{% endif %}>
+                <td{% if vehicle.colours or vehicle.livery_id %} class="livery-cell"{% endif %}>
                     {% if vehicle.colours or vehicle.livery_id %}{% if vehicle.livery.image_url %}<img src="{{ vehicle.livery.image_url }}" class="livery" alt="{{ vehicle.livery.name }}">{% else %}<div class="livery{% if vehicle.livery_id %} livery-{{ vehicle.livery_id }}{% else %}" style="background:{{ vehicle.get_livery }}{% endif %}"></div>{% endif %}{% endif %}
                     {% if vehicle.livery_name %}{{ vehicle.livery_name }}{% else %}{{ vehicle.branding }}{% endif %}
                 </td>
-                {% if vehicle.branding and vehicle.livery_name %}<td>{{ vehicle.branding }}</td>{% endif %}
+                {% if branding_column %}<td>{% if vehicle.branding and vehicle.livery_name %}{{ vehicle.branding }}{% endif %}</td>{% endif %}
                 <td>{% if vehicle.is_spare_ticket_machine %}{{ vehicle.notes }}{% else %}{{ vehicle.vehicle_type_name|default:"" }}{% endif %}</td>
                 {% if name_column %}<td class="trivia">{{ vehicle.name }}</td>{% endif %}
                 {% if notes_column %}<td class="trivia">{% if not vehicle.is_spare_ticket_machine %}{{ vehicle.notes }}{% endif %}</td>{% endif %}
                 {% if garage_column %}<td class="trivia">{{ vehicle.garage_name|default:'' }}{% if vehicle.data.garage_locked %} ★{% endif %}</td>{% endif %}
                 {% for value in vehicle.column_values %}<td class="trivia">{{ value }}</td>{% endfor %}
-                {% if features_column %}<td class="trivia">{{ vehicle.feature_names }}</td>{% endif %}
                 {% if parent %}<td>{{ vehicle.operator_name }}</td>{% endif %}
                 <td>{{ vehicle.get_flickr_link }}</td>
                 {% if vehicle.is_editable %}
@@ -115,4 +112,18 @@
 
 {% include 'pagination.html' with page=vehicles %}
 
+{% if v2 %}
+<script>
+document.querySelectorAll('.fleet tbody tr').forEach(function(row) {
+    var link = row.querySelector('a');
+    if (link) {
+        row.style.cursor = 'pointer';
+        row.addEventListener('click', function(e) {
+            if (e.target.tagName === 'A') return;
+            link.click();
+        });
+    }
+});
+</script>
+{% endif %}
 {% endblock content %}
