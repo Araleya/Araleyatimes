@@ -243,18 +243,20 @@ function formatDatetime(datetime: string, contextDate?: string) {
   if (contextDate && datetime.startsWith(contextDate)) {
     return datetime.slice(11, 16); // just the time
   }
-  return datetime.slice(0, 16).replace("T", " ");
+  const d = datetime.slice(0, 10).split("-"); return datetime.slice(11, 16) + " " + d[2] + "/" + d[1] + "/" + d[0];
 }
 
 function Sidebar({
   journey,
   loading,
   onMouseEnter,
+  onMouseLeave,
   vehicle,
 }: {
   journey: VehicleJourney;
   loading: boolean;
   onMouseEnter: (t: TripTime) => void;
+  onMouseLeave: () => void;
   vehicle?: Vehicle;
 }) {
   let className = "trip-timetable map-sidebar";
@@ -302,9 +304,9 @@ function Sidebar({
       }
     }
   } else {
-    text += ` ${journey.route_name}`;
+    text = `${journey.route_name}`;
     if (journey.destination) {
-      text += ` to ${journey.destination}`;
+      text += ` to ${journey.destination} · ${formatDatetime(journey.datetime)}`;
     }
   }
 
@@ -320,6 +322,7 @@ function Sidebar({
       {trip ? (
         <TripTimetable
           onMouseEnter={onMouseEnter}
+          onMouseLeave={onMouseLeave}
           trip={trip}
           vehicle={vehicle}
         />
@@ -494,6 +497,10 @@ export default function JourneyMap({
     }
   }, []);
 
+  const handleRowLeave = React.useCallback(() => {
+    setClickedStop(undefined);
+  }, []);
+
   const handleRowHover = React.useCallback((a: TripTime) => {
     if (a.stop.location && a.stop.atco_code) {
       setClickedStop(`/stops/${a.stop.atco_code}`);
@@ -554,6 +561,7 @@ export default function JourneyMap({
             }}
             cursor={cursor}
             onMouseEnter={onMouseEnter}
+          onMouseLeave={onMouseLeave}
             onMouseMove={onMouseEnter}
             onMouseLeave={onMouseLeave}
             onClick={handleMapClick}
@@ -593,6 +601,7 @@ export default function JourneyMap({
         loading={loading}
         journey={journey}
         onMouseEnter={handleRowHover}
+        onMouseLeave={handleRowLeave}
         vehicle={vehicle}
       />
     </React.Fragment>

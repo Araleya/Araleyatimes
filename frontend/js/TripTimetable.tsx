@@ -54,6 +54,7 @@ export type Trip = {
 function Row({
   stop,
   onMouseEnter,
+  onMouseLeave,
   vehicle,
   aimedColumn,
   highlightedStop,
@@ -62,6 +63,8 @@ function Row({
 }: {
   stop: TripTime;
   onMouseEnter?: (stop: TripTime) => void;
+  onMouseLeave?: () => void;
+  onMouseLeave?: () => void;
   vehicle?: Vehicle;
   aimedColumn?: boolean;
   highlightedStop?: string;
@@ -157,7 +160,7 @@ function Row({
 
   return (
     <React.Fragment>
-      <tr className={className} onMouseEnter={handleMouseEnter}>
+      <tr className={className} onMouseEnter={handleMouseEnter} onMouseLeave={onMouseLeave}>
         <td className="stop-name" rowSpan={rowSpan}>
           {stopName}
         </td>
@@ -197,11 +200,13 @@ export const tripFromJourney = (journey: VehicleJourney): Trip | undefined => {
 const TripTimetable = React.memo(function TripTimetable({
   trip,
   onMouseEnter,
+  onMouseLeave,
   vehicle,
   highlightedStop,
 }: {
   trip: Trip;
   onMouseEnter?: (stop: TripTime) => void;
+  onMouseLeave?: () => void;
   vehicle?: Vehicle;
   highlightedStop?: string;
 }) {
@@ -258,6 +263,7 @@ const TripTimetable = React.memo(function TripTimetable({
               aimedColumn={aimedColumn}
               stop={stop}
               onMouseEnter={onMouseEnter}
+              onMouseLeave={onMouseLeave}
               vehicle={vehicle}
               highlightedStop={highlightedStop}
               first={i === 0 && !earlierStops}

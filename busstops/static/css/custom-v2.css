@@ -725,7 +725,6 @@ body.redesign-v2:not(.homepage-v2) .site-header ul a:hover {
         flex: 1 !important;
         float: none !important;
         text-align: left !important;
-        padding-left: 10px !important;
         margin-left: 0 !important;
         margin-right: auto !important;
     }
@@ -1421,7 +1420,6 @@ body.vehicle-list-page table.fleet td.livery-cell {
 }
 
 body.vehicle-list-page.redesign-v2 table.fleet td.livery-cell {
-    padding-left: 10px !important;
     position: relative !important;
     vertical-align: middle !important;
 }
@@ -1685,7 +1683,7 @@ body.redesign-v2.vehicle-detail-page h1 span.reg {
     font-family: 'Poppins', -apple-system, sans-serif !important;
     font-size: 36px !important;
     letter-spacing: -0.5px !important;
-    display: inline !important;
+    
     vertical-align: baseline !important;
 }
 
@@ -2113,7 +2111,7 @@ body.redesign-v2.vehicle-detail-page .service-map {
 }
 body.redesign-v2.vehicle-detail-page .service-map > .map-button + * {
     clear: both !important;
-    display: block !important;
+    
 }
 
 /* Vehicle detail — trip timetable bar spacing */
@@ -2122,7 +2120,7 @@ body.redesign-v2.vehicle-detail-page .service-map > .map-button + * {
 body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar {
     width: 580px !important;
     min-width: 580px !important;
-    padding-top: 65px !important;
+    padding-top: 10px !important;
     background: #0c0c16 !important;
 }
 body.redesign-v2.vehicle-detail-page .trip-timetable table {
@@ -2163,7 +2161,6 @@ body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar tbody tr:not(.m
     font-weight: 700 !important;
 }
 body.redesign-v2.vehicle-detail-page .trip-timetable-bar {
-    margin-top: 10px !important;
 }
 
 /* === Vehicle detail — map panel === */
@@ -2172,26 +2169,6 @@ body.redesign-v2.vehicle-detail-page #history {
 }
 body.redesign-v2.vehicle-detail-page .service-map {
     background: #0c0c16 !important;
-}
-body.redesign-v2.vehicle-detail-page .service-map > .map-button {
-    background: #1a1a2c !important;
-    border: 1px solid #2a2a40 !important;
-    border-radius: 8px !important;
-    color: #ff6b9d !important;
-    padding: 11px 24px !important;
-    font-size: 16px !important;
-    font-weight: 600 !important;
-    cursor: pointer !important;
-    font-family: inherit !important;
-    transition: border-color 0.2s !important;
-    position: absolute !important;
-    display: block !important;
-    box-shadow: none !important;
-    z-index: 10 !important;
-    margin: 10px !important;
-}
-body.redesign-v2.vehicle-detail-page .service-map > .map-button:hover {
-    border-color: #ff6b9d !important;
 }
 body.redesign-v2.vehicle-detail-page #journeys a {
     color: #ff6b9d !important;
@@ -2257,4 +2234,89 @@ body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar {
 body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar,
 body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar table,
 body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar tbody {
+}
+
+/* Vehicle detail — center show previous stops */
+body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar thead th:first-child {
+    text-align: center !important;
+}
+
+/* Vehicle detail — center show previous stops label */
+body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar label,
+body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar thead label,
+body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar th label {
+    text-align: center !important;
+    
+}
+
+/* Vehicle detail — center the th containing show previous stops */
+body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar thead th:has(label) {
+    text-align: center !important;
+}
+
+/* Vehicle detail — center show previous stops label (outside table) */
+body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar > label {
+    text-align: center !important;
+    display: block !important;
+    max-width: 220px !important;
+    padding: 8px 0 !important;
+}
+
+/* Vehicle detail — show previous stops checkbox align and pink */
+body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar th.stop-name label {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 6px !important;
+    color: #8a86a0 !important;
+}
+body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar th.stop-name label input[type="checkbox"] {
+    accent-color: #ff6b9d !important;
+}
+
+
+/* Vehicle detail — Close map button */
+body.redesign-v2.vehicle-detail-page .service-map > .map-button {
+    background: #1a1a2c !important;
+    border: 1px solid #2a2a40 !important;
+    border-radius: 8px !important;
+    color: #ff6b9d !important;
+    padding: 11px 24px !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    cursor: pointer !important;
+    font-family: inherit !important;
+    transition: border-color 0.2s !important;
+    position: static !important;
+    top: 10px !important;
+    z-index: 10 !important;
+    margin: 0 10px 10px 10px !important;
+    box-shadow: none !important;
+    display: block !important;
+    width: fit-content !important;
+}
+body.redesign-v2.vehicle-detail-page .service-map > .map-button:hover {
+    border-color: #ff6b9d !important;
+}
+
+/* Vehicle detail — cloned close map button in sidebar */
+body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar > .map-button-clone {
+    background: #1a1a2c !important;
+    border: 1px solid #2a2a40 !important;
+    border-radius: 8px !important;
+    color: #ff6b9d !important;
+    padding: 8px 16px !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    cursor: pointer !important;
+    font-family: inherit !important;
+    transition: border-color 0.2s !important;
+    display: block !important;
+    width: fit-content !important;
+    margin: 10px 0 10px 0 !important;
+    box-shadow: none !important;
+    position: static !important;
+}
+body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar > .map-button-clone:hover {
+    border-color: #ff6b9d !important;
 }
