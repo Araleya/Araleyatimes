@@ -22,7 +22,7 @@
     {% endif %}
 {% endblock head %}
 
-{% block bodyclass %}narrow{% endblock %}
+{% block bodyclass %}narrow{% if request.GET.v2 is not None or request.COOKIES.at_mode == 'v2' %} redesign-v2 vehicle-detail-page{% endif %}{% endblock %}
 
 {% block content %}
 
@@ -117,6 +117,8 @@
              <th scope="col">{% if not vehicle %}Vehicle{% else %}Route{% endif %}</th>
             <th scope="col" colspan="2">Trip</th>
             <th scope="col">To</th>
+            <th scope="col">Map</th>
+            {% if perms.vehicles.change_vehiclejourney %}<th scope="col">Edit</th>{% endif %}
         </tr>
     </thead>
     <tbody>
@@ -127,7 +129,7 @@
                     {{ journey.route_name }}
                 </td>
             {% endif %}
-            <td class="link">
+            <td class="link action-cell">
                 {% if not vehicle %}
                     {% if journey.vehicle %}
                         <a href="{{ journey.vehicle.get_absolute_url }}?date={{ date.isoformat }}" rel="nofollow">{{ journey.vehicle }}</a>
@@ -152,10 +154,10 @@
             {% endif %}
             <td>{% firstof journey.destination journey.direction %}</td>
             {% if journey.locations is not False %}
-                <td class="link"><a href="#journeys/{{ journey.id }}">Map</a></td>
+                <td class="link action-cell"><a href="#journeys/{{ journey.id }}">Map</a></td>
             {% endif %}
             {% if perms.vehicles.change_vehiclejourney %}
-                <td class="link">
+                <td class="link action-cell">
                     <a href="{% url 'admin:vehicles_vehiclejourney_change' journey.pk %}">✎</a>
                 </td>
             {% endif %}
@@ -231,4 +233,6 @@
         {% endif %}
 
     {% endif %}
+    {% if request.GET.v2 is not None or request.COOKIES.at_mode == "v2" %}<script>document.addEventListener("DOMContentLoaded",function(){document.querySelectorAll("#journeys tbody tr").forEach(function(r){r.style.cursor="pointer";r.addEventListener("click",function(e){if(e.target.closest(".action-cell"))return;var a=r.querySelector("td.link.tabular a");if(a)a.click();});});});</script>{% endif %}
+    {% if request.GET.v2 is not None or request.COOKIES.at_mode == "v2" %}<script>(function(){function setup(){var sb=document.querySelector(".trip-timetable.map-sidebar tbody");if(!sb||sb.dataset.rsSetup)return;sb.dataset.rsSetup="1";sb.querySelectorAll("tr").forEach(function(row){row.addEventListener("mouseenter",function(){sb.querySelectorAll(".rs-highlight,.rs-below-border").forEach(function(el){el.classList.remove("rs-highlight","rs-below-border")});var rsCell=null;row.querySelectorAll("td").forEach(function(td){if(td.rowSpan>1)rsCell=td});if(rsCell){rsCell.classList.add("rs-highlight");var r=row;for(var i=1;i<rsCell.rowSpan;i++){r=r.nextElementSibling;if(r&&r.cells.length>1)r.cells[r.cells.length-1].classList.add("rs-below-border")}}});row.addEventListener("mouseleave",function(){sb.querySelectorAll(".rs-highlight,.rs-below-border").forEach(function(el){el.classList.remove("rs-highlight","rs-below-border")})})});}var obs=new MutationObserver(function(){setup()});obs.observe(document.body,{childList:true,subtree:true});setTimeout(setup,1000);setTimeout(setup,3000);})()</script>{% endif %}
 {% endblock foot %}

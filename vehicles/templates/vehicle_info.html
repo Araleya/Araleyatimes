@@ -7,11 +7,7 @@
         <div>
             <dt>Livery</dt>
             <dd>
-        {% if vehicle.livery and perms.vehicles.change_livery %}
-            <a href="{% url 'admin:vehicles_livery_change' object.livery_id %}">
-        {% endif %}
         {% if vehicle.livery.image_url %}<img src="{{ vehicle.livery.image_url }}" class="livery" alt="{{ vehicle.livery.name }}">{% else %}<div class="livery" style="background:{{ vehicle.get_livery }}"></div>{% endif %}
-        {% if vehicle.livery and perms.vehicles.change_livery %}</a>{% endif %}
         {% if vehicle.livery.show_name %}{{ vehicle.livery.name }}{% endif %}
             </dd>
         </div>
@@ -36,10 +32,10 @@
         </div>
     {% endif %}
 
-    {% if vehicle.name %}
+    {% if vehicle.garage %}
         <div>
-            <dt>Name</dt>
-            <dd>{{ vehicle.name }}</dd>
+            <dt>Garage</dt>
+            <dd>{{ vehicle.garage.name }}</dd>
         </div>
     {% endif %}
 
@@ -52,16 +48,16 @@
         {% endif %}
     {% endfor %}
 
-    {% if vehicle.garage %}
+    {% if vehicle.name %}
         <div>
-            <dt>Garage</dt>
-            <dd>{{ vehicle.garage.name }}</dd>
+            <dt>Name</dt>
+            <dd>{{ vehicle.name }}</dd>
         </div>
     {% endif %}
     {% if vehicle.features.all %}
         <div>
             <dt>Features</dt>
-            <dd>{{ vehicle.features.all|join:", " }}</dd>
+            <dd><span class="features-list">{% for f in vehicle.features.all %}<span class="feature-badge">{{ f }}</span>{% endfor %}</span></dd>
         </div>
     {% endif %}
 </dl>

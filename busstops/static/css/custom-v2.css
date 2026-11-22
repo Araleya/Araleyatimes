@@ -233,7 +233,7 @@ body.redesign-v2 .horizontal li {
     padding: 22px 12px;
     border-right: 1px solid #222236;
     text-align: center;
-    font-size: 17px; font-weight: 700; color: #ff6b9d;
+    font-size: 15px; font-weight: 700; color: #ff6b9d;
     display: flex !important; flex-direction: column;
     line-height: 1.4;
 }
@@ -245,7 +245,7 @@ body.redesign-v2 .horizontal li a {
 }
 
 /* Search pane */
-body.redesign-v2 .panes { display: block !important; margin: 0 0 6px; }
+body.redesign-v2 .panes { display: inline-block !important; margin: 0 0 6px; }
 body.redesign-v2 .panes .pane { margin-bottom: 10px; }
 body.redesign-v2 .panes .search h2 { display: none !important; }
 body.redesign-v2 .panes .search p label {
@@ -356,7 +356,6 @@ body.redesign-v2 table {
     background: transparent;
     border: none;
     border-radius: 0;
-    overflow: visible;
 }
 body.redesign-v2 th, body.redesign-v2 td { border-color: #1e1e30; padding: 6px 8px; }
 body.redesign-v2 thead th {
@@ -403,15 +402,7 @@ body.redesign-v2 h1 {
     color: #fff;
     letter-spacing: -0.5px;
 }
-body.redesign-v2 h1 .reg {
-    background: #222240;
-    border: 1px solid #2a2a40;
-    border-radius: 4px;
-    color: #ff6b9d;
-    font-family: monospace;
-    letter-spacing: 1px;
-    font-size: 15px;
-}
+
 body.redesign-v2 .contact-details {
     display: flex;
     gap: 16px;
@@ -522,11 +513,11 @@ body.redesign-v2 .horizontal li:first-child a {
 
 /* Remove flex on #content that was breaking layout */
 body.redesign-v2 .services {
-    display: block;
+    display: inline-block;
 }
 
 /* ===== MOBILE ===== */
-@media (max-width: 600px) {
+@media (max-width: 580px) {
     body.redesign-v2 .stats-row {
         flex-direction: column;
     }
@@ -558,7 +549,7 @@ body.redesign-v2 .services {
 }
 
 /* Fix mobile overflow */
-@media (max-width: 600px) {
+@media (max-width: 580px) {
     body.redesign-v2 .services {
         overflow-x: hidden !important;
         max-width: 100vw;
@@ -573,7 +564,6 @@ body.redesign-v2 .services {
 body.redesign-v2 .search-label-text { display: none !important; }
 
 body.redesign-v2:not(.homepage-v2) .site-header {
-    overflow: visible !important;
 }
 body.redesign-v2:not(.homepage-v2) .site-header > div {
     display: flex !important;
@@ -648,7 +638,7 @@ body.redesign-v2:not(.homepage-v2) .site-header .search label input::placeholder
     color: rgba(255,255,255,0.5) !important;
 }
 body.redesign-v2:not(.homepage-v2) .site-header .search label + input[type="submit"] {
-    display: block !important;
+    display: inline-block !important;
     background: linear-gradient(135deg, #b8406a, #d4507a) !important;
     border: 2px solid transparent !important;
     color: #fff !important;
@@ -721,17 +711,15 @@ body.redesign-v2:not(.homepage-v2) .site-header ul a:hover {
 
 
 /* Mobile header search fix — consolidated */
-@media (max-width: 600px) {
+@media (max-width: 580px) {
     /* Override header overflow so fixed children can escape */
     body.redesign-v2:not(.homepage-v2) .site-header {
-        overflow: visible !important;
     }
 
     /* Header layout */
     body.redesign-v2:not(.homepage-v2) .site-header div {
         flex-wrap: nowrap !important;
         gap: 6px !important;
-        overflow: visible !important;
     }
     body.redesign-v2:not(.homepage-v2) .site-header .site-name {
         flex: 1 !important;
@@ -811,7 +799,7 @@ body.redesign-v2:not(.homepage-v2) .site-header ul a:hover {
         border: none !important;
         border-radius: 8px !important;
         color: #fff !important;
-        padding: 10px 14px !important;
+        padding: 6px 4px !important;
         font-size: 16px !important;
         position: static !important;
         top: auto !important;
@@ -957,7 +945,7 @@ body.redesign-v2:not(.homepage-v2) .long li a:hover {
 }
 
 /* Mobile grid — 2 columns, no overflow */
-@media (max-width: 600px) {
+@media (max-width: 580px) {
     body.redesign-v2:not(.homepage-v2) .long {
         grid-template-columns: 1fr !important;
         width: calc(100vw - 32px) !important;
@@ -966,7 +954,7 @@ body.redesign-v2:not(.homepage-v2) .long li a:hover {
 
 }
 /* Mobile region pills — consistent full-width within main */
-@media (max-width: 600px) {
+@media (max-width: 580px) {
     body.redesign-v2:not(.homepage-v2) main {
         padding: 0 16px !important;
         box-sizing: border-box !important;
@@ -999,7 +987,7 @@ body.redesign-v2 .services li {
 body.redesign-v2 .services a {
     display: flex !important;
     align-items: center !important;
-    gap: 10px !important;
+    gap: 6px !important;
     background: #1a1a2c !important;
     border: 1px solid #2a2a40 !important;
     border-radius: 8px !important;
@@ -1132,7 +1120,7 @@ body.redesign-v2.wide:not(.operator-page):not(.vehicle-list-page) .site-header d
     max-width: 100% !important;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 580px) {
     body.redesign-v2 .services {
         grid-template-columns: 1fr !important;
         width: calc(100vw - 32px) !important;
@@ -1140,19 +1128,19 @@ body.redesign-v2.wide:not(.operator-page):not(.vehicle-list-page) .site-header d
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 580px) {
     body.redesign-v2 .services {
         margin: 0 !important;
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 580px) {
     body.redesign-v2 .services {
         margin: 0 !important;
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 580px) {
     body.redesign-v2 .services {
         max-width: 100% !important;
         margin-left: 16px !important;
@@ -1161,7 +1149,7 @@ body.redesign-v2.wide:not(.operator-page):not(.vehicle-list-page) .site-header d
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 580px) {
     body.redesign-v2 .services {
         grid-template-columns: 1fr !important;
         width: calc(100vw - 32px) !important;
@@ -1176,7 +1164,7 @@ body.redesign-v2.wide:not(.operator-page):not(.vehicle-list-page) .site-header d
 /* Operator page — wider layout */
 @media (min-width: 62.5em) {
     body.operator-page .site-header div, body.vehicle-list-page .site-header div {
-        width: auto !important;
+        width: 100% !important;
         max-width: none !important;
         display: flex !important;
         align-items: center !important;
@@ -1196,7 +1184,7 @@ body.redesign-v2.wide:not(.operator-page):not(.vehicle-list-page) .site-header d
     body.redesign-v2.wide:not(.operator-page):not(.vehicle-list-page) .site-header div {
         display: flex !important;
         align-items: center !important;
-        width: auto !important;
+        width: 100% !important;
         max-width: 58.6em !important;
         padding: 0 2em !important;
     }
@@ -1281,9 +1269,9 @@ body.operator-page .horizontal li:first-child a {
     cursor: pointer !important;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 580px) {
     body.operator-page .contact-details {
-        display: block !important;
+        display: inline-block !important;
         max-width: calc(100vw - 32px) !important;
         box-sizing: border-box !important;
     }
@@ -1512,7 +1500,7 @@ body.redesign-v2 .admin-links li a {
     text-decoration: none;
     font-size: 14px;
     font-weight: 700;
-    display: block;
+    display: inline-block;
     transition: border-color 0.2s, background 0.2s;
 }
 
@@ -1604,7 +1592,7 @@ body.redesign-v2.vehicle-list-page .fleet tbody tr:has(td:not(.action-cell):hove
 
 /* Make fleet number and reg links fill their cells for full clickability */
 body.redesign-v2.vehicle-list-page .fleet td a {
-    display: block !important;
+    display: inline-block !important;
     padding: 6px 10px !important;
     margin: -6px -10px !important;
     text-decoration: none !important;
@@ -1624,7 +1612,7 @@ body.redesign-v2.vehicle-list-page .fleet td.action-cell a:visited:active {
     background-color: transparent !important;
 }
 body.redesign-v2.vehicle-list-page .fleet td.action-cell:hover {
-    outline: 2px solid #ff6b9d !important;
+    outline: 3px solid #ff6b9d !important;
     outline-offset: -1px !important;
     background: rgba(255,107,157,0.1) !important;
 }
@@ -1637,7 +1625,7 @@ body.redesign-v2 tr:target {
 
 
 /* Mobile vehicle list fixes */
-@media (max-width: 600px) {
+@media (max-width: 580px) {
     /* Align tabs/buttons to left */
     body.redesign-v2 .tabs {
         justify-content: flex-start !important;
@@ -1649,7 +1637,7 @@ body.redesign-v2 tr:target {
     body.redesign-v2 .breadcrumb {
         white-space: normal !important;
         overflow-x: visible !important;
-        display: block !important;
+        display: inline-block !important;
         max-width: 100% !important;
         box-sizing: border-box !important;
         margin-left: 0 !important;
@@ -1669,4 +1657,604 @@ body.redesign-v2 tr:target {
         justify-content: flex-start !important;
         padding-left: 0 !important;
     }
+}
+
+/* Vehicle detail — fleet number pink, reg white */
+body.redesign-v2.vehicle-detail-page h1 {
+    font-size: 36px !important;
+    color: #ff6b9d !important;
+    font-weight: 700 !important;
+    display: flex !important;
+    align-items: baseline !important;
+    gap: 6px !important;
+    flex-wrap: wrap !important;
+    line-height: 1 !important;
+}
+body.redesign-v2.vehicle-detail-page h1 .reg,
+body.redesign-v2.vehicle-detail-page h1 s.reg,
+body.redesign-v2.vehicle-detail-page h1 span.reg {
+    color: #c8c4d8 !important;
+    font-weight: 600 !important;
+    background: rgba(255,255,255,0.04) !important;
+    border: 1px solid #2a2a40 !important;
+    border-radius: 12px !important;
+    -webkit-border-radius: 12px !important;
+    padding: 6px 14px !important;
+    margin: 0 !important;
+    line-height: 1 !important;
+    font-family: 'Poppins', -apple-system, sans-serif !important;
+    font-size: 36px !important;
+    letter-spacing: -0.5px !important;
+    display: inline !important;
+    vertical-align: baseline !important;
+}
+
+/* Vehicle detail — info card text sizes */
+body.redesign-v2.vehicle-detail-page .contact-details {
+    background: #1a1a2c !important;
+    border: 1px solid #2a2a40 !important;
+    border-radius: 10px !important;
+    padding: 24px !important;
+    margin: 16px 0 !important;
+    display: grid !important;
+    grid-template-columns: repeat(auto-fit, minmax(140px, max-content)) !important;
+    justify-content: center !important;
+    gap: 24px 40px !important;
+}
+body.redesign-v2.vehicle-detail-page .contact-details dt {
+    font-size: 15px !important;
+    text-transform: uppercase !important;
+    letter-spacing: 1px !important;
+    color: #8a86a0 !important;
+    font-weight: 600 !important;
+    margin-bottom: 6px !important;
+}
+body.redesign-v2.vehicle-detail-page .contact-details dd {
+    font-size: 19px !important;
+    font-weight: 500 !important;
+    color: #fff !important;
+}
+
+/* Vehicle detail — livery swatch matching fleet list */
+body.redesign-v2.vehicle-detail-page .contact-details .livery {
+    width: 2.25em !important;
+    height: 1.5em !important;
+    border: none !important;
+    border-radius: 3px !important;
+    overflow: hidden !important;
+    display: inline-block !important;
+    vertical-align: middle !important;
+    margin-right: 8px !important;
+}
+
+/* Vehicle detail — center align each info item */
+body.redesign-v2.vehicle-detail-page .contact-details > div {
+    text-align: center !important;
+}
+body.redesign-v2.vehicle-detail-page .contact-details dd {
+    justify-content: center !important;
+}
+
+/* Feature badges */
+.features-list {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 6px !important;
+    justify-content: center !important;
+}
+.feature-badge {
+    background: rgba(255,107,157,0.15) !important;
+    border: 1px solid rgba(255,107,157,0.3) !important;
+    color: #ff6b9d !important;
+    border-radius: 20px !important;
+    padding: 4px 12px !important;
+    font-size: 13px !important;
+    font-weight: 600 !important;
+    display: inline-block !important;
+}
+
+
+
+/* Features row spans full width */
+body.redesign-v2.vehicle-detail-page .contact-details > div:has(.features-list) {
+    grid-column: 1 / -1 !important;
+}
+
+/* Livery swatch closer to text */
+body.redesign-v2.vehicle-detail-page .contact-details .livery {
+    margin-right: 0 !important;
+    float: none !important;
+}
+body.redesign-v2.vehicle-detail-page .contact-details dd {
+    gap: 0 !important;
+}
+
+/* Single item on a row — center it */
+body.redesign-v2.vehicle-detail-page .contact-details > div:nth-last-child(2):nth-child(5),
+body.redesign-v2.vehicle-detail-page .contact-details > div:nth-last-child(2):nth-child(4) {
+    grid-column: 2 / 4 !important;
+}
+
+/* Vehicle detail — action buttons */
+body.redesign-v2.vehicle-detail-page .horizontal {
+    display: flex !important;
+    gap: 6px !important;
+    flex-wrap: wrap !important;
+    margin: 16px 0 !important;
+    padding: 0 !important;
+    list-style: none !important;
+    border: none !important;
+    background: none !important;
+}
+body.redesign-v2.vehicle-detail-page .horizontal li {
+    display: inline-flex !important;
+    float: none !important;
+    flex: none !important;
+}
+body.redesign-v2.vehicle-detail-page .horizontal li:after {
+    display: none !important;
+    content: none !important;
+}
+body.redesign-v2.vehicle-detail-page .horizontal a {
+    background: #1a1a2c !important;
+    border: 1px solid #2a2a40 !important;
+    border-radius: 8px !important;
+    color: #ff6b9d !important;
+    padding: 8px 16px !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    display: inline-block !important;
+    transition: border-color 0.2s !important;
+    text-decoration: none !important;
+}
+body.redesign-v2.vehicle-detail-page .horizontal a:hover {
+    border-color: #ff6b9d !important;
+    text-decoration: none !important;
+}
+
+/* Vehicle detail — bigger action buttons, no separators */
+body.redesign-v2.vehicle-detail-page .horizontal li:after,
+body.redesign-v2.vehicle-detail-page .horizontal li:before {
+    display: none !important;
+    content: none !important;
+    border: none !important;
+}
+body.redesign-v2.vehicle-detail-page .horizontal a {
+    padding: 10px 22px !important;
+    font-size: 15px !important;
+}
+body.redesign-v2.vehicle-detail-page .horizontal {
+    gap: 8px !important;
+    border: none !important;
+    border-top: none !important;
+    border-bottom: none !important;
+    box-shadow: none !important;
+}
+
+/* Vehicle detail — override generic horizontal li borders */
+body.redesign-v2.vehicle-detail-page .horizontal li {
+    border-right: none !important;
+    border-left: none !important;
+    border: none !important;
+    padding: 0 !important;
+    flex: none !important;
+    flex-direction: row !important;
+}
+body.redesign-v2.vehicle-detail-page .horizontal a {
+    font-size: 16px !important;
+    padding: 11px 24px !important;
+}
+
+/* Vehicle detail — ensure buttons are clickable */
+body.redesign-v2.vehicle-detail-page .horizontal li a {
+    pointer-events: auto !important;
+    cursor: pointer !important;
+    position: relative !important;
+    z-index: 1 !important;
+}
+
+/* Vehicle detail — prevent button cutoff */
+body.redesign-v2.vehicle-detail-page #content {
+}
+body.redesign-v2.vehicle-detail-page .button {
+    display: inline-block !important;
+    width: 100% !important;
+}
+
+/* Vehicle detail — bigger date picker */
+body.redesign-v2.vehicle-detail-page .timetable-date select {
+    background: #1a1a2c !important;
+    border: 1px solid #2a2a40 !important;
+    border-radius: 8px !important;
+    color: #c8c4d8 !important;
+    padding: 10px 36px 10px 14px !important;
+    font-size: 15px !important;
+    font-family: inherit !important;
+    appearance: none !important;
+    -webkit-appearance: none !important;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath fill='%23c8c4d8' d='M6 8L0 0h12z'/%3E%3C/svg%3E") !important;
+    background-repeat: no-repeat !important;
+    background-position: right 14px center !important;
+    min-width: 280px !important;
+}
+
+/* Vehicle detail — journey table */
+body.redesign-v2.vehicle-detail-page table {
+    width: 100% !important;
+    border-collapse: collapse !important;
+    font-size: 14px !important;
+}
+body.redesign-v2.vehicle-detail-page thead th {
+    text-align: center !important;
+    font-size: 12px !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.5px !important;
+    color: #8a86a0 !important;
+    padding: 10px 8px !important;
+    border: 1px solid #2a2a40 !important;
+    background: #1a1a2c !important;
+    font-weight: 600 !important;
+}
+body.redesign-v2.vehicle-detail-page tbody td {
+    text-align: center !important;
+    padding: 10px 8px !important;
+    border: 1px solid #2a2a40 !important;
+    color: #c8c4d8 !important;
+    background: transparent !important;
+}
+body.redesign-v2.vehicle-detail-page tbody td a {
+    color: #ff6b9d !important;
+    text-decoration: none !important;
+}
+body.redesign-v2.vehicle-detail-page tbody td:last-child {
+    text-align: left !important;
+}
+    box-shadow: inset 0 1px 0 #ff6b9d, inset 0 -1px 0 #ff6b9d, inset -2px 0 0 #ff6b9d !important;
+}
+body.redesign-v2.vehicle-detail-page .table-wrapper {
+    overflow-x: auto !important;
+}
+
+/* Vehicle detail — table align with content above */
+body.redesign-v2.vehicle-detail-page .table-wrapper {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+body.redesign-v2.vehicle-detail-page #journeys {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* Vehicle detail — center pencil edit icon */
+body.redesign-v2.vehicle-detail-page tbody td.link a[href*="admin"] {
+    text-align: center !important;
+}
+body.redesign-v2.vehicle-detail-page tbody td.link:last-child {
+    text-align: center !important;
+}
+
+/* Vehicle detail — rounded table via wrapper */
+body.redesign-v2.vehicle-detail-page table {
+    border-collapse: collapse !important;
+    border-radius: 0 !important;
+    border: none !important;
+}
+body.redesign-v2.vehicle-detail-page .table-wrapper {
+    border: 1px solid #2a2a40 !important;
+    border-radius: 12px !important;
+    overflow: hidden !important;
+}
+
+
+/* Vehicle detail — journey table hover (clean) */
+
+/* Vehicle detail — journey table hover (using :has like vehicle list) */
+body.redesign-v2.vehicle-detail-page tbody tr:has(td:not(.action-cell):hover) td:not(.action-cell) {
+    background: rgba(255,107,157,0.06) !important;
+    box-shadow: inset 0 1px 0 #ff6b9d, inset 0 -1px 0 #ff6b9d !important;
+}
+body.redesign-v2.vehicle-detail-page tbody tr:has(td:not(.action-cell):hover) td:not(.action-cell):first-child {
+    box-shadow: inset 0 1px 0 #ff6b9d, inset 0 -1px 0 #ff6b9d, inset 2px 0 0 #ff6b9d !important;
+}
+body.redesign-v2.vehicle-detail-page tbody tr:has(td:not(.action-cell):hover) td:not(.action-cell):has(+ td.action-cell) {
+    box-shadow: inset 0 1px 0 #ff6b9d, inset 0 -1px 0 #ff6b9d, inset -2px 0 0 #ff6b9d !important;
+}
+body.redesign-v2.vehicle-detail-page tbody td.action-cell:hover {
+    outline: 3px solid #ff6b9d !important;
+    outline-offset: -2px !important;
+    background: rgba(255,107,157,0.1) !important;
+    cursor: pointer !important;
+}
+body.redesign-v2.vehicle-detail-page tbody tr:hover {
+    background: none !important;
+}
+
+/* Vehicle detail — prev/next nav correct pink */
+body.redesign-v2.vehicle-detail-page #content > nav a {
+    color: #ff6b9d !important;
+}
+body.redesign-v2.vehicle-detail-page #content > nav a {
+    font-weight: 700 !important;
+}
+
+/* Vehicle detail — map panel correct pink */
+body.redesign-v2.vehicle-detail-page #journeys a {
+    color: #ff6b9d !important;
+}
+body.redesign-v2.vehicle-detail-page #journeys a:hover {
+    color: #ff8db5 !important;
+}
+
+
+/* Vehicle detail — journey table text bigger and slightly bold */
+body.redesign-v2.vehicle-detail-page tbody td {
+    font-size: 15px !important;
+    font-weight: 500 !important;
+}
+body.redesign-v2.vehicle-detail-page tbody td a {
+    font-size: 15px !important;
+    font-weight: 600 !important;
+}
+
+/* Vehicle detail — prev/next nav bigger */
+body.redesign-v2.vehicle-detail-page #content > nav a {
+    font-size: 17px !important;
+}
+
+/* Vehicle detail — livery swatch align with text */
+body.redesign-v2.vehicle-detail-page .contact-details dd {
+    display: flex !important;
+    align-items: center !important;
+}
+body.redesign-v2.vehicle-detail-page .contact-details .livery {
+    flex-shrink: 0 !important;
+    vertical-align: middle !important;
+}
+body.redesign-v2.vehicle-detail-page .contact-details dd {
+    gap: 10px !important;
+}
+
+/* Vehicle detail — left border after action-cell */
+body.redesign-v2.vehicle-detail-page tbody tr:has(td:not(.action-cell):hover) td.action-cell + td:not(.action-cell) {
+    box-shadow: inset 0 1px 0 #ff6b9d, inset 0 -1px 0 #ff6b9d, inset 2px 0 0 #ff6b9d !important;
+}
+
+/* Vehicle detail — map panel styling */
+/* Close map button */
+body.redesign-v2.vehicle-detail-page .pane button,
+body.redesign-v2.vehicle-detail-page button[onclick*="close"],
+body.redesign-v2.vehicle-detail-page .panes button {
+    background: #1a1a2c !important;
+    border: 1px solid #2a2a40 !important;
+    border-radius: 8px !important;
+    color: #ff6b9d !important;
+    padding: 8px 16px !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    cursor: pointer !important;
+    font-family: inherit !important;
+    transition: border-color 0.2s !important;
+}
+body.redesign-v2.vehicle-detail-page .pane button:hover,
+body.redesign-v2.vehicle-detail-page button[onclick*="close"]:hover,
+body.redesign-v2.vehicle-detail-page .panes button:hover {
+    border-color: #ff6b9d !important;
+}
+
+/* Table header in map panel */
+body.redesign-v2.vehicle-detail-page .pane thead th,
+body.redesign-v2.vehicle-detail-page .panes thead th {
+    background: #1a1a2c !important;
+    border: 1px solid #2a2a40 !important;
+    color: #8a86a0 !important;
+    font-size: 12px !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.5px !important;
+    font-weight: 600 !important;
+}
+
+/* Timing points bold */
+body.redesign-v2.vehicle-detail-page .pane .timing-point td,
+body.redesign-v2.vehicle-detail-page .panes .timing-point td,
+body.redesign-v2.vehicle-detail-page .pane tr.timing-point a,
+body.redesign-v2.vehicle-detail-page .panes tr.timing-point a {
+    font-weight: 700 !important;
+}
+
+/* Vehicle detail — map panel styling */
+/* Close map button */
+body.redesign-v2.vehicle-detail-page .pane button,
+body.redesign-v2.vehicle-detail-page button[onclick*="close"],
+body.redesign-v2.vehicle-detail-page .panes button {
+    background: #1a1a2c !important;
+    border: 1px solid #2a2a40 !important;
+    border-radius: 8px !important;
+    color: #ff6b9d !important;
+    padding: 8px 16px !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    cursor: pointer !important;
+    font-family: inherit !important;
+    transition: border-color 0.2s !important;
+}
+body.redesign-v2.vehicle-detail-page .pane button:hover,
+body.redesign-v2.vehicle-detail-page button[onclick*="close"]:hover,
+body.redesign-v2.vehicle-detail-page .panes button:hover {
+    border-color: #ff6b9d !important;
+}
+
+/* Table header in map panel */
+body.redesign-v2.vehicle-detail-page .pane thead th,
+body.redesign-v2.vehicle-detail-page .panes thead th {
+    background: #1a1a2c !important;
+    border: 1px solid #2a2a40 !important;
+    color: #8a86a0 !important;
+    font-size: 12px !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.5px !important;
+    font-weight: 600 !important;
+}
+
+/* Timing points bold */
+body.redesign-v2.vehicle-detail-page .pane .timing-point td,
+body.redesign-v2.vehicle-detail-page .panes .timing-point td,
+body.redesign-v2.vehicle-detail-page .pane tr.timing-point a,
+body.redesign-v2.vehicle-detail-page .panes tr.timing-point a {
+    font-weight: 700 !important;
+}
+
+/* Vehicle detail — map panel (inside #history .service-map) */
+
+/* Vehicle detail — Close map button (single clean rule) */
+
+/* Vehicle detail — space between close button and nav arrows */
+body.redesign-v2.vehicle-detail-page .service-map {
+    padding-top: 0 !important;
+}
+body.redesign-v2.vehicle-detail-page .service-map > .map-button + * {
+    clear: both !important;
+    display: block !important;
+}
+
+/* Vehicle detail — trip timetable bar spacing */
+
+/* === Vehicle detail — map sidebar (clean) === */
+body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar {
+    width: 580px !important;
+    min-width: 580px !important;
+    padding-top: 65px !important;
+    background: #0c0c16 !important;
+}
+body.redesign-v2.vehicle-detail-page .trip-timetable table {
+    table-layout: auto !important;
+    width: 100% !important;
+}
+body.redesign-v2.vehicle-detail-page .trip-timetable td,
+body.redesign-v2.vehicle-detail-page .trip-timetable th {
+    padding: 8px 4px !important;
+}
+body.redesign-v2.vehicle-detail-page .trip-timetable thead th {
+    white-space: nowrap !important;
+    background: #1a1a2c !important;
+    border: 1px solid #2a2a40 !important;
+    color: #8a86a0 !important;
+    font-size: 12px !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.5px !important;
+    font-weight: 600 !important;
+}
+body.redesign-v2.vehicle-detail-page .trip-timetable .stop-name {
+    width: 220px !important;
+    max-width: 220px !important;
+}
+body.redesign-v2.vehicle-detail-page .trip-timetable .stop-name a {
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    padding: 4px 0 4px 0 !important;
+    margin: -4px -4px -4px 0 !important;
+}
+body.redesign-v2.vehicle-detail-page .trip-timetable th:not(:first-child),
+body.redesign-v2.vehicle-detail-page .trip-timetable td:not(.stop-name) {
+    width: 1px !important;
+    white-space: nowrap !important;
+}
+body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar tbody tr:not(.minor) td a {
+    color: #ff9dc0 !important;
+    font-weight: 700 !important;
+}
+body.redesign-v2.vehicle-detail-page .trip-timetable-bar {
+    margin-top: 10px !important;
+}
+
+/* === Vehicle detail — map panel === */
+body.redesign-v2.vehicle-detail-page #history {
+    background: #0c0c16 !important;
+}
+body.redesign-v2.vehicle-detail-page .service-map {
+    background: #0c0c16 !important;
+}
+body.redesign-v2.vehicle-detail-page .service-map > .map-button {
+    background: #1a1a2c !important;
+    border: 1px solid #2a2a40 !important;
+    border-radius: 8px !important;
+    color: #ff6b9d !important;
+    padding: 11px 24px !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    cursor: pointer !important;
+    font-family: inherit !important;
+    transition: border-color 0.2s !important;
+    position: absolute !important;
+    display: block !important;
+    box-shadow: none !important;
+    z-index: 10 !important;
+    margin: 10px !important;
+}
+body.redesign-v2.vehicle-detail-page .service-map > .map-button:hover {
+    border-color: #ff6b9d !important;
+}
+body.redesign-v2.vehicle-detail-page #journeys a {
+    color: #ff6b9d !important;
+}
+body.redesign-v2.vehicle-detail-page #journeys a:hover {
+    color: #ff8db5 !important;
+}
+
+/* Vehicle detail — map sidebar alignment fixes */
+body.redesign-v2.vehicle-detail-page .trip-timetable thead th {
+    text-align: center !important;
+}
+body.redesign-v2.vehicle-detail-page .trip-timetable td:not(.stop-name) {
+    text-align: center !important;
+}
+body.redesign-v2.vehicle-detail-page .trip-timetable .stop-name {
+    text-align: center !important;
+}
+body.redesign-v2.vehicle-detail-page .trip-timetable thead th:first-child {
+    text-align: center !important;
+}
+
+
+/* Vehicle detail — map sidebar hover (clean final) */
+
+
+/* Vehicle detail — map sidebar hover (1px consistent) */
+body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar tbody tr {
+    cursor: pointer !important;
+}
+body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar tbody tr:hover td:not([rowspan]):not(.rs-below-border) {
+    background: rgba(255,107,157,0.06) !important;
+    box-shadow: inset 0 1px 0 #ff6b9d, inset 0 -1px 0 #ff6b9d !important;
+}
+body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar tbody tr:hover td:not([rowspan]):not(.rs-below-border):first-child {
+    box-shadow: inset 1px 0 0 #ff6b9d, inset 0 1px 0 #ff6b9d, inset 0 -1px 0 #ff6b9d !important;
+}
+body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar tbody tr:hover td:not([rowspan]):not(.rs-below-border):last-child {
+    box-shadow: inset -1px 0 0 #ff6b9d, inset 0 1px 0 #ff6b9d, inset 0 -1px 0 #ff6b9d !important;
+}
+body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar tbody td.rs-highlight {
+    background: rgba(255,107,157,0.06) !important;
+    box-shadow: inset 0 1px 0 #ff6b9d, inset 0 -1px 0 #ff6b9d !important; border-right: 1px solid #ff6b9d !important;
+}
+body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar tbody td.rs-below-border {
+    position: relative !important;
+}
+body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar tbody td.rs-below-border::after {
+    content: "" !important;
+    position: absolute !important;
+    right: -1px !important;
+    top: 0 !important;
+    bottom: 0 !important;
+    width: 1px !important;
+    background: #ff6b9d !important;
+    z-index: 1 !important;
+}
+
+/* Vehicle detail — sidebar right padding for shadow */
+body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar {
+    padding-right: 4px !important;
+}
+body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar,
+body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar table,
+body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar tbody {
 }
