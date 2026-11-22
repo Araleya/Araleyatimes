@@ -2287,7 +2287,7 @@ body.redesign-v2.vehicle-detail-page .service-map > .map-button {
     cursor: pointer !important;
     font-family: inherit !important;
     transition: border-color 0.2s !important;
-    position: static !important;
+    position: absolute !important;
     top: 10px !important;
     z-index: 10 !important;
     margin: 0 10px 10px 10px !important;
@@ -2319,4 +2319,32 @@ body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar > .map-button-c
 }
 body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar > .map-button-clone:hover {
     border-color: #ff6b9d !important;
+}
+
+/* Vehicle detail — Track this bus and Mark as Done buttons */
+body.redesign-v2.vehicle-detail-page .button {
+    display: inline-block !important;
+    width: auto !important;
+}
+body.redesign-v2.vehicle-detail-page #content {
+    overflow: visible !important;
+}
+
+/* Vehicle detail — hide trip block column */
+body.redesign-v2.vehicle-detail-page tbody td.link:has(a[href*="block"]) {
+    display: none !important;
+}
+
+/* Vehicle detail — sidebar scrollbar spacing */
+body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar {
+    padding-right: 12px !important;
+}
+
+/* Vehicle detail — map sidebar rounded table */
+body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar table {
+    border: 1px solid #2a2a40 !important;
+    border-radius: 10px !important;
+    border-collapse: separate !important;
+    border-spacing: 0 !important;
+    overflow: hidden !important;
 }
