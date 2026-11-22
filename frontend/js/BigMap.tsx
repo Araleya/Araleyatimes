@@ -699,6 +699,7 @@ export default function BigMap(
       } else {
         setJourney(undefined);
         setTrip(undefined);
+        setVehicles(undefined);
         fetchJson(`api/trips/${props.tripId}/`).then(setTrip);
       }
     } else if (props.noc) {
@@ -718,11 +719,27 @@ export default function BigMap(
       } else {
         setJourney(undefined);
         setTrip(undefined);
-        fetchJson(`journeys/${props.journeyId}.json`).then(
-          (journey: VehicleJourney) => {
-            setJourney({ ...journey, id: props.journeyId });
-          },
-        );
+        // Keep only vehicles on the same service, and prefetch vehicles in parallel
+        const clickedVehicle = vehicles?.find((v) => v.journey_id?.toString() === props.journeyId);
+        setVehicles((prev) => {
+          if (!prev) return prev;
+          const clicked = prev.find((v) => v.journey_id?.toString() === props.journeyId);
+          if (!clicked) return undefined;
+          const sameService = prev.filter((v) => v.service_id === clicked.service_id);
+          return sameService.length ? sameService : [clicked];
+        });
+        // Fetch journey JSON and fresh vehicles in parallel
+        const vehicleUrl = clickedVehicle?.service_id
+          ? `/vehicles.json?service=${clickedVehicle.service_id}&vehicle=${clickedVehicle.id}`
+          : clickedVehicle?.id
+            ? `/vehicles.json?id=${clickedVehicle.id}`
+            : null;
+        const journeyP = fetchJson(`journeys/${props.journeyId}.json`);
+        const vehiclesP = vehicleUrl ? fetch(vehicleUrl, {credentials: "omit"}).then(r => r.json()) : null;
+        Promise.all([journeyP, vehiclesP]).then(([j, v]) => {
+          setJourney({ ...j, id: props.journeyId });
+          if (v) setVehicles(v);
+        });
       }
     } else if (!props.vehicleId) {
       setJourney(undefined);
