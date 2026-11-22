@@ -2348,3 +2348,14 @@ body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar table {
     border-spacing: 0 !important;
     overflow: hidden !important;
 }
+
+/* Vehicle detail — hide scrollbar on empty sidebar */
+body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar:not(:has(table)) {
+    overflow: hidden !important;
+}
+
+/* Vehicle detail — eliminate gap between sidebar and map */
+body.redesign-v2.vehicle-detail-page .journey-map {
+    left: 580px !important;
+    width: calc(100% - 580px) !important;
+}
