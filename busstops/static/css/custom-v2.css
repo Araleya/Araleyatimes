@@ -2359,3 +2359,11 @@ body.redesign-v2.vehicle-detail-page .journey-map {
     left: 580px !important;
     width: calc(100% - 580px) !important;
 }
+
+/* Vehicle detail — center show previous stops label */
+body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar > label {
+    display: block !important;
+    text-align: center !important;
+    max-width: 420px !important;
+    padding: 8px 0 !important;
+}
