@@ -238,20 +238,21 @@ const TripTimetable = React.memo(function TripTimetable({
 
   return (
     <React.Fragment>
-      {earlierStops || showEarlierStops ? (
-        <label>
-          <input
-            type="checkbox"
-            checked={showEarlierStops}
-            onChange={() => setShowEarlierStops(!showEarlierStops)}
-          />
-          {" Show previous stops"}
-        </label>
-      ) : null}
       <table>
         <thead>
           <tr>
-            <th className="stop-name" />
+            <th className="stop-name">
+              {earlierStops || showEarlierStops ? (
+                <label>
+                  <input
+                    type="checkbox"
+                    checked={showEarlierStops}
+                    onChange={() => setShowEarlierStops(!showEarlierStops)}
+                  />
+                  {" Show previous stops"}
+                </label>
+              ) : null}
+            </th>
             {aimedColumn ? <th>Sched&shy;uled</th> : null}
             {actualColumn ? <th>Actual</th> : null}
           </tr>
