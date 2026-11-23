@@ -112,7 +112,7 @@ export default function History() {
       <div className="service-map">
         {closeButton}
         <Suspense fallback={<LoadingSorry />}>
-          <JourneyMap journey={journey} loading={loading} />
+          <JourneyMap journey={journey} loading={loading} onCloseMap={closeMap} />
         </Suspense>
       </div>
     </React.Fragment>

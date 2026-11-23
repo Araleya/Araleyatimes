@@ -252,12 +252,14 @@ function Sidebar({
   onMouseEnter,
   onMouseLeave,
   vehicle,
+  onCloseMap,
 }: {
   journey: VehicleJourney;
   loading: boolean;
   onMouseEnter: (t: TripTime) => void;
   onMouseLeave: () => void;
   vehicle?: Vehicle;
+  onCloseMap?: () => void;
 }) {
   let className = "trip-timetable map-sidebar";
   if (loading) {
@@ -312,6 +314,11 @@ function Sidebar({
 
   return (
     <div className={className}>
+      {onCloseMap ? (
+        <button type="button" onClick={onCloseMap} className="map-button map-button-sidebar">
+          Close map
+        </button>
+      ) : null}
       <div className="navigation">
         {previousLink}
         {nextLink}
@@ -401,9 +408,11 @@ function JourneyVehicle({
 export default function JourneyMap({
   journey,
   loading = false,
+  onCloseMap,
 }: {
   journey?: VehicleJourney;
   loading: boolean;
+  onCloseMap?: () => void;
 }) {
   const [cursor, setCursor] = React.useState<string>();
 
@@ -603,6 +612,7 @@ export default function JourneyMap({
         onMouseEnter={handleRowHover}
         onMouseLeave={handleRowLeave}
         vehicle={vehicle}
+        onCloseMap={onCloseMap}
       />
     </React.Fragment>
   );
