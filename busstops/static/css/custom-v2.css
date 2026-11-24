@@ -2358,10 +2358,12 @@ body.redesign-v2.vehicle-detail-page .service-map > .map-button {
     display: none !important;
 }
 
-/* Fix gap between sidebar and map */
-body.redesign-v2.vehicle-detail-page .journey-map {
-    left: 580px !important;
-    width: calc(100% - 580px) !important;
+/* Fix gap between sidebar and map — desktop only */
+@media (min-width: 580px) {
+    body.redesign-v2.vehicle-detail-page .journey-map {
+        left: 580px !important;
+        width: calc(100% - 580px) !important;
+    }
 }
 
 /* Compact sidebar table rows */
@@ -2465,3 +2467,137 @@ body.redesign-v2.vehicle-detail-page .button {
 body.redesign-v2.vehicle-detail-page #content {
     overflow: visible !important;
 }
+
+/* Mobile: pencil on same line as Edit/History/Flickr */
+@media (max-width: 580px) {
+    body.redesign-v2.vehicle-detail-page .horizontal {
+        flex-wrap: nowrap !important;
+    }
+    body.redesign-v2.vehicle-detail-page .horizontal a {
+        padding: 10px 20px !important;
+        font-size: 15px !important;
+    }
+}
+
+/* Mobile: journey table horizontal scroll */
+@media (max-width: 580px) {
+    body.redesign-v2.vehicle-detail-page #journeys .table-wrapper {
+        overflow-x: auto !important;
+        -webkit-overflow-scrolling: touch !important;
+    }
+    body.redesign-v2.vehicle-detail-page #journeys .table-wrapper table {
+        min-width: 500px !important;
+    }
+}
+
+
+
+
+
+/* Mobile: map view layout */
+@media (max-width: 768px) {
+    body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar {
+        width: 100% !important;
+        min-width: 0 !important;
+        max-width: 100% !important;
+        padding: 8px 12px 20px 8px !important;
+        box-sizing: border-box !important;
+        overflow-x: hidden !important;
+    }
+    body.redesign-v2.vehicle-detail-page .map-button-sidebar {
+        margin-top: 4px !important;
+        margin-bottom: 8px !important;
+    }
+    body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar td:nth-child(2),
+    body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar td:nth-child(3) {
+        width: 50px !important;
+        min-width: 50px !important;
+        max-width: 50px !important;
+        padding: 3px 2px !important;
+        font-size: 14px !important;
+    }
+    body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar th:nth-child(2),
+    body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar th:nth-child(3) {
+        width: 50px !important;
+        min-width: 50px !important;
+        max-width: 50px !important;
+        padding: 3px 2px !important;
+    }
+    body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar th:nth-child(2) {
+        font-size: 0 !important;
+    }
+    body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar th:nth-child(2)::after {
+        content: "SCHED" !important;
+        font-size: 10px !important;
+    }
+    body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar th:nth-child(3) {
+        font-size: 0 !important;
+    }
+    body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar th:nth-child(3)::after {
+        content: "ACT" !important;
+        font-size: 10px !important;
+    }
+    body.redesign-v2.vehicle-detail-page .journey-map {
+        left: 0 !important;
+        width: 100% !important;
+    }
+    body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar tbody,
+    body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar td:first-child,
+    body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar .stop-name,
+    body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar .stop-name a {
+        white-space: normal !important;
+        overflow: visible !important;
+    }
+    body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar td,
+    body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar th {
+        padding: 3px 2px !important;
+    }
+    body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar table {
+        width: 100% !important;
+        table-layout: auto !important;
+        border-collapse: collapse !important;
+        border-radius: 0 !important;
+    }
+    .redesign-v2 .trip-timetable.map-sidebar td,
+    .redesign-v2 .trip-timetable.map-sidebar th,
+    .redesign-v2 .trip-timetable.map-sidebar td a,
+    .redesign-v2 .trip-timetable.map-sidebar .stop-name a,
+    .redesign-v2 .trip-timetable.map-sidebar .minor td,
+    .redesign-v2 .trip-timetable.map-sidebar .minor td a {
+        font-size: 14px !important;
+    }
+}
+
+/* Mobile: dead run gap fix */
+@media (max-width: 768px) {
+    body.redesign-v2.vehicle-detail-page .no-stops + .map-sidebar {
+        top: auto !important;
+        bottom: 0 !important;
+        height: auto !important;
+    }
+    body.redesign-v2.vehicle-detail-page .journey-map.no-stops {
+        bottom: 230px !important;
+    }
+}
+
+/* Mobile: keep fleet number and reg on same line */
+@media (max-width: 768px) {
+    body.redesign-v2.vehicle-detail-page h1 {
+        white-space: nowrap !important;
+        display: flex !important;
+        align-items: center !important;
+        gap: 10px !important;
+        flex-wrap: nowrap !important;
+        padding: 0 16px !important;
+        font-size: 32px !important;
+        justify-content: center !important;
+    }
+    body.redesign-v2.vehicle-detail-page h1 .reg,
+    body.redesign-v2.vehicle-detail-page h1 s.reg,
+    body.redesign-v2.vehicle-detail-page h1 span.reg {
+        display: inline-block !important;
+        font-size: 30px !important;
+        padding: 6px 12px !important;
+    }
+}
+

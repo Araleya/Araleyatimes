@@ -90,7 +90,12 @@ function Row({
     if (url === highlightedStop) {
       className = "is-highlighted";
     }
-    stopName = <a href={url}>{stopName}</a>;
+    if (typeof stopName === "string" && stopName.includes(" / ")) {
+      const parts = stopName.split(" / ");
+      stopName = <a href={url}>{parts.map((p, i) => i < parts.length - 1 ? <React.Fragment key={i}>{p} /<wbr /> </React.Fragment> : p)}</a>;
+    } else {
+      stopName = <a href={url}>{stopName}</a>;
+    }
   }
 
   if (stop.timing_status && stop.timing_status !== "PTP") {
