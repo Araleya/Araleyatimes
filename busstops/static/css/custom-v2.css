@@ -1937,7 +1937,7 @@ body.redesign-v2.vehicle-detail-page #journeys .table-wrapper {
     border-radius: 0 !important;
     overflow: visible !important;
     border: none !important;
-    margin: 0 !important;
+
 }
 body.redesign-v2.vehicle-detail-page #journeys table {
     border-collapse: separate !important;
@@ -2482,9 +2482,18 @@ body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar th.stop-name la
 body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar table {
     border-collapse: separate !important;
     border-spacing: 0 !important;
-    border-radius: 10px !important;
-    overflow: hidden !important;
+    border-radius: 0 !important;
+    border: none !important;
+    overflow: visible !important;
 }
+body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar table th,
+body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar table td {
+    border: 1px solid #2a2a40 !important;
+}
+body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar thead tr:first-child th:first-child { border-top-left-radius: 10px !important; }
+body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar thead tr:first-child th:last-child { border-top-right-radius: 10px !important; }
+body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar tbody tr:last-child td:first-child { border-bottom-left-radius: 10px !important; }
+body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar tbody tr:last-child td:last-child { border-bottom-right-radius: 10px !important; }
 
 /* Fix time column header size */
 body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar th:nth-child(2),
@@ -2515,4 +2524,9 @@ body.redesign-v2.vehicle-detail-page td.link:has(a[href*="block"]) {
 body.redesign-v2.vehicle-detail-page #journeys:not(:has(td.action-cell a[href^="#journeys/"])) .map-header,
 body.redesign-v2.vehicle-detail-page #journeys:not(:has(td.action-cell a[href^="#journeys/"])) td.action-cell:not(:has(a)) {
     display: none !important;
+}
+
+
+body.redesign-v2.vehicle-detail-page .contact-details {
+    position: relative;
 }
