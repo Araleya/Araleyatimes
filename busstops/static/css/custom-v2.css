@@ -517,7 +517,7 @@ body.redesign-v2 .services {
 }
 
 /* ===== MOBILE ===== */
-@media (max-width: 580px) {
+@media (max-width: 650px) {
     body.redesign-v2 .stats-row {
         flex-direction: column;
     }
@@ -531,7 +531,7 @@ body.redesign-v2 .services {
         padding: 12px 8px !important;
     }
     body.redesign-v2 .stats-row .map-bar {
-        width: 100% !important;
+        width: auto !important;
         box-sizing: border-box;
         flex-direction: row;
         padding: 12px 18px;
@@ -549,7 +549,7 @@ body.redesign-v2 .services {
 }
 
 /* Fix mobile overflow */
-@media (max-width: 580px) {
+@media (max-width: 650px) {
     body.redesign-v2 .services {
         overflow-x: hidden !important;
         max-width: 100vw;
@@ -711,7 +711,7 @@ body.redesign-v2:not(.homepage-v2) .site-header ul a:hover {
 
 
 /* Mobile header search fix — consolidated */
-@media (max-width: 580px) {
+@media (max-width: 650px) {
     /* Override header overflow so fixed children can escape */
     body.redesign-v2:not(.homepage-v2) .site-header {
     }
@@ -791,7 +791,7 @@ body.redesign-v2:not(.homepage-v2) .site-header ul a:hover {
         display: none !important;
     }
     body.redesign-v2:not(.homepage-v2) .site-header .search.search-open label input[type="search"] {
-        width: 100% !important;
+        width: auto !important;
         min-width: 0 !important;
         flex: 1 !important;
         background: rgba(255,255,255,0.2) !important;
@@ -811,7 +811,7 @@ body.redesign-v2:not(.homepage-v2) .site-header ul a:hover {
         color: rgba(255,255,255,0.6) !important;
     }
     body.redesign-v2:not(.homepage-v2) .site-header .search.search-open label input[type="search"]:focus {
-        width: 100% !important;
+        width: auto !important;
         border-width: 0 !important;
         position: static !important;
         top: auto !important;
@@ -922,7 +922,7 @@ body.redesign-v2:not(.homepage-v2) .long li a {
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
-    width: 100% !important;
+    width: auto !important;
     box-sizing: border-box !important;
     text-align: center !important;
     background: #1a1a2c !important;
@@ -944,7 +944,7 @@ body.redesign-v2:not(.homepage-v2) .long li a:hover {
 }
 
 /* Mobile grid — 2 columns, no overflow */
-@media (max-width: 580px) {
+@media (max-width: 650px) {
     body.redesign-v2:not(.homepage-v2) .long {
         grid-template-columns: 1fr !important;
         width: calc(100vw - 32px) !important;
@@ -953,7 +953,7 @@ body.redesign-v2:not(.homepage-v2) .long li a:hover {
 
 }
 /* Mobile region pills — consistent full-width within main */
-@media (max-width: 580px) {
+@media (max-width: 650px) {
     body.redesign-v2:not(.homepage-v2) main {
         padding: 0 16px !important;
         box-sizing: border-box !important;
@@ -1119,7 +1119,7 @@ body.redesign-v2.wide:not(.operator-page):not(.vehicle-list-page) .site-header d
     max-width: 100% !important;
 }
 
-@media (max-width: 580px) {
+@media (max-width: 650px) {
     body.redesign-v2 .services {
         grid-template-columns: 1fr !important;
         width: calc(100vw - 32px) !important;
@@ -1127,19 +1127,19 @@ body.redesign-v2.wide:not(.operator-page):not(.vehicle-list-page) .site-header d
     }
 }
 
-@media (max-width: 580px) {
+@media (max-width: 650px) {
     body.redesign-v2 .services {
         margin: 0 !important;
     }
 }
 
-@media (max-width: 580px) {
+@media (max-width: 650px) {
     body.redesign-v2 .services {
         margin: 0 !important;
     }
 }
 
-@media (max-width: 580px) {
+@media (max-width: 650px) {
     body.redesign-v2 .services {
         max-width: 100% !important;
         margin-left: 16px !important;
@@ -1148,7 +1148,7 @@ body.redesign-v2.wide:not(.operator-page):not(.vehicle-list-page) .site-header d
     }
 }
 
-@media (max-width: 580px) {
+@media (max-width: 650px) {
     body.redesign-v2 .services {
         grid-template-columns: 1fr !important;
         width: calc(100vw - 32px) !important;
@@ -1163,7 +1163,7 @@ body.redesign-v2.wide:not(.operator-page):not(.vehicle-list-page) .site-header d
 /* Operator page — wider layout */
 @media (min-width: 62.5em) {
     body.operator-page .site-header div, body.vehicle-list-page .site-header div {
-        width: 100% !important;
+        width: auto !important;
         max-width: none !important;
         display: flex !important;
         align-items: center !important;
@@ -1183,7 +1183,7 @@ body.redesign-v2.wide:not(.operator-page):not(.vehicle-list-page) .site-header d
     body.redesign-v2.wide:not(.operator-page):not(.vehicle-list-page) .site-header div {
         display: flex !important;
         align-items: center !important;
-        width: 100% !important;
+        width: auto !important;
         max-width: 58.6em !important;
         padding: 0 2em !important;
     }
@@ -1268,7 +1268,7 @@ body.operator-page .horizontal li:first-child a {
     cursor: pointer !important;
 }
 
-@media (max-width: 580px) {
+@media (max-width: 650px) {
     body.operator-page .contact-details {
         display: inline-block !important;
         max-width: calc(100vw - 32px) !important;
@@ -1549,7 +1549,7 @@ body.redesign-v2.vehicle-list-page .fleet th {
 }
 body.redesign-v2.vehicle-list-page .fleet {
     table-layout: auto !important;
-    width: 100% !important;
+    width: auto !important;
 }
 body.redesign-v2.vehicle-list-page .fleet td.tabular,
 body.redesign-v2.vehicle-list-page .fleet td.tabular a {
@@ -1623,7 +1623,7 @@ body.redesign-v2 tr:target {
 
 
 /* Mobile vehicle list fixes */
-@media (max-width: 580px) {
+@media (max-width: 650px) {
     /* Align tabs/buttons to left */
     body.redesign-v2 .tabs {
         justify-content: flex-start !important;
@@ -1853,10 +1853,11 @@ body.redesign-v2.vehicle-detail-page .horizontal li a {
 
 /* Vehicle detail — prevent button cutoff */
 body.redesign-v2.vehicle-detail-page #content {
+    overflow: visible !important;
 }
 body.redesign-v2.vehicle-detail-page .button {
     display: inline-block !important;
-    width: 100% !important;
+    width: auto !important;
 }
 
 /* Vehicle detail — bigger date picker */
@@ -1878,13 +1879,13 @@ body.redesign-v2.vehicle-detail-page .timetable-date select {
 
 /* Vehicle detail — journey table */
 body.redesign-v2.vehicle-detail-page table {
-    width: 100% !important;
+    width: auto !important;
     border-collapse: collapse !important;
     font-size: 14px !important;
 }
 body.redesign-v2.vehicle-detail-page thead th {
     text-align: center !important;
-    font-size: 12px !important;
+    font-size: 14px !important;
     text-transform: uppercase !important;
     letter-spacing: 0.5px !important;
     color: #8a86a0 !important;
@@ -1910,7 +1911,7 @@ body.redesign-v2.vehicle-detail-page tbody td:last-child {
     box-shadow: inset 0 1px 0 #ff6b9d, inset 0 -1px 0 #ff6b9d, inset -2px 0 0 #ff6b9d !important;
 }
 body.redesign-v2.vehicle-detail-page .table-wrapper {
-    overflow-x: auto !important;
+    overflow: hidden !important;
 }
 
 /* Vehicle detail — table align with content above */
@@ -1932,15 +1933,37 @@ body.redesign-v2.vehicle-detail-page tbody td.link:last-child {
 }
 
 /* Vehicle detail — rounded table via wrapper */
-body.redesign-v2.vehicle-detail-page table {
+body.redesign-v2.vehicle-detail-page #journeys .table-wrapper {
+    border-radius: 12px;
+    overflow: hidden !important;
+    border: 2px solid #2a2a40;
+}
+body.redesign-v2.vehicle-detail-page #journeys table {
     border-collapse: collapse !important;
     border-radius: 0 !important;
     border: none !important;
+    width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
 }
-body.redesign-v2.vehicle-detail-page .table-wrapper {
+body.redesign-v2.vehicle-detail-page #journeys table th,
+body.redesign-v2.vehicle-detail-page #journeys table td {
     border: 1px solid #2a2a40 !important;
-    border-radius: 12px !important;
-    overflow: hidden !important;
+}
+body.redesign-v2.vehicle-detail-page #journeys table tr:first-child th,
+body.redesign-v2.vehicle-detail-page #journeys table tr:first-child td {
+    border-top: none !important;
+}
+body.redesign-v2.vehicle-detail-page #journeys table tr:last-child td {
+    border-bottom: none !important;
+}
+body.redesign-v2.vehicle-detail-page #journeys table th:first-child,
+body.redesign-v2.vehicle-detail-page #journeys table td:first-child {
+    border-left: none !important;
+}
+body.redesign-v2.vehicle-detail-page #journeys table th:last-child,
+body.redesign-v2.vehicle-detail-page #journeys table td:last-child {
+    border-right: none !important;
 }
 
 
@@ -2045,7 +2068,7 @@ body.redesign-v2.vehicle-detail-page .panes thead th {
     background: #1a1a2c !important;
     border: 1px solid #2a2a40 !important;
     color: #8a86a0 !important;
-    font-size: 12px !important;
+    font-size: 14px !important;
     text-transform: uppercase !important;
     letter-spacing: 0.5px !important;
     font-weight: 600 !important;
@@ -2087,7 +2110,7 @@ body.redesign-v2.vehicle-detail-page .panes thead th {
     background: #1a1a2c !important;
     border: 1px solid #2a2a40 !important;
     color: #8a86a0 !important;
-    font-size: 12px !important;
+    font-size: 14px !important;
     text-transform: uppercase !important;
     letter-spacing: 0.5px !important;
     font-weight: 600 !important;
@@ -2118,14 +2141,14 @@ body.redesign-v2.vehicle-detail-page .service-map > .map-button + * {
 
 /* === Vehicle detail — map sidebar (clean) === */
 body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar {
-    width: 580px !important;
-    min-width: 580px !important;
+    width: 650px !important;
+    min-width: 650px !important;
     padding-top: 10px !important;
     background: #0c0c16 !important;
 }
 body.redesign-v2.vehicle-detail-page .trip-timetable table {
     table-layout: auto !important;
-    width: 100% !important;
+    width: auto !important;
 }
 body.redesign-v2.vehicle-detail-page .trip-timetable td,
 body.redesign-v2.vehicle-detail-page .trip-timetable th {
@@ -2136,7 +2159,7 @@ body.redesign-v2.vehicle-detail-page .trip-timetable thead th {
     background: #1a1a2c !important;
     border: 1px solid #2a2a40 !important;
     color: #8a86a0 !important;
-    font-size: 12px !important;
+    font-size: 14px !important;
     text-transform: uppercase !important;
     letter-spacing: 0.5px !important;
     font-weight: 600 !important;
@@ -2321,8 +2344,6 @@ body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar > .map-button-c
     border-color: #ff6b9d !important;
 }
 
-/* ===== VEHICLE DETAIL V2 — MAP SIDEBAR ===== */
-
 /* Sidebar close map button (React-rendered) */
 body.redesign-v2.vehicle-detail-page .map-button-sidebar {
     background: #1a1a2c !important;
@@ -2346,6 +2367,19 @@ body.redesign-v2.vehicle-detail-page .map-button-sidebar {
 body.redesign-v2.vehicle-detail-page .map-button-sidebar:hover {
     border-color: #ff6b9d !important;
 }
+
+/* Hide original close map button when sidebar has its own */
+body.redesign-v2.vehicle-detail-page .service-map > .map-button {
+    display: none !important;
+}
+
+/* Fix gap between sidebar and map */
+body.redesign-v2.vehicle-detail-page .journey-map {
+    left: 580px !important;
+    width: calc(100% - 580px) !important;
+}
+
+/* Fix underline staying on sidebar button after click */
 body.redesign-v2.vehicle-detail-page .map-button-sidebar:visited,
 body.redesign-v2.vehicle-detail-page .map-button-sidebar:active,
 body.redesign-v2.vehicle-detail-page .map-button-sidebar:focus {
@@ -2353,17 +2387,14 @@ body.redesign-v2.vehicle-detail-page .map-button-sidebar:focus {
     outline: none !important;
 }
 
-/* Hide original close map button on v2 */
-body.redesign-v2.vehicle-detail-page .service-map > .map-button {
-    display: none !important;
+/* Fix underline staying on prev/next links after click */
+body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar .previous a,
+body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar .next a {
+    text-decoration: none !important;
 }
-
-/* Fix gap between sidebar and map — desktop only */
-@media (min-width: 580px) {
-    body.redesign-v2.vehicle-detail-page .journey-map {
-        left: 580px !important;
-        width: calc(100% - 580px) !important;
-    }
+body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar .previous a:hover,
+body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar .next a:hover {
+    text-decoration: underline !important;
 }
 
 /* Compact sidebar table rows */
@@ -2374,7 +2405,12 @@ body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar thead th {
     padding: 6px 8px !important;
 }
 
-/* Narrow time columns, give stops more room */
+/* Give stop names more room, narrow time columns */
+body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar td:first-child {
+    width: auto !important;
+    white-space: normal !important;
+    word-wrap: break-word !important;
+}
 body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar td:nth-child(2),
 body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar td:nth-child(3) {
     width: 45px !important;
@@ -2383,6 +2419,7 @@ body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar td:nth-child(3)
     padding-left: 2px !important;
     padding-right: 2px !important;
     white-space: nowrap !important;
+    font-size: 14px !important;
 }
 body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar th:nth-child(2),
 body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar th:nth-child(3) {
@@ -2391,7 +2428,7 @@ body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar th:nth-child(3)
     max-width: 45px !important;
     padding-left: 2px !important;
     padding-right: 2px !important;
-    font-size: 12px !important;
+    font-size: 14px !important;
 }
 body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar td:first-child {
     white-space: nowrap !important;
@@ -2401,6 +2438,8 @@ body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar td:first-child 
 body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar {
     padding-right: 18px !important;
 }
+
+
 
 /* Center show previous stops label in header */
 body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar th.stop-name label {
@@ -2423,17 +2462,12 @@ body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar table {
     border-spacing: 0 !important;
     border-radius: 10px !important;
     overflow: hidden !important;
-    width: 100% !important;
 }
 
-/* Fix prev/next link underline staying after click */
-body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar .previous a,
-body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar .next a {
-    text-decoration: none !important;
-}
-body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar .previous a:hover,
-body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar .next a:hover {
-    text-decoration: underline !important;
+/* Fix time column header size */
+body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar th:nth-child(2),
+body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar th:nth-child(3) {
+    font-size: 12px !important;
 }
 
 /* Fix map attribution text visibility */
@@ -2442,6 +2476,13 @@ body.redesign-v2.vehicle-detail-page .maplibregl-ctrl-attrib {
     color: #ccc !important;
     background: rgba(0,0,0,0.7) !important;
 }
+
+/* Sidebar table full width */
+body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar table {
+    width: 100% !important;
+}
+
+
 
 /* Hide trip block numbers */
 body.redesign-v2.vehicle-detail-page td.link:has(a[href*="block"]) {
@@ -2453,151 +2494,3 @@ body.redesign-v2.vehicle-detail-page #journeys:not(:has(td.action-cell a[href^="
 body.redesign-v2.vehicle-detail-page #journeys:not(:has(td.action-cell a[href^="#journeys/"])) td.action-cell:not(:has(a)) {
     display: none !important;
 }
-
-/* Force journey table full width */
-body.redesign-v2.vehicle-detail-page #journeys table {
-    width: 100% !important;
-}
-
-/* Fix Track this bus / Mark as Done button width */
-body.redesign-v2.vehicle-detail-page .button {
-    display: inline-block !important;
-    width: auto !important;
-}
-body.redesign-v2.vehicle-detail-page #content {
-    overflow: visible !important;
-}
-
-/* Mobile: pencil on same line as Edit/History/Flickr */
-@media (max-width: 580px) {
-    body.redesign-v2.vehicle-detail-page .horizontal {
-        flex-wrap: nowrap !important;
-    }
-    body.redesign-v2.vehicle-detail-page .horizontal a {
-        padding: 10px 20px !important;
-        font-size: 15px !important;
-    }
-}
-
-/* Mobile: journey table horizontal scroll */
-@media (max-width: 580px) {
-    body.redesign-v2.vehicle-detail-page #journeys .table-wrapper {
-        overflow-x: auto !important;
-        -webkit-overflow-scrolling: touch !important;
-    }
-    body.redesign-v2.vehicle-detail-page #journeys .table-wrapper table {
-        min-width: 500px !important;
-    }
-}
-
-
-
-
-
-/* Mobile: map view layout */
-@media (max-width: 768px) {
-    body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar {
-        width: 100% !important;
-        min-width: 0 !important;
-        max-width: 100% !important;
-        padding: 8px 12px 20px 8px !important;
-        box-sizing: border-box !important;
-        overflow-x: hidden !important;
-    }
-    body.redesign-v2.vehicle-detail-page .map-button-sidebar {
-        margin-top: 4px !important;
-        margin-bottom: 8px !important;
-    }
-    body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar td:nth-child(2),
-    body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar td:nth-child(3) {
-        width: 50px !important;
-        min-width: 50px !important;
-        max-width: 50px !important;
-        padding: 3px 2px !important;
-        font-size: 14px !important;
-    }
-    body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar th:nth-child(2),
-    body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar th:nth-child(3) {
-        width: 50px !important;
-        min-width: 50px !important;
-        max-width: 50px !important;
-        padding: 3px 2px !important;
-    }
-    body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar th:nth-child(2) {
-        font-size: 0 !important;
-    }
-    body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar th:nth-child(2)::after {
-        content: "SCHED" !important;
-        font-size: 10px !important;
-    }
-    body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar th:nth-child(3) {
-        font-size: 0 !important;
-    }
-    body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar th:nth-child(3)::after {
-        content: "ACT" !important;
-        font-size: 10px !important;
-    }
-    body.redesign-v2.vehicle-detail-page .journey-map {
-        left: 0 !important;
-        width: 100% !important;
-    }
-    body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar tbody,
-    body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar td:first-child,
-    body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar .stop-name,
-    body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar .stop-name a {
-        white-space: normal !important;
-        overflow: visible !important;
-    }
-    body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar td,
-    body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar th {
-        padding: 3px 2px !important;
-    }
-    body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar table {
-        width: 100% !important;
-        table-layout: auto !important;
-        border-collapse: collapse !important;
-        border-radius: 0 !important;
-    }
-    .redesign-v2 .trip-timetable.map-sidebar td,
-    .redesign-v2 .trip-timetable.map-sidebar th,
-    .redesign-v2 .trip-timetable.map-sidebar td a,
-    .redesign-v2 .trip-timetable.map-sidebar .stop-name a,
-    .redesign-v2 .trip-timetable.map-sidebar .minor td,
-    .redesign-v2 .trip-timetable.map-sidebar .minor td a {
-        font-size: 14px !important;
-    }
-}
-
-/* Mobile: dead run gap fix */
-@media (max-width: 768px) {
-    body.redesign-v2.vehicle-detail-page .no-stops + .map-sidebar {
-        top: auto !important;
-        bottom: 0 !important;
-        height: auto !important;
-    }
-    body.redesign-v2.vehicle-detail-page .journey-map.no-stops {
-        bottom: 230px !important;
-    }
-}
-
-/* Mobile: keep fleet number and reg on same line */
-@media (max-width: 768px) {
-    body.redesign-v2.vehicle-detail-page h1 {
-        white-space: nowrap !important;
-        display: flex !important;
-        align-items: center !important;
-        gap: 10px !important;
-        flex-wrap: nowrap !important;
-        padding: 0 16px !important;
-        font-size: 32px !important;
-        justify-content: center !important;
-    }
-    body.redesign-v2.vehicle-detail-page h1 .reg,
-    body.redesign-v2.vehicle-detail-page h1 s.reg,
-    body.redesign-v2.vehicle-detail-page h1 span.reg {
-        display: inline-block !important;
-        font-size: 30px !important;
-        padding: 6px 12px !important;
-    }
-}
-
