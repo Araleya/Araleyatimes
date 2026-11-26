@@ -175,7 +175,8 @@
             <td>{{ trip.line_name }}</td>
             <td></td>
             <td class="link tabular"><a href="{{ trip.get_absolute_url }}">{{ trip }}</a></td>
-            <td>{{ trip.destination_name }}</td>
+            <td>{{ trip.destination_name }}</td>{% if forloop.first %}
+                <td colspan="{% if perms.vehicles.change_vehiclejourney %}2{% else %}1{% endif %}" rowspan="{{ predictions|length }}" class="prediction-blank"></td>{% endif %}
         </tr>
     {% endfor %}
     </tbody></table></div>
