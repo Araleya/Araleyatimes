@@ -1694,10 +1694,11 @@ body.redesign-v2.vehicle-detail-page .contact-details {
     border-radius: 10px !important;
     padding: 24px !important;
     margin: 16px 0 !important;
-    display: grid !important;
-    grid-template-columns: repeat(auto-fit, minmax(140px, max-content)) !important;
+    display: flex !important; flex-wrap: wrap !important;
+    
     justify-content: center !important;
     gap: 24px 40px !important;
+    flex: 1 1 auto;
 }
 body.redesign-v2.vehicle-detail-page .contact-details dt {
     font-size: 15px !important;
@@ -1728,6 +1729,9 @@ body.redesign-v2.vehicle-detail-page .contact-details .livery {
 /* Vehicle detail — center align each info item */
 body.redesign-v2.vehicle-detail-page .contact-details > div {
     text-align: center !important;
+    flex: 1 1 calc(33.33% - 40px) !important;
+    max-width: calc(33.33% - 20px) !important;
+    min-width: 120px !important;
 }
 body.redesign-v2.vehicle-detail-page .contact-details dd {
     justify-content: center !important;
@@ -1755,7 +1759,7 @@ body.redesign-v2.vehicle-detail-page .contact-details dd {
 
 /* Features row spans full width */
 body.redesign-v2.vehicle-detail-page .contact-details > div:has(.features-list) {
-    grid-column: 1 / -1 !important;
+    flex-basis: 100% !important; max-width: 100% !important;
 }
 
 /* Livery swatch closer to text */
@@ -2376,8 +2380,8 @@ body.redesign-v2.vehicle-detail-page .service-map > .map-button {
 
 /* Fix gap between sidebar and map */
 body.redesign-v2.vehicle-detail-page .journey-map {
-    left: 580px !important;
-    width: calc(100% - 580px) !important;
+    left: 650px !important;
+    width: calc(100% - 650px) !important;
 }
 
 /* Fix underline staying on sidebar button after click */
