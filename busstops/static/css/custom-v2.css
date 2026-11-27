@@ -617,6 +617,8 @@ body.redesign-v2:not(.homepage-v2) .site-header .search label input {
     background: rgba(255,255,255,0.1) !important;
     border: 2px solid rgba(255,255,255,0.2) !important;
     border-right: none !important;
+    border-top: none !important;
+    border-bottom: none !important;
     color: rgba(255,255,255,0.9) !important;
     font-size: 15px !important;
     font-weight: bold !important;
@@ -1250,6 +1252,8 @@ body.operator-page .horizontal li {
 
 body.operator-page .horizontal li {
     border-right: none !important;
+    border-top: none !important;
+    border-bottom: none !important;
     padding: 0 !important;
 }
 body.operator-page .horizontal {
@@ -1836,6 +1840,8 @@ body.redesign-v2.vehicle-detail-page .horizontal {
 /* Vehicle detail — override generic horizontal li borders */
 body.redesign-v2.vehicle-detail-page .horizontal li {
     border-right: none !important;
+    border-top: none !important;
+    border-bottom: none !important;
     border-left: none !important;
     border: none !important;
     padding: 0 !important;
@@ -2531,20 +2537,23 @@ body.redesign-v2.vehicle-detail-page #journeys tbody tr.prediction:last-child td
 body.redesign-v2.vehicle-detail-page #journeys tbody tr.prediction td {
     text-align: center !important;
 }
-/* Prediction hover */
-body.redesign-v2.vehicle-detail-page #journeys tbody tr.prediction:has(td:not(.prediction-blank):hover) td:not(.prediction-blank) {
+/* Prediction hover — JS adds .prediction-hover class */
+body.redesign-v2.vehicle-detail-page #journeys table tr.prediction-hover td:not(.prediction-blank) {
     background: rgba(255,107,157,0.06) !important;
     border-top-color: #ff6b9d !important;
     border-bottom-color: #ff6b9d !important;
     position: relative;
     z-index: 2;
 }
-body.redesign-v2.vehicle-detail-page #journeys tbody tr.prediction:has(td:not(.prediction-blank):hover) td:first-child {
+body.redesign-v2.vehicle-detail-page #journeys table tr.prediction-hover td:first-child {
     border-left-color: #ff6b9d !important;
 }
-body.redesign-v2.vehicle-detail-page #journeys tbody tr.prediction:has(td:not(.prediction-blank):hover) td:nth-child(4) {
+body.redesign-v2.vehicle-detail-page #journeys table tr.prediction-hover td:last-child:not(.prediction-blank) {
     border-right-color: #ff6b9d !important;
 }
-body.redesign-v2.vehicle-detail-page #journeys tbody tr.prediction:has(td:not(.prediction-blank):hover) td a {
+body.redesign-v2.vehicle-detail-page #journeys table tr.prediction-hover td:has(+ .prediction-blank) {
+    border-right-color: #ff6b9d !important;
+}
+body.redesign-v2.vehicle-detail-page #journeys table tr.prediction-hover td a {
     color: #ff8db5 !important;
 }

@@ -708,6 +708,7 @@ def journeys_list(request, journeys, service=None, vehicle=None) -> dict:
         return context
 
     context["journeys"] = journeys = list(journeys)
+    context["has_trip_codes"] = any(j.code and len(j.code) < 20 for j in journeys)
 
     # For London buses without a trip, link to iBus timetable
     if vehicle and vehicle.operator_id and vehicle.operator.region_id == "L":

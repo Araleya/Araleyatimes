@@ -18,7 +18,7 @@
 {% with at_mode=request.COOKIES.at_mode %}{% if "/v2/" in request.path or "v2" in request.GET or at_mode == "v2" %}<link rel="manifest" href="{% static 'manifest-v2.webmanifest' %}">{% elif "/classic/" in request.path or "classic" in request.GET or at_mode == "classic" %}<link rel="manifest" href="{% static 'manifest-classic.webmanifest' %}">{% else %}<link rel="manifest" href="{% static 'manifest.webmanifest' %}">{% endif %}{% endwith %}
 <link rel="stylesheet" href="{% static 'dist/css/style.css' %}">
 <link rel="stylesheet" href="{% static 'css/custom.css' %}">
-{% if request.COOKIES.at_mode != "classic" %}<link rel="stylesheet" href="{% static 'css/custom-v2.css' %}">{% endif %}
+{% if request.COOKIES.at_mode != "classic" %}<link rel="stylesheet" href="{% static 'css/custom-v2.css' %}?v=26112613">{% endif %}
 {% if request.COOKIES.at_mode != "classic" %}<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap">{% endif %}
 
 {% block head %}{% endblock %}

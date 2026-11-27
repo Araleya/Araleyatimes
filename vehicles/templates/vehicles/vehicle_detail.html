@@ -115,7 +115,7 @@
         <tr>
             {% if object.line_names|length > 1 %}<th scope="col"></th>{% endif %}
              <th scope="col">{% if not vehicle %}Vehicle{% else %}Route{% endif %}</th>
-            <th scope="col" colspan="2">Trip</th>
+            <th scope="col"{% if has_trip_codes %} colspan="2"{% endif %}>Trip</th>
             <th scope="col">To</th>
             <th scope="col" class="map-header">Map</th>
             {% if perms.vehicles.change_vehiclejourney %}<th scope="col">Edit</th>{% endif %}
@@ -140,7 +140,7 @@
                     {{ journey.line_name }}
                 {% endif %}
             </td>
-            <td class="tabular">{% if journey.code|length < 20 %}{{ journey.code }}{% endif %}</td>
+            {% if has_trip_codes %}<td class="tabular">{% if journey.code|length < 20 %}{{ journey.code }}{% endif %}</td>{% endif %}
             {% if journey.trip_id %}
                 <td class="link tabular">
                     <a href="{% if journey.locations is not False %}#journeys/{{ journey.id }}{% else %}{{ journey.trip.get_absolute_url }}{% endif %}">{{ journey.datetime|time:"H:i" }}</a>
@@ -173,13 +173,14 @@
     {% for trip in predictions %}
         <tr class="prediction">
             <td>{{ trip.line_name }}</td>
-            <td></td>
+            {% if has_trip_codes %}<td></td>{% endif %}
             <td class="link tabular"><a href="{{ trip.get_absolute_url }}">{{ trip }}</a></td>
             <td>{{ trip.destination_name }}</td>{% if forloop.first %}
                 <td colspan="{% if perms.vehicles.change_vehiclejourney %}2{% else %}1{% endif %}" rowspan="{{ predictions|length }}" class="prediction-blank"></td>{% endif %}
         </tr>
     {% endfor %}
     </tbody></table></div>
+<script>document.querySelectorAll("#journeys tbody tr.prediction").forEach(function(r){r.addEventListener("mouseenter",function(){r.classList.add("prediction-hover");});r.addEventListener("mouseleave",function(){r.classList.remove("prediction-hover");});});</script>
 {% endif %}
 
 {% if garage %}
@@ -236,6 +237,6 @@
         {% endif %}
 
     {% endif %}
-    {% if request.COOKIES.at_mode != "classic" %}<script>document.addEventListener("DOMContentLoaded",function(){document.querySelectorAll("#journeys tbody tr").forEach(function(r){r.style.cursor="pointer";r.addEventListener("click",function(e){if(e.target.closest(".action-cell"))return;var a=r.querySelector("td.link.tabular a");if(a)a.click();});});if(!document.querySelector('#journeys td a[href^="#journeys/"]')){document.querySelectorAll('#journeys th,#journeys td').forEach(function(el){if(el.textContent.trim()==='Map'||(el.classList.contains('action-cell')&&!el.querySelector('a')))el.style.display='none';});}});</script>{% endif %}
+    {% if request.COOKIES.at_mode != "classic" %}<script>document.addEventListener("DOMContentLoaded",function(){document.querySelectorAll("#journeys tbody tr").forEach(function(r){r.style.cursor="pointer";r.addEventListener("click",function(e){if(e.target.closest(".action-cell"))return;r.style.pointerEvents="none";setTimeout(function(){r.style.pointerEvents="";},100);var a=r.querySelector("td.link.tabular a");if(a)a.click();});r.addEventListener("mouseleave",function(){r.classList.remove("hover-suppressed");});});document.querySelectorAll("#journeys tbody tr.prediction").forEach(function(r){r.addEventListener("mouseenter",function(){r.classList.add("prediction-hover");});r.addEventListener("mouseleave",function(){r.classList.remove("prediction-hover");});});if(!document.querySelector('#journeys td a[href^="#journeys/"]')){document.querySelectorAll('#journeys th,#journeys td').forEach(function(el){if(el.textContent.trim()==='Map'||(el.classList.contains('action-cell')&&!el.querySelector('a')))el.style.display='none';});}});</script>{% endif %}
     {% if request.COOKIES.at_mode != "classic" %}<script>(function(){function setup(){var sidebar=document.querySelector(".trip-timetable.map-sidebar");if(sidebar){}var sb=document.querySelector(".trip-timetable.map-sidebar tbody");if(!sb||sb.dataset.rsSetup)return;sb.dataset.rsSetup="1";sb.querySelectorAll("tr").forEach(function(row){row.addEventListener("mouseenter",function(){sb.querySelectorAll(".rs-highlight,.rs-below-border").forEach(function(el){el.classList.remove("rs-highlight","rs-below-border")});var rsCell=null;row.querySelectorAll("td").forEach(function(td){if(td.rowSpan>1)rsCell=td});if(rsCell){rsCell.classList.add("rs-highlight");var r=row;for(var i=1;i<rsCell.rowSpan;i++){r=r.nextElementSibling;if(r&&r.cells.length>1)r.cells[r.cells.length-1].classList.add("rs-below-border")}}});row.addEventListener("mouseleave",function(){sb.querySelectorAll(".rs-highlight,.rs-below-border").forEach(function(el){el.classList.remove("rs-highlight","rs-below-border")});})});}var obs=new MutationObserver(function(){setup()});obs.observe(document.body,{childList:true,subtree:true});setTimeout(setup,1000);setTimeout(setup,3000);})()</script>{% endif %}
 {% endblock foot %}
