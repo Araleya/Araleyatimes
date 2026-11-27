@@ -531,7 +531,7 @@ body.redesign-v2 .services {
         padding: 12px 8px !important;
     }
     body.redesign-v2 .stats-row .map-bar {
-        width: auto !important;
+        width: 100% !important;
         box-sizing: border-box;
         flex-direction: row;
         padding: 12px 18px;
@@ -793,7 +793,7 @@ body.redesign-v2:not(.homepage-v2) .site-header ul a:hover {
         display: none !important;
     }
     body.redesign-v2:not(.homepage-v2) .site-header .search.search-open label input[type="search"] {
-        width: auto !important;
+        width: 100% !important;
         min-width: 0 !important;
         flex: 1 !important;
         background: rgba(255,255,255,0.2) !important;
@@ -813,7 +813,7 @@ body.redesign-v2:not(.homepage-v2) .site-header ul a:hover {
         color: rgba(255,255,255,0.6) !important;
     }
     body.redesign-v2:not(.homepage-v2) .site-header .search.search-open label input[type="search"]:focus {
-        width: auto !important;
+        width: 100% !important;
         border-width: 0 !important;
         position: static !important;
         top: auto !important;
@@ -924,7 +924,7 @@ body.redesign-v2:not(.homepage-v2) .long li a {
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
-    width: auto !important;
+    width: 100% !important;
     box-sizing: border-box !important;
     text-align: center !important;
     background: #1a1a2c !important;
@@ -1165,7 +1165,7 @@ body.redesign-v2.wide:not(.operator-page):not(.vehicle-list-page) .site-header d
 /* Operator page — wider layout */
 @media (min-width: 62.5em) {
     body.operator-page .site-header div, body.vehicle-list-page .site-header div {
-        width: auto !important;
+        width: 100% !important;
         max-width: none !important;
         display: flex !important;
         align-items: center !important;
@@ -1185,7 +1185,7 @@ body.redesign-v2.wide:not(.operator-page):not(.vehicle-list-page) .site-header d
     body.redesign-v2.wide:not(.operator-page):not(.vehicle-list-page) .site-header div {
         display: flex !important;
         align-items: center !important;
-        width: auto !important;
+        width: 100% !important;
         max-width: 58.6em !important;
         padding: 0 2em !important;
     }
@@ -1553,7 +1553,7 @@ body.redesign-v2.vehicle-list-page .fleet th {
 }
 body.redesign-v2.vehicle-list-page .fleet {
     table-layout: auto !important;
-    width: auto !important;
+    width: 100% !important;
 }
 body.redesign-v2.vehicle-list-page .fleet td.tabular,
 body.redesign-v2.vehicle-list-page .fleet td.tabular a {
@@ -1889,7 +1889,7 @@ body.redesign-v2.vehicle-detail-page .timetable-date select {
 
 /* Vehicle detail — journey table */
 body.redesign-v2.vehicle-detail-page table {
-    width: auto !important;
+    width: 100% !important;
     border-collapse: collapse !important;
     font-size: 14px !important;
 }
