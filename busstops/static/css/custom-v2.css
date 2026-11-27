@@ -2564,3 +2564,9 @@ body.redesign-v2.vehicle-detail-page #journeys .day-offset {
     position: absolute;
     margin-left: 1px;
 }
+
+/* Empty sidebar table cells should still show borders */
+body.redesign-v2.vehicle-detail-page .trip-timetable.map-sidebar td {
+    min-height: 1.5em;
+    border: 1px solid #2a2a40 !important;
+}

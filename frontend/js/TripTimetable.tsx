@@ -60,6 +60,7 @@ function Row({
   highlightedStop,
   first = false,
   last = false,
+  skipActualCell = false,
 }: {
   stop: TripTime;
   onMouseEnter?: (stop: TripTime) => void;
@@ -70,6 +71,7 @@ function Row({
   highlightedStop?: string;
   first: boolean;
   last: boolean;
+  skipActualCell?: boolean;
 }) {
   const handleMouseEnter = React.useCallback(() => {
     if (onMouseEnter) {
@@ -132,6 +134,8 @@ function Row({
   }
   if (actual) {
     actual = <td rowSpan={actualRowSpan}>{actual}</td>;
+  } else if (!skipActualCell) {
+    actual = <td></td>;
   }
 
   let caveat: ReactElement | undefined;
@@ -263,19 +267,43 @@ const TripTimetable = React.memo(function TripTimetable({
           </tr>
         </thead>
         <tbody>
-          {times.map((stop, i) => (
-            <Row
-              key={stop.id || i}
-              aimedColumn={aimedColumn}
-              stop={stop}
-              onMouseEnter={onMouseEnter}
-              onMouseLeave={onMouseLeave}
-              vehicle={vehicle}
-              highlightedStop={highlightedStop}
-              first={i === 0 && !earlierStops}
-              last={i === indexOfLastRow}
-            />
-          ))}
+          {(() => {
+            let skipUntil = -1;
+            return times.map((stop, i) => {
+              const skip = i <= skipUntil;
+              const hasRowSpan = stop.aimed_arrival_time && stop.aimed_departure_time && stop.aimed_arrival_time !== stop.aimed_departure_time;
+              let actualVal = stop.expected_departure_time || stop.expected_arrival_time;
+              if (!actualVal) {
+                if (vehicle?.progress && vehicle.progress.id === stop.id) {
+                  actualVal = vehicle.datetime;
+                  if (actualVal) {
+                    const extra = (vehicle.progress.progress > 0.1) ? 1 : 0;
+                    const span = (hasRowSpan ? 2 : 1) + extra;
+                    if (span > 1) skipUntil = i + span - 1;
+                  }
+                } else if (!vehicle?.progress || vehicle.progress.id + 1 !== stop.id) {
+                  actualVal = stop.actual_departure_time;
+                }
+              }
+              if (actualVal && hasRowSpan) {
+                skipUntil = Math.max(skipUntil, i + 1);
+              }
+              return (
+                <Row
+                  key={stop.id || i}
+                  aimedColumn={aimedColumn}
+                  stop={stop}
+                  onMouseEnter={onMouseEnter}
+                  onMouseLeave={onMouseLeave}
+                  vehicle={vehicle}
+                  highlightedStop={highlightedStop}
+                  first={i === 0 && !earlierStops}
+                  last={i === indexOfLastRow}
+                  skipActualCell={skip}
+                />
+              );
+            });
+          })()}
         </tbody>
       </table>
       {trip.notes?.map((note) => (
