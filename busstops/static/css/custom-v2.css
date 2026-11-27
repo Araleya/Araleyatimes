@@ -2557,3 +2557,10 @@ body.redesign-v2.vehicle-detail-page #journeys table tr.prediction-hover td:has(
 body.redesign-v2.vehicle-detail-page #journeys table tr.prediction-hover td a {
     color: #ff8db5 !important;
 }
+
+/* Day offset +1 — prevent shifting time alignment */
+body.redesign-v2.vehicle-detail-page #journeys .day-offset {
+    font-size: 0.75em;
+    position: absolute;
+    margin-left: 1px;
+}
